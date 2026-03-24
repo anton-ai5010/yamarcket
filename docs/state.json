@@ -1,0 +1,16 @@
+{
+  "current_task": "Project restructuring complete",
+  "progress": "Ready for development",
+  "last_session": "2026-03-24",
+  "last_session_summary": "Reorganized project structure: vse/ → archive/, referense_img/ + card_images/ → pipeline/images/, rules/ split into instructions/research/templates/",
+  "pending": [],
+  "recent_changes": [
+    "vse/ → archive/ (scripts + snapshots + data)",
+    "referense_img/ → pipeline/images/references/",
+    "pipeline/card_images/ → pipeline/images/",
+    "rules/ split into instructions/, research/, templates/",
+    "pipeline/BRAINSTORM_ИТОГИ.md → docs/plans/",
+    "pipeline/ПЛАН_КОНВЕЙЕР_СТАРЫЙ.md → archive/",
+    "Updated CLAUDE.md, map.json, conventions.json, library specs"
+  ]
+}

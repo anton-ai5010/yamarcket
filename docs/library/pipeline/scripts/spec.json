@@ -1,0 +1,54 @@
+{
+  "purpose": "ETL pipeline scripts: convert xlsx to jsonl, process with Claude loops, validate, write back to xlsx",
+  "files": {
+    "prepare.py": {
+      "intent": "Convert xlsx source files to jsonl format for pipeline processing. Creates source.jsonl (read-only truth) and work.jsonl (mutable working copy)",
+      "inputs": ["istina/истина_оригинал_названия_и_описания.xlsx", "istina/Онлайн-подписки и карты оплаты_истина_названия_описания.xlsx"],
+      "outputs": "source.jsonl, work.jsonl",
+      "depends_on": ["openpyxl"],
+      "red_zone": false
+    },
+    "finalize.py": {
+      "intent": "Convert work.jsonl back to xlsx for upload to Yandex Market. Only modifies changed cells",
+      "inputs": ["work.jsonl"],
+      "outputs": "Modified xlsx file for Market upload",
+      "depends_on": ["openpyxl"],
+      "red_zone": false
+    },
+    "validate.py": {
+      "intent": "Validate work.jsonl after Ralph Loop runs. Checks for common errors per loop type (characteristics, names, descriptions, instructions)",
+      "inputs": ["work.jsonl", "--loop N or --all"],
+      "outputs": "Validation report, errors.jsonl",
+      "depends_on": [],
+      "red_zone": false
+    },
+    "generate_progress.py": {
+      "intent": "Create progress.json grouping products by group_name for Ralph Loop queue management",
+      "inputs": ["work.jsonl"],
+      "outputs": "progress.json",
+      "depends_on": [],
+      "red_zone": false
+    },
+    "write_result.py": {
+      "intent": "Safe write interface for Claude to update work.jsonl. Validates input before writing to prevent formatting errors",
+      "inputs": ["--sku + --field/--json or --batch"],
+      "outputs": "Updated work.jsonl",
+      "depends_on": [],
+      "red_zone": false
+    },
+    "source.jsonl": {
+      "intent": "Read-only truth data extracted from original xlsx (old names + descriptions)",
+      "inputs": [],
+      "outputs": "JSON lines with product data",
+      "depends_on": ["prepare.py"],
+      "red_zone": false
+    },
+    "work.jsonl": {
+      "intent": "Mutable working copy with all columns, modified by pipeline loops",
+      "inputs": [],
+      "outputs": "JSON lines with all product fields",
+      "depends_on": ["prepare.py"],
+      "red_zone": false
+    }
+  }
+}

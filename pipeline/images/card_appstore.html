@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1440px;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    background: #f8f9fa;
+  }
+
+  .card {
+    width: 1080px;
+    height: 1440px;
+    position: relative;
+    overflow: hidden;
+    background: white;
+  }
+
+  /* Фон — белый с иконками гаджетов */
+  .bg-icons {
+    position: absolute;
+    inset: 0;
+    background-image: url('http://localhost:8765/referense_img/fon_6_2k.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Синяя шапка */
+  .title-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    background: linear-gradient(135deg, #1a7fe8 0%, #0a4fc4 100%);
+    padding: 32px 60px 30px;
+    text-align: center;
+  }
+  .title-bar span {
+    font-size: 62px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    line-height: 1.1;
+  }
+
+  /* Флаг + номинал */
+  .nominal-row {
+    position: absolute;
+    top: 185px;
+    left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .flag {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+  }
+  .flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .flag-placeholder {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #B22234, #FFFFFF, #3C3B6E);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+  }
+  .nominal-text {
+    font-size: 130px;
+    font-weight: 900;
+    color: #1a1a1a;
+    line-height: 1;
+    letter-spacing: -2px;
+  }
+
+  /* App Store карта */
+  .card-image {
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 520px;
+    height: 680px;
+  }
+
+  /* Карточка App Store */
+  .appstore-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    background: linear-gradient(145deg, #1c86ff 0%, #0050d0 40%, #003aa0 100%);
+    box-shadow:
+      0 30px 80px rgba(0, 80, 200, 0.45),
+      0 10px 30px rgba(0,0,0,0.2),
+      inset 0 1px 0 rgba(255,255,255,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Бликовый оверлей */
+  .appstore-card::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: -20%;
+    width: 70%;
+    height: 70%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.18) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  /* Перфорация сверху карты */
+  .card-hole {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 32px;
+    background: white;
+    border-radius: 0 0 30px 30px;
+  }
+
+  /* Apple logo SVG */
+  .apple-logo {
+    width: 160px;
+    height: 160px;
+    fill: white;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-brand {
+    font-size: 46px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    position: relative;
+    z-index: 1;
+  }
+  .card-type {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Нижний текст */
+  .bottom-text {
+    position: absolute;
+    bottom: 155px;
+    left: 60px; right: 60px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    color: #1a1a1a;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+  }
+
+  /* Логотип smart kart */
+  .logo-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #e8e8e8;
+    background: white;
+  }
+  .logo-bar img {
+    height: 70px;
+    object-fit: contain;
+  }
+
+  /* Фиксим цвет номинала и нижнего текста под светлый фон */
+  .nominal-text { color: #1a1a2e; }
+  .bottom-text { color: #1a1a2e; }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- Фон с иконками (едва виден) -->
+  <div class="bg-icons"></div>
+
+  <!-- Синяя шапка с заголовком -->
+  <div class="title-bar">
+    <span>ПОДАРОЧНАЯ КАРТА APP STORE</span>
+  </div>
+
+  <!-- Флаг + номинал -->
+  <div class="nominal-row">
+    <div class="flag-placeholder">🇺🇸</div>
+    <div class="nominal-text">$10</div>
+  </div>
+
+  <!-- App Store карта -->
+  <div class="card-image">
+    <div class="appstore-card">
+      <div class="card-hole"></div>
+
+      <!-- Apple Logo SVG -->
+      <svg class="apple-logo" viewBox="0 0 814 1000" xmlns="http://www.w3.org/2000/svg">
+        <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-37.5-165.3-124.4c-69-99.9-125-255.1-125-406.4 0-201.7 131.2-308.4 260.3-308.4 66.9 0 122.8 44.1 165.3 44.1 40.5 0 103.8-46.7 178.1-46.7 28.5 0 130.9 2.6 198.3 99.2zm-234-181.5c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.5 32.4-55.1 83.6-55.1 135.5 0 7.8 1.3 15.6 1.9 18.1 3.2.6 8.4 1.3 13.6 1.3 45.4 0 102.5-30.4 135.5-71.3z"/>
+      </svg>
+
+      <div class="card-brand">APP STORE</div>
+      <div class="card-type">GIFT CARD</div>
+    </div>
+  </div>
+
+  <!-- Нижний текст -->
+  <div class="bottom-text">
+    ПОДХОДИТ ДЛЯ АККАУНТОВ США.<br>
+    МГНОВЕННАЯ ЦИФРОВАЯ ДОСТАВКА.
+  </div>
+
+  <!-- Логотип -->
+  <div class="logo-bar">
+    <img src="http://localhost:8765/referense_img/%D0%92%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png" alt="smart kart">
+  </div>
+
+</div>
+</body>
+</html>

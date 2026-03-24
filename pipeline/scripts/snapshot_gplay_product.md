@@ -1,0 +1,1033 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - img [ref=e12]
+            - generic [ref=e20]:
+              - link "Яндекс" [ref=e21] [cursor=pointer]:
+                - /url: //ya.ru/
+                - generic [ref=e22]: Яндекс
+              - link "Яндекс" [ref=e23] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e24]: Яндекс
+          - generic [ref=e25]:
+            - generic [ref=e28]:
+              - button [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - link:
+                - /url: /catalog
+            - search [ref=e38]:
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - textbox "Найти товары" [ref=e46]
+            - navigation "Главное меню" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - link [ref=e52] [cursor=pointer]:
+                    - /url: /kolesoprizov?track=menu
+                    - generic [ref=e55]:
+                      - generic [ref=e56]: "140"
+                      - img [ref=e57]
+                    - alert [ref=e69]:
+                      - text: Колесо призов
+                      - generic [ref=e70]: "140"
+                - listitem [ref=e71]:
+                  - link [ref=e73] [cursor=pointer]:
+                    - /url: /my/orders?track=menu
+                    - generic [ref=e74]:
+                      - img [ref=e77]
+                      - alert [ref=e82]: Заказы
+                - listitem [ref=e84]:
+                  - link [ref=e86] [cursor=pointer]:
+                    - /url: /my/wishlist?track=head
+                    - generic [ref=e87]:
+                      - img [ref=e90]
+                      - alert [ref=e92]: Избранное
+                - listitem [ref=e94]:
+                  - link [ref=e98] [cursor=pointer]:
+                    - /url: /my/cart
+                    - generic [ref=e99]:
+                      - img [ref=e102]
+                      - alert [ref=e105]: Корзина
+                - listitem [ref=e107]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - img [ref=e113]
+                    - alert [ref=e115]: Маркет AI
+                - listitem [ref=e117]:
+                  - button "Антон Рышков" [ref=e123] [cursor=pointer]:
+                    - img "Антон Рышков" [ref=e124]
+      - navigation [ref=e131]:
+        - generic [ref=e132]:
+          - tablist "Категории" [ref=e133]:
+            - tab "Все хиты" [ref=e135]:
+              - link "Все хиты" [ref=e138] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/weekly
+            - tab "Ultima" [ref=e140]:
+              - link "Ultima" [ref=e143] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/ultima
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - generic [ref=e149]: Ultima
+            - tab "Любимая категория" [ref=e151]:
+              - button "Любимая категория" [ref=e153] [cursor=pointer]
+            - tab "Из-за рубежа" [ref=e155]:
+              - link "Из-за рубежа" [ref=e158] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/crossborder_dep
+            - tab "Одежда" [ref=e160]:
+              - link "Одежда" [ref=e163] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/fashion_dep
+            - tab "Дом" [ref=e165]:
+              - link "Дом" [ref=e168] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-doma/54422
+            - tab "Ремонт" [ref=e170]:
+              - link "Ремонт" [ref=e173] [cursor=pointer]:
+                - /url: /catalog/54503/list
+            - tab "Детям" [ref=e175]:
+              - link "Детям" [ref=e178] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/kids_dep
+            - tab "Красота" [ref=e180]:
+              - link "Красота" [ref=e183] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-krasoty/54438
+            - tab "Электроника" [ref=e185]:
+              - link "Электроника" [ref=e188] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/electronics_dep
+            - tab "Продукты" [ref=e190]:
+              - link "Продукты" [ref=e193] [cursor=pointer]:
+                - /url: /catalog--produkty-napitki/54434
+          - tablist [ref=e194]:
+            - tab "Покупайте как юрлицо" [ref=e195]:
+              - button "Покупайте как юрлицо" [ref=e200] [cursor=pointer]:
+                - link "Покупайте как юрлицо" [ref=e201]:
+                  - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=header
+            - tab "Продавайте на Маркете" [ref=e202]:
+              - link "Продавайте на Маркете" [ref=e205] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=frontb2c&utm_content=text&utm_term=portalb2b
+          - button "Дом" [ref=e211] [cursor=pointer]:
+            - generic [ref=e212]:
+              - img [ref=e213]
+              - generic [ref=e219]: Дом
+      - article [ref=e223]:
+        - button "Подробнее" [ref=e224] [cursor=pointer]:
+          - button "Подробнее" [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: Реклама
+              - img [ref=e228]
+        - img "Изображение" [ref=e231]
+        - link "Изображение" [ref=e232] [cursor=pointer]:
+          - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rastjazhka&utm_term=new&fromSins=1&erid=CQH36pWzJqCyZe1douTvi4gJvymX6qCyK89hro8Wyifp2Y
+    - generic [ref=e239]:
+      - img [ref=e240]
+      - generic [ref=e241]:
+        - navigation "Вы здесь" [ref=e244]:
+          - list [ref=e245]:
+            - listitem "Досуг и развлечения" [ref=e246]:
+              - link "Досуг и развлечения" [ref=e247] [cursor=pointer]:
+                - /url: /category/dosug-i-razvlecheniya
+                - generic [ref=e248]: Досуг и развлечения
+              - link:
+                - /url: /category/dosug-i-razvlecheniya
+            - listitem [ref=e249]: •
+            - listitem "Онлайн-подписки и карты оплаты" [ref=e250]:
+              - link "Онлайн-подписки и карты оплаты" [ref=e251] [cursor=pointer]:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630
+                - generic [ref=e252]: Онлайн-подписки и карты оплаты
+              - link:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list
+            - listitem [ref=e253]: •
+            - listitem "Онлайн-подписки и карты оплаты Google" [ref=e254]:
+              - link "Онлайн-подписки и карты оплаты Google" [ref=e255] [cursor=pointer]:
+                - /url: /catalog--google/17940631/list?hid=17940630&glfilter=7893318%3A7145666
+                - generic [ref=e256]: Онлайн-подписки и карты оплаты Google
+              - link:
+                - /url: /catalog--google/17940631/list?glfilter=7893318%3A7145666
+        - generic [ref=e257]:
+          - button "Сравнить" [ref=e261] [cursor=pointer]:
+            - generic [ref=e263]: Сравнить
+          - button "В избранное" [ref=e267] [cursor=pointer]:
+            - generic [ref=e268]: В избранное
+          - button "Поделиться" [ref=e271] [cursor=pointer]:
+            - generic [ref=e273]: Поделиться
+      - generic [ref=e274]:
+        - generic [ref=e276]:
+          - generic [ref=e278]:
+            - generic [ref=e283]:
+              - article [ref=e284]:
+                - img "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey"
+              - button "Следующий слайд" [ref=e287] [cursor=pointer]:
+                - img [ref=e288]
+            - tablist [ref=e292]:
+              - tab "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [selected] [ref=e293]:
+                - button "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e294] [cursor=pointer]:
+                  - img "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e295]
+              - tab "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e296]:
+                - button "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e297] [cursor=pointer]:
+                  - img "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e298]
+              - tab "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e299]:
+                - button "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e300] [cursor=pointer]:
+                  - img "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e301]
+              - tab "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e302]:
+                - button "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e303] [cursor=pointer]:
+                  - img "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey — фото 1" [ref=e304]
+                  - img [ref=e306]
+          - button "Похожие" [ref=e311] [cursor=pointer]:
+            - img [ref=e313]
+            - generic [ref=e317]: Похожие
+        - generic [ref=e318]:
+          - generic [ref=e319]: Описание
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - link "Google" [ref=e323] [cursor=pointer]:
+                - /url: /search?vendorId=7145666&glfilter=7893318%3A7145666&suggest_text=Google
+                - generic [ref=e324]: Google
+              - heading "Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey" [level=1] [ref=e326]
+              - link:
+                - /url: /search?text=Google
+            - generic [ref=e327]:
+              - 'link "Рейтинг товара: 4.3 из 5" [ref=e331] [cursor=pointer]':
+                - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/reviews?offerId=QPFQHAQoJYZvOFByVdOKDg&shopName=Gold%20Bowl&businessReviews=1
+                - generic [ref=e338]: "4.3"
+                - generic [ref=e339]: (23) ·
+              - link "220 купили" [ref=e340] [cursor=pointer]:
+                - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/reviews?offerId=QPFQHAQoJYZvOFByVdOKDg&shopName=Gold%20Bowl&businessReviews=1
+                - generic [ref=e341]: 220 купили
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - button [ref=e347] [cursor=pointer]:
+                  - img [ref=e348]
+                - generic [ref=e350]:
+                  - 'button "Номинал карты: 25" [ref=e353] [cursor=pointer]':
+                    - generic [ref=e357]: "Номинал карты: 25"
+                  - 'button "Номинал карты: 50" [ref=e360] [cursor=pointer]':
+                    - generic [ref=e364]: "Номинал карты: 50"
+                  - 'button "Номинал карты: 100" [ref=e367] [cursor=pointer]':
+                    - generic [ref=e371]: "Номинал карты: 100"
+                  - 'button "Номинал карты: 250" [ref=e374] [cursor=pointer]':
+                    - generic [ref=e378]: "Номинал карты: 250"
+                  - 'button "Номинал карты: 500" [ref=e381] [cursor=pointer]':
+                    - generic [ref=e385]: "Номинал карты: 500"
+                  - 'button "Номинал карты: 1000" [ref=e388] [cursor=pointer]':
+                    - generic [ref=e392]: "Номинал карты: 1000"
+                - button [ref=e394] [cursor=pointer]:
+                  - img [ref=e395]
+              - generic [ref=e398]:
+                - button [ref=e399] [cursor=pointer]
+                - button "Все варианты" [ref=e407] [cursor=pointer]:
+                  - generic [ref=e408]: Все варианты
+            - generic "Характеристики" [ref=e414]:
+              - generic [ref=e416]:
+                - generic [ref=e418]: Артикул Маркета
+                - generic [ref=e421]:
+                  - generic [ref=e422]: "5066804722"
+                  - button [ref=e423] [cursor=pointer]:
+                    - img [ref=e424]
+              - generic [ref=e427]:
+                - generic [ref=e429]: Территория активации
+                - link "Турция" [ref=e434] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37919810%3A51048330
+                  - generic [ref=e435]: Турция
+              - generic [ref=e436]:
+                - generic [ref=e438]: Территория использования
+                - generic [ref=e442]: Турция
+              - generic [ref=e443]:
+                - generic [ref=e445]: Назначение
+                - link "игры, книги, обучение" [ref=e450] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37948770%3A39024051%2C39024045%2C39024036
+                  - generic [ref=e451]: игры, книги, обучение
+              - generic [ref=e452]:
+                - generic [ref=e454]: Название сервиса
+                - link "Google Play" [ref=e459] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37972050%3A39043572
+                  - generic [ref=e460]: Google Play
+              - button "Все характеристики" [ref=e461] [cursor=pointer]:
+                - generic [ref=e463]: Все характеристики
+        - generic [ref=e466]:
+          - generic [ref=e467]:
+            - generic [ref=e473]:
+              - button "224 ₽ 359 ₽ –38% Возврату не подлежит" [ref=e477] [cursor=pointer]:
+                - generic [ref=e478]:
+                  - generic [ref=e480]:
+                    - generic [ref=e481]: "224"
+                    - generic [ref=e482]: ₽
+                  - generic [ref=e485]:
+                    - generic [ref=e486]:
+                      - generic [ref=e487]: "359"
+                      - generic [ref=e488]: ₽
+                    - generic [ref=e492]: –38%
+                  - button "Возврату не подлежит" [ref=e494]:
+                    - generic [ref=e496]: Возврату не подлежит
+                    - img [ref=e497]
+                - img [ref=e500]
+              - generic [ref=e505]:
+                - button "Купить сейчас" [ref=e507] [cursor=pointer]:
+                  - generic [ref=e509]: Купить сейчас
+                - button "В корзину" [ref=e513] [cursor=pointer]:
+                  - generic [ref=e514]: В корзину
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - link "Подарочная карта Google Play 25 TL / Турция / Пополнение счёта / Gift Card Googl..." [ref=e522] [cursor=pointer]:
+                  - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722
+                  - img "Подарочная карта Google Play 25 TL / Турция / Пополнение счёта / Gift Card Googl..." [ref=e524]
+                - generic [ref=e525]:
+                  - generic [ref=e526]: Подарочная карта Google Play 50 TL / Турция / Пополнение счёта / Gift Card Google Play Turkey
+                  - generic [ref=e527]:
+                    - 'link "Рейтинг товара: 4.3 из 5" [ref=e531] [cursor=pointer]':
+                      - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/reviews?offerId=QPFQHAQoJYZvOFByVdOKDg&shopName=Gold%20Bowl&businessReviews=1
+                      - generic [ref=e538]: "4.3"
+                      - generic [ref=e539]: (23) ·
+                    - link "220 купили" [ref=e541] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/reviews?offerId=QPFQHAQoJYZvOFByVdOKDg&shopName=Gold%20Bowl&businessReviews=1
+                      - generic [ref=e542]: 220 купили
+                    - link "1 вопрос" [ref=e544] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/questions?offerId=QPFQHAQoJYZvOFByVdOKDg
+              - generic [ref=e545]:
+                - generic [ref=e552]:
+                  - generic [ref=e554]:
+                    - generic [ref=e555]: "224"
+                    - generic [ref=e556]: ₽
+                  - generic [ref=e559]:
+                    - generic [ref=e560]:
+                      - generic [ref=e561]: "359"
+                      - generic [ref=e562]: ₽
+                    - generic [ref=e566]: –38%
+                - generic [ref=e567]:
+                  - button "Добавить в избранное" [ref=e571] [cursor=pointer]
+                  - generic [ref=e574]:
+                    - button "Купить сейчас" [ref=e576] [cursor=pointer]:
+                      - generic [ref=e578]: Купить сейчас
+                    - button "В корзину" [ref=e582] [cursor=pointer]:
+                      - generic [ref=e583]: В корзину
+            - generic [ref=e585]:
+              - generic [ref=e587]: Доставка магазина
+              - generic [ref=e593]: Сегодня, по электронной почте
+            - link "Gold Bowl Магазин 4.7 (106 оценок)" [ref=e597] [cursor=pointer]:
+              - /url: /search?merchant-filter=216636541&generalContext=t%3Dmerchant%3Bmrch%3D216636541
+              - generic [ref=e598]:
+                - generic [ref=e600]:
+                  - img [ref=e602]
+                  - generic [ref=e604]:
+                    - generic [ref=e606]: Gold Bowl
+                    - generic [ref=e607]:
+                      - generic [ref=e608]: Магазин
+                      - generic [ref=e609]:
+                        - generic [ref=e610]:
+                          - img [ref=e611]
+                          - text: "4.7"
+                        - generic [ref=e613]: (106 оценок)
+                - button [ref=e616]
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - generic [ref=e631] [cursor=pointer]:
+                - button "Соцреклама" [ref=e633]:
+                  - generic [ref=e634]: Соцреклама
+                  - img [ref=e635]
+                - img [ref=e640]
+                - link [ref=e641]:
+                  - /url: https://yandex.ru/an/count/WiCejI_zOoVX2LcR0gqL00Eec2MSm0cO4wZY4-1wmmJqPjyEkIq4l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCTBevFfr7fr9P2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeq1mgZU9sL6h_s4K_GqFKdoGaQr4H5UZvXEAur2dzYJwTpng9IlHZE-kfNTlEscbFVuQeGa56IRKGaX0D92fHhHHaHHAgphYXHBrHHCLXH4HD-h4A5L5h6CsW8YabaLX26b73ICQ8wXAIKf4GqUGEs797RohPmcI8ZbdPdE0kvax95ANIDoaySVp0eEDe0f6FZu-FJudEZWwykZbVMfm85yJ4NrCF_QmymW1VkLG45Z9Yd7XHn8EdgA2uiy2DIHldymsJZPVsOxJPFOUo3mpS06Pk-0QmWJl2-mQsOUlh20VvD8YRIWgFU3NiJIM5FBGQjXXq0Rmn-bUDpg7lVBQo1KiV6mqt2lc2dtudSHruTGFOEg3h-XGZubKONvVfXna6RRFFQsK9XYmD7sDF48FKuTbPs5hOSMHudjbIkBa2Peu_sbeCkSca1JFfMR0OCJD6VsfXlZIC8xJiTj-4wT98OAll11Om4qqzpzVyqdwCJIxjnzZS_MzaXhyOnkc7Em1-C8pJ_y8uVMy7mA_j0FYppALNPiYMfpowaOBW8RtRx4hY1lcyUTddopuiS5pcoHyiK4UW7zCUd41V8W-l_yRe0NxnybxVv0KuYUMtjAupDNa1Jc9vBGaYaMy-c-4E2XElUyCiLRuOwTh-I3lYC0K23G7jW8KygBXSgLGgXUuysBANNCgFW14HkOoiGvqN_5tjffauAbIJkbSTe36A6YnNIu8_X5i49znGPrGIdyhUNZC6LzfR6hzsTqD5hI9FTRXcy1sDBAvEpbTPV7S8CdoLxTI7NVOMAiVlCe9s4m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e644] [cursor=pointer]:
+                - button "Соцреклама" [ref=e646]:
+                  - generic [ref=e647]: Соцреклама
+                  - img [ref=e648]
+                - img [ref=e653]
+                - link [ref=e654]:
+                  - /url: https://yandex.ru/an/count/WiaejI_zOoVX2Lcd0jqL0EDecoMSm0cO4wZY4-1wmmJqPjyEkIq4l3K8w2Qam8t804XWp05TeC_dScVFzZjttd3dwtUytd272xsdzZIVsbBepy_G4BKU6gB-K8j-haW_JgTTv_RFq10LwhoXTbHg_zX5FqD3r9ya96jH4HNeENL2eRZKAVs9FftF6ebAz6CxwwbTsyxwVav_XgX2GKP9jH2I40qaAb6j56H54geYMPMiDMgb8YlH3QEX8o8hYIIh3EfHNMGaf4GbGZAw5WcHM48QGMHDgb5TGbAYTUo0BNVqff8jJBOwPcLpWhiO8nR8b4eE6upmRjmOT1nD8FBnyV7nAT7PqO5ND-TBYnE_cFW3eLarBvaOu2kNYi12Hem7GeY0nxx2cD5oiLBe3JgVRvXilBGVeytkEPHzOE06C7F3Du0Dt17UDx0DMrz7ECYdGTnKKdZ4gs5lAYdaeTMmnQ0Bu8tHlsfq3dtdivKjMFhOQBXHo1Vyz3k9wy2h6y3M0LtNfnWHhyBukam_p31ectrUAqimP6du67k26AGEpyx2ri8E9U-K33BPcojWEYBQ67AJIGjcqhDWCM9cZFxKmdnf64TirP4vR83fqaXWg-y45Z0JJJtFr_pIVenDBkt7sDpzRsI6lnZ6wOSx07umZDF_mZXzRmV0h-q0-BFCfPT9rQL5f1kPaOmxlJCZ6NTwEu7E-Zh2GJvlNkg-xCC2nsMU_C6SV9NzcFRW1FeUptN-6wCtTfBrNjyKvAjAbj_IkixK5EIhIfRNalXkmVfi1YDaQbxtXbcgV37IjVsHTiHX2WGQ0je12tbGSRbIgLGAtNcmPI_9bFzmRuKVuvvpX1Ny3Uwcd3Wg59Iw5n7HMfvJVtnCq1Q8YoZjxHAGTtCJlK7u3c9SauGQxq5uzeLQAvBhqFBfToiphquflshMM8HIEDiPdQUOtMNW_m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e657] [cursor=pointer]:
+                - button "Соцреклама" [ref=e659]:
+                  - generic [ref=e660]: Соцреклама
+                  - img [ref=e661]
+                - img [ref=e666]
+                - link [ref=e667]:
+                  - /url: https://yandex.ru/an/count/WieejI_zOoVX2LcR0kKL0DFecoMSm0cO4wZY4-1wmmJqPjyEkIq4l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCTBevFfr7fr9P2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeq1mgZU9sL6h_s4K_GqFKdoGaQr4H5KZwV49nNEgK_aIVpcUDH2NwiPtrrAvjP-sqfqH7GJz3LA4WewHQ24c81XALg5OAiY89LMVSKABUAABYC2AY9lrOXOgeDOncK96KaaWi8OseOIHZH7K9IQb8Y6Xo1sovepULR64oHCUiR4vm5tF7mu9IwPiF9B1X2uEEemb4FZu-FZubEZiwyEhcV6bn8bmG4tyRafG0bAWtm5Sk5O65Z1XvT0OFdg92JXgPX0wry_c6oSPB-p7Qx9v3sGS6RW0pDtm3sC0TuNq3sx3rTOI3V1h4JIM5HxmQzgQIGXvQ3LiCkW3U6FshHkVGTpvRsOAbZus66uLymK-_axWElBe1R1tGTNsA4V4gZA_BzCCCWxRPvxMo14EMXe-n9uX1wl3iB6mjx12XYJwpfV3ZvWgOEVveQp7a9fCMpAHdmMB4p1ZzgONvqZ2Es7ubVHEcIoE1hRuJMC1CDFKyN_DB-p4skRGVOtFtlv4P_c8Ofn_k0FZ1C4x_2-FqlHq0lxO3uCyobrwP8LkUykX62eA7z6wpAucZjqiww-i81_cyUTddopuiS5pcoHyiK4UW7zCUd41V8W-l_yRe0NxnybxVv0KuYUMtjAupDNa1Jc9vBGaYaMy-c-4E2XElUyCiLRuOwTh-I3lYC0K23G7jW8KygBXSgLGgXUuysBANNCeFv9u4ue77X0a25lnTxQQPE2fKaxfN7S2OVQYGFXYuHQSVx_zo9F4PJTlJtk3QjQJnOjsV5sgPbLI77qw-9vjnTPvS1Irxfs5F09Njai6abnqLp_y0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e670] [cursor=pointer]:
+                - button "Соцреклама" [ref=e672]:
+                  - generic [ref=e673]: Соцреклама
+                  - img [ref=e674]
+                - img [ref=e679]
+                - link [ref=e680]:
+                  - /url: https://yandex.ru/an/count/WiOejI_zOoVX2LcR0iKL09EecYMSm0cO4wZY4-1wmmJqPjyEkIq4l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCTBevFfr7fr9P2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeq1mgZU9sL6h_s4K_GqFKdoGaQr4H5UZvXEAur2dzYJwTpng9IlHZE-kfNTlEscbFVuQeGa56IRKGaX0D92fHhHHaHHAgphYXHBrHHCLXH4HD-h4A5L5h6CsW8YabaLX26b73ICQ8wXAIKf4GqUGEs797RohPmcI8ZbdPdE0kveuhJQdqJQ0COafWq74qWSZ7nyV7fqHdHmTUtPmlBKw42sBY3mCIqAe86WxmbKj5O24ZnXIwn8EdgA0YIXZfKEvylc6oyT9-Z3Qxvr3sWO4RmCmDtm0sS4Tuty0sR7qTuI2V1d5JIU4HhuQzgQIGXrR35eCkW3T6_whHEVITprQsOEbZe-568L_mq-yahWElRW1R1tHTds94l0hZwpBzCCEWRVPvhIp1aANXO-m9Of0wF3iBMmixainPCriA66IoDrV07sqjXjnaqeAPz2nOZ9WPep-rC5yQnX7RHnQ-2TEbaS1MtmaiO2QQUfwl-QNz69jSse-nkVlVo0n_COpJ3tS0_60Of_-5SVhU3e1Vsm7mPvbBhyoGBKzvT2C5mKDwjzcLnD7R63hhwmW7-RnvsUVBFYnmNER97onGHw0VqnwSG5yY3w__nkW1VjczrpTv0Kvc-IsjwqnDNe2JMLvBWaZacyzck8F2nElUC4kLBqQwjZ_IZZXCWK13G3jW8GygBbSgbKgXEm-sx2MNyhluEhbCm0YU81NyNUsccJWgL9Ew5n-YZL7Km5mj2U0XtA8suVsPKKbyAtjxd36uPczf_DlTAnMr67cgWvd1zpUok7e_NsLnL7HWATl5PgMNlVZQ_m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e683] [cursor=pointer]:
+                - button "Соцреклама" [ref=e685]:
+                  - generic [ref=e686]: Соцреклама
+                  - img [ref=e687]
+                - img [ref=e692]
+                - link [ref=e693]:
+                  - /url: https://yandex.ru/an/count/WfqejI_zOoVX2Lbw0dqK0ACbZdKSOWBc1Ahu1BZUC06zsRT3RWi1Rmq2kWafJ1RuS43-m05TeC_dScVFzZjttd3dwtUytd27-xoZTXItdrBeZvAL1XALw6TeY5eF3L5_g4K_LwGVfzEkS_jdQ8YAJv_IQJwrerBxnoxw6HgY_YGXMOkAg41IwHCgTKf_ea_diqQY4ltOpdfgrxQpnlFyPuWg56IKL0iX2T50eXBLIa5M9A4gUGTCsPpWBkPkIWIbqZUdBFq-OD1nD878nyV7nwT4PqS7NjsSBorMJ7nYueyURrMXiZZ0LouLWOMC63dqoOEdg130NIFKIvtFDqmsNjgFqMRt7Ce-C703cBdX6y06xfDHgct3rjSH3l9f43UL51xnQjYRIWfvQ3LiCUW2U9cwhkjP_Qj6vz1tFblPWgMFZOORXNp1Jx-Jk0wykW5i7T1rVOeHyIgChylqmmo3jjddjR84GvQ6Zx4dY47gyEmiR2tiMB8JczbIkBa2Pgf5PiMGcqnQC9EU1OiHCsFqfnRcIyCuOai41D-4wT98OAll11Om4qqzpzVyqdwCJIxjnzZS_MzaXhyOnkc7Em1-C8pJ_y8uVMy7mA_j0FYppALNPiYMfpowCQRmyOpUOmeVpmRvl9cMz6KF9jn2Ul878siF_PZsu0J4RNsw_yRiwTonz_gci3-rBh-bTPsfAUnFhSjhITJDOV7P37bHUbxtXbcgV37IjVsHTiHX2WGQ0je12tbGSRbIgLGAtNcmPIznA7y03AW0m5jr2ZKO_3thFjA1xumYja1_rRMAmYcBIM8Z26ugbqLpbBbcj3RgyF3RwAV_cCyrgRFn9gjdCaYs4uWxDC7zxgd9gzFoLtKlejeIptPAo30xGvVzcGOCFmG0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e696] [cursor=pointer]:
+                - button "Соцреклама" [ref=e698]:
+                  - generic [ref=e699]: Соцреклама
+                  - img [ref=e700]
+                - img [ref=e705]
+                - link [ref=e706]:
+                  - /url: https://yandex.ru/an/count/Wi8ejI_zOoVX2LcU0gKL0EFdbn_MlWcO4wZY4-1wmmJqPjyEkIq4l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCTBXw5vj8xjwNGdw4XQZqqHFsX5lrSaNwSJhlExP-X8IeKbqwdkTGPbTe_pwAVeI7gJnAIjQY82eJVp_kMEgK_qQVpMIDHYNviPpsrQzjPtyxfpn1LACWegHP24gA1H2MgbOAiI49L-yvn-yRlg0mW6r4QGrKZ8Q8ILQ6XeAGR9aWi8OseOIHZHDAC8A8HGab7J3jWVaTlAh5ov4x7h6nES1TprnYdLFecP0Ui9mOTHnE8V7nyV7nAT7PquDND-T9YCXsTYRyGHgWEE63405-vL0GMCcAa8Bg01qzHGP5Q0j044kVp3PEDb_PZjDazXx8F30nW0vU4ThAjgQJmY5V3tbHIo4EhOOj15y0Ret_Lw1pwpcShMx3qiT5mev0l-Ebt4jU1LpU0hGEwhayn8bw5yNMPVfXXq3Rxl5QMOCZIy37s13587PwTXQs57KX4t6Qs56wkW9dZZxOMGsuoQS5CUXOiHioCqPzQc2yDuuYj2CA-2TEbaS1MtmaiO2QQUfwl-QNz69jSse-nkVlVo0n_COpJ3tS0_60Of_-5SVhU3e1Vsm7mPvbBhyoGBKzvT2C5mKDw7m3A6oAzRT9PNqSuv-NDDA0lUp8bNhmy-OE5mo3zcFRW19JCVMNzDmQ9aAiux_LDMwqgTtvBwpfJqrQhoftNaaZhw-6p6UYeKF6wDynIvOkHhksFj2CEKo3G4D0EMCY3YikLIgLIwCw3BNlffVn00zWqyHMbHGCO_8tjPfeu5T2zo3n5Di1OQY1LKG8Gq6vHUx3DsRHkf4ZrziSON8EtDDxWxWoKrXx1W7K2cq5ry67mFLaML-VXgw1TrXgcvA-oNV1IUjc_yVmF~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e709] [cursor=pointer]:
+                - button "Соцреклама" [ref=e711]:
+                  - generic [ref=e712]: Соцреклама
+                  - img [ref=e713]
+                - img [ref=e718]
+                - link [ref=e719]:
+                  - /url: https://yandex.ru/an/count/WiSejI_zOoVX2LcR0iqL08DecYMSm0cO4wZY4-1wmmJqPjyEkIq4l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCTBevFfr7fr9P2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeq1mgZU9sL6h_s4K_GqFKdoGaQr4H5UZvXEAur2dzYJwTpng9IlHZE-kfNTlEscbFVuQeGa56IRKGaX0D92fHhHHaHHAgphYXHBrHHCLXH4HD-h4A5L5h6CsW8YabaLX26b73ICQ8wXAIKf4GqUGEs797RohPmcI8ZbdPdE0kviuggrJwfYI7AWeOT1nD8FBnyV7nAT7PqO5ND-TBYnFXWfZmizBL9B617GDyvL8HMCY8aSU0W0TFKM4842HJ4nhdymsJZPVsOxJPFOUo3mpS06Pk-0QmWJl2-mQsOUlh20VvD8YRIWgFU3NiJIM5FBGQjXXq0Rmn-bUDpg7lVBQo1KiV6mqt2lc2dtudSHruTGFOEg3h-XGZubKONvVfXna6RRFFQsK9XYmD7sDF48FKuTbPs5hOeRILcjbIkBa2Peu_sbeCkSca1JFfMR0OCJD6VsfXlZIC8xP-OT-4wT98OAll11Om4qqzpzVyqdwCJIxjnzZS_MzaXhyOnkc7Em1-C8pJ_y8uVMy7mA_j0FYppALNPiYMfpowaOBW8RtRx4hYw2sJplewma4-Rrxs-R8F2noNUV872zGHwCUq1oVGbyZ3wxynUe1VlBpNDta1JcBvBQthJ4rUW9DONak2IEIRpsQuWyB4wzumIvKlHhgsFzAEE4o1G4D0Es0X3oekLogLIg4x3xRi9PVoMrdA4isMKE4J5lnTxQQPE2fKaxfN7Q0nYXeiLqk2FuHR14ru_sTK4f_Btfup1jVUMnelk_kZefOZJtNuPl0zZIokpkUh83vCFI3Ygso7lfHUzig2_mC0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e722] [cursor=pointer]:
+                - button "Соцреклама" [ref=e724]:
+                  - generic [ref=e725]: Соцреклама
+                  - img [ref=e726]
+                - img [ref=e731]
+                - link [ref=e732]:
+                  - /url: https://yandex.ru/an/count/Wi4ejI_zOoVX2LcT0fqL0DEdbpbIvGJC2LJn2N2zOG9wis-7t1O2tXe4T1DIc2pmuO3yWGEwG9_FvSwUxNVklE7Er-zulU4EzvOwez8xjwNGdv-X8MezD4JzeHRzN95-d4wxpksVeI5g3hMdUIvrHgNsZrtqCpH4_Kb2iXOLKO7i-vOwfJ_Hf_DP8r69VcndFRLhsrdVpkdF45Keo2Yf5a8Iee549QgLWgn8GbNxpd7xnk-e320RKHf3LICXeX9LeQ6Wf1icI2mXZQXX96D4qemWeX52IKTCEs3qZjvKieN94nspiZd1NSnTdmMbqZSzh0Z04eEEemb4FZu-FZubEZiwyEhcV6an6Qvhuk-eAdPBoZ70LouLWOMC62Smk807Jr4XK00iHJf8EPzlc6oyj1-ZpUuvb7rWO00Rk2IqasrD9OL7l1hsff927beDMmow0DuO_Qj6vz1tFblPWgMFZOORXNp1Jx-Jk0wykW5i7T1rVOeHyIgChylqmmo3jjddjR84GvQ6Zx4dY47gyEmiR2tiG89odDbIe22JlRa2_cXhCUGcanRCf6V1OiJC6FsfXVdIC8xG0ZFWcp1T6WbizPt00cQYgUVvcb_QZx79fVqOcxl_ZSpm5yCu_N07m0-6SVfV6AVlxG3ujHq0VvQvzCeCsVAKHpTI43oazm6Wl27IsqzdVHtXd9StR-3Bdao95ozF_c3XhQyVqnwSW1AvI2l_ZK6IHPRqNj-qtU9D-IsjwqnDsotUbDUII0iZyTaCT8YANlU6MQfyCTAr_P5sn64A11e2sW4BUL1nkLAfL0hTUR1bBu4eF_O060gGRXEq21ZyZUqccZWgT9EsPyWuv2LaXHSQQ_uak0NT8YZx8UheP2Ef1jcBpTzAgwFngset75h9tg3K2Symr24yjlSrRrizNgMQg2ag497jQFPHorxS-ty0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e735] [cursor=pointer]:
+                - button "Соцреклама" [ref=e737]:
+                  - generic [ref=e738]: Соцреклама
+                  - img [ref=e739]
+                - img [ref=e744]
+                - link [ref=e745]:
+                  - /url: https://yandex.ru/an/count/WgKejI_zOoVX2Lbw0hqK07FcaBKSEG5p0bLy0bnlc83UxDiXjuM0jmO1tOGK9WjyE21_u80kqETpkRDd-vqxRxZpzJjURxZ3VTvHEuhRJodqHybA0ubAz3CqHAs7XgW_rAAVAzAFqsdNkVqpD4ITFgNJV6f7fVQFNVGpD4JzIKAo5XLHWQJI9rJgbFv4dyvdZKGb-h6TzTIkRMUDv_dF45Keo2Yf5a8Iee549QgLWgn8GbNo3fYoES5Tp1tNcLBfcreI-4fWq74qWSZ7nyV7fqHdHmTUtPmlBLPCV6BYhrP-y1I2m01VkLG45Z9YJ74SF7YA2iegadVBXlFvXid6I_inskoUGza71cu0CpTy0zZ0VJ9AjMtO-Zh2GJuDugQImYDU3NjJII4FhOOj1bq0BprLKsRgkgvdzQyQdKFV-Mnb2vO-DXfk5F85F_rEuZhmwWQmTK3NzIb6nAimlYxJ3pCCscQVryeI35aQFiQU80QfmxEpiBMmGodSDBEbS7C5p1mprIApOiXD9YsOIS-2nOYPCVfJ2_EbOHonrLBrJPWkZGIs-avW0JFHrFDypI_jnzZaqdwCpTt_HcRuYs6SVhW3u0V3EFqlZDFtTW3ysWw0FyjSUcM6R7dAenjZ2X_Fw3scyF6CtiBGMLz7ECZdpRIaBtimuHRIapyOMNlenxG79o1kwzFzDsPFvn9whsyA-rFpybjQrvcQmlxKlBoMHDqS5f_Da1UbvtLlcANA5oDTsnzfHnocGA0Xe1sma0SLbokLIgNGdGTRzXA7ygzDaUWUa4iK0HZyFUi-qe7lZ29Ue1DLJQk8dhAOZ3Q2u5gvB9gap0L6QzCE3xzPF_sp-LnpDGS4g-eD1ygA16hX0FSxk2QllizV2HtT-adcFjk5BwUOdVpQ_m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e748] [cursor=pointer]:
+                - button "Реклама" [ref=e750]:
+                  - generic [ref=e751]: Реклама
+                  - img [ref=e752]
+                - img [ref=e755]
+                - link [ref=e756]:
+                  - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rotacia&utm_term=react&fromSins=1&erid=CQH36pWzJqCyZe1dcmBrumwZS1z4ozv55egvZC4kVZPojD
+            - button "Предыдущий слайд":
+              - img
+            - button "Следующий слайд":
+              - img
+        - generic [ref=e757]:
+          - generic [ref=e764]:
+            - generic [ref=e765]:
+              - banner [ref=e769]:
+                - generic [ref=e772]: Ещё может подойти
+              - list [ref=e774]:
+                - listitem [ref=e775]:
+                  - generic [ref=e779]:
+                    - generic [ref=e781]:
+                      - link "Chat GPT Pro, покупка/продление на вашем аккаунте, официально (автовыдача) 1 месяц 5 % ПРОМОКОД" [ref=e783] [cursor=pointer]:
+                        - /url: /card/chat-gpt-pro-pokupkaprodleniye-na-vashem-akkaunte-ofitsialno-bystraya-vydacha-1-mesyats/5288496303?do-waremd5=YNU6qaIrckk5j_ox4g55VQ&showUid=17743456257858286950006001&cpa=1&cpc=m7gCLR1ql5-9mVisR7-eDQO-8IbiuIWuNAQhu8PfBy_THcHflcCct5ZbtYfmwumPP1iDZetuP5eG5Y8kkUgEScVcKJWscXpI8JvoM6ysyiuhp85hQUrQCmPCEtmVYwdMb3fOuyr7ncik_z1xi68exzJqFirxVXJfgS2f4AlmZ4m8T9LU4o7FCc39rkEjTwNJmaAlE5BuC8h8lcsr1oI7sSmv2ys6_Az6Pq4lcR9Ye27B0ZQDFJAhbekWuJMXDYB9S0ojWKRzMgCTsxBrXJoSrXZBCYtfx-QvfRWRKlgLSwTOxf015EhBRlR2zFRV-nhocmd_T9wNxPwr_cufHzbwU4Nb8H8wh7SpbZNdZYOqvQsE0HRQvLlw_WnzJeV_HI7DESoR7dLn_kb-TWx0ULjQ9k6bNgKeoiQjHAUIx3gc1rTP8TIJcYxLaLUD74dw4l3D&sponsored=1
+                        - img "Chat GPT Pro, покупка/продление на вашем аккаунте, официально (автовыдача) 1 месяц" [ref=e791]
+                        - generic [ref=e797]: 5 % ПРОМОКОД
+                      - button "Добавить в избранное" [ref=e802] [cursor=pointer]
+                      - button "В корзину" [ref=e807] [cursor=pointer]
+                    - link "Chat GPT Pro, покупка/продление на вашем аккаунте, официально (автовыдача) 1 месяц" [ref=e812] [cursor=pointer]:
+                      - /url: /card/chat-gpt-pro-pokupkaprodleniye-na-vashem-akkaunte-ofitsialno-bystraya-vydacha-1-mesyats/5288496303?do-waremd5=YNU6qaIrckk5j_ox4g55VQ&showUid=17743456257858286950006001&cpa=1&cpc=m7gCLR1ql5-9mVisR7-eDQO-8IbiuIWuNAQhu8PfBy_THcHflcCct5ZbtYfmwumPP1iDZetuP5eG5Y8kkUgEScVcKJWscXpI8JvoM6ysyiuhp85hQUrQCmPCEtmVYwdMb3fOuyr7ncik_z1xi68exzJqFirxVXJfgS2f4AlmZ4m8T9LU4o7FCc39rkEjTwNJmaAlE5BuC8h8lcsr1oI7sSmv2ys6_Az6Pq4lcR9Ye27B0ZQDFJAhbekWuJMXDYB9S0ojWKRzMgCTsxBrXJoSrXZBCYtfx-QvfRWRKlgLSwTOxf015EhBRlR2zFRV-nhocmd_T9wNxPwr_cufHzbwU4Nb8H8wh7SpbZNdZYOqvQsE0HRQvLlw_WnzJeV_HI7DESoR7dLn_kb-TWx0ULjQ9k6bNgKeoiQjHAUIx3gc1rTP8TIJcYxLaLUD74dw4l3D&sponsored=1
+                      - link "Chat GPT Pro, покупка/продление на вашем аккаунте, официально (автовыдача) 1 месяц" [ref=e813]
+                    - link "Цена 10 000 ₽" [ref=e818] [cursor=pointer]:
+                      - /url: /card/chat-gpt-pro-pokupkaprodleniye-na-vashem-akkaunte-ofitsialno-bystraya-vydacha-1-mesyats/5288496303?do-waremd5=YNU6qaIrckk5j_ox4g55VQ&showUid=17743456257858286950006001&cpa=1&cpc=m7gCLR1ql5-9mVisR7-eDQO-8IbiuIWuNAQhu8PfBy_THcHflcCct5ZbtYfmwumPP1iDZetuP5eG5Y8kkUgEScVcKJWscXpI8JvoM6ysyiuhp85hQUrQCmPCEtmVYwdMb3fOuyr7ncik_z1xi68exzJqFirxVXJfgS2f4AlmZ4m8T9LU4o7FCc39rkEjTwNJmaAlE5BuC8h8lcsr1oI7sSmv2ys6_Az6Pq4lcR9Ye27B0ZQDFJAhbekWuJMXDYB9S0ojWKRzMgCTsxBrXJoSrXZBCYtfx-QvfRWRKlgLSwTOxf015EhBRlR2zFRV-nhocmd_T9wNxPwr_cufHzbwU4Nb8H8wh7SpbZNdZYOqvQsE0HRQvLlw_WnzJeV_HI7DESoR7dLn_kb-TWx0ULjQ9k6bNgKeoiQjHAUIx3gc1rTP8TIJcYxLaLUD74dw4l3D&sponsored=1
+                      - generic [ref=e820]:
+                        - generic [ref=e821]: Цена 10 000 ₽
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: 10 000
+                          - generic [ref=e826]: ₽
+                    - generic [ref=e827]:
+                      - generic [ref=e828]:
+                        - generic [ref=e829]: "Рейтинг товара: 4.9 из 5"
+                        - generic [ref=e830]: на основе 39 оценок
+                        - generic [ref=e831]:
+                          - generic [ref=e832]: "4.9"
+                          - generic [ref=e834]: 39 оценок
+                      - generic [ref=e837]:
+                        - generic [ref=e839]: Сегодня
+                        - text: ","
+                        - generic [ref=e840]: эл. почта
+                    - link [ref=e842] [cursor=pointer]:
+                      - /url: /card/chat-gpt-pro-pokupkaprodleniye-na-vashem-akkaunte-ofitsialno-bystraya-vydacha-1-mesyats/5288496303?do-waremd5=YNU6qaIrckk5j_ox4g55VQ&showUid=17743456257858286950006001&cpa=1&cpc=m7gCLR1ql5-9mVisR7-eDQO-8IbiuIWuNAQhu8PfBy_THcHflcCct5ZbtYfmwumPP1iDZetuP5eG5Y8kkUgEScVcKJWscXpI8JvoM6ysyiuhp85hQUrQCmPCEtmVYwdMb3fOuyr7ncik_z1xi68exzJqFirxVXJfgS2f4AlmZ4m8T9LU4o7FCc39rkEjTwNJmaAlE5BuC8h8lcsr1oI7sSmv2ys6_Az6Pq4lcR9Ye27B0ZQDFJAhbekWuJMXDYB9S0ojWKRzMgCTsxBrXJoSrXZBCYtfx-QvfRWRKlgLSwTOxf015EhBRlR2zFRV-nhocmd_T9wNxPwr_cufHzbwU4Nb8H8wh7SpbZNdZYOqvQsE0HRQvLlw_WnzJeV_HI7DESoR7dLn_kb-TWx0ULjQ9k6bNgKeoiQjHAUIx3gc1rTP8TIJcYxLaLUD74dw4l3D&sponsored=1
+                - listitem [ref=e843]:
+                  - generic [ref=e847]:
+                    - generic [ref=e849]:
+                      - link "Подарочная карта оплаты App Store на 100 TRY лир Турция | моментально | оригинальный код iTunes Gift Card Turkey" [ref=e851] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-apple-na-1000---turtsiya--garantirovanno-originalnyy-klyuch/4485736340?do-waremd5=UMFp5KMjR7QLQAGm1F1dDw&showUid=17743456257736997283906002&cpa=1&cpc=m7gCLR1ql5_uQ-sQq7yA03NSqIQxFu1C_ILHW6-zQra-93RruvTx0H1lNocGvnXMS1UpHx5J7C0QwRnFUhbZNhJPO2KuB0vqhihdE_i6GlDoasvsVESzG1udW9qHxyVpJA0rtAdezMDBsu3WPfbQyKY2BMfq_EauwIzogSettT8bMF1huPDN7fN7cf9mhwNxjDcv8PS5zIVjKmFOY9v0FGMeqlN0as0vFB-UWKUypxOnwFnAuBeMIQkeNKsL4cZDI-Z4SDqvwpN55ovqhqzrrZKMpIFj3SmNoLYV45qiCNu7YSLDOHlxOa72MN_ykeneRDnDlxV2ItS-ZIHKV2nDkMePWVnHgEiTGhGWaNtH0R_GRx7_YIoqtnMfVJ8Rps6dEIRCwiPaTlg%2C
+                        - img "Подарочная карта оплаты App Store на 100 TRY лир Турция | моментально | оригинальный код iTunes Gift Card Turkey" [ref=e859]
+                      - button "Добавить в избранное" [ref=e865] [cursor=pointer]
+                      - button "В корзину" [ref=e870] [cursor=pointer]
+                    - link "Подарочная карта оплаты App Store на 100 TRY лир Турция | моментально | оригинальный код iTunes Gift Card Turkey" [ref=e875] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-na-1000---turtsiya--garantirovanno-originalnyy-klyuch/4485736340?do-waremd5=UMFp5KMjR7QLQAGm1F1dDw&showUid=17743456257736997283906002&cpa=1&cpc=m7gCLR1ql5_uQ-sQq7yA03NSqIQxFu1C_ILHW6-zQra-93RruvTx0H1lNocGvnXMS1UpHx5J7C0QwRnFUhbZNhJPO2KuB0vqhihdE_i6GlDoasvsVESzG1udW9qHxyVpJA0rtAdezMDBsu3WPfbQyKY2BMfq_EauwIzogSettT8bMF1huPDN7fN7cf9mhwNxjDcv8PS5zIVjKmFOY9v0FGMeqlN0as0vFB-UWKUypxOnwFnAuBeMIQkeNKsL4cZDI-Z4SDqvwpN55ovqhqzrrZKMpIFj3SmNoLYV45qiCNu7YSLDOHlxOa72MN_ykeneRDnDlxV2ItS-ZIHKV2nDkMePWVnHgEiTGhGWaNtH0R_GRx7_YIoqtnMfVJ8Rps6dEIRCwiPaTlg%2C
+                      - link "Подарочная карта оплаты App Store на 100 TRY лир Турция | моментально | оригинальный код iTunes Gift Card Turkey" [ref=e876]
+                    - link "Цена 286 ₽" [ref=e881] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-na-1000---turtsiya--garantirovanno-originalnyy-klyuch/4485736340?do-waremd5=UMFp5KMjR7QLQAGm1F1dDw&showUid=17743456257736997283906002&cpa=1&cpc=m7gCLR1ql5_uQ-sQq7yA03NSqIQxFu1C_ILHW6-zQra-93RruvTx0H1lNocGvnXMS1UpHx5J7C0QwRnFUhbZNhJPO2KuB0vqhihdE_i6GlDoasvsVESzG1udW9qHxyVpJA0rtAdezMDBsu3WPfbQyKY2BMfq_EauwIzogSettT8bMF1huPDN7fN7cf9mhwNxjDcv8PS5zIVjKmFOY9v0FGMeqlN0as0vFB-UWKUypxOnwFnAuBeMIQkeNKsL4cZDI-Z4SDqvwpN55ovqhqzrrZKMpIFj3SmNoLYV45qiCNu7YSLDOHlxOa72MN_ykeneRDnDlxV2ItS-ZIHKV2nDkMePWVnHgEiTGhGWaNtH0R_GRx7_YIoqtnMfVJ8Rps6dEIRCwiPaTlg%2C
+                      - generic [ref=e883]:
+                        - generic [ref=e884]: Цена 286 ₽
+                        - generic [ref=e887]:
+                          - generic [ref=e888]: "286"
+                          - generic [ref=e889]: ₽
+                    - generic [ref=e890]:
+                      - generic [ref=e891]:
+                        - generic [ref=e892]: "Рейтинг товара: 4.8 из 5"
+                        - generic [ref=e893]: на основе 5 оценок
+                        - generic [ref=e894]:
+                          - generic [ref=e895]: "4.8"
+                          - generic [ref=e897]: 5 оценок
+                      - generic [ref=e900]:
+                        - generic [ref=e902]: Сегодня
+                        - text: ","
+                        - generic [ref=e903]: эл. почта
+                    - link [ref=e905] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-na-1000---turtsiya--garantirovanno-originalnyy-klyuch/4485736340?do-waremd5=UMFp5KMjR7QLQAGm1F1dDw&showUid=17743456257736997283906002&cpa=1&cpc=m7gCLR1ql5_uQ-sQq7yA03NSqIQxFu1C_ILHW6-zQra-93RruvTx0H1lNocGvnXMS1UpHx5J7C0QwRnFUhbZNhJPO2KuB0vqhihdE_i6GlDoasvsVESzG1udW9qHxyVpJA0rtAdezMDBsu3WPfbQyKY2BMfq_EauwIzogSettT8bMF1huPDN7fN7cf9mhwNxjDcv8PS5zIVjKmFOY9v0FGMeqlN0as0vFB-UWKUypxOnwFnAuBeMIQkeNKsL4cZDI-Z4SDqvwpN55ovqhqzrrZKMpIFj3SmNoLYV45qiCNu7YSLDOHlxOa72MN_ykeneRDnDlxV2ItS-ZIHKV2nDkMePWVnHgEiTGhGWaNtH0R_GRx7_YIoqtnMfVJ8Rps6dEIRCwiPaTlg%2C
+                - listitem [ref=e906]:
+                  - generic [ref=e910]:
+                    - generic [ref=e912]:
+                      - link "Подарочная карта Google Play 1500 INR / Индия / Пополнение счёта / Gift Card Google Play India" [ref=e914] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-google-play-1500-inr--indiya--popolneniye-scheta--gift-card-google-play-india/4379417733?do-waremd5=uSWfG2h8kUKeB-zfSnSWuQ&showUid=17743456257807945369706003&cpa=1&cpc=m7gCLR1ql59y9xc6N6yWZvr12w6aX1rYJbqBXY6kFEyMD5dIM2wojWOOyvUnVLfo2d_Q89LmaJeQjLch-RFgcxQeHQ2YdCfQYVZclvKTwOKjLm86p6XD3LtMGN4BWNwxCnKKppJBccvwFlOQceriVEkkSl1q8iV5vseEN_z0_xW7D03-WS18IzWPZuWy_uAITIMN5pssZDj3dtBbXzdCfOOk1i59bGHOgkaehUKYFbxaJ1mQsp2KP11c4OdWYJpHw_QLlUWL6WLoOOdcdM6JM1bLdEM421y5M6znoVkqZQ_fjruPGeAZod9gSDllp1Icp7Co-RKzzXF2_Pw00jWlT4faKHum4ur2qaZ4J0S0YKcdUtDffpuGsLzFoQx7wnB48xSinYzF79TipWAyjuqw_yUsLTQY0I6Q8x1aEYCLITA%2C&sponsored=1
+                        - img "Подарочная карта Google Play 1500 INR / Индия / Пополнение счёта / Gift Card Google Play India" [ref=e922]
+                      - button "Добавить в избранное" [ref=e928] [cursor=pointer]
+                      - button "В корзину" [ref=e933] [cursor=pointer]
+                    - link "Подарочная карта Google Play 1500 INR / Индия / Пополнение счёта / Gift Card Google Play India" [ref=e938] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-1500-inr--indiya--popolneniye-scheta--gift-card-google-play-india/4379417733?do-waremd5=uSWfG2h8kUKeB-zfSnSWuQ&showUid=17743456257807945369706003&cpa=1&cpc=m7gCLR1ql59y9xc6N6yWZvr12w6aX1rYJbqBXY6kFEyMD5dIM2wojWOOyvUnVLfo2d_Q89LmaJeQjLch-RFgcxQeHQ2YdCfQYVZclvKTwOKjLm86p6XD3LtMGN4BWNwxCnKKppJBccvwFlOQceriVEkkSl1q8iV5vseEN_z0_xW7D03-WS18IzWPZuWy_uAITIMN5pssZDj3dtBbXzdCfOOk1i59bGHOgkaehUKYFbxaJ1mQsp2KP11c4OdWYJpHw_QLlUWL6WLoOOdcdM6JM1bLdEM421y5M6znoVkqZQ_fjruPGeAZod9gSDllp1Icp7Co-RKzzXF2_Pw00jWlT4faKHum4ur2qaZ4J0S0YKcdUtDffpuGsLzFoQx7wnB48xSinYzF79TipWAyjuqw_yUsLTQY0I6Q8x1aEYCLITA%2C&sponsored=1
+                      - link "Подарочная карта Google Play 1500 INR / Индия / Пополнение счёта / Gift Card Google Play India" [ref=e939]
+                    - link "Цена 4 324 ₽" [ref=e944] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-1500-inr--indiya--popolneniye-scheta--gift-card-google-play-india/4379417733?do-waremd5=uSWfG2h8kUKeB-zfSnSWuQ&showUid=17743456257807945369706003&cpa=1&cpc=m7gCLR1ql59y9xc6N6yWZvr12w6aX1rYJbqBXY6kFEyMD5dIM2wojWOOyvUnVLfo2d_Q89LmaJeQjLch-RFgcxQeHQ2YdCfQYVZclvKTwOKjLm86p6XD3LtMGN4BWNwxCnKKppJBccvwFlOQceriVEkkSl1q8iV5vseEN_z0_xW7D03-WS18IzWPZuWy_uAITIMN5pssZDj3dtBbXzdCfOOk1i59bGHOgkaehUKYFbxaJ1mQsp2KP11c4OdWYJpHw_QLlUWL6WLoOOdcdM6JM1bLdEM421y5M6znoVkqZQ_fjruPGeAZod9gSDllp1Icp7Co-RKzzXF2_Pw00jWlT4faKHum4ur2qaZ4J0S0YKcdUtDffpuGsLzFoQx7wnB48xSinYzF79TipWAyjuqw_yUsLTQY0I6Q8x1aEYCLITA%2C&sponsored=1
+                      - generic [ref=e946]:
+                        - generic [ref=e947]: Цена 4 324 ₽
+                        - generic [ref=e950]:
+                          - generic [ref=e951]: 4 324
+                          - generic [ref=e952]: ₽
+                    - generic [ref=e953]:
+                      - generic [ref=e954]:
+                        - generic [ref=e955]: "Рейтинг товара: 3.4 из 5"
+                        - generic [ref=e956]: на основе 75 оценок
+                        - generic [ref=e957]:
+                          - generic [ref=e958]: "3.4"
+                          - generic [ref=e960]: 75 оценок
+                      - generic [ref=e963]:
+                        - generic [ref=e965]: Сегодня
+                        - text: ","
+                        - generic [ref=e966]: эл. почта
+                    - link [ref=e968] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-1500-inr--indiya--popolneniye-scheta--gift-card-google-play-india/4379417733?do-waremd5=uSWfG2h8kUKeB-zfSnSWuQ&showUid=17743456257807945369706003&cpa=1&cpc=m7gCLR1ql59y9xc6N6yWZvr12w6aX1rYJbqBXY6kFEyMD5dIM2wojWOOyvUnVLfo2d_Q89LmaJeQjLch-RFgcxQeHQ2YdCfQYVZclvKTwOKjLm86p6XD3LtMGN4BWNwxCnKKppJBccvwFlOQceriVEkkSl1q8iV5vseEN_z0_xW7D03-WS18IzWPZuWy_uAITIMN5pssZDj3dtBbXzdCfOOk1i59bGHOgkaehUKYFbxaJ1mQsp2KP11c4OdWYJpHw_QLlUWL6WLoOOdcdM6JM1bLdEM421y5M6znoVkqZQ_fjruPGeAZod9gSDllp1Icp7Co-RKzzXF2_Pw00jWlT4faKHum4ur2qaZ4J0S0YKcdUtDffpuGsLzFoQx7wnB48xSinYzF79TipWAyjuqw_yUsLTQY0I6Q8x1aEYCLITA%2C&sponsored=1
+                - listitem [ref=e969]:
+                  - generic [ref=e973]:
+                    - generic [ref=e975]:
+                      - link "Google One AI Pro + Gemini - 3 месяца на Ваш аккаунт (Без входа) + VEO 3.1 / Nano Banana / Deep Research / 2 TB" [ref=e977] [cursor=pointer]:
+                        - /url: /card/google-ai-pro-l-gemini-l-3-mesyatsa-l-na-vash-akkaunt-l-avtodostavka/5198292505?do-waremd5=8AOv-rrM4cM2CxfvkXCg0A&showUid=17743456257838185875806004&cpa=1&cpc=m7gCLR1ql5-K9fJ_ncGXK27-1oHvTZsBB1dznbs7fGSkF9weH20Q-0RvC6sGs6_yAKzGo6V-FlRr8ukOq6ZSgV96iWR86CacQj94rP2K4dqxFsq0P8uN13ggzxz3NSdHf2_K2TeiiyXp3kPNpksXsp-kAoLg-IW4tlD6kLWPC4yOPf-6cA-Vv4s4_VA1VHCY_Eg3T4ZDDVNkvsC5FI19kFI1XUaZF8rvVOfphAZdsc5lj1YZXMazUXRCzlAIQ9B7A53Z-iQo1PAKPWxRL_w8XxTA857J3pj_8QMn8fLFCWKIzuJH-vpcsdkHCdNW6BKsz2NlUC1FTBCUOW1iwADgQwrY5qheFVBHQ5G8KX9DKTey7RSIljsru7UWIcXdjINtvJsNHHVIFwy9JglEilcSxlKHTvhI5iJi&sponsored=1
+                        - img "Google One AI Pro + Gemini - 3 месяца на Ваш аккаунт (Без входа) + VEO 3.1 / Nano Banana / Deep Research / 2 TB" [ref=e985]
+                      - button "Добавить в избранное" [ref=e991] [cursor=pointer]
+                      - button "В корзину" [ref=e996] [cursor=pointer]
+                    - link "Google One AI Pro + Gemini - 3 месяца на Ваш аккаунт (Без входа) + VEO 3.1 / Nano Banana / Deep Research / 2 TB" [ref=e1001] [cursor=pointer]:
+                      - /url: /card/google-ai-pro-l-gemini-l-3-mesyatsa-l-na-vash-akkaunt-l-avtodostavka/5198292505?do-waremd5=8AOv-rrM4cM2CxfvkXCg0A&showUid=17743456257838185875806004&cpa=1&cpc=m7gCLR1ql5-K9fJ_ncGXK27-1oHvTZsBB1dznbs7fGSkF9weH20Q-0RvC6sGs6_yAKzGo6V-FlRr8ukOq6ZSgV96iWR86CacQj94rP2K4dqxFsq0P8uN13ggzxz3NSdHf2_K2TeiiyXp3kPNpksXsp-kAoLg-IW4tlD6kLWPC4yOPf-6cA-Vv4s4_VA1VHCY_Eg3T4ZDDVNkvsC5FI19kFI1XUaZF8rvVOfphAZdsc5lj1YZXMazUXRCzlAIQ9B7A53Z-iQo1PAKPWxRL_w8XxTA857J3pj_8QMn8fLFCWKIzuJH-vpcsdkHCdNW6BKsz2NlUC1FTBCUOW1iwADgQwrY5qheFVBHQ5G8KX9DKTey7RSIljsru7UWIcXdjINtvJsNHHVIFwy9JglEilcSxlKHTvhI5iJi&sponsored=1
+                      - link "Google One AI Pro + Gemini - 3 месяца на Ваш аккаунт (Без входа) + VEO 3.1 / Nano Banana / Deep Research / 2 TB" [ref=e1002]
+                    - link "Цена 1 440 ₽" [ref=e1007] [cursor=pointer]:
+                      - /url: /card/google-ai-pro-l-gemini-l-3-mesyatsa-l-na-vash-akkaunt-l-avtodostavka/5198292505?do-waremd5=8AOv-rrM4cM2CxfvkXCg0A&showUid=17743456257838185875806004&cpa=1&cpc=m7gCLR1ql5-K9fJ_ncGXK27-1oHvTZsBB1dznbs7fGSkF9weH20Q-0RvC6sGs6_yAKzGo6V-FlRr8ukOq6ZSgV96iWR86CacQj94rP2K4dqxFsq0P8uN13ggzxz3NSdHf2_K2TeiiyXp3kPNpksXsp-kAoLg-IW4tlD6kLWPC4yOPf-6cA-Vv4s4_VA1VHCY_Eg3T4ZDDVNkvsC5FI19kFI1XUaZF8rvVOfphAZdsc5lj1YZXMazUXRCzlAIQ9B7A53Z-iQo1PAKPWxRL_w8XxTA857J3pj_8QMn8fLFCWKIzuJH-vpcsdkHCdNW6BKsz2NlUC1FTBCUOW1iwADgQwrY5qheFVBHQ5G8KX9DKTey7RSIljsru7UWIcXdjINtvJsNHHVIFwy9JglEilcSxlKHTvhI5iJi&sponsored=1
+                      - generic [ref=e1009]:
+                        - generic [ref=e1010]: Цена 1 440 ₽
+                        - generic [ref=e1013]:
+                          - generic [ref=e1014]: 1 440
+                          - generic [ref=e1015]: ₽
+                    - generic [ref=e1019]:
+                      - generic [ref=e1021]: Сегодня
+                      - text: ","
+                      - generic [ref=e1022]: эл. почта
+                    - link [ref=e1024] [cursor=pointer]:
+                      - /url: /card/google-ai-pro-l-gemini-l-3-mesyatsa-l-na-vash-akkaunt-l-avtodostavka/5198292505?do-waremd5=8AOv-rrM4cM2CxfvkXCg0A&showUid=17743456257838185875806004&cpa=1&cpc=m7gCLR1ql5-K9fJ_ncGXK27-1oHvTZsBB1dznbs7fGSkF9weH20Q-0RvC6sGs6_yAKzGo6V-FlRr8ukOq6ZSgV96iWR86CacQj94rP2K4dqxFsq0P8uN13ggzxz3NSdHf2_K2TeiiyXp3kPNpksXsp-kAoLg-IW4tlD6kLWPC4yOPf-6cA-Vv4s4_VA1VHCY_Eg3T4ZDDVNkvsC5FI19kFI1XUaZF8rvVOfphAZdsc5lj1YZXMazUXRCzlAIQ9B7A53Z-iQo1PAKPWxRL_w8XxTA857J3pj_8QMn8fLFCWKIzuJH-vpcsdkHCdNW6BKsz2NlUC1FTBCUOW1iwADgQwrY5qheFVBHQ5G8KX9DKTey7RSIljsru7UWIcXdjINtvJsNHHVIFwy9JglEilcSxlKHTvhI5iJi&sponsored=1
+                - listitem [ref=e1025]:
+                  - generic [ref=e1029]:
+                    - generic [ref=e1031]:
+                      - link "Подарочная карта Netflix 500 лир TL Турция / Подписка Netflix / Пополнение счета, цифровой код" [ref=e1033] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-netflix-500-lir-tl-turtsiya--podpiska-netflix--popolneniye-scheta-tsifrovoy-kod/103833772183?do-waremd5=oh9Tz54cDX4o9ljCshdDaA&showUid=17743456257858329503206005&cpa=1&cpc=m7gCLR1ql58ABQguUEuMKH167-sTJl4a4K9Gy5PQogIdFfiSFE1bMcVRJ7Anir8Z_xhWzoJmJkWm1bns7Rpg9JvlgVd2HL-DL4H-XOOlkXcFa6CMK9EOZtiXEO57f-6Tzl6m_7vKJU4s7MWxuzFISTWA7hfllfaTwQnEoX4H8ycJ5-DTSCEqJAN7jSfLQpOOmIGLCvRRiGtXz2OhAntxWnD-1obS7JXP2Vu8GObgTD31FDyaRO2LJ_T4D9E4X6NOBljs2Yk_RhgjBPgQCXLBZ5QEIBhRGsFyLi2YFn1-aEQg7htG0-EGscnqfU4tnMfJFtpkdznyodR6Dtp32qx9hWmrdoyovNOBUgJK4SojCD0RIVI9OC5oewmtX-NRNMzLSCW-KHW0lfw%2C&sponsored=1
+                        - img "Подарочная карта Netflix 500 лир TL Турция / Подписка Netflix / Пополнение счета, цифровой код" [ref=e1041]
+                      - button "Добавить в избранное" [ref=e1047] [cursor=pointer]
+                      - button "В корзину" [ref=e1052] [cursor=pointer]
+                    - link "Подарочная карта Netflix 500 лир TL Турция / Подписка Netflix / Пополнение счета, цифровой код" [ref=e1057] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-netflix-500-lir-tl-turtsiya--podpiska-netflix--popolneniye-scheta-tsifrovoy-kod/103833772183?do-waremd5=oh9Tz54cDX4o9ljCshdDaA&showUid=17743456257858329503206005&cpa=1&cpc=m7gCLR1ql58ABQguUEuMKH167-sTJl4a4K9Gy5PQogIdFfiSFE1bMcVRJ7Anir8Z_xhWzoJmJkWm1bns7Rpg9JvlgVd2HL-DL4H-XOOlkXcFa6CMK9EOZtiXEO57f-6Tzl6m_7vKJU4s7MWxuzFISTWA7hfllfaTwQnEoX4H8ycJ5-DTSCEqJAN7jSfLQpOOmIGLCvRRiGtXz2OhAntxWnD-1obS7JXP2Vu8GObgTD31FDyaRO2LJ_T4D9E4X6NOBljs2Yk_RhgjBPgQCXLBZ5QEIBhRGsFyLi2YFn1-aEQg7htG0-EGscnqfU4tnMfJFtpkdznyodR6Dtp32qx9hWmrdoyovNOBUgJK4SojCD0RIVI9OC5oewmtX-NRNMzLSCW-KHW0lfw%2C&sponsored=1
+                      - link "Подарочная карта Netflix 500 лир TL Турция / Подписка Netflix / Пополнение счета, цифровой код" [ref=e1058]
+                    - link "Цена 1 861 ₽" [ref=e1063] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-netflix-500-lir-tl-turtsiya--podpiska-netflix--popolneniye-scheta-tsifrovoy-kod/103833772183?do-waremd5=oh9Tz54cDX4o9ljCshdDaA&showUid=17743456257858329503206005&cpa=1&cpc=m7gCLR1ql58ABQguUEuMKH167-sTJl4a4K9Gy5PQogIdFfiSFE1bMcVRJ7Anir8Z_xhWzoJmJkWm1bns7Rpg9JvlgVd2HL-DL4H-XOOlkXcFa6CMK9EOZtiXEO57f-6Tzl6m_7vKJU4s7MWxuzFISTWA7hfllfaTwQnEoX4H8ycJ5-DTSCEqJAN7jSfLQpOOmIGLCvRRiGtXz2OhAntxWnD-1obS7JXP2Vu8GObgTD31FDyaRO2LJ_T4D9E4X6NOBljs2Yk_RhgjBPgQCXLBZ5QEIBhRGsFyLi2YFn1-aEQg7htG0-EGscnqfU4tnMfJFtpkdznyodR6Dtp32qx9hWmrdoyovNOBUgJK4SojCD0RIVI9OC5oewmtX-NRNMzLSCW-KHW0lfw%2C&sponsored=1
+                      - generic [ref=e1065]:
+                        - generic [ref=e1066]: Цена 1 861 ₽
+                        - generic [ref=e1069]:
+                          - generic [ref=e1070]: 1 861
+                          - generic [ref=e1071]: ₽
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]:
+                        - generic [ref=e1074]: "Рейтинг товара: 4.8 из 5"
+                        - generic [ref=e1075]: на основе 65 оценок
+                        - generic [ref=e1076]:
+                          - generic [ref=e1077]: "4.8"
+                          - generic [ref=e1079]: 65 оценок
+                      - generic [ref=e1082]:
+                        - generic [ref=e1084]: Сегодня
+                        - text: ","
+                        - generic [ref=e1085]: эл. почта
+                    - link [ref=e1087] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-netflix-500-lir-tl-turtsiya--podpiska-netflix--popolneniye-scheta-tsifrovoy-kod/103833772183?do-waremd5=oh9Tz54cDX4o9ljCshdDaA&showUid=17743456257858329503206005&cpa=1&cpc=m7gCLR1ql58ABQguUEuMKH167-sTJl4a4K9Gy5PQogIdFfiSFE1bMcVRJ7Anir8Z_xhWzoJmJkWm1bns7Rpg9JvlgVd2HL-DL4H-XOOlkXcFa6CMK9EOZtiXEO57f-6Tzl6m_7vKJU4s7MWxuzFISTWA7hfllfaTwQnEoX4H8ycJ5-DTSCEqJAN7jSfLQpOOmIGLCvRRiGtXz2OhAntxWnD-1obS7JXP2Vu8GObgTD31FDyaRO2LJ_T4D9E4X6NOBljs2Yk_RhgjBPgQCXLBZ5QEIBhRGsFyLi2YFn1-aEQg7htG0-EGscnqfU4tnMfJFtpkdznyodR6Dtp32qx9hWmrdoyovNOBUgJK4SojCD0RIVI9OC5oewmtX-NRNMzLSCW-KHW0lfw%2C&sponsored=1
+                - listitem [ref=e1088]:
+                  - generic [ref=e1092]:
+                    - generic [ref=e1094]:
+                      - link "Подарочная карта оплаты Google Play на 10 USD долларов США | моментально | оригинальный код Gift Card USA" [ref=e1096] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10--ssha--originalnyy-kod/4564688623?do-waremd5=qvaFBzqdiRrT8Yr3Vc4Wnw&showUid=17743456257787751332206006&cpa=1&cpc=m7gCLR1ql59Bg4lsCW4FSqw-wF-8g3d0deXpESBjWuQsM05mwk0yZ6bIcIGxNm9_E9J9NMotKaQkTLnl2-YiR82CZcNI2mBgh4uQRtJe24sfELxdZ-yLWHfaX8Ngg2Rvh_6W_zB9cXLGE5SowBMbMV3GfSNFpWWBHfUQ0uEzJN_fhmDkq-cPX2N_LE1ouWC4qLqv4APTjI76E6_tKGpFD9kElYIKDo7xGxj3nhzPoyoB8D2IHAKkxgBzO-Opg7gCfv3EzOLq87ThY4wwbJp0GrDDj0cgXLHd1zDX8hniZF_M3mHr04Yj_A6NxdeaCK9qNB1WFLWZ-aRaSZP5w_6esnqmwLnsKlDw6HkdscQBAFQk3wABBScLk4z_vM9E7xIflUWp_p6SWZE%2C&sponsored=1
+                        - img "Подарочная карта оплаты Google Play на 10 USD долларов США | моментально | оригинальный код Gift Card USA" [ref=e1104]
+                      - button "Добавить в избранное" [ref=e1110] [cursor=pointer]
+                      - button "В корзину" [ref=e1115] [cursor=pointer]
+                    - link "Подарочная карта оплаты Google Play на 10 USD долларов США | моментально | оригинальный код Gift Card USA" [ref=e1120] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10--ssha--originalnyy-kod/4564688623?do-waremd5=qvaFBzqdiRrT8Yr3Vc4Wnw&showUid=17743456257787751332206006&cpa=1&cpc=m7gCLR1ql59Bg4lsCW4FSqw-wF-8g3d0deXpESBjWuQsM05mwk0yZ6bIcIGxNm9_E9J9NMotKaQkTLnl2-YiR82CZcNI2mBgh4uQRtJe24sfELxdZ-yLWHfaX8Ngg2Rvh_6W_zB9cXLGE5SowBMbMV3GfSNFpWWBHfUQ0uEzJN_fhmDkq-cPX2N_LE1ouWC4qLqv4APTjI76E6_tKGpFD9kElYIKDo7xGxj3nhzPoyoB8D2IHAKkxgBzO-Opg7gCfv3EzOLq87ThY4wwbJp0GrDDj0cgXLHd1zDX8hniZF_M3mHr04Yj_A6NxdeaCK9qNB1WFLWZ-aRaSZP5w_6esnqmwLnsKlDw6HkdscQBAFQk3wABBScLk4z_vM9E7xIflUWp_p6SWZE%2C&sponsored=1
+                      - link "Подарочная карта оплаты Google Play на 10 USD долларов США | моментально | оригинальный код Gift Card USA" [ref=e1121]
+                    - link "Цена 1 875 ₽" [ref=e1126] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10--ssha--originalnyy-kod/4564688623?do-waremd5=qvaFBzqdiRrT8Yr3Vc4Wnw&showUid=17743456257787751332206006&cpa=1&cpc=m7gCLR1ql59Bg4lsCW4FSqw-wF-8g3d0deXpESBjWuQsM05mwk0yZ6bIcIGxNm9_E9J9NMotKaQkTLnl2-YiR82CZcNI2mBgh4uQRtJe24sfELxdZ-yLWHfaX8Ngg2Rvh_6W_zB9cXLGE5SowBMbMV3GfSNFpWWBHfUQ0uEzJN_fhmDkq-cPX2N_LE1ouWC4qLqv4APTjI76E6_tKGpFD9kElYIKDo7xGxj3nhzPoyoB8D2IHAKkxgBzO-Opg7gCfv3EzOLq87ThY4wwbJp0GrDDj0cgXLHd1zDX8hniZF_M3mHr04Yj_A6NxdeaCK9qNB1WFLWZ-aRaSZP5w_6esnqmwLnsKlDw6HkdscQBAFQk3wABBScLk4z_vM9E7xIflUWp_p6SWZE%2C&sponsored=1
+                      - generic [ref=e1128]:
+                        - generic [ref=e1129]: Цена 1 875 ₽
+                        - generic [ref=e1132]:
+                          - generic [ref=e1133]: 1 875
+                          - generic [ref=e1134]: ₽
+                    - generic [ref=e1135]:
+                      - generic [ref=e1136]:
+                        - generic [ref=e1137]: "Рейтинг товара: 2.1 из 5"
+                        - generic [ref=e1138]: на основе 48 оценок
+                        - generic [ref=e1139]:
+                          - generic [ref=e1140]: "2.1"
+                          - generic [ref=e1142]: 48 оценок
+                      - generic [ref=e1145]:
+                        - generic [ref=e1147]: Сегодня
+                        - text: ","
+                        - generic [ref=e1148]: эл. почта
+                    - link [ref=e1150] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10--ssha--originalnyy-kod/4564688623?do-waremd5=qvaFBzqdiRrT8Yr3Vc4Wnw&showUid=17743456257787751332206006&cpa=1&cpc=m7gCLR1ql59Bg4lsCW4FSqw-wF-8g3d0deXpESBjWuQsM05mwk0yZ6bIcIGxNm9_E9J9NMotKaQkTLnl2-YiR82CZcNI2mBgh4uQRtJe24sfELxdZ-yLWHfaX8Ngg2Rvh_6W_zB9cXLGE5SowBMbMV3GfSNFpWWBHfUQ0uEzJN_fhmDkq-cPX2N_LE1ouWC4qLqv4APTjI76E6_tKGpFD9kElYIKDo7xGxj3nhzPoyoB8D2IHAKkxgBzO-Opg7gCfv3EzOLq87ThY4wwbJp0GrDDj0cgXLHd1zDX8hniZF_M3mHr04Yj_A6NxdeaCK9qNB1WFLWZ-aRaSZP5w_6esnqmwLnsKlDw6HkdscQBAFQk3wABBScLk4z_vM9E7xIflUWp_p6SWZE%2C&sponsored=1
+                - listitem [ref=e1151]:
+                  - generic [ref=e1155]:
+                    - generic [ref=e1157]:
+                      - link "Пополнение Google Play Индия на 200 рупий (INR) / цифровой код / мгновенная отправка кода" [ref=e1159] [cursor=pointer]:
+                        - /url: /card/popolneniye-google-play-indiya-na-200-rupiy-inr--tsifrovoy-kod--mgnovennaya-otpravka-koda/5221205458?do-waremd5=SgtlAYk_e-ZmvSnE1KxYWw&showUid=17743456257777618881706007&cpa=1&cpc=m7gCLR1ql5-P6oZEIQeSSiuqIqsFPBCfTziHQ_5mlR6YoWZW4xg4FwCxllR-7Fj0t0y5Iloe2JPF_jBJ2gPYE8eWktjdS4A-p6fHaj7i3xuSP42nHFg261bqHREJGgraReu3x0ivk6X-KUEr65-iLN8opU-ATZUxkEKvt-08Ko09hvJ_wmx-kfLM-o3yp0GFkAUYPmrWBeyPejuBYgnszTr5qooSt89t5y9vv7eb6tugD-UsleoQOZZtWi-LNpuZZUWms7C2xRJstIeE7-tQ9DC9NymLPlhRDciGDSLzo_BGVLlm1umFW9HDInTlROq5WSk0ue16uiRLutsxcjAcvjNPOtliJcfa
+                        - img "Пополнение Google Play Индия на 200 рупий (INR) / цифровой код / мгновенная отправка кода" [ref=e1167]
+                      - button "Добавить в избранное" [ref=e1173] [cursor=pointer]
+                      - button "В корзину" [ref=e1178] [cursor=pointer]
+                    - link "Пополнение Google Play Индия на 200 рупий (INR) / цифровой код / мгновенная отправка кода" [ref=e1183] [cursor=pointer]:
+                      - /url: /card/popolneniye-google-play-indiya-na-200-rupiy-inr--tsifrovoy-kod--mgnovennaya-otpravka-koda/5221205458?do-waremd5=SgtlAYk_e-ZmvSnE1KxYWw&showUid=17743456257777618881706007&cpa=1&cpc=m7gCLR1ql5-P6oZEIQeSSiuqIqsFPBCfTziHQ_5mlR6YoWZW4xg4FwCxllR-7Fj0t0y5Iloe2JPF_jBJ2gPYE8eWktjdS4A-p6fHaj7i3xuSP42nHFg261bqHREJGgraReu3x0ivk6X-KUEr65-iLN8opU-ATZUxkEKvt-08Ko09hvJ_wmx-kfLM-o3yp0GFkAUYPmrWBeyPejuBYgnszTr5qooSt89t5y9vv7eb6tugD-UsleoQOZZtWi-LNpuZZUWms7C2xRJstIeE7-tQ9DC9NymLPlhRDciGDSLzo_BGVLlm1umFW9HDInTlROq5WSk0ue16uiRLutsxcjAcvjNPOtliJcfa
+                      - link "Пополнение Google Play Индия на 200 рупий (INR) / цифровой код / мгновенная отправка кода" [ref=e1184]
+                    - link "Цена 275 ₽" [ref=e1189] [cursor=pointer]:
+                      - /url: /card/popolneniye-google-play-indiya-na-200-rupiy-inr--tsifrovoy-kod--mgnovennaya-otpravka-koda/5221205458?do-waremd5=SgtlAYk_e-ZmvSnE1KxYWw&showUid=17743456257777618881706007&cpa=1&cpc=m7gCLR1ql5-P6oZEIQeSSiuqIqsFPBCfTziHQ_5mlR6YoWZW4xg4FwCxllR-7Fj0t0y5Iloe2JPF_jBJ2gPYE8eWktjdS4A-p6fHaj7i3xuSP42nHFg261bqHREJGgraReu3x0ivk6X-KUEr65-iLN8opU-ATZUxkEKvt-08Ko09hvJ_wmx-kfLM-o3yp0GFkAUYPmrWBeyPejuBYgnszTr5qooSt89t5y9vv7eb6tugD-UsleoQOZZtWi-LNpuZZUWms7C2xRJstIeE7-tQ9DC9NymLPlhRDciGDSLzo_BGVLlm1umFW9HDInTlROq5WSk0ue16uiRLutsxcjAcvjNPOtliJcfa
+                      - generic [ref=e1191]:
+                        - generic [ref=e1192]: Цена 275 ₽
+                        - generic [ref=e1195]:
+                          - generic [ref=e1196]: "275"
+                          - generic [ref=e1197]: ₽
+                    - generic [ref=e1198]:
+                      - generic [ref=e1199]:
+                        - generic [ref=e1200]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1201]: на основе 2 оценки
+                        - generic [ref=e1202]:
+                          - generic [ref=e1203]: "5.0"
+                          - generic [ref=e1205]: 2 оценки
+                      - generic [ref=e1208]:
+                        - generic [ref=e1210]: Сегодня
+                        - text: ","
+                        - generic [ref=e1211]: эл. почта
+                    - link [ref=e1213] [cursor=pointer]:
+                      - /url: /card/popolneniye-google-play-indiya-na-200-rupiy-inr--tsifrovoy-kod--mgnovennaya-otpravka-koda/5221205458?do-waremd5=SgtlAYk_e-ZmvSnE1KxYWw&showUid=17743456257777618881706007&cpa=1&cpc=m7gCLR1ql5-P6oZEIQeSSiuqIqsFPBCfTziHQ_5mlR6YoWZW4xg4FwCxllR-7Fj0t0y5Iloe2JPF_jBJ2gPYE8eWktjdS4A-p6fHaj7i3xuSP42nHFg261bqHREJGgraReu3x0ivk6X-KUEr65-iLN8opU-ATZUxkEKvt-08Ko09hvJ_wmx-kfLM-o3yp0GFkAUYPmrWBeyPejuBYgnszTr5qooSt89t5y9vv7eb6tugD-UsleoQOZZtWi-LNpuZZUWms7C2xRJstIeE7-tQ9DC9NymLPlhRDciGDSLzo_BGVLlm1umFW9HDInTlROq5WSk0ue16uiRLutsxcjAcvjNPOtliJcfa
+                - listitem [ref=e1214]:
+                  - generic [ref=e1218]:
+                    - generic [ref=e1220]:
+                      - link "Подарочная карта оплаты Google Play на 1000 TRY лир Турция | моментально | оригинальный код Gift Card Turkey" [ref=e1222] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---turtsiya--originalnyy-kod/4563214113?do-waremd5=5sMxV6feaESkQ-rVZTIivQ&showUid=17743456257787711327406008&cpa=1&cpc=m7gCLR1ql58o2M1Bj4A4ynds33OSBpy64kWsoXz4ZYv9gbJ5YAKLZwxcpT7qLwYcY7Tv08i6zxJwZvT_U_hd1fBaQ4Eadom7ZW9rDJJFzFnVl4pBpFaILxedFG1lcNKrrW1Co55cE9Cf9RyFhoqqty5FYig1ZS3BzwrKm4xX99JitUFoZDCl930WMLNzAgsNsP0nqbqeOHNYC4qq-TY0BDWBsU8ecin_kHVsxebXk2tsnRkWZ8n7P3qNCZpikrcNnZtm--iGTdgAfsYFHqaIkszwQDihJtmhi1IbDbahSKJFuVkuiVqLjf93NoXLruRCn1kaLDmBcpyOWiRHERqWHW4QU11iBRg2orm6SMi4oNZ6xsTk8N7rmpTjt-JzgpuzSlX6iJcUm3fha1dDz8d66Q%2C%2C&sponsored=1
+                        - img "Подарочная карта оплаты Google Play на 1000 TRY лир Турция | моментально | оригинальный код Gift Card Turkey" [ref=e1230]
+                      - button "Добавить в избранное" [ref=e1236] [cursor=pointer]
+                      - button "В корзину" [ref=e1241] [cursor=pointer]
+                    - link "Подарочная карта оплаты Google Play на 1000 TRY лир Турция | моментально | оригинальный код Gift Card Turkey" [ref=e1246] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---turtsiya--originalnyy-kod/4563214113?do-waremd5=5sMxV6feaESkQ-rVZTIivQ&showUid=17743456257787711327406008&cpa=1&cpc=m7gCLR1ql58o2M1Bj4A4ynds33OSBpy64kWsoXz4ZYv9gbJ5YAKLZwxcpT7qLwYcY7Tv08i6zxJwZvT_U_hd1fBaQ4Eadom7ZW9rDJJFzFnVl4pBpFaILxedFG1lcNKrrW1Co55cE9Cf9RyFhoqqty5FYig1ZS3BzwrKm4xX99JitUFoZDCl930WMLNzAgsNsP0nqbqeOHNYC4qq-TY0BDWBsU8ecin_kHVsxebXk2tsnRkWZ8n7P3qNCZpikrcNnZtm--iGTdgAfsYFHqaIkszwQDihJtmhi1IbDbahSKJFuVkuiVqLjf93NoXLruRCn1kaLDmBcpyOWiRHERqWHW4QU11iBRg2orm6SMi4oNZ6xsTk8N7rmpTjt-JzgpuzSlX6iJcUm3fha1dDz8d66Q%2C%2C&sponsored=1
+                      - link "Подарочная карта оплаты Google Play на 1000 TRY лир Турция | моментально | оригинальный код Gift Card Turkey" [ref=e1247]
+                    - link "Цена 4 294 ₽" [ref=e1252] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---turtsiya--originalnyy-kod/4563214113?do-waremd5=5sMxV6feaESkQ-rVZTIivQ&showUid=17743456257787711327406008&cpa=1&cpc=m7gCLR1ql58o2M1Bj4A4ynds33OSBpy64kWsoXz4ZYv9gbJ5YAKLZwxcpT7qLwYcY7Tv08i6zxJwZvT_U_hd1fBaQ4Eadom7ZW9rDJJFzFnVl4pBpFaILxedFG1lcNKrrW1Co55cE9Cf9RyFhoqqty5FYig1ZS3BzwrKm4xX99JitUFoZDCl930WMLNzAgsNsP0nqbqeOHNYC4qq-TY0BDWBsU8ecin_kHVsxebXk2tsnRkWZ8n7P3qNCZpikrcNnZtm--iGTdgAfsYFHqaIkszwQDihJtmhi1IbDbahSKJFuVkuiVqLjf93NoXLruRCn1kaLDmBcpyOWiRHERqWHW4QU11iBRg2orm6SMi4oNZ6xsTk8N7rmpTjt-JzgpuzSlX6iJcUm3fha1dDz8d66Q%2C%2C&sponsored=1
+                      - generic [ref=e1254]:
+                        - generic [ref=e1255]: Цена 4 294 ₽
+                        - generic [ref=e1258]:
+                          - generic [ref=e1259]: 4 294
+                          - generic [ref=e1260]: ₽
+                    - generic [ref=e1261]:
+                      - generic [ref=e1262]:
+                        - generic [ref=e1263]: "Рейтинг товара: 2.8 из 5"
+                        - generic [ref=e1264]: на основе 18 оценок
+                        - generic [ref=e1265]:
+                          - generic [ref=e1266]: "2.8"
+                          - generic [ref=e1268]: 18 оценок
+                      - generic [ref=e1271]:
+                        - generic [ref=e1273]: Сегодня
+                        - text: ","
+                        - generic [ref=e1274]: эл. почта
+                    - link [ref=e1276] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---turtsiya--originalnyy-kod/4563214113?do-waremd5=5sMxV6feaESkQ-rVZTIivQ&showUid=17743456257787711327406008&cpa=1&cpc=m7gCLR1ql58o2M1Bj4A4ynds33OSBpy64kWsoXz4ZYv9gbJ5YAKLZwxcpT7qLwYcY7Tv08i6zxJwZvT_U_hd1fBaQ4Eadom7ZW9rDJJFzFnVl4pBpFaILxedFG1lcNKrrW1Co55cE9Cf9RyFhoqqty5FYig1ZS3BzwrKm4xX99JitUFoZDCl930WMLNzAgsNsP0nqbqeOHNYC4qq-TY0BDWBsU8ecin_kHVsxebXk2tsnRkWZ8n7P3qNCZpikrcNnZtm--iGTdgAfsYFHqaIkszwQDihJtmhi1IbDbahSKJFuVkuiVqLjf93NoXLruRCn1kaLDmBcpyOWiRHERqWHW4QU11iBRg2orm6SMi4oNZ6xsTk8N7rmpTjt-JzgpuzSlX6iJcUm3fha1dDz8d66Q%2C%2C&sponsored=1
+                - listitem [ref=e1277]:
+                  - generic [ref=e1281]:
+                    - generic [ref=e1283]:
+                      - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e1285] [cursor=pointer]:
+                        - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743456257747172001406009&cpa=1&cpc=m7gCLR1ql5-VkaXDneKar-Dk-VlM1mAVP429gwDqfWAi2YvMC3H8N3hhhnO3b2T5i6jItgY8PmuKwA0urYu9YepZIIBJ2cFaXFnwHh3c5ox3fCfpH4or3c2TRChwh1php2eMGg2LAcIpt2jiBfiRKCC_G4VG0uaRrCHU6a22BdQe2giik81q14LVQfQ0p6nFqMNiWuDVHIRFgEcrmggd4h_URbTaksy7P2pv4r2Ybqrj830b8zxD1JgYQ1UccWU5z4FDt8Kx7sDM75K4wOzxc5UGNkktngE9tyuBVTplN8Yx9let2vK6qbEuC3dRXszh
+                        - img "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e1293]
+                      - button "Добавить в избранное" [ref=e1299] [cursor=pointer]
+                      - button "В корзину" [ref=e1304] [cursor=pointer]
+                    - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e1309] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743456257747172001406009&cpa=1&cpc=m7gCLR1ql5-VkaXDneKar-Dk-VlM1mAVP429gwDqfWAi2YvMC3H8N3hhhnO3b2T5i6jItgY8PmuKwA0urYu9YepZIIBJ2cFaXFnwHh3c5ox3fCfpH4or3c2TRChwh1php2eMGg2LAcIpt2jiBfiRKCC_G4VG0uaRrCHU6a22BdQe2giik81q14LVQfQ0p6nFqMNiWuDVHIRFgEcrmggd4h_URbTaksy7P2pv4r2Ybqrj830b8zxD1JgYQ1UccWU5z4FDt8Kx7sDM75K4wOzxc5UGNkktngE9tyuBVTplN8Yx9let2vK6qbEuC3dRXszh
+                      - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e1310]
+                    - link "Цена 15 ₽" [ref=e1315] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743456257747172001406009&cpa=1&cpc=m7gCLR1ql5-VkaXDneKar-Dk-VlM1mAVP429gwDqfWAi2YvMC3H8N3hhhnO3b2T5i6jItgY8PmuKwA0urYu9YepZIIBJ2cFaXFnwHh3c5ox3fCfpH4or3c2TRChwh1php2eMGg2LAcIpt2jiBfiRKCC_G4VG0uaRrCHU6a22BdQe2giik81q14LVQfQ0p6nFqMNiWuDVHIRFgEcrmggd4h_URbTaksy7P2pv4r2Ybqrj830b8zxD1JgYQ1UccWU5z4FDt8Kx7sDM75K4wOzxc5UGNkktngE9tyuBVTplN8Yx9let2vK6qbEuC3dRXszh
+                      - generic [ref=e1317]:
+                        - generic [ref=e1318]: Цена 15 ₽
+                        - generic [ref=e1321]:
+                          - generic [ref=e1322]: "15"
+                          - generic [ref=e1323]: ₽
+                    - generic [ref=e1324]:
+                      - generic [ref=e1325]:
+                        - generic [ref=e1326]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1327]: на основе 2 оценки
+                        - generic [ref=e1328]:
+                          - generic [ref=e1329]: "5.0"
+                          - generic [ref=e1331]: 2 оценки
+                      - generic [ref=e1334]:
+                        - generic [ref=e1336]: Сегодня
+                        - text: ","
+                        - generic [ref=e1337]: эл. почта
+                    - link [ref=e1339] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743456257747172001406009&cpa=1&cpc=m7gCLR1ql5-VkaXDneKar-Dk-VlM1mAVP429gwDqfWAi2YvMC3H8N3hhhnO3b2T5i6jItgY8PmuKwA0urYu9YepZIIBJ2cFaXFnwHh3c5ox3fCfpH4or3c2TRChwh1php2eMGg2LAcIpt2jiBfiRKCC_G4VG0uaRrCHU6a22BdQe2giik81q14LVQfQ0p6nFqMNiWuDVHIRFgEcrmggd4h_URbTaksy7P2pv4r2Ybqrj830b8zxD1JgYQ1UccWU5z4FDt8Kx7sDM75K4wOzxc5UGNkktngE9tyuBVTplN8Yx9let2vK6qbEuC3dRXszh
+                - listitem [ref=e1340]:
+                  - generic [ref=e1344]:
+                    - generic [ref=e1346]:
+                      - link "Подарочная карта оплаты Google Play на 3000 JPY йен Япония | моментально | оригинальный код Gift Card Japan" [ref=e1348] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-30000---yaponiya--originalnyy-kod/4582215249?do-waremd5=RBjoYpr8_5emlLlIDMTG8g&showUid=17743456257797905906406010&cpa=1&cpc=m7gCLR1ql5-KiLlZsT_ENdks2jhvkWUfLjV8MsYES3PXXrLHLsaTSAFV96yzinWDenhpfjHekCcXB3_zmmJ1lFs9bBwVD_qNCGTtB77uVN-vr8HbDxu_TdgtN6ujVrGz1hmlaxlqHuLqlYCXSsoNg-dtX1ou_2EiVaPh5V0fP80sYcp6zpmx4d6-MoqrbM_kIdQMKpaeor0jBnbrCZT3mBMi7V6saR6LYp-ok8JGN28UoYD4-VxNd9HmouFwFYIEHLB11yx6W5WVL99q-QApar4xRkynrWs9-qfi_iaBerTnunWLPXh_5ZPQXfQRjyP0mv_liDt1AKZvwBU1as36Oy0rz0dcB7JswTYwhC-i-7qqcUMqXa9C9b2Jo82HoKq_shTbzuY-KsJPEAyMcZvcjw%2C%2C&sponsored=1
+                        - img "Подарочная карта оплаты Google Play на 3000 JPY йен Япония | моментально | оригинальный код Gift Card Japan" [ref=e1356]
+                      - button "Добавить в избранное" [ref=e1362] [cursor=pointer]
+                      - button "В корзину" [ref=e1367] [cursor=pointer]
+                    - link "Подарочная карта оплаты Google Play на 3000 JPY йен Япония | моментально | оригинальный код Gift Card Japan" [ref=e1372] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-30000---yaponiya--originalnyy-kod/4582215249?do-waremd5=RBjoYpr8_5emlLlIDMTG8g&showUid=17743456257797905906406010&cpa=1&cpc=m7gCLR1ql5-KiLlZsT_ENdks2jhvkWUfLjV8MsYES3PXXrLHLsaTSAFV96yzinWDenhpfjHekCcXB3_zmmJ1lFs9bBwVD_qNCGTtB77uVN-vr8HbDxu_TdgtN6ujVrGz1hmlaxlqHuLqlYCXSsoNg-dtX1ou_2EiVaPh5V0fP80sYcp6zpmx4d6-MoqrbM_kIdQMKpaeor0jBnbrCZT3mBMi7V6saR6LYp-ok8JGN28UoYD4-VxNd9HmouFwFYIEHLB11yx6W5WVL99q-QApar4xRkynrWs9-qfi_iaBerTnunWLPXh_5ZPQXfQRjyP0mv_liDt1AKZvwBU1as36Oy0rz0dcB7JswTYwhC-i-7qqcUMqXa9C9b2Jo82HoKq_shTbzuY-KsJPEAyMcZvcjw%2C%2C&sponsored=1
+                      - link "Подарочная карта оплаты Google Play на 3000 JPY йен Япония | моментально | оригинальный код Gift Card Japan" [ref=e1373]
+                    - link "Цена 4 459 ₽" [ref=e1378] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-30000---yaponiya--originalnyy-kod/4582215249?do-waremd5=RBjoYpr8_5emlLlIDMTG8g&showUid=17743456257797905906406010&cpa=1&cpc=m7gCLR1ql5-KiLlZsT_ENdks2jhvkWUfLjV8MsYES3PXXrLHLsaTSAFV96yzinWDenhpfjHekCcXB3_zmmJ1lFs9bBwVD_qNCGTtB77uVN-vr8HbDxu_TdgtN6ujVrGz1hmlaxlqHuLqlYCXSsoNg-dtX1ou_2EiVaPh5V0fP80sYcp6zpmx4d6-MoqrbM_kIdQMKpaeor0jBnbrCZT3mBMi7V6saR6LYp-ok8JGN28UoYD4-VxNd9HmouFwFYIEHLB11yx6W5WVL99q-QApar4xRkynrWs9-qfi_iaBerTnunWLPXh_5ZPQXfQRjyP0mv_liDt1AKZvwBU1as36Oy0rz0dcB7JswTYwhC-i-7qqcUMqXa9C9b2Jo82HoKq_shTbzuY-KsJPEAyMcZvcjw%2C%2C&sponsored=1
+                      - generic [ref=e1380]:
+                        - generic [ref=e1381]: Цена 4 459 ₽
+                        - generic [ref=e1384]:
+                          - generic [ref=e1385]: 4 459
+                          - generic [ref=e1386]: ₽
+                    - generic [ref=e1387]:
+                      - generic [ref=e1388]:
+                        - generic [ref=e1389]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1390]: на основе 2 оценки
+                        - generic [ref=e1391]:
+                          - generic [ref=e1392]: "5.0"
+                          - generic [ref=e1394]: 2 оценки
+                      - generic [ref=e1397]:
+                        - generic [ref=e1399]: Сегодня
+                        - text: ","
+                        - generic [ref=e1400]: эл. почта
+                    - link [ref=e1402] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-30000---yaponiya--originalnyy-kod/4582215249?do-waremd5=RBjoYpr8_5emlLlIDMTG8g&showUid=17743456257797905906406010&cpa=1&cpc=m7gCLR1ql5-KiLlZsT_ENdks2jhvkWUfLjV8MsYES3PXXrLHLsaTSAFV96yzinWDenhpfjHekCcXB3_zmmJ1lFs9bBwVD_qNCGTtB77uVN-vr8HbDxu_TdgtN6ujVrGz1hmlaxlqHuLqlYCXSsoNg-dtX1ou_2EiVaPh5V0fP80sYcp6zpmx4d6-MoqrbM_kIdQMKpaeor0jBnbrCZT3mBMi7V6saR6LYp-ok8JGN28UoYD4-VxNd9HmouFwFYIEHLB11yx6W5WVL99q-QApar4xRkynrWs9-qfi_iaBerTnunWLPXh_5ZPQXfQRjyP0mv_liDt1AKZvwBU1as36Oy0rz0dcB7JswTYwhC-i-7qqcUMqXa9C9b2Jo82HoKq_shTbzuY-KsJPEAyMcZvcjw%2C%2C&sponsored=1
+                - listitem [ref=e1403]:
+                  - generic [ref=e1407]:
+                    - generic [ref=e1409]:
+                      - link "Подписка Gemini 3 Pro + Veo 3 + Nano Banana 2 PRO 12 месяцев - Готовый аккаунт 12 000 credits" [ref=e1411] [cursor=pointer]:
+                        - /url: /card/podpiska-gemini-3-pro--veo-3--nano-banana-pro-12-mesyatsev---gotovyy-akkaunt-12-000-credits/5146981923?do-waremd5=vN6XAUWTOO9q1f-WCHlYkA&showUid=17743456257757274521406011&cpa=1&cpc=m7gCLR1ql5_rpfusuNeOnB80so0Cv08OpqxgKpamsiwABHKTa7bCz-C5sylN7RnV3aq6vOtUYs0qVJNHPLiY3kPtZRoU_gwWvdyQN_Bu2nUaVnJIeS1-tc7QDKW5Xc4DyQpLm-40ROp32B4oU_bv1Ml_vNAsVq-G51nIyJMsXFSRQzyU352EOAjfv2757IndXqzgDdFLwO0wdQfuW2mNezKgIOWbL0hhT1mzR__NTgdpX2Nd-W43s169Kw3t-T4x2iywhC35nld8WYZwOCPUQHL6pwAXoziZ9j6zXu0mQpN7GB4Ph_DunyO4K5Re3MKKz8MfKf5_XU0glUCMONrI-EG3fY6AdEQRofDUlpIjySQ%2C
+                        - img "Подписка Gemini 3 Pro + Veo 3 + Nano Banana 2 PRO 12 месяцев - Готовый аккаунт 12 000 credits" [ref=e1419]
+                      - button "Добавить в избранное" [ref=e1425] [cursor=pointer]
+                      - button "В корзину" [ref=e1430] [cursor=pointer]
+                    - link "Подписка Gemini 3 Pro + Veo 3 + Nano Banana 2 PRO 12 месяцев - Готовый аккаунт 12 000 credits" [ref=e1435] [cursor=pointer]:
+                      - /url: /card/podpiska-gemini-3-pro--veo-3--nano-banana-pro-12-mesyatsev---gotovyy-akkaunt-12-000-credits/5146981923?do-waremd5=vN6XAUWTOO9q1f-WCHlYkA&showUid=17743456257757274521406011&cpa=1&cpc=m7gCLR1ql5_rpfusuNeOnB80so0Cv08OpqxgKpamsiwABHKTa7bCz-C5sylN7RnV3aq6vOtUYs0qVJNHPLiY3kPtZRoU_gwWvdyQN_Bu2nUaVnJIeS1-tc7QDKW5Xc4DyQpLm-40ROp32B4oU_bv1Ml_vNAsVq-G51nIyJMsXFSRQzyU352EOAjfv2757IndXqzgDdFLwO0wdQfuW2mNezKgIOWbL0hhT1mzR__NTgdpX2Nd-W43s169Kw3t-T4x2iywhC35nld8WYZwOCPUQHL6pwAXoziZ9j6zXu0mQpN7GB4Ph_DunyO4K5Re3MKKz8MfKf5_XU0glUCMONrI-EG3fY6AdEQRofDUlpIjySQ%2C
+                      - link "Подписка Gemini 3 Pro + Veo 3 + Nano Banana 2 PRO 12 месяцев - Готовый аккаунт 12 000 credits" [ref=e1436]
+                    - link "Цена 891 ₽" [ref=e1441] [cursor=pointer]:
+                      - /url: /card/podpiska-gemini-3-pro--veo-3--nano-banana-pro-12-mesyatsev---gotovyy-akkaunt-12-000-credits/5146981923?do-waremd5=vN6XAUWTOO9q1f-WCHlYkA&showUid=17743456257757274521406011&cpa=1&cpc=m7gCLR1ql5_rpfusuNeOnB80so0Cv08OpqxgKpamsiwABHKTa7bCz-C5sylN7RnV3aq6vOtUYs0qVJNHPLiY3kPtZRoU_gwWvdyQN_Bu2nUaVnJIeS1-tc7QDKW5Xc4DyQpLm-40ROp32B4oU_bv1Ml_vNAsVq-G51nIyJMsXFSRQzyU352EOAjfv2757IndXqzgDdFLwO0wdQfuW2mNezKgIOWbL0hhT1mzR__NTgdpX2Nd-W43s169Kw3t-T4x2iywhC35nld8WYZwOCPUQHL6pwAXoziZ9j6zXu0mQpN7GB4Ph_DunyO4K5Re3MKKz8MfKf5_XU0glUCMONrI-EG3fY6AdEQRofDUlpIjySQ%2C
+                      - generic [ref=e1443]:
+                        - generic [ref=e1444]: Цена 891 ₽
+                        - generic [ref=e1447]:
+                          - generic [ref=e1448]: "891"
+                          - generic [ref=e1449]: ₽
+                    - generic [ref=e1450]:
+                      - generic [ref=e1451]:
+                        - generic [ref=e1452]: "Рейтинг товара: 4.9 из 5"
+                        - generic [ref=e1453]: на основе 15 оценок
+                        - generic [ref=e1454]:
+                          - generic [ref=e1455]: "4.9"
+                          - generic [ref=e1457]: 15 оценок
+                      - generic [ref=e1460]:
+                        - generic [ref=e1462]: Сегодня
+                        - text: ","
+                        - generic [ref=e1463]: эл. почта
+                    - link [ref=e1465] [cursor=pointer]:
+                      - /url: /card/podpiska-gemini-3-pro--veo-3--nano-banana-pro-12-mesyatsev---gotovyy-akkaunt-12-000-credits/5146981923?do-waremd5=vN6XAUWTOO9q1f-WCHlYkA&showUid=17743456257757274521406011&cpa=1&cpc=m7gCLR1ql5_rpfusuNeOnB80so0Cv08OpqxgKpamsiwABHKTa7bCz-C5sylN7RnV3aq6vOtUYs0qVJNHPLiY3kPtZRoU_gwWvdyQN_Bu2nUaVnJIeS1-tc7QDKW5Xc4DyQpLm-40ROp32B4oU_bv1Ml_vNAsVq-G51nIyJMsXFSRQzyU352EOAjfv2757IndXqzgDdFLwO0wdQfuW2mNezKgIOWbL0hhT1mzR__NTgdpX2Nd-W43s169Kw3t-T4x2iywhC35nld8WYZwOCPUQHL6pwAXoziZ9j6zXu0mQpN7GB4Ph_DunyO4K5Re3MKKz8MfKf5_XU0glUCMONrI-EG3fY6AdEQRofDUlpIjySQ%2C
+                - listitem [ref=e1466]:
+                  - generic [ref=e1470]:
+                    - generic [ref=e1472]:
+                      - link "Подарочная карта оплаты Google Play на 1000 INR рупий Индия | моментально | оригинальный код Gift Card India" [ref=e1474] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---indiya--originalnyy-kod/4563189945?do-waremd5=ZQGVl82wfLiq3H_INOs33Q&showUid=17743456257777677825006012&cpa=1&cpc=m7gCLR1ql58_HJ3YCoerBAmxhiQ3U5z9VM8_CH9HFVONxiSEYfE9cmKH_6H-XXFuJWfvX-muoEMepthGy_bog4YZ4UwbM1mtWlayfvaAHlJJjsJU8vrSnGFFco5jGNrO7IjsWhQE52zAhLl59lBVJe3eLTjuxLjhFB52z4su89xKQPMw6KMGb_V5OVv2JzuTn4Sqq1bbyXCjf0QAvSIN3wQZ72-N3kJhtEf7CX0pPZxbnFqoSJCqXROsVq4ZRMmWQYaSbGVuXIeZ8PYrfD7QVMJUnzH9mXSk8mqqcWNSd5g_zJDKhZ56vepogV-RKEHU0VXJN9XeQwLzpvgilVOVq-BmfA9pbTwULjjU147Nx_U%2C&sponsored=1
+                        - img "Подарочная карта оплаты Google Play на 1000 INR рупий Индия | моментально | оригинальный код Gift Card India" [ref=e1482]
+                      - button "Добавить в избранное" [ref=e1488] [cursor=pointer]
+                      - button "В корзину" [ref=e1493] [cursor=pointer]
+                    - link "Подарочная карта оплаты Google Play на 1000 INR рупий Индия | моментально | оригинальный код Gift Card India" [ref=e1498] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---indiya--originalnyy-kod/4563189945?do-waremd5=ZQGVl82wfLiq3H_INOs33Q&showUid=17743456257777677825006012&cpa=1&cpc=m7gCLR1ql58_HJ3YCoerBAmxhiQ3U5z9VM8_CH9HFVONxiSEYfE9cmKH_6H-XXFuJWfvX-muoEMepthGy_bog4YZ4UwbM1mtWlayfvaAHlJJjsJU8vrSnGFFco5jGNrO7IjsWhQE52zAhLl59lBVJe3eLTjuxLjhFB52z4su89xKQPMw6KMGb_V5OVv2JzuTn4Sqq1bbyXCjf0QAvSIN3wQZ72-N3kJhtEf7CX0pPZxbnFqoSJCqXROsVq4ZRMmWQYaSbGVuXIeZ8PYrfD7QVMJUnzH9mXSk8mqqcWNSd5g_zJDKhZ56vepogV-RKEHU0VXJN9XeQwLzpvgilVOVq-BmfA9pbTwULjjU147Nx_U%2C&sponsored=1
+                      - link "Подарочная карта оплаты Google Play на 1000 INR рупий Индия | моментально | оригинальный код Gift Card India" [ref=e1499]
+                    - link "Цена 2 580 ₽" [ref=e1504] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---indiya--originalnyy-kod/4563189945?do-waremd5=ZQGVl82wfLiq3H_INOs33Q&showUid=17743456257777677825006012&cpa=1&cpc=m7gCLR1ql58_HJ3YCoerBAmxhiQ3U5z9VM8_CH9HFVONxiSEYfE9cmKH_6H-XXFuJWfvX-muoEMepthGy_bog4YZ4UwbM1mtWlayfvaAHlJJjsJU8vrSnGFFco5jGNrO7IjsWhQE52zAhLl59lBVJe3eLTjuxLjhFB52z4su89xKQPMw6KMGb_V5OVv2JzuTn4Sqq1bbyXCjf0QAvSIN3wQZ72-N3kJhtEf7CX0pPZxbnFqoSJCqXROsVq4ZRMmWQYaSbGVuXIeZ8PYrfD7QVMJUnzH9mXSk8mqqcWNSd5g_zJDKhZ56vepogV-RKEHU0VXJN9XeQwLzpvgilVOVq-BmfA9pbTwULjjU147Nx_U%2C&sponsored=1
+                      - generic [ref=e1506]:
+                        - generic [ref=e1507]: Цена 2 580 ₽
+                        - generic [ref=e1510]:
+                          - generic [ref=e1511]: 2 580
+                          - generic [ref=e1512]: ₽
+                    - generic [ref=e1513]:
+                      - generic [ref=e1514]:
+                        - generic [ref=e1515]: "Рейтинг товара: 3.5 из 5"
+                        - generic [ref=e1516]: на основе 11 оценок
+                        - generic [ref=e1517]:
+                          - generic [ref=e1518]: "3.5"
+                          - generic [ref=e1520]: 11 оценок
+                      - generic [ref=e1523]:
+                        - generic [ref=e1525]: Сегодня
+                        - text: ","
+                        - generic [ref=e1526]: эл. почта
+                    - link [ref=e1528] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-oplaty-google-play-gift-code-na-10000---indiya--originalnyy-kod/4563189945?do-waremd5=ZQGVl82wfLiq3H_INOs33Q&showUid=17743456257777677825006012&cpa=1&cpc=m7gCLR1ql58_HJ3YCoerBAmxhiQ3U5z9VM8_CH9HFVONxiSEYfE9cmKH_6H-XXFuJWfvX-muoEMepthGy_bog4YZ4UwbM1mtWlayfvaAHlJJjsJU8vrSnGFFco5jGNrO7IjsWhQE52zAhLl59lBVJe3eLTjuxLjhFB52z4su89xKQPMw6KMGb_V5OVv2JzuTn4Sqq1bbyXCjf0QAvSIN3wQZ72-N3kJhtEf7CX0pPZxbnFqoSJCqXROsVq4ZRMmWQYaSbGVuXIeZ8PYrfD7QVMJUnzH9mXSk8mqqcWNSd5g_zJDKhZ56vepogV-RKEHU0VXJN9XeQwLzpvgilVOVq-BmfA9pbTwULjjU147Nx_U%2C&sponsored=1
+            - button [ref=e1529] [cursor=pointer]:
+              - img [ref=e1530]
+          - generic [ref=e1532]:
+            - generic [ref=e1537]:
+              - heading "О товаре" [level=2] [ref=e1539]
+              - generic [ref=e1541]:
+                - generic [ref=e1542]:
+                  - generic [ref=e1545]:
+                    - text: Цифровой код для пополнения баланса Google Play (регион — Турция).
+                    - text: Отлично подойдёт для оплаты контента и подписок в Google Play для турецких аккаунтов.
+                    - text: "С помощью подарочной карты вы сможете приобрести:"
+                    - list [ref=e1546]:
+                      - listitem [ref=e1547]: фильмы и сериалы
+                      - listitem [ref=e1548]: книги и аудиокниги
+                      - listitem [ref=e1549]: подписки и цифровой контент в Google Play
+                      - listitem [ref=e1550]: игры
+                    - text: Код поставляется в цифровом формате — быстро и удобно.
+                    - text: "Чтобы код успешно активировался, необходимо соблюдение следующих требований:"
+                    - list [ref=e1551]:
+                      - listitem [ref=e1552]: Google-аккаунт изначально зарегистрирован в Турции
+                      - listitem [ref=e1553]: В аккаунте указаны реальные и корректные данные
+                      - listitem [ref=e1554]: Вы знакомы с принципом работы подарочных карт Google Play и готовы следовать правилам активации
+                    - text: Код не предназначен для аккаунтов других регионов.
+                    - text: Покупая товар, вы подтверждаете, что ваш аккаунт соответствует требованиям
+                  - generic [ref=e1556]:
+                    - button "Показать полностью":
+                      - generic:
+                        - generic: Показать полностью
+                        - img
+                - generic [ref=e1557]:
+                  - generic "Характеристики" [ref=e1564]:
+                    - generic [ref=e1565]:
+                      - generic [ref=e1568]: Общие характеристики
+                      - generic [ref=e1571]:
+                        - generic [ref=e1572]:
+                          - generic [ref=e1574]: Артикул Маркета
+                          - generic [ref=e1578]: "5066804722"
+                        - generic [ref=e1579]:
+                          - generic [ref=e1581]: Бренд
+                          - generic [ref=e1585]: Google
+                        - generic [ref=e1586]:
+                          - generic [ref=e1588]: Территория активации
+                          - generic [ref=e1592]: Турция
+                        - generic [ref=e1593]:
+                          - generic [ref=e1595]: Территория использования
+                          - generic [ref=e1599]: Турция
+                        - generic [ref=e1600]:
+                          - generic [ref=e1602]: Номинал карты
+                          - generic [ref=e1606]: "50"
+                        - generic [ref=e1607]:
+                          - generic [ref=e1609]: Бренд
+                          - generic [ref=e1613]: Google
+                        - generic [ref=e1614]:
+                          - generic [ref=e1616]: Применение
+                          - generic [ref=e1620]: пополнение счета
+                        - generic [ref=e1621]:
+                          - generic [ref=e1623]: Назначение
+                          - generic [ref=e1627]: игры, книги, обучение
+                        - generic [ref=e1628]:
+                          - generic [ref=e1630]: Название сервиса
+                          - generic [ref=e1634]: Google Play
+                        - generic [ref=e1635]:
+                          - generic [ref=e1637]: Активация после покупки
+                          - generic [ref=e1641]: в течение 1 месяца
+                        - generic [ref=e1642]:
+                          - generic [ref=e1644]: Платформа
+                          - generic [ref=e1648]: мобильное устройство
+                        - generic [ref=e1649]:
+                          - generic [ref=e1651]: Совместимость с ОС
+                          - generic [ref=e1655]: Android
+                        - generic [ref=e1656]:
+                          - generic [ref=e1658]: Количество подключаемых аккаунтов
+                          - generic [ref=e1662]: "1"
+                        - generic [ref=e1663]:
+                          - generic [ref=e1665]: Возрастное ограничение
+                          - generic [ref=e1669]: 0+
+                        - generic [ref=e1670]:
+                          - generic [ref=e1672]: Инструкция по активации
+                          - generic [ref=e1676]: После оплаты вы получите инструкцию по активации в чате Яндекс Маркета. Активация занимает не более 1 минуты
+                        - generic [ref=e1677]:
+                          - generic [ref=e1679]: Дополнительная информация
+                          - generic [ref=e1683]: Цифровой товар. Физическая доставка не осуществляется. Передача доступа производится в электронном виде
+                    - generic [ref=e1686]: Перед покупкой уточняйте характеристики и комплектацию у продавца.
+                  - generic [ref=e1688]:
+                    - button "Все характеристики":
+                      - generic:
+                        - heading "Все характеристики" [level=2]
+                        - img
+            - generic [ref=e1693]:
+              - link "Отзывы" [ref=e1695] [cursor=pointer]:
+                - /url: /p/podarochnaia-karta-google-play-25-tl-turtsiia-popolnenie-scheta-gift-card-google-play-turkey/5066775407/5066804722/reviews
+                - heading "Отзывы" [level=2] [ref=e1696]
+              - generic [ref=e1698]:
+                - generic [ref=e1699]:
+                  - generic [ref=e1700]:
+                    - generic [ref=e1710]: "4.3"
+                    - link "23 оценки 19 отзывов" [ref=e1716] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722/reviews?businessReviews=true&offerId=QPFQHAQoJYZvOFByVdOKDg
+                      - generic [ref=e1717]:
+                        - generic [ref=e1718]: 23 оценки
+                        - generic [ref=e1719]: •
+                        - generic [ref=e1720]: 19 отзывов
+                  - generic [ref=e1724]:
+                    - button "review-photo" [ref=e1726] [cursor=pointer]:
+                      - img "review-photo" [ref=e1727]
+                    - button "review-photo" [ref=e1729] [cursor=pointer]:
+                      - img "review-photo" [ref=e1730]
+                - generic [ref=e1735]:
+                  - generic [ref=e1736]:
+                    - generic [ref=e1738]:
+                      - generic [ref=e1740]:
+                        - button [ref=e1742] [cursor=pointer]:
+                          - img [ref=e1744]
+                        - generic [ref=e1745]:
+                          - button "Имя скрыто" [ref=e1747] [cursor=pointer]:
+                            - generic [ref=e1749]: Имя скрыто
+                          - generic [ref=e1758]: 21 февраля
+                      - generic [ref=e1760]:
+                        - text: "Достоинства: цена, срок использования и его простота"
+                        - text: "Недостатки: всё хорошо, недостатки не нашли"
+                        - text: "Комментарий: Активировала за пару минут, всё хорошо. У промокода достаточно долгий срок действия, как что можно не спешить. Отдельно отмечу, что поддержка ответила на все мои вопросы, когда они появились)"
+                    - generic [ref=e1762]:
+                      - generic [ref=e1764]:
+                        - button [ref=e1766] [cursor=pointer]:
+                          - img [ref=e1768]
+                        - generic [ref=e1769]:
+                          - button "Aleksandr h." [ref=e1771] [cursor=pointer]:
+                            - generic [ref=e1773]: Aleksandr h.
+                          - generic [ref=e1782]: Вчера
+                      - generic [ref=e1784]: "Достоинства: Быстро доставили, все активировалось без всяких проблем"
+                    - generic [ref=e1786]:
+                      - generic [ref=e1788]:
+                        - button [ref=e1790] [cursor=pointer]:
+                          - img [ref=e1792]
+                        - generic [ref=e1793]:
+                          - button "Наталья ВЛАДИМИРОВНА" [ref=e1795] [cursor=pointer]:
+                            - generic [ref=e1796]:
+                              - generic [ref=e1797]: Наталья ВЛАДИМИРОВНА
+                              - img [ref=e1799]
+                          - generic [ref=e1809]: Вчера
+                      - generic [ref=e1811]:
+                        - text: "Достоинства: Быстро пришло все активировалась без проблем"
+                        - text: "Недостатки: Их нет"
+                  - button "Показать еще" [ref=e1813] [cursor=pointer]:
+                    - generic [ref=e1814]: Показать еще
+                    - img [ref=e1816]
+    - contentinfo [ref=e1822]:
+      - generic [ref=e1823]:
+        - generic [ref=e1826]:
+          - generic [ref=e1827]:
+            - generic [ref=e1828]:
+              - text: Покупайте в приложении,
+              - text: так ещё удобнее
+            - generic [ref=e1829]:
+              - link "Загрузите в App Store" [ref=e1831] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=market%3Aproduct-osku&adj_fallback=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect_macos=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Google Play" [ref=e1833] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fhl%3Dru%26id%3Dru.beru.android&adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&adj_redirect_macos=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Откройте в AppGallery" [ref=e1835] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=AG&adj_fallback=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect_macos=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Ru Store" [ref=e1837] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-google-play-50-tl--turtsiya--popolneniye-scheta--gift-card-google-play-turkey/5066804722?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect_macos=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+          - generic [ref=e1838]:
+            - img "QR-код" [ref=e1840]
+            - generic [ref=e1841]: Наведите камеру на QR-код, чтобы скачать приложение
+        - generic [ref=e1844]:
+          - generic [ref=e1845]: Категории
+          - generic [ref=e1846]:
+            - link "Досуг и развлечения" [ref=e1847] [cursor=pointer]:
+              - /url: /category/dosug-i-razvlecheniya
+            - link "Мебель" [ref=e1848] [cursor=pointer]:
+              - /url: /category/mebel
+            - link "Бытовая техника" [ref=e1849] [cursor=pointer]:
+              - /url: /category/bytovaya-tekhnika
+            - link "Гигиена" [ref=e1850] [cursor=pointer]:
+              - /url: /category/gigiyena
+            - link "Электроника" [ref=e1851] [cursor=pointer]:
+              - /url: /category/elektronika
+            - link "Одежда и обувь" [ref=e1852] [cursor=pointer]:
+              - /url: /category/odezhda-i-obuv
+            - link "Товары для дома" [ref=e1853] [cursor=pointer]:
+              - /url: /category/tovary-dlya-doma
+            - link "Аптека" [ref=e1854] [cursor=pointer]:
+              - /url: /category/apteka
+            - link "Красота и уход" [ref=e1855] [cursor=pointer]:
+              - /url: /category/krasota-i-ukhod
+            - link "Хобби и творчество" [ref=e1856] [cursor=pointer]:
+              - /url: /category/khobbi-i-tvorchestvo
+            - link "Дача и сад" [ref=e1857] [cursor=pointer]:
+              - /url: /category/dacha-i-sad
+            - link "Книги" [ref=e1858] [cursor=pointer]:
+              - /url: /category/knigi
+            - link "Товары для школы и офиса" [ref=e1859] [cursor=pointer]:
+              - /url: /category/tovary-dlya-shkoly-i-ofisa
+            - link "Спортивные товары" [ref=e1860] [cursor=pointer]:
+              - /url: /category/sportivnyye-tovary
+            - link "Товары для животных" [ref=e1861] [cursor=pointer]:
+              - /url: /category/tovary-dlya-zhivotnykh
+            - link "Строительство и ремонт" [ref=e1862] [cursor=pointer]:
+              - /url: /category/stroitelstvo-i-remont
+            - link "Детские товары" [ref=e1863] [cursor=pointer]:
+              - /url: /category/detskiye-tovary
+            - link "Ювелирные украшения" [ref=e1864] [cursor=pointer]:
+              - /url: /category/yuvelirnyye-ukrasheniya
+        - generic [ref=e1866]:
+          - generic [ref=e1867]:
+            - generic [ref=e1868]: Покупателям
+            - generic [ref=e1869]:
+              - link "Как выбрать товар" [ref=e1870] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/find-product/search
+              - link "Оплата и доставка" [ref=e1871] [cursor=pointer]:
+                - /url: https://market.yandex.ru/my/order/conditions
+              - link "Покупайте как юрлицо" [ref=e1872] [cursor=pointer]:
+                - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=footer
+              - link "О сервисе" [ref=e1873] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/
+              - link "Возвраты" [ref=e1874] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/order/refund
+              - link "Журнал Маркета" [ref=e1875] [cursor=pointer]:
+                - /url: https://market.yandex.ru/journal
+          - generic [ref=e1876]:
+            - generic [ref=e1877]: Сотрудничество
+            - generic [ref=e1878]:
+              - link "Новости компании" [ref=e1879] [cursor=pointer]:
+                - /url: https://yandex.ru/company/services_news?tag=маркет
+              - link "Реферальная программа" [ref=e1880] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/referral_products
+              - link "Производителям" [ref=e1881] [cursor=pointer]:
+                - /url: https://vendor.market.yandex.ru/welcome/vendors?from=market&utm_source=market&utm_medium=footer
+              - link "Пункт выдачи заказов" [ref=e1882] [cursor=pointer]:
+                - /url: https://market.yandex.ru/lp/market-pvz?utm_source=market&utm_medium=footer&from=market
+              - link "Маркет нанимает" [ref=e1883] [cursor=pointer]:
+                - /url: https://yandex.ru/jobs/services/market/about?from=footer&utm_source=yandex_market_web_d&utm_medium=buttom&utm_campaign=market_nanimaet
+          - generic [ref=e1884]:
+            - generic [ref=e1885]: Продавцам
+            - generic [ref=e1886]:
+              - link "Личный кабинет продавца" [ref=e1887] [cursor=pointer]:
+                - /url: https://passport.yandex.ru/auth?mode=auth&from=market&retpath=https://partner.market.yandex.ru
+              - link "Продавайте на Маркете" [ref=e1888] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/partners?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=backb2c&utm_content=text&utm_term=web
+              - link "Документация для партнёров" [ref=e1889] [cursor=pointer]:
+                - /url: https://yandex.ru/promo/marketpartner/documentation?utm_source=market&utm_medium=footer&from=market
+              - link "Сайт для партнёров" [ref=e1890] [cursor=pointer]:
+                - /url: https://market.yandex.ru/partners?utm_source=market&utm_medium=footer&from=market
+          - generic [ref=e1891]:
+            - generic [ref=e1892]: Мы в соцсетях
+            - link "Вконтакте" [ref=e1894] [cursor=pointer]:
+              - /url: https://vk.com/yandex.market
+              - text: Вконтакте
+      - generic [ref=e1897]:
+        - generic [ref=e1898]:
+          - link "Статистика" [ref=e1899] [cursor=pointer]:
+            - /url: //radar.yandex.ru/top_list?thematic=retail&isSearch=true&row_id=market-yandex-ru&offset=1
+          - link "Пользовательское соглашение" [ref=e1900] [cursor=pointer]:
+            - /url: https://legal.yandex.ru/market_termsofuse/
+        - generic [ref=e1901]:
+          - generic [ref=e1902]:
+            - text: © 2026 ООО «
+            - link "ЯНДЕКС МАРКЕТ" [ref=e1903] [cursor=pointer]:
+              - /url: https://market.yandex.ru/
+            - text: »
+          - generic [ref=e1904]:
+            - generic [ref=e1905]: Проект компании
+            - link "Яндекс" [ref=e1906] [cursor=pointer]:
+              - /url: https://yandex.ru/all
+              - img [ref=e1907]
+  - img [ref=e1910]

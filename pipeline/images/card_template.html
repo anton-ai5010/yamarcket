@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1440px;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .card {
+    width: 1080px;
+    height: 1440px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Фон */
+  .bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('backgrounds/background.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Зелёная полоса снизу */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 108px;
+    background: #48BE48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottom-bar span {
+    font-size: 58px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  }
+
+  /* Стеклянная панель */
+  .glass {
+    background: rgba(255,255,255,0.18);
+    border: 1.5px solid rgba(255,255,255,0.45);
+    border-radius: 36px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  /* Текст с тенью */
+  .white-text {
+    color: white;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.4);
+  }
+
+  /* ─── КАРТОЧКА 2: Доставка ─── */
+  .delivery .title {
+    position: absolute;
+    top: 52px;
+    left: 0; right: 0;
+    text-align: center;
+    font-size: 66px;
+    font-weight: 900;
+    line-height: 1.1;
+    padding: 0 65px;
+  }
+
+  .delivery .panel {
+    position: absolute;
+    top: 445px;
+    left: 65px; right: 65px;
+    padding: 55px 60px;
+  }
+
+  .delivery .panel .main-text {
+    font-size: 88px;
+    font-weight: 800;
+    line-height: 1.05;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .delivery .panel .sub-text {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .delivery .region {
+    position: absolute;
+    bottom: 128px;
+    left: 65px; right: 65px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<!-- КАРТОЧКА: Моментальная доставка -->
+<div class="card delivery">
+  <div class="bg"></div>
+
+  <div class="title white-text">МОМЕНТАЛЬНАЯ ДОСТАВКА</div>
+
+  <div class="panel glass">
+    <div class="main-text white-text">Мгновенный доступ</div>
+    <div class="sub-text white-text">Получите ваш товар за считанные секунды</div>
+  </div>
+
+  <div class="region white-text">
+    Активировать можно только если на консоли переключен регион США
+  </div>
+
+  <div class="bottom-bar"><span>CAME BOT</span></div>
+</div>
+
+</body>
+</html>

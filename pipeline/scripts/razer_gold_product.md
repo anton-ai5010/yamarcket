@@ -1,0 +1,1053 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - img [ref=e12]
+            - generic [ref=e20]:
+              - link "Яндекс" [ref=e21] [cursor=pointer]:
+                - /url: //ya.ru/
+                - generic [ref=e22]: Яндекс
+              - link "Яндекс" [ref=e23] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e24]: Яндекс
+          - generic [ref=e25]:
+            - generic [ref=e28]:
+              - button [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - link:
+                - /url: /catalog
+            - search [ref=e38]:
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - textbox "Найти товары" [ref=e46]
+            - navigation "Главное меню" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - link [ref=e52] [cursor=pointer]:
+                    - /url: /kolesoprizov?track=menu
+                    - generic [ref=e55]:
+                      - generic [ref=e56]: "140"
+                      - img [ref=e57]
+                    - alert [ref=e69]:
+                      - text: Колесо призов
+                      - generic [ref=e70]: "140"
+                - listitem [ref=e71]:
+                  - link [ref=e73] [cursor=pointer]:
+                    - /url: /my/orders?track=menu
+                    - generic [ref=e74]:
+                      - img [ref=e77]
+                      - alert [ref=e82]: Заказы
+                - listitem [ref=e84]:
+                  - link [ref=e86] [cursor=pointer]:
+                    - /url: /my/wishlist?track=head
+                    - generic [ref=e87]:
+                      - img [ref=e90]
+                      - alert [ref=e92]: Избранное
+                - listitem [ref=e94]:
+                  - link [ref=e98] [cursor=pointer]:
+                    - /url: /my/cart
+                    - generic [ref=e99]:
+                      - img [ref=e102]
+                      - alert [ref=e105]: Корзина
+                - listitem [ref=e107]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - img [ref=e113]
+                    - alert [ref=e115]: Маркет AI
+                - listitem [ref=e117]:
+                  - button "Антон Рышков" [ref=e123] [cursor=pointer]:
+                    - img "Антон Рышков" [ref=e124]
+      - navigation [ref=e131]:
+        - generic [ref=e132]:
+          - tablist "Категории" [ref=e133]:
+            - tab "Все хиты" [ref=e135]:
+              - link "Все хиты" [ref=e138] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/weekly
+            - tab "Ultima" [ref=e140]:
+              - link "Ultima" [ref=e143] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/ultima
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - generic [ref=e149]: Ultima
+            - tab "Любимая категория" [ref=e151]:
+              - button "Любимая категория" [ref=e153] [cursor=pointer]
+            - tab "Из-за рубежа" [ref=e155]:
+              - link "Из-за рубежа" [ref=e158] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/crossborder_dep
+            - tab "Одежда" [ref=e160]:
+              - link "Одежда" [ref=e163] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/fashion_dep
+            - tab "Дом" [ref=e165]:
+              - link "Дом" [ref=e168] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-doma/54422
+            - tab "Ремонт" [ref=e170]:
+              - link "Ремонт" [ref=e173] [cursor=pointer]:
+                - /url: /catalog/54503/list
+            - tab "Детям" [ref=e175]:
+              - link "Детям" [ref=e178] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/kids_dep
+            - tab "Красота" [ref=e180]:
+              - link "Красота" [ref=e183] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-krasoty/54438
+            - tab "Электроника" [ref=e185]:
+              - link "Электроника" [ref=e188] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/electronics_dep
+            - tab "Продукты" [ref=e190]:
+              - link "Продукты" [ref=e193] [cursor=pointer]:
+                - /url: /catalog--produkty-napitki/54434
+          - tablist [ref=e194]:
+            - tab "Покупайте как юрлицо" [ref=e195]:
+              - button "Покупайте как юрлицо" [ref=e200] [cursor=pointer]:
+                - link "Покупайте как юрлицо" [ref=e201]:
+                  - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=header
+            - tab "Продавайте на Маркете" [ref=e202]:
+              - link "Продавайте на Маркете" [ref=e205] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=frontb2c&utm_content=text&utm_term=portalb2b
+          - button "Дом" [ref=e211] [cursor=pointer]:
+            - generic [ref=e212]:
+              - img [ref=e213]
+              - generic [ref=e219]: Дом
+      - article [ref=e223]:
+        - button "Подробнее" [ref=e224] [cursor=pointer]:
+          - button "Подробнее" [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: Реклама
+              - img [ref=e228]
+        - img "Изображение" [ref=e231]
+        - link "Изображение" [ref=e232] [cursor=pointer]:
+          - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rastjazhka&utm_term=new&fromSins=1&erid=CQH36pWzJqCyZe1douTvi4gJvymX6qCyK89hro8Wyifp2Y
+    - generic [ref=e239]:
+      - img [ref=e240]
+      - generic [ref=e241]:
+        - navigation "Вы здесь" [ref=e244]:
+          - list [ref=e245]:
+            - listitem "Досуг и развлечения" [ref=e246]:
+              - link "Досуг и развлечения" [ref=e247] [cursor=pointer]:
+                - /url: /category/dosug-i-razvlecheniya
+                - generic [ref=e248]: Досуг и развлечения
+              - link:
+                - /url: /category/dosug-i-razvlecheniya
+            - listitem [ref=e249]: •
+            - listitem "Онлайн-подписки и карты оплаты" [ref=e250]:
+              - link "Онлайн-подписки и карты оплаты" [ref=e251] [cursor=pointer]:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630
+                - generic [ref=e252]: Онлайн-подписки и карты оплаты
+              - link:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list
+            - listitem [ref=e253]: •
+            - listitem "Онлайн-подписки и карты оплаты Razer" [ref=e254]:
+              - link "Онлайн-подписки и карты оплаты Razer" [ref=e255] [cursor=pointer]:
+                - /url: /catalog--razer/17940631/list?hid=17940630&glfilter=7893318%3A904561
+                - generic [ref=e256]: Онлайн-подписки и карты оплаты Razer
+              - link:
+                - /url: /catalog--razer/17940631/list?glfilter=7893318%3A904561
+        - generic [ref=e257]:
+          - button "Сравнить" [ref=e261] [cursor=pointer]:
+            - generic [ref=e263]: Сравнить
+          - button "В избранное" [ref=e267] [cursor=pointer]:
+            - generic [ref=e268]: В избранное
+          - button "Поделиться" [ref=e271] [cursor=pointer]:
+            - generic [ref=e273]: Поделиться
+      - generic [ref=e274]:
+        - generic [ref=e276]:
+          - generic [ref=e278]:
+            - generic [ref=e283]:
+              - article [ref=e284]:
+                - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код"
+              - button "Следующий слайд" [ref=e287] [cursor=pointer]:
+                - img [ref=e288]
+            - generic [ref=e291]:
+              - tablist [ref=e292]:
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [selected] [ref=e293]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e294] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e295]
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e296]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e297] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e298]
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e299]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e300] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e301]
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e302]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e303] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e304]
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e305]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e306] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e307]
+                - tab "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e308]:
+                  - button "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e309] [cursor=pointer]:
+                    - img "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код — фото 1" [ref=e310]
+              - button [ref=e312] [cursor=pointer]:
+                - img [ref=e313]
+          - button "Похожие" [ref=e318] [cursor=pointer]:
+            - img [ref=e320]
+            - generic [ref=e324]: Похожие
+        - generic [ref=e325]:
+          - generic [ref=e326]: Описание
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - link "Razer" [ref=e330] [cursor=pointer]:
+                - /url: /search?vendorId=904561&glfilter=7893318%3A904561&suggest_text=Razer
+                - generic [ref=e331]: Razer
+              - heading "Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код" [level=1] [ref=e333]
+              - link:
+                - /url: /search?text=Razer
+            - generic [ref=e334]:
+              - 'link "Рейтинг товара: 3.8 из 5" [ref=e338] [cursor=pointer]':
+                - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/reviews?offerId=7pUahk3U0ystKP9Qa-ZbRA&shopName=KEYFORY&businessReviews=1
+                - generic [ref=e345]: "3.8"
+                - generic [ref=e346]: (13) ·
+              - link "86 купили" [ref=e347] [cursor=pointer]:
+                - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/reviews?offerId=7pUahk3U0ystKP9Qa-ZbRA&shopName=KEYFORY&businessReviews=1
+                - generic [ref=e348]: 86 купили
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - button [ref=e354] [cursor=pointer]:
+                  - img [ref=e355]
+                - generic [ref=e357]:
+                  - 'button "Номинал карты: 5" [ref=e360] [cursor=pointer]':
+                    - generic [ref=e364]: "Номинал карты: 5"
+                  - 'button "Номинал карты: 10" [ref=e367] [cursor=pointer]':
+                    - generic [ref=e371]: "Номинал карты: 10"
+                  - 'button "Номинал карты: 25" [ref=e374] [cursor=pointer]':
+                    - generic [ref=e378]: "Номинал карты: 25"
+                  - 'button "Номинал карты: 50" [ref=e381] [cursor=pointer]':
+                    - generic [ref=e385]: "Номинал карты: 50"
+                  - 'button "Номинал карты: 100" [ref=e388] [cursor=pointer]':
+                    - generic [ref=e392]: "Номинал карты: 100"
+                  - 'button "Номинал карты: 250" [ref=e395] [cursor=pointer]':
+                    - generic [ref=e399]: "Номинал карты: 250"
+                  - 'button "Номинал карты: 500" [ref=e402] [cursor=pointer]':
+                    - generic [ref=e406]: "Номинал карты: 500"
+                  - 'button "Номинал карты: 1000" [ref=e409] [cursor=pointer]':
+                    - generic [ref=e413]: "Номинал карты: 1000"
+                - button [ref=e415] [cursor=pointer]:
+                  - img [ref=e416]
+              - generic [ref=e419]:
+                - button [ref=e420] [cursor=pointer]
+                - button "Все варианты" [ref=e428] [cursor=pointer]:
+                  - generic [ref=e429]: Все варианты
+            - generic "Характеристики" [ref=e435]:
+              - generic [ref=e437]:
+                - generic [ref=e439]: Артикул Маркета
+                - generic [ref=e442]:
+                  - generic [ref=e443]: "5096034102"
+                  - button [ref=e444] [cursor=pointer]:
+                    - img [ref=e445]
+              - generic [ref=e448]:
+                - generic [ref=e450]: Территория активации
+                - link "Турция" [ref=e455] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37919810%3A51048330
+                  - generic [ref=e456]: Турция
+              - generic [ref=e457]:
+                - generic [ref=e459]: Территория использования
+                - generic [ref=e463]: все страны
+              - generic [ref=e464]:
+                - generic [ref=e466]: Назначение
+                - link "игры" [ref=e471] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37948770%3A39024051
+                  - generic [ref=e472]: игры
+              - generic [ref=e473]:
+                - generic [ref=e475]: Название сервиса
+                - generic [ref=e479]: Razer Gold
+              - button "Все характеристики" [ref=e480] [cursor=pointer]:
+                - generic [ref=e482]: Все характеристики
+        - generic [ref=e485]:
+          - generic [ref=e486]:
+            - generic [ref=e492]:
+              - button "1 165 ₽ 1 179 ₽ –1% Возврату не подлежит" [ref=e496] [cursor=pointer]:
+                - generic [ref=e497]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: 1 165
+                    - generic [ref=e501]: ₽
+                  - generic [ref=e504]:
+                    - generic [ref=e505]:
+                      - generic [ref=e506]: 1 179
+                      - generic [ref=e507]: ₽
+                    - generic [ref=e511]: –1%
+                  - button "Возврату не подлежит" [ref=e513]:
+                    - generic [ref=e515]: Возврату не подлежит
+                    - img [ref=e516]
+                - img [ref=e519]
+              - generic [ref=e524]:
+                - button "Купить сейчас" [ref=e526] [cursor=pointer]:
+                  - generic [ref=e528]: Купить сейчас
+                - button "В корзину" [ref=e532] [cursor=pointer]:
+                  - generic [ref=e533]: В корзину
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - link "Подарочная карта Razer Gold на 5 TRY / Турция / RAZER GOLD Gift Card Turkey TL /..." [ref=e541] [cursor=pointer]:
+                  - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102
+                  - img "Подарочная карта Razer Gold на 5 TRY / Турция / RAZER GOLD Gift Card Turkey TL /..." [ref=e543]
+                - generic [ref=e544]:
+                  - generic [ref=e545]: Подарочная карта Razer Gold на 500 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код
+                  - generic [ref=e546]:
+                    - 'link "Рейтинг товара: 3.8 из 5" [ref=e550] [cursor=pointer]':
+                      - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/reviews?offerId=7pUahk3U0ystKP9Qa-ZbRA&shopName=KEYFORY&businessReviews=1
+                      - generic [ref=e557]: "3.8"
+                      - generic [ref=e558]: (13) ·
+                    - link "86 купили" [ref=e560] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/reviews?offerId=7pUahk3U0ystKP9Qa-ZbRA&shopName=KEYFORY&businessReviews=1
+                      - generic [ref=e561]: 86 купили
+                    - link "Задать вопрос" [ref=e563] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/questions?offerId=7pUahk3U0ystKP9Qa-ZbRA
+              - generic [ref=e564]:
+                - generic [ref=e571]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: 1 165
+                    - generic [ref=e575]: ₽
+                  - generic [ref=e578]:
+                    - generic [ref=e579]:
+                      - generic [ref=e580]: 1 179
+                      - generic [ref=e581]: ₽
+                    - generic [ref=e585]: –1%
+                - generic [ref=e586]:
+                  - button "Добавить в избранное" [ref=e590] [cursor=pointer]
+                  - generic [ref=e593]:
+                    - button "Купить сейчас" [ref=e595] [cursor=pointer]:
+                      - generic [ref=e597]: Купить сейчас
+                    - button "В корзину" [ref=e601] [cursor=pointer]:
+                      - generic [ref=e602]: В корзину
+            - generic [ref=e604]:
+              - generic [ref=e606]: Доставка магазина
+              - generic [ref=e612]: Сегодня, по электронной почте
+            - link "KEYFORY Магазин 4.9 (8.8K оценок)" [ref=e616] [cursor=pointer]:
+              - /url: /search?merchant-filter=201577064&generalContext=t%3Dmerchant%3Bmrch%3D201577064
+              - generic [ref=e617]:
+                - generic [ref=e619]:
+                  - img [ref=e621]
+                  - generic [ref=e623]:
+                    - generic [ref=e625]: KEYFORY
+                    - generic [ref=e626]:
+                      - generic [ref=e627]: Магазин
+                      - generic [ref=e628]:
+                        - generic [ref=e629]:
+                          - img [ref=e630]
+                          - text: "4.9"
+                        - generic [ref=e632]: (8.8K оценок)
+                - generic [ref=e633]:
+                  - button [ref=e635]:
+                    - img [ref=e636]
+                  - button [ref=e639]
+          - generic [ref=e650]:
+            - generic [ref=e651]:
+              - generic [ref=e654] [cursor=pointer]:
+                - button "Соцреклама" [ref=e656]:
+                  - generic [ref=e657]: Соцреклама
+                  - img [ref=e658]
+                - img [ref=e663]
+                - link [ref=e664]:
+                  - /url: https://yandex.ru/an/count/WfiejI_zOoVX2Lbn0cqK0BDbZtKPN0Bc1Ahu1BZUC06zsRTZJWW2tXe4T1DIc2pmuO3yWGEwG9_FvSwUxNVklE7Er-zulU4ELvexfTAe_PH2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQejlGPZJgVKQdzOnVz30rHVvAGh4L5L21fZkDGgLFw4tqwdpKIbUZ7TjPJkxQTzTGv_HcY2WKP9TL2I48qaAX4jLAG5KceMYC9ASeEcB8vmLq06C0mb4hVl8QbP33eE9f0vEFZu-DJehEZ0wzkpfSMMr5I_X3s7xpU0zV4NrCF_QmymW1VkLG45aSsYZJOW0TFKQ7715_iDYZdymsJZPVsOxJPFOUo3mpS06Pk-0QmWLjhaOmtR7qTuI2V1d5JIU4HhuQzgQIGXrR35eCkW3T6_whHEVITprQsOEbZe-568L_mq-yahWElRW1R1tHTds94l0hZwpBzCCEWRVPvhIp1aANXO-m9Of0wF3iBMmixZWglPhOKRgw0cUCANd9ZCUGcanRCf6V1OiJC6FsfXVdIC5RWjmFBDs6wD1BOwZk11Sn4Ky_pDR-q7sEJI_inDdV_6vdXBuPn-k4EW1yCu_I_C4xVsm7mQpi0_YnpwVLnKMLsT2E7EKW-UkSm1ycdPUNDJL_sG0OZ7JtvWnrs1VenxS49YFiUw_mt9ez8LQFt-YOnjSH5lwLrdQb9J2rnqMj9s07PyzaCUO5Phtl3B5M-6EdQ_aWxuZ050Wq1xO25FAYuNAbKAeNkFW1XBqLG_aGdG2u-Aium0HRylUecZpWgj92wrnAWCMfmvUe-80yv5gaXfWS64du5Vt5l6AVncRrtEcebGrY7-rZVyOthwWHD6uaOZ-JEKBDT3hBBFf_5yBj4Xcu4~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e667] [cursor=pointer]:
+                - button "Соцреклама" [ref=e669]:
+                  - generic [ref=e670]: Соцреклама
+                  - img [ref=e671]
+                - img [ref=e676]
+                - link [ref=e677]:
+                  - /url: https://yandex.ru/an/count/WfCejI_zOoVX2Lbn0YqK00FbZFNNZWJC2LJn2N2zOG9wis_7d104l3K8w2QaC5dWmm7v0mTqWJwVovqzs-_SUSEThz_nUiCThZHtIgLH-oc5_lmC3L7heI7g3xNevuhqutJQTMx_30rHfSzerFcCIkqVk-XdQ8ZwauHaBIgY0abp78TAdTAVwDFvh96eH3-sivxQjUsifyxfpn1LACWegHP24gA1H2MgbOAiI4BL6ab8KNR0bCq9xWAuS3U0KkcR7gvI31Xq74qWyl7nyV4fqTdHWLStvqkBhIWfc_YZnrjLg2mEy9LBHM1nP2D6q9G7Jr7XWcKVMXSNv_CDausNzcEqsJs7iWyCt01cRlW6i85RQv6CDsnz7U4WdmPnKqdX4Q-6lQcaa8TMmnQ3Be0tHl-gqJdqdSzMjc3fOwFXHY5VyDFl9Au3hsu0MmTqNPzYHBmAu-io_J33e6tsUQqimP2buMFi2MAGEZmx2riBEvR0W3DR2ZTNm1MyvCPYo4qcBPX9puB5Y9an-bCBywLXh419rQDlmdHf9B3LTm8Bc8ccdkThVca_nYQNzcDixlutCiDV3EFqmnq0FnZ6wNzXdBwt0-3NTW3yMURIw-EYokpeHWvpa7pqpc4Eaa_BofkRlko134OwUl87E-mAz6FQWnCGzptM-MzC7f4gH-_rJM9gYOn-I-iwKvEOMYAZrvAm0xBdindo0hDUzuPPgdmnqhNzaNR4OGe46WBQ0GjvK76vKgbK2jrz0C9UYg3ysRZ9lqG7u2e45lozwYQFE2gqaBP76h0AemQVK_U1BSYnIEOnNJ-Gy3Jwkx-PmpMbf_76lJCVr1eRO1qwrBuxrtLrEh2sjOMed5opdSrcb_tDnVtCIHBq0W00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e680] [cursor=pointer]:
+                - button "Соцреклама" [ref=e682]:
+                  - generic [ref=e683]: Соцреклама
+                  - img [ref=e684]
+                - img [ref=e689]
+                - link [ref=e690]:
+                  - /url: https://yandex.ru/an/count/WhqejI_zOoVX2LcH0dqL02CecL2jLWBc1Ahu1BZUC06zsRTZJWW2tXe4T1DIc2pmuO3yWGEwG9_FvSwUxNVklE7Er-zulU4Ezoczfpa-jQNGdv-X8MezD4JzeHRzN95-d4wxpksVeI4gr1c5slTjHwNsZrtqCpH4_Kb2iXOLKO6Wp_j-ubAdz2VwT3vh92hHZ-siftPjEslSdX8T1VqCKOM2Z99g8IGXAmqaAb6j56H54geIKMyCMPM4gaP899QGHXZLC48ogkAWGLKQOSE63IqxO7v7RohPmeHEnwniJd0N08OdJwNIDoVVegWOT1nD8FBnyV7nAT7PqO5ND-TBYwUCJJ7njo592K29UWDyvL8HM1pPEEf1ui5JL53-g654e3cVRvXilBGVeytkEPHzOE06C7F3Du0Dt15THSusR7qTOLHOWxYffF28LyFUL5B8GwjXYq4Nm1kZVzNe7FhEPojRiFInqN2Za2_uwNSIru5NDu2j0xgkJp4YNeNnTPb-c67GDlkyLfPWoDBmCVO4CKWTdfs5hOKT8WnYpMmf_BYv0gxIyn53RZ9fmKnw5Yn6p8pHdrgOBmrZ1NwARRu9qwMHm5RV2InW9ffwdg_vfVqOcrpQZx6v-z_837ynZDCFTm3yO1Yd_uLn-juEW5_R0V1dcKklZuigiwCRcK6iokYT6SIgZDukwQol8umAUpC5lkp16ijEdlp1cAp5-J7jmGdq6RdozTyOFJszCU_rJK3Ip6L-I-iwKnEGD7EPrv9mcnppsGn5c8ozxWspLFbYf6lx8-s8mnG8D0Iq0nRoeE9ofLAf5Bhx08IzxA7yLn088hqRaI800HNylUmcbpWgj9AsPyKOpE9KGzqCVgxAuFCzqyJ7rxYViSEr2ft6axy_Fwbbzc0TVY1zJzRKrNcu5RJwJeFzCDlfVgMNtMx3_m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e693] [cursor=pointer]:
+                - button "Соцреклама" [ref=e695]:
+                  - generic [ref=e696]: Соцреклама
+                  - img [ref=e697]
+                - img [ref=e702]
+                - link [ref=e703]:
+                  - /url: https://yandex.ru/an/count/WieejI_zOoVX2Lcc0kKL0DDecoMSm0cO4wZY4-1wmmJqPj-EEI48U6iGq4r8ORB0XmFo1mxe0dq-bpjxjj-vyuOxNx_ZzOOxNEWzjQVvr9P2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeKESDjQDI-ySk-XaQelua8LcBYgX0pwaJ2iMbJkbFzEbyraXKeX_RMK_jsdRMztFwCqGL2Z9AgeMGX6WWKObgfI0hab0LoQfahL4h5Lc9RXWD7H5PIIHPPL2FwY8Z8IKg4PBHjKY8n1BI229hKetg4f8IhMC7RBcZDvLiORBLCIkR4zm5SC682gNID-ks9l31eEDe0f6FZu-FJudEZWwykZbVMfpunOIVbQucYGti6E0hbuh0uiX63Ei8F7YA2dWla78Ccixd6oORB-t7QBDx3cKV6BW1pDpm3M03TuJt3Mp3rjSH3l9f43UL51xnQjYRIWfvQ3LiCUW2U6FqhngTGz_vR6KBbZus6cuKyWK__KxYEl3g1h1rGDVrAKR4gp2-BjCFCmpQPf_NoX8CMHe-nfuW1gd3ixEmjR13wSfkPalXvWgOZeWsXjnaqeAPz2nOZ9WPep-rC5yQnWgKM7bz4wPB8u6jlXDOm4mqzJnVyqlxCJQvj1zZS_U_aHd-OXYd7-u0-C4mJlyBu_Iz7G2_jWFWppANNXyNLMP7Dp8Z6NTwPqOoxlIMIMTz7U4WdpSlTL_sOO7ZCa_-O4w-odvCUt02VO_dEl-DqHixoNglRmhoLINBRsbTPseAybKbosj9VBTWVJQ34J8rhtl3B5M-6EdQ_aWxuZ050Wq1xO25FAYuNAbKAeNkFW1XByUK7oS32yhA9saS11Ny_Urcd3Wg19Iwzn3HMdvJVpnCq1Q6YoZjtHAGTsiJlS7t3b9SavGQxm5uzeXQAuJhq3BWTwithqv9lIehJNrAv6ntc9rYTfUO_mC0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e706] [cursor=pointer]:
+                - button "Соцреклама" [ref=e708]:
+                  - generic [ref=e709]: Соцреклама
+                  - img [ref=e710]
+                - img [ref=e715]
+                - link [ref=e716]:
+                  - /url: https://yandex.ru/an/count/WfiejI_zOoVX2Lbn0cqK0EEbZtKPN0Bc1Ahu1BZUC06zsRTZJWW2tXe4T1DIc2pmuO3yWGEwG9_FvSwUxNVklE7Er-zulU4ELvexfTAe_PH2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQejlGPZJgVKQdzOnVz30rHVvAGh4L5L21fZkDGgLFw4tqwdpKIbUZ7TjPJkxQTzTGv_HcY2WKP9TL2I48qaAX4jLAG5KceMYC9ASeEcB8vmLq05yABIgLlxZbYyp3eE9f0vEFZu-DJehEZ0wzkpfSMMr5IDl5tL1Mx9UKOu2kNYi3Yo4O6Jvi7Jr6X2G52MPJEv_CDausNzcEqsJs7iWyCt01cRlW6i85RQv6CDsnz7U4WdmPnKqdX4Q-6lQcaa8TMmnQ3Be0tHl-gqJdqdSzMjc3fOwFXHY5VyDFl9Au3hsu0MmTqNPzYHBmAu-io_J33e6tsUQqimP2buMFi2MAGEZmx2riBEv2S26Us52Z8P6-kW9dZ2bvoOp7a9fCMpAHdmMB4p1ZzgONvqZ1MeAGRuvimNHe9RFMTm09cegdd-PfVse-noQNz69kx_utCy1V3EFrm1y0FXd7wNnYdx-q0-BKT07-MkVJwkAWoExgHmnma7xrpc8FaexUVplewGYqhRsxwiWSo6EdeoH_ii2lGZsaFJa3SzrZdlp5vHAeQlTStYQabBlejhUjCJM9gYOjUIy8Eo9xFPiWBp7hT6sQfyiL8r_P7sX67AH1e26W7BEH1nULAfL8fTFS127ifWl9duK1dkcR40pKM_Btg9eyuAhIGkjSIe35gSENgFY0FEHQf8QO71X9-mNyH17Eu6lKqlc7l4WQruWEim-orxvjrNJqMreRTXeTkODXirmQJNlRAn_y3~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e719] [cursor=pointer]:
+                - button "Соцреклама" [ref=e721]:
+                  - generic [ref=e722]: Соцреклама
+                  - img [ref=e723]
+                - img [ref=e728]
+                - link [ref=e729]:
+                  - /url: https://yandex.ru/an/count/WfOejI_zOoVX2Lbn0aKK08EbZdKPN0Bc1Ahu1BZUC06zsRTZJWW2tXe4T1DIc2pmuO3yWGEwG9_FvSwUxNVklE7Er-zulU4ELvexfTAe_PH2Vtw6XgZrq13rXrhqSqNwSJhjEhT_XeQeqcSqwdn6fVQFNVGpD4JzIKAo5XLHWQGvZaEbJkbFzEbyraXKeX_RMK_jsdRMK-VqPuWg56IKL0iX2T50eXBLIa5M9A5gZIIaA3jWokO4Tm5SsFjHAdrJzu312mmwZYOG-VZu-FYKwEpemAkRywN5LfIKJVo5C49rm04Z1lZAfIAmEBAHGOxpu2agC1Mwo8eYEvzlc6oyj1-ZpUuvb7rWu0OmSyCtW0tSMejal67hwmW7-JI8cqeAZtWrx4qbXJoq6hOOT06yCVfNZSwXxtosiWLB7niDDmhvWfz-9t4TU7K3s3gWw_eK8-9L65-NwOSP1csppsjb2OOi3HzZJn23rE7PMTXQs87qHZQpfN1p1Lp1IsuiXjnaqeAPz2nOZ9WPep-rC5yQnWgKf95z4wPB8u6jlXDOm4mqzJnVyqlxCJQvj1zZS_U_aHd-OXYd7-u0-C4mJlyBu_Iz7G2_jWFWppANNXyNLMP7DtAOW-IZTmvpa7pqjabdVHsXbfKtDttP0ncCTFJa3tRO5UZ7j0Sd8EvxhFFVc3mYLOxUwvl4r18P_PRMTQOcCRL4HgybOGTapsSpv0LclUuDirJvOgHh-oFjYCCK23G4j0CMyg3YSgLIgHIw-m24lHH1-QTGf6YkMC72H1NylUecZpWgj92sHngm2gC6drFtWIt8iKZcCLq_aF0q-hk_cSCrfQVnnhqp7zGQ6s0TEjI-EzTrTJgmjcshjQR9DTlTxAMNtJJc_m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e732] [cursor=pointer]:
+                - button "Соцреклама" [ref=e734]:
+                  - generic [ref=e735]: Соцреклама
+                  - img [ref=e736]
+                - img [ref=e741]
+                - link [ref=e742]:
+                  - /url: https://yandex.ru/an/count/WjuejI_zOoVX2Ld00eKM05FgdoMSm0cO4wZY4-1wmmJqPj-EEI48U6iGq4r8ORB0XmFo1mxe0dq-bpjxjj-vyuOxNx_ZzOOxNEVjbE9J-oc5_lmC3L7heI7g3xNevuhqutJQTMx_30rHetSqQZ-VKQdzOnVz30rHVvAGh4L5L22dD0gLGgLEwK_qwNpMI5IY7zjPJ-tQTjQtFVqPeWe56INLGaX2D92eHBLIa1L9gFgSsjGy1mh2yojG7KG5ejRtCyThAT0DhNCfq6tRzvL4ZMGzMaeYiOGqmdgZ1fBrQ4IIKf0r12EaewuTC7f7RohPmkIhOrOs9xWB0CEJAQNIDz52E2e0WuwZ2KG-FZu-FYKwEphmwkPyQV6LtSt4Nwtyu2a4WG6-Sga8B8vi7FbSUV0K5Rpb9XZs4-Vp3PEDb_PZjDazXx8F3Dm0Pcxu1h21Q_zjnMtO-Zh2GJuDugQImYDU3NjJII4FhOOj1bq0BrFNTJshVzNe7FhEPojRiFInqN2Za2_uwNSIru5NDu2j0xgkJp4YNeNnTPb-c67GDlkyLfPWoDBmCVO4CKWTdfs5hOKTIak2p6mft5m1M_0YyXH3RZ9fmKnw5Yn6p8pHdrgOBmrZ1NvMTD-4wT98OAll11Om4qqzpzVyqdwCJIxjnzZS_MzaXhyOnkc7Em1-C8pJ_y8uVMy7mA_j0FYppANNnqMLsT6DE7ECKVG-W9CLHdeBGsTz7U4WdpSljRxisTOKkPxymQPyMVHZseCJ46DXFFFVc3qUISwyrpS9eOBczLjQrvcQX511ytejYIA8GNmsGzZ9YTUzOPOgNunqRN-a7N6O0e66W7R0GXvKNAvKAfL2Tn-0i9TWvOS1P2woK-70JnRydU_ceZWgf9MwboPWOwur8rKf243THOP3LsrQZDcDyf516Eapu7Fjf1mGAQbdWaYsGyGTce3zxldcrMdLgxf5jsoXw3N5x1IpH-Fv7m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e745] [cursor=pointer]:
+                - button "Соцреклама" [ref=e747]:
+                  - generic [ref=e748]: Соцреклама
+                  - img [ref=e749]
+                - img [ref=e754]
+                - link [ref=e755]:
+                  - /url: https://yandex.ru/an/count/WiCejI_zOoVX2LcU0gqL00Eec1_MlWcO4wZY4-1wmmJqPj-EEI48U6iGq4r8ORB0XmFo1mxe0dq-bpjxjj-vyuOxNx_ZzOOxN3mApQLtRakXFpz3GzHwQ8ZwGotwkIBzE9rsdTi_GqDK79TEfxdK6PNQFy-Ydw4XwayIahMeY0g4ty_xbZgbFz6dyraZKOb-R6SzjMlRMT_EwSyGLIZ8AAaMGXAYWKGbgfM2h4X2LVlESVl6xwWC81jH6aDL8o6Y4bMXeQ2a6oP8B26Dg64aOqJIZ22Y4K99HqmxO7v7RognSkHEnwniJd0Nm8Ka6vHAt-JHnG4-33gE9X3v-FZu-9JexEZ0gvlpfSLaEZeJVnYGW5P5q720hrmg0eiZ6ndq2F7WAIgSKSb2mexcVBvXil7IVemsk-TGze610MpWaj1EjZML51xnQjYRIWfvQ3LiCUW2U6FqhngTGz_vR6KBbZus6cuKyWK__KxYEl3g1h1rGDVrAKR4gp2-BjCFCmpQPf_NoX8CMHe-nfuW1gd3ixEmjR0Z2N9jPai1WqpsvWhuewt5a9jCMZ2JdWMB4JDZzASMval3M86IDINVXEdII62hxmGMC1DDFS_N_D9-Z4qkxSVOtFrlP8Q_6CRfXpi0VZ2Cq__2E7rl1y2lxG3uiyobryT5bTdHZHG43-bz02XlYFGsXixwEi8vBs-c0NtPaodnukN97omS1kd7j0Sde6JkA-k_CKY4N7szrpTjjQg0_PRMTQQchLOLiDUIIElhuRCPwAXGyRetp5BbYv6kxO-q8mvJ8D0Gq0vOo8EAovLAfLBexWCGzj9B-MaakC2Hw0aH1W8N_8tjPfeuAeIJjgV8E3AM6kHLb00OsYrg2BOvFQqRAHQz_JC6r-GjZJUvEnEbzKKKO9t0FgWENXvyZvB5rPduAi17HQbBsKvYLdhPDV7y3m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e758] [cursor=pointer]:
+                - button "Соцреклама" [ref=e760]:
+                  - generic [ref=e761]: Соцреклама
+                  - img [ref=e762]
+                - img [ref=e767]
+                - link [ref=e768]:
+                  - /url: https://yandex.ru/an/count/Wg8ejI_zOoVX2Lc20gKK09CbZoCG0HCm9r359y3rXWdepRuTSq8GyDOWe9kGmcI13mVa3npG1VfyBdVsRBzpvmrtldx7wmrtk3Wq-dnEfxOK-lCpD4IjXuQeFzIYdolIZzDfrxdzC_HqGg5GEogrV-oYdw4XwayIahMeY0g4sr8f59SwfJ_Hf_DP8r69VcndFRLhsra_xIdHKT3F45Keo2Yf5a8Iee549QgLWgn8GjKRHLGafIJg3ICYn1qmlwCtbMnX8gPZLZOdk0lWWfGnfT8taNXzZ63GSJI1oCV7nyUdH6T71rxTd2yjfb95PU8FX6RLl6HYWAzSAWAB8niQ74Lvy1GLt0QVxdGfv_CDausNzcEqsJs7iWyC3603jzOY6JUL51xnQjYRIWfvQ3LiCUW2U6FqhngTGz_vR6KBbZus6cuKyWK__KxYEl3g1h1rGDVrAKR4gp2-BjCFCmpQPf_NoX8CMHe-nfuW1gd3ixEmjR13ISp8p9P21fdipHKmSpo31MekXjnaqeAPz2nOZ9WPep-rC5yQnWhwQdRVXEdII62hxmGMC1DDFS_N_D9-Z4qkxSVOtFrlP8Q_6CRfXpi0VZ2Cq__2E7rl1y2lxG3uiyobryT5bTdHZHq8fypqte5moanl9m3viWSo6EdeoH_CoHwY7zCUd42VkN3EVsFqdlnblTSt1R4RdF9RMjUPceBO3KvvBGau8hlFPZ12PUjrRvYboXSZNTiVQKSSfa2W8Q0Ti9075PShbKgbqDq78EmbLlaTk3D04RF0bX026lpDwsQJE2hCaNgXKNCQr8PTVdldMF9P99Gty4gYclWx6jr7mE6wfDDuaRntGLlTxJBO2Uy9wn1osFUfgwuUIRKQhYkgOgzejbDjxh9tlTN12tqJ6m00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e771] [cursor=pointer]:
+                - button "Реклама" [ref=e773]:
+                  - generic [ref=e774]: Реклама
+                  - img [ref=e775]
+                - img [ref=e778]
+                - link [ref=e779]:
+                  - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rotacia&utm_term=new&fromSins=1&erid=CQH36pWzJqCyZe1dogR5AdLGfjKToRefniULz3cezi9W5z
+            - button "Предыдущий слайд":
+              - img
+            - button "Следующий слайд":
+              - img
+        - generic [ref=e780]:
+          - generic [ref=e787]:
+            - generic [ref=e788]:
+              - banner [ref=e792]:
+                - generic [ref=e795]: Ещё может подойти
+              - list [ref=e797]:
+                - listitem [ref=e798]:
+                  - generic [ref=e802]:
+                    - generic [ref=e804]:
+                      - link "Chat GPT 5 Plus, индивидуальная подписка, 1 месяц, (быстрая выдача) Продление на ваш аккаунт." [ref=e806] [cursor=pointer]:
+                        - /url: /card/chat-gpt-5-plus-prodleniye-podpiski-na-vash-profil-1-mesyats-bystraya-vydacha-dalle-3--sora--sora-2/5230816808?do-waremd5=bXFAbG59SeQc4ro33m2Png&showUid=17743457646313680453206001&cpa=1&cpc=lsApLni74B7173nQXIC3Q9S6T8HT0RDQ_bEFZhQRwFWK39lpMkoYqNme0cssNT06-JpHLKQp2tWHeVSLQMLwBZ8VJGDrBTtEJi9zkOVdiwGPPbLMGCL3_g8unJUwPlUycq0MBRQQ54ooRqrCC4cWTtOvNzD9Jq_MU8piHts8oLBzZ3FqVhf84jy3tAdkLfivdEjqLpsG_pYY2G6hECSi4_nk5r-GAkM1QIsBKW1_ioGzJzbJm-5zlAJvAMLblC7CS_xsfftLwFkVQ8wmvWuJEJZuMxAAqNQV-271R9eMfpHsg_2FEP1uuil_x_VN-2TF4A0eckCDy6v8nGKoijc_J8ZBVR6v-pPG9oNG21mTTBByCjVNjqzd202zS5F2xAzeYgf2zS5Q0Kt0efa67GTVBy_3QzUwpSQ4&sponsored=1
+                        - img "Chat GPT 5 Plus, индивидуальная подписка, 1 месяц, (быстрая выдача) Продление на ваш аккаунт." [ref=e814]
+                      - button "Добавить в избранное" [ref=e820] [cursor=pointer]
+                      - button "В корзину" [ref=e825] [cursor=pointer]
+                    - link "Chat GPT 5 Plus, индивидуальная подписка, 1 месяц, (быстрая выдача) Продление на ваш аккаунт." [ref=e830] [cursor=pointer]:
+                      - /url: /card/chat-gpt-5-plus-prodleniye-podpiski-na-vash-profil-1-mesyats-bystraya-vydacha-dalle-3--sora--sora-2/5230816808?do-waremd5=bXFAbG59SeQc4ro33m2Png&showUid=17743457646313680453206001&cpa=1&cpc=lsApLni74B7173nQXIC3Q9S6T8HT0RDQ_bEFZhQRwFWK39lpMkoYqNme0cssNT06-JpHLKQp2tWHeVSLQMLwBZ8VJGDrBTtEJi9zkOVdiwGPPbLMGCL3_g8unJUwPlUycq0MBRQQ54ooRqrCC4cWTtOvNzD9Jq_MU8piHts8oLBzZ3FqVhf84jy3tAdkLfivdEjqLpsG_pYY2G6hECSi4_nk5r-GAkM1QIsBKW1_ioGzJzbJm-5zlAJvAMLblC7CS_xsfftLwFkVQ8wmvWuJEJZuMxAAqNQV-271R9eMfpHsg_2FEP1uuil_x_VN-2TF4A0eckCDy6v8nGKoijc_J8ZBVR6v-pPG9oNG21mTTBByCjVNjqzd202zS5F2xAzeYgf2zS5Q0Kt0efa67GTVBy_3QzUwpSQ4&sponsored=1
+                      - link "Chat GPT 5 Plus, индивидуальная подписка, 1 месяц, (быстрая выдача) Продление на ваш аккаунт." [ref=e831]
+                    - link "Цена 355 ₽" [ref=e836] [cursor=pointer]:
+                      - /url: /card/chat-gpt-5-plus-prodleniye-podpiski-na-vash-profil-1-mesyats-bystraya-vydacha-dalle-3--sora--sora-2/5230816808?do-waremd5=bXFAbG59SeQc4ro33m2Png&showUid=17743457646313680453206001&cpa=1&cpc=lsApLni74B7173nQXIC3Q9S6T8HT0RDQ_bEFZhQRwFWK39lpMkoYqNme0cssNT06-JpHLKQp2tWHeVSLQMLwBZ8VJGDrBTtEJi9zkOVdiwGPPbLMGCL3_g8unJUwPlUycq0MBRQQ54ooRqrCC4cWTtOvNzD9Jq_MU8piHts8oLBzZ3FqVhf84jy3tAdkLfivdEjqLpsG_pYY2G6hECSi4_nk5r-GAkM1QIsBKW1_ioGzJzbJm-5zlAJvAMLblC7CS_xsfftLwFkVQ8wmvWuJEJZuMxAAqNQV-271R9eMfpHsg_2FEP1uuil_x_VN-2TF4A0eckCDy6v8nGKoijc_J8ZBVR6v-pPG9oNG21mTTBByCjVNjqzd202zS5F2xAzeYgf2zS5Q0Kt0efa67GTVBy_3QzUwpSQ4&sponsored=1
+                      - generic [ref=e838]:
+                        - generic [ref=e839]: Цена 355 ₽
+                        - generic [ref=e842]:
+                          - generic [ref=e843]: "355"
+                          - generic [ref=e844]: ₽
+                    - generic [ref=e845]:
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: "Рейтинг товара: 4.4 из 5"
+                        - generic [ref=e848]: на основе 83 оценки
+                        - generic [ref=e849]:
+                          - generic [ref=e850]: "4.4"
+                          - generic [ref=e852]: 83 оценки
+                      - generic [ref=e855]:
+                        - generic [ref=e857]: Сегодня
+                        - text: ","
+                        - generic [ref=e858]: эл. почта
+                    - link [ref=e860] [cursor=pointer]:
+                      - /url: /card/chat-gpt-5-plus-prodleniye-podpiski-na-vash-profil-1-mesyats-bystraya-vydacha-dalle-3--sora--sora-2/5230816808?do-waremd5=bXFAbG59SeQc4ro33m2Png&showUid=17743457646313680453206001&cpa=1&cpc=lsApLni74B7173nQXIC3Q9S6T8HT0RDQ_bEFZhQRwFWK39lpMkoYqNme0cssNT06-JpHLKQp2tWHeVSLQMLwBZ8VJGDrBTtEJi9zkOVdiwGPPbLMGCL3_g8unJUwPlUycq0MBRQQ54ooRqrCC4cWTtOvNzD9Jq_MU8piHts8oLBzZ3FqVhf84jy3tAdkLfivdEjqLpsG_pYY2G6hECSi4_nk5r-GAkM1QIsBKW1_ioGzJzbJm-5zlAJvAMLblC7CS_xsfftLwFkVQ8wmvWuJEJZuMxAAqNQV-271R9eMfpHsg_2FEP1uuil_x_VN-2TF4A0eckCDy6v8nGKoijc_J8ZBVR6v-pPG9oNG21mTTBByCjVNjqzd202zS5F2xAzeYgf2zS5Q0Kt0efa67GTVBy_3QzUwpSQ4&sponsored=1
+                - listitem [ref=e861]:
+                  - generic [ref=e865]:
+                    - generic [ref=e867]:
+                      - link "Подарочная карта Razer Gold на 25 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код" [ref=e869] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-razer-gold-na-25-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034097?do-waremd5=rOXX61HyADRCskJnO72EAg&showUid=17743457646181587110706002&cpa=1&cpc=lsApLni74B7bRr4u9GliOf_6fqfU9LS4BwpHir8KKmm8mxPNVu9PapPZ1Wlwtq-FUDSFdKm0pmwNOzZ5E-bBf0GODqcZL2wIrQx02qV4NYaInkZL6hknaaAvJ8ruAh0huF7o1BixICUi8QLN8V3rmVpuc_7m4glV7ndCqSvLozAl2OYoF4KVVEo9SG-k4bq2A3A1cVqybhr_QUbDDowdhY5QDOQVxfUX-VqZLJ0uijIdrSkJhzeyFL1vpRqm7U05NhoUnVFBR46Q8aP8hbwGBnR96ogZpGwSBXopMWCXJjnjHXkV01rWaMHYY6d1zXHB3-OMs2PjB8yX_js0xe9EvOS7oGCckMbVFIZCDXX4NdZbaAchT5LmS3s3jYlYIYcq
+                        - img "Подарочная карта Razer Gold на 25 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код" [ref=e877]
+                      - button "Добавить в избранное" [ref=e883] [cursor=pointer]
+                      - button "В корзину" [ref=e888] [cursor=pointer]
+                    - link "Подарочная карта Razer Gold на 25 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код" [ref=e893] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-25-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034097?do-waremd5=rOXX61HyADRCskJnO72EAg&showUid=17743457646181587110706002&cpa=1&cpc=lsApLni74B7bRr4u9GliOf_6fqfU9LS4BwpHir8KKmm8mxPNVu9PapPZ1Wlwtq-FUDSFdKm0pmwNOzZ5E-bBf0GODqcZL2wIrQx02qV4NYaInkZL6hknaaAvJ8ruAh0huF7o1BixICUi8QLN8V3rmVpuc_7m4glV7ndCqSvLozAl2OYoF4KVVEo9SG-k4bq2A3A1cVqybhr_QUbDDowdhY5QDOQVxfUX-VqZLJ0uijIdrSkJhzeyFL1vpRqm7U05NhoUnVFBR46Q8aP8hbwGBnR96ogZpGwSBXopMWCXJjnjHXkV01rWaMHYY6d1zXHB3-OMs2PjB8yX_js0xe9EvOS7oGCckMbVFIZCDXX4NdZbaAchT5LmS3s3jYlYIYcq
+                      - link "Подарочная карта Razer Gold на 25 TRY / Турция / RAZER GOLD Gift Card Turkey TL / Цифровой код" [ref=e894]
+                    - link "Цена 64 ₽" [ref=e899] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-25-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034097?do-waremd5=rOXX61HyADRCskJnO72EAg&showUid=17743457646181587110706002&cpa=1&cpc=lsApLni74B7bRr4u9GliOf_6fqfU9LS4BwpHir8KKmm8mxPNVu9PapPZ1Wlwtq-FUDSFdKm0pmwNOzZ5E-bBf0GODqcZL2wIrQx02qV4NYaInkZL6hknaaAvJ8ruAh0huF7o1BixICUi8QLN8V3rmVpuc_7m4glV7ndCqSvLozAl2OYoF4KVVEo9SG-k4bq2A3A1cVqybhr_QUbDDowdhY5QDOQVxfUX-VqZLJ0uijIdrSkJhzeyFL1vpRqm7U05NhoUnVFBR46Q8aP8hbwGBnR96ogZpGwSBXopMWCXJjnjHXkV01rWaMHYY6d1zXHB3-OMs2PjB8yX_js0xe9EvOS7oGCckMbVFIZCDXX4NdZbaAchT5LmS3s3jYlYIYcq
+                      - generic [ref=e901]:
+                        - generic [ref=e902]: Цена 64 ₽
+                        - generic [ref=e905]:
+                          - generic [ref=e906]: "64"
+                          - generic [ref=e907]: ₽
+                    - generic [ref=e908]:
+                      - generic [ref=e909]:
+                        - generic [ref=e910]: "Рейтинг товара: 3.8 из 5"
+                        - generic [ref=e911]: на основе 13 оценок
+                        - generic [ref=e912]:
+                          - generic [ref=e913]: "3.8"
+                          - generic [ref=e915]: 13 оценок
+                      - generic [ref=e918]:
+                        - generic [ref=e920]: Сегодня
+                        - text: ","
+                        - generic [ref=e921]: эл. почта
+                    - link [ref=e923] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-25-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034097?do-waremd5=rOXX61HyADRCskJnO72EAg&showUid=17743457646181587110706002&cpa=1&cpc=lsApLni74B7bRr4u9GliOf_6fqfU9LS4BwpHir8KKmm8mxPNVu9PapPZ1Wlwtq-FUDSFdKm0pmwNOzZ5E-bBf0GODqcZL2wIrQx02qV4NYaInkZL6hknaaAvJ8ruAh0huF7o1BixICUi8QLN8V3rmVpuc_7m4glV7ndCqSvLozAl2OYoF4KVVEo9SG-k4bq2A3A1cVqybhr_QUbDDowdhY5QDOQVxfUX-VqZLJ0uijIdrSkJhzeyFL1vpRqm7U05NhoUnVFBR46Q8aP8hbwGBnR96ogZpGwSBXopMWCXJjnjHXkV01rWaMHYY6d1zXHB3-OMs2PjB8yX_js0xe9EvOS7oGCckMbVFIZCDXX4NdZbaAchT5LmS3s3jYlYIYcq
+                - listitem [ref=e924]:
+                  - generic [ref=e928]:
+                    - generic [ref=e930]:
+                      - link "Подарочная карта Razer Gold 5 TRY — купить онлайн, пополнение кошелька Razer Gold Турция" [ref=e932] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-razer-gold-5-try--kupit-onlayn-popolneniye-koshelka-razer-gold-turtsiya/4867857173?do-waremd5=Zq2ct7vY0-01H5QYmrc1kw&showUid=17743457646212143381306003&cpa=1&cpc=lsApLni74B6I8ZgCoaWp1KsqQ3x2GayWLrWkfQb-Ln_LLBxscp_-FzqfIvAYZdcqqMy-oI2R1DAJR4Y9IdhG0LgOqgd-Eygrl6lqTZAYfgyrA3rURM95n_drGIX_7dHe4D9rWaFJXggl8GNqdBqNYMKZ-u3zGNsnfkSwVeTixGvXX7rbd5MYs4shkZHlMwKJhaONzFn5aalLylr1TAAldGxd6qIEDpNgHzPpfqhsQsDdlm2CzRltnnREUbLXDZ0HPMkEK425_qW1jn6CddfmVoqvW840lIdODAA5sjgu3OraaV-EVuR02pHP1QIE0PirTLwcIQ8mxnSO1xoSQRLAbuBDJSplXER-
+                        - img "Подарочная карта Razer Gold 5 TRY — купить онлайн, пополнение кошелька Razer Gold Турция" [ref=e940]
+                      - button "Добавить в избранное" [ref=e946] [cursor=pointer]
+                      - button "В корзину" [ref=e951] [cursor=pointer]
+                    - link "Подарочная карта Razer Gold 5 TRY — купить онлайн, пополнение кошелька Razer Gold Турция" [ref=e956] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-5-try--kupit-onlayn-popolneniye-koshelka-razer-gold-turtsiya/4867857173?do-waremd5=Zq2ct7vY0-01H5QYmrc1kw&showUid=17743457646212143381306003&cpa=1&cpc=lsApLni74B6I8ZgCoaWp1KsqQ3x2GayWLrWkfQb-Ln_LLBxscp_-FzqfIvAYZdcqqMy-oI2R1DAJR4Y9IdhG0LgOqgd-Eygrl6lqTZAYfgyrA3rURM95n_drGIX_7dHe4D9rWaFJXggl8GNqdBqNYMKZ-u3zGNsnfkSwVeTixGvXX7rbd5MYs4shkZHlMwKJhaONzFn5aalLylr1TAAldGxd6qIEDpNgHzPpfqhsQsDdlm2CzRltnnREUbLXDZ0HPMkEK425_qW1jn6CddfmVoqvW840lIdODAA5sjgu3OraaV-EVuR02pHP1QIE0PirTLwcIQ8mxnSO1xoSQRLAbuBDJSplXER-
+                      - link "Подарочная карта Razer Gold 5 TRY — купить онлайн, пополнение кошелька Razer Gold Турция" [ref=e957]
+                    - link "Цена 11 ₽" [ref=e962] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-5-try--kupit-onlayn-popolneniye-koshelka-razer-gold-turtsiya/4867857173?do-waremd5=Zq2ct7vY0-01H5QYmrc1kw&showUid=17743457646212143381306003&cpa=1&cpc=lsApLni74B6I8ZgCoaWp1KsqQ3x2GayWLrWkfQb-Ln_LLBxscp_-FzqfIvAYZdcqqMy-oI2R1DAJR4Y9IdhG0LgOqgd-Eygrl6lqTZAYfgyrA3rURM95n_drGIX_7dHe4D9rWaFJXggl8GNqdBqNYMKZ-u3zGNsnfkSwVeTixGvXX7rbd5MYs4shkZHlMwKJhaONzFn5aalLylr1TAAldGxd6qIEDpNgHzPpfqhsQsDdlm2CzRltnnREUbLXDZ0HPMkEK425_qW1jn6CddfmVoqvW840lIdODAA5sjgu3OraaV-EVuR02pHP1QIE0PirTLwcIQ8mxnSO1xoSQRLAbuBDJSplXER-
+                      - generic [ref=e964]:
+                        - generic [ref=e965]: Цена 11 ₽
+                        - generic [ref=e968]:
+                          - generic [ref=e969]: "11"
+                          - generic [ref=e970]: ₽
+                    - generic [ref=e971]:
+                      - generic [ref=e972]:
+                        - generic [ref=e973]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e974]: на основе 5 оценок
+                        - generic [ref=e975]:
+                          - generic [ref=e976]: "5.0"
+                          - generic [ref=e978]: 5 оценок
+                      - generic [ref=e981]:
+                        - generic [ref=e983]: Сегодня
+                        - text: ","
+                        - generic [ref=e984]: эл. почта
+                    - link [ref=e986] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-5-try--kupit-onlayn-popolneniye-koshelka-razer-gold-turtsiya/4867857173?do-waremd5=Zq2ct7vY0-01H5QYmrc1kw&showUid=17743457646212143381306003&cpa=1&cpc=lsApLni74B6I8ZgCoaWp1KsqQ3x2GayWLrWkfQb-Ln_LLBxscp_-FzqfIvAYZdcqqMy-oI2R1DAJR4Y9IdhG0LgOqgd-Eygrl6lqTZAYfgyrA3rURM95n_drGIX_7dHe4D9rWaFJXggl8GNqdBqNYMKZ-u3zGNsnfkSwVeTixGvXX7rbd5MYs4shkZHlMwKJhaONzFn5aalLylr1TAAldGxd6qIEDpNgHzPpfqhsQsDdlm2CzRltnnREUbLXDZ0HPMkEK425_qW1jn6CddfmVoqvW840lIdODAA5sjgu3OraaV-EVuR02pHP1QIE0PirTLwcIQ8mxnSO1xoSQRLAbuBDJSplXER-
+                - listitem [ref=e987]:
+                  - generic [ref=e991]:
+                    - generic [ref=e993]:
+                      - link "Подарочная карта PlayStation Store 500 TL /Турция/Пополнение счета PSN, Цифровой код, Gift Card Playstation Turkey TR" [ref=e995] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-playstation-store-500-tl-turtsiyapopolneniye-scheta-psn-tsifrovoy-kod-gift-card-playstation-turkey-tr/4601317070?do-waremd5=OSLHwDO575jVNCmtTzHkfg&showUid=17743457646181664022806004&cpa=1&cpc=lsApLni74B6J-RoghOPl7tx25nCGkOEk1Ad3jICCHLkWsL5i7mokcvhaTVycSt1pXuKfuJnGRrNYK6pGsQY0I5EsvVy0OOOr5Nta0iH26IfCh1PR3kvKBV2WYVi6xdcKvVR6xBple4_Ow3j1ph_5kbtUQd1VoXTX4QePpGHGKe0mSd2w5FBvzTmEL-Y1S6eSz3RXPtP5fUPkR-FBNK2UChVyYLtNDxrz2b5dMcTBBfiJhspYcPp_R-Hh3T5YrSBPxTuXiIXiWP8uTmNpxRw-cqPQrdnkkhj3YoU6Pjl6CQkJvW_KktJ3KgBeidOFqxVii_NihAN55aVKzIs-fOpVlBwujjNfx_W2LxHvux665SQh_vTH9PTgkuFAI9BtTqUvs_-3y5J6DoNsO8E3BAxCYyjuSIJqKzqJ
+                        - img "Подарочная карта PlayStation Store 500 TL /Турция/Пополнение счета PSN, Цифровой код, Gift Card Playstation Turkey TR" [ref=e1003]
+                      - button "Добавить в избранное" [ref=e1009] [cursor=pointer]
+                      - button "В корзину" [ref=e1014] [cursor=pointer]
+                    - link "Подарочная карта PlayStation Store 500 TL /Турция/Пополнение счета PSN, Цифровой код, Gift Card Playstation Turkey TR" [ref=e1019] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-playstation-store-500-tl-turtsiyapopolneniye-scheta-psn-tsifrovoy-kod-gift-card-playstation-turkey-tr/4601317070?do-waremd5=OSLHwDO575jVNCmtTzHkfg&showUid=17743457646181664022806004&cpa=1&cpc=lsApLni74B6J-RoghOPl7tx25nCGkOEk1Ad3jICCHLkWsL5i7mokcvhaTVycSt1pXuKfuJnGRrNYK6pGsQY0I5EsvVy0OOOr5Nta0iH26IfCh1PR3kvKBV2WYVi6xdcKvVR6xBple4_Ow3j1ph_5kbtUQd1VoXTX4QePpGHGKe0mSd2w5FBvzTmEL-Y1S6eSz3RXPtP5fUPkR-FBNK2UChVyYLtNDxrz2b5dMcTBBfiJhspYcPp_R-Hh3T5YrSBPxTuXiIXiWP8uTmNpxRw-cqPQrdnkkhj3YoU6Pjl6CQkJvW_KktJ3KgBeidOFqxVii_NihAN55aVKzIs-fOpVlBwujjNfx_W2LxHvux665SQh_vTH9PTgkuFAI9BtTqUvs_-3y5J6DoNsO8E3BAxCYyjuSIJqKzqJ
+                      - link "Подарочная карта PlayStation Store 500 TL /Турция/Пополнение счета PSN, Цифровой код, Gift Card Playstation Turkey TR" [ref=e1020]
+                    - link "Цена 1 145 ₽" [ref=e1025] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-playstation-store-500-tl-turtsiyapopolneniye-scheta-psn-tsifrovoy-kod-gift-card-playstation-turkey-tr/4601317070?do-waremd5=OSLHwDO575jVNCmtTzHkfg&showUid=17743457646181664022806004&cpa=1&cpc=lsApLni74B6J-RoghOPl7tx25nCGkOEk1Ad3jICCHLkWsL5i7mokcvhaTVycSt1pXuKfuJnGRrNYK6pGsQY0I5EsvVy0OOOr5Nta0iH26IfCh1PR3kvKBV2WYVi6xdcKvVR6xBple4_Ow3j1ph_5kbtUQd1VoXTX4QePpGHGKe0mSd2w5FBvzTmEL-Y1S6eSz3RXPtP5fUPkR-FBNK2UChVyYLtNDxrz2b5dMcTBBfiJhspYcPp_R-Hh3T5YrSBPxTuXiIXiWP8uTmNpxRw-cqPQrdnkkhj3YoU6Pjl6CQkJvW_KktJ3KgBeidOFqxVii_NihAN55aVKzIs-fOpVlBwujjNfx_W2LxHvux665SQh_vTH9PTgkuFAI9BtTqUvs_-3y5J6DoNsO8E3BAxCYyjuSIJqKzqJ
+                      - generic [ref=e1027]:
+                        - generic [ref=e1028]: Цена 1 145 ₽
+                        - generic [ref=e1031]:
+                          - generic [ref=e1032]: 1 145
+                          - generic [ref=e1033]: ₽
+                    - generic [ref=e1034]:
+                      - generic [ref=e1035]:
+                        - generic [ref=e1036]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1037]: на основе 1473 оценки
+                        - generic [ref=e1038]:
+                          - generic [ref=e1039]: "5.0"
+                          - generic [ref=e1041]: 1473 оценки
+                      - generic [ref=e1044]:
+                        - generic [ref=e1046]: Сегодня
+                        - text: ","
+                        - generic [ref=e1047]: эл. почта
+                    - link [ref=e1049] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-playstation-store-500-tl-turtsiyapopolneniye-scheta-psn-tsifrovoy-kod-gift-card-playstation-turkey-tr/4601317070?do-waremd5=OSLHwDO575jVNCmtTzHkfg&showUid=17743457646181664022806004&cpa=1&cpc=lsApLni74B6J-RoghOPl7tx25nCGkOEk1Ad3jICCHLkWsL5i7mokcvhaTVycSt1pXuKfuJnGRrNYK6pGsQY0I5EsvVy0OOOr5Nta0iH26IfCh1PR3kvKBV2WYVi6xdcKvVR6xBple4_Ow3j1ph_5kbtUQd1VoXTX4QePpGHGKe0mSd2w5FBvzTmEL-Y1S6eSz3RXPtP5fUPkR-FBNK2UChVyYLtNDxrz2b5dMcTBBfiJhspYcPp_R-Hh3T5YrSBPxTuXiIXiWP8uTmNpxRw-cqPQrdnkkhj3YoU6Pjl6CQkJvW_KktJ3KgBeidOFqxVii_NihAN55aVKzIs-fOpVlBwujjNfx_W2LxHvux665SQh_vTH9PTgkuFAI9BtTqUvs_-3y5J6DoNsO8E3BAxCYyjuSIJqKzqJ
+                - listitem [ref=e1050]:
+                  - generic [ref=e1054]:
+                    - generic [ref=e1056]:
+                      - link "PlayStation Store 500 TRY (Турция), PS Store пополнение счета, Электронный ключ, Подарочная карта, Карта пополнения" [ref=e1058] [cursor=pointer]:
+                        - /url: /card/playstation-store-500-try-turtsiya--karta-popolneniya-tsifrovoy-kod/5087591486?do-waremd5=qdlwv-Bgd8YM8FQu6u-gEA&showUid=17743457646222423613506005&cpa=1&cpc=lsApLni74B6abH2LP1zxq6Gg8sQysKc6pR0U6IorOc2oMay2U-FDM7y5A9QfXFVyaHO8V18usuFxX_QEN8z93HStjpon1Fs9w6v-8_mtCxXp3-L3Ze44ZveG1BcWZJi784hsQR6nO1kFinVilzrHHIFDAY3Oh7qKnQDaz3TahokdL91mD7tkWcQMc8oztPei-XyLT10xK3HmAXM8lij0W7GTOX4yo_uzsI3SlYE-nzIfgZZODHCTWAzg74BH1c_b8jFksnhPoVhWyYUexo4ljZxkdMWdpt2fYR_xb3UiU8-RU6Rr9oo09a_Qs8Wt4ABdSjAUH5qOy9Vd3yOn09B3kNn0ZkDjNZoLBiq6hrTP1So%2C
+                        - img "PlayStation Store 500 TRY (Турция), PS Store пополнение счета, Электронный ключ, Подарочная карта, Карта пополнения" [ref=e1066]
+                      - button "Добавить в избранное" [ref=e1072] [cursor=pointer]
+                      - button "В корзину" [ref=e1077] [cursor=pointer]
+                    - link "PlayStation Store 500 TRY (Турция), PS Store пополнение счета, Электронный ключ, Подарочная карта, Карта пополнения" [ref=e1082] [cursor=pointer]:
+                      - /url: /card/playstation-store-500-try-turtsiya--karta-popolneniya-tsifrovoy-kod/5087591486?do-waremd5=qdlwv-Bgd8YM8FQu6u-gEA&showUid=17743457646222423613506005&cpa=1&cpc=lsApLni74B6abH2LP1zxq6Gg8sQysKc6pR0U6IorOc2oMay2U-FDM7y5A9QfXFVyaHO8V18usuFxX_QEN8z93HStjpon1Fs9w6v-8_mtCxXp3-L3Ze44ZveG1BcWZJi784hsQR6nO1kFinVilzrHHIFDAY3Oh7qKnQDaz3TahokdL91mD7tkWcQMc8oztPei-XyLT10xK3HmAXM8lij0W7GTOX4yo_uzsI3SlYE-nzIfgZZODHCTWAzg74BH1c_b8jFksnhPoVhWyYUexo4ljZxkdMWdpt2fYR_xb3UiU8-RU6Rr9oo09a_Qs8Wt4ABdSjAUH5qOy9Vd3yOn09B3kNn0ZkDjNZoLBiq6hrTP1So%2C
+                      - link "PlayStation Store 500 TRY (Турция), PS Store пополнение счета, Электронный ключ, Подарочная карта, Карта пополнения" [ref=e1083]
+                    - link "Цена 1 075 ₽" [ref=e1088] [cursor=pointer]:
+                      - /url: /card/playstation-store-500-try-turtsiya--karta-popolneniya-tsifrovoy-kod/5087591486?do-waremd5=qdlwv-Bgd8YM8FQu6u-gEA&showUid=17743457646222423613506005&cpa=1&cpc=lsApLni74B6abH2LP1zxq6Gg8sQysKc6pR0U6IorOc2oMay2U-FDM7y5A9QfXFVyaHO8V18usuFxX_QEN8z93HStjpon1Fs9w6v-8_mtCxXp3-L3Ze44ZveG1BcWZJi784hsQR6nO1kFinVilzrHHIFDAY3Oh7qKnQDaz3TahokdL91mD7tkWcQMc8oztPei-XyLT10xK3HmAXM8lij0W7GTOX4yo_uzsI3SlYE-nzIfgZZODHCTWAzg74BH1c_b8jFksnhPoVhWyYUexo4ljZxkdMWdpt2fYR_xb3UiU8-RU6Rr9oo09a_Qs8Wt4ABdSjAUH5qOy9Vd3yOn09B3kNn0ZkDjNZoLBiq6hrTP1So%2C
+                      - generic [ref=e1090]:
+                        - generic [ref=e1091]: Цена 1 075 ₽
+                        - generic [ref=e1094]:
+                          - generic [ref=e1095]: 1 075
+                          - generic [ref=e1096]: ₽
+                    - generic [ref=e1097]:
+                      - generic [ref=e1098]:
+                        - generic [ref=e1099]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1100]: на основе 41 оценка
+                        - generic [ref=e1101]:
+                          - generic [ref=e1102]: "5.0"
+                          - generic [ref=e1104]: 41 оценка
+                      - generic [ref=e1107]:
+                        - generic [ref=e1109]: Сегодня
+                        - text: ","
+                        - generic [ref=e1110]: эл. почта
+                    - link [ref=e1112] [cursor=pointer]:
+                      - /url: /card/playstation-store-500-try-turtsiya--karta-popolneniya-tsifrovoy-kod/5087591486?do-waremd5=qdlwv-Bgd8YM8FQu6u-gEA&showUid=17743457646222423613506005&cpa=1&cpc=lsApLni74B6abH2LP1zxq6Gg8sQysKc6pR0U6IorOc2oMay2U-FDM7y5A9QfXFVyaHO8V18usuFxX_QEN8z93HStjpon1Fs9w6v-8_mtCxXp3-L3Ze44ZveG1BcWZJi784hsQR6nO1kFinVilzrHHIFDAY3Oh7qKnQDaz3TahokdL91mD7tkWcQMc8oztPei-XyLT10xK3HmAXM8lij0W7GTOX4yo_uzsI3SlYE-nzIfgZZODHCTWAzg74BH1c_b8jFksnhPoVhWyYUexo4ljZxkdMWdpt2fYR_xb3UiU8-RU6Rr9oo09a_Qs8Wt4ABdSjAUH5qOy9Vd3yOn09B3kNn0ZkDjNZoLBiq6hrTP1So%2C
+                - listitem [ref=e1113]:
+                  - generic [ref=e1117]:
+                    - generic [ref=e1119]:
+                      - link "Пополнение Steam 40 рублей | Россия | Цифровой код, пополнение счета | Steam Gift Card Russia" [ref=e1121] [cursor=pointer]:
+                        - /url: /card/popolneniye-steam-40-rubley--rossiya--tsifrovoy-kod-popolneniye-scheta--steam-gift-card-russia/5253759521?do-waremd5=BXcbYFxIeaYpkojUern78g&showUid=17743457646242625348406006&cpa=1&cpc=lsApLni74B6FesbsZFZ9-rmZ9o3clc68u6P4A57GkixIQiNencQZ_aMxXg0JAXbguj2Qyq6K0mZpHhJjDW3eXLzjCMinTc5B2u8PPN9yAHi_45gbGP62_tfqOYKK9m2N2yBw6B3wnpRAKZ1CBeSp-Ou67WT02tLq807cyPQ6ShmEJoNsxV21sjTyZmt7x8qzzMabWnwsxtSNIHYvzizAPdV5e0JI78aBXSSxpSLD-Dr0IkBisD7ALAdLMoE5GQys-mVOu0e0baOrjHb7EZIH1jKiIeXthJ_29n9anK1ldIZ2c76-FUsy7-r4S7E-56kzXHrk4Vjf5PSQN-E1rOSu680vj1RJtV1adBk7tqXymJ-pR47w2ib_E17XxpgyrzzD5XYeM2G9M_M%2C
+                        - img "Пополнение Steam 40 рублей | Россия | Цифровой код, пополнение счета | Steam Gift Card Russia" [ref=e1129]
+                      - button "Добавить в избранное" [ref=e1135] [cursor=pointer]
+                      - button "В корзину" [ref=e1140] [cursor=pointer]
+                    - link "Пополнение Steam 40 рублей | Россия | Цифровой код, пополнение счета | Steam Gift Card Russia" [ref=e1145] [cursor=pointer]:
+                      - /url: /card/popolneniye-steam-40-rubley--rossiya--tsifrovoy-kod-popolneniye-scheta--steam-gift-card-russia/5253759521?do-waremd5=BXcbYFxIeaYpkojUern78g&showUid=17743457646242625348406006&cpa=1&cpc=lsApLni74B6FesbsZFZ9-rmZ9o3clc68u6P4A57GkixIQiNencQZ_aMxXg0JAXbguj2Qyq6K0mZpHhJjDW3eXLzjCMinTc5B2u8PPN9yAHi_45gbGP62_tfqOYKK9m2N2yBw6B3wnpRAKZ1CBeSp-Ou67WT02tLq807cyPQ6ShmEJoNsxV21sjTyZmt7x8qzzMabWnwsxtSNIHYvzizAPdV5e0JI78aBXSSxpSLD-Dr0IkBisD7ALAdLMoE5GQys-mVOu0e0baOrjHb7EZIH1jKiIeXthJ_29n9anK1ldIZ2c76-FUsy7-r4S7E-56kzXHrk4Vjf5PSQN-E1rOSu680vj1RJtV1adBk7tqXymJ-pR47w2ib_E17XxpgyrzzD5XYeM2G9M_M%2C
+                      - link "Пополнение Steam 40 рублей | Россия | Цифровой код, пополнение счета | Steam Gift Card Russia" [ref=e1146]
+                    - link "Цена 36 ₽" [ref=e1151] [cursor=pointer]:
+                      - /url: /card/popolneniye-steam-40-rubley--rossiya--tsifrovoy-kod-popolneniye-scheta--steam-gift-card-russia/5253759521?do-waremd5=BXcbYFxIeaYpkojUern78g&showUid=17743457646242625348406006&cpa=1&cpc=lsApLni74B6FesbsZFZ9-rmZ9o3clc68u6P4A57GkixIQiNencQZ_aMxXg0JAXbguj2Qyq6K0mZpHhJjDW3eXLzjCMinTc5B2u8PPN9yAHi_45gbGP62_tfqOYKK9m2N2yBw6B3wnpRAKZ1CBeSp-Ou67WT02tLq807cyPQ6ShmEJoNsxV21sjTyZmt7x8qzzMabWnwsxtSNIHYvzizAPdV5e0JI78aBXSSxpSLD-Dr0IkBisD7ALAdLMoE5GQys-mVOu0e0baOrjHb7EZIH1jKiIeXthJ_29n9anK1ldIZ2c76-FUsy7-r4S7E-56kzXHrk4Vjf5PSQN-E1rOSu680vj1RJtV1adBk7tqXymJ-pR47w2ib_E17XxpgyrzzD5XYeM2G9M_M%2C
+                      - generic [ref=e1153]:
+                        - generic [ref=e1154]: Цена 36 ₽
+                        - generic [ref=e1157]:
+                          - generic [ref=e1158]: "36"
+                          - generic [ref=e1159]: ₽
+                    - generic [ref=e1160]:
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]: "Рейтинг товара: 4.7 из 5"
+                        - generic [ref=e1163]: на основе 23 оценки
+                        - generic [ref=e1164]:
+                          - generic [ref=e1165]: "4.7"
+                          - generic [ref=e1167]: 23 оценки
+                      - generic [ref=e1170]:
+                        - generic [ref=e1172]: Сегодня
+                        - text: ","
+                        - generic [ref=e1173]: эл. почта
+                    - link [ref=e1175] [cursor=pointer]:
+                      - /url: /card/popolneniye-steam-40-rubley--rossiya--tsifrovoy-kod-popolneniye-scheta--steam-gift-card-russia/5253759521?do-waremd5=BXcbYFxIeaYpkojUern78g&showUid=17743457646242625348406006&cpa=1&cpc=lsApLni74B6FesbsZFZ9-rmZ9o3clc68u6P4A57GkixIQiNencQZ_aMxXg0JAXbguj2Qyq6K0mZpHhJjDW3eXLzjCMinTc5B2u8PPN9yAHi_45gbGP62_tfqOYKK9m2N2yBw6B3wnpRAKZ1CBeSp-Ou67WT02tLq807cyPQ6ShmEJoNsxV21sjTyZmt7x8qzzMabWnwsxtSNIHYvzizAPdV5e0JI78aBXSSxpSLD-Dr0IkBisD7ALAdLMoE5GQys-mVOu0e0baOrjHb7EZIH1jKiIeXthJ_29n9anK1ldIZ2c76-FUsy7-r4S7E-56kzXHrk4Vjf5PSQN-E1rOSu680vj1RJtV1adBk7tqXymJ-pR47w2ib_E17XxpgyrzzD5XYeM2G9M_M%2C
+                - listitem [ref=e1176]:
+                  - generic [ref=e1180]:
+                    - generic [ref=e1182]:
+                      - link "Подарочная карта Steam USA 20 USD | Цифровой код активации Steam USA | Пополнение счета Steam Wallet USA" [ref=e1184] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-steam-usa-20-usd--tsifrovoy-kod-aktivatsii-steam-usa--popolneniye-scheta-steam-wallet-usa/4904613665?do-waremd5=y6SHPOHW91qOgIgV_hmidg&showUid=17743457646293300911706007&cpa=1&cpc=lsApLni74B4L0KsBp7Sp3uMTSWxX_lZdJ-KA3Q-G9PvSJuBKDh2TofI-RBAzsDjEG_xomUEOtq8wJdo382O2-gvABrSw2GkJaWS2i73AeGyDebf4EHrRbMq40G-daoB0I2ih9I3l8J7Jp9lDjnKrcfkP6bnDnZh8PNyKqiF0XDYDe9kxhEbc15WywRcAMBwnbjigYlnleSY5vhKWJyNdDE6lWdrvulQwHp4uP28tHmsKGnXwN5UOGtiEtahh2gSGjVsrVmCR6U3ylBOwEJRx0sXCJwu8PuKHLQty_KGp0SeY68e4b3kw-6ijPE-0U4q8KCfqHcgecXsDwVtpGYS3If1sFiFscEUr3tmVwBPc5DsnNYvy4CLAsZUU_0QCa3j_9VKOkLqjgrA%2C&sponsored=1
+                        - img "Подарочная карта Steam USA 20 USD | Цифровой код активации Steam USA | Пополнение счета Steam Wallet USA" [ref=e1192]
+                      - button "Добавить в избранное" [ref=e1198] [cursor=pointer]
+                      - button "В корзину" [ref=e1203] [cursor=pointer]
+                    - link "Подарочная карта Steam USA 20 USD | Цифровой код активации Steam USA | Пополнение счета Steam Wallet USA" [ref=e1208] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-usa-20-usd--tsifrovoy-kod-aktivatsii-steam-usa--popolneniye-scheta-steam-wallet-usa/4904613665?do-waremd5=y6SHPOHW91qOgIgV_hmidg&showUid=17743457646293300911706007&cpa=1&cpc=lsApLni74B4L0KsBp7Sp3uMTSWxX_lZdJ-KA3Q-G9PvSJuBKDh2TofI-RBAzsDjEG_xomUEOtq8wJdo382O2-gvABrSw2GkJaWS2i73AeGyDebf4EHrRbMq40G-daoB0I2ih9I3l8J7Jp9lDjnKrcfkP6bnDnZh8PNyKqiF0XDYDe9kxhEbc15WywRcAMBwnbjigYlnleSY5vhKWJyNdDE6lWdrvulQwHp4uP28tHmsKGnXwN5UOGtiEtahh2gSGjVsrVmCR6U3ylBOwEJRx0sXCJwu8PuKHLQty_KGp0SeY68e4b3kw-6ijPE-0U4q8KCfqHcgecXsDwVtpGYS3If1sFiFscEUr3tmVwBPc5DsnNYvy4CLAsZUU_0QCa3j_9VKOkLqjgrA%2C&sponsored=1
+                      - link "Подарочная карта Steam USA 20 USD | Цифровой код активации Steam USA | Пополнение счета Steam Wallet USA" [ref=e1209]
+                    - link "Цена 1 930 ₽" [ref=e1214] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-usa-20-usd--tsifrovoy-kod-aktivatsii-steam-usa--popolneniye-scheta-steam-wallet-usa/4904613665?do-waremd5=y6SHPOHW91qOgIgV_hmidg&showUid=17743457646293300911706007&cpa=1&cpc=lsApLni74B4L0KsBp7Sp3uMTSWxX_lZdJ-KA3Q-G9PvSJuBKDh2TofI-RBAzsDjEG_xomUEOtq8wJdo382O2-gvABrSw2GkJaWS2i73AeGyDebf4EHrRbMq40G-daoB0I2ih9I3l8J7Jp9lDjnKrcfkP6bnDnZh8PNyKqiF0XDYDe9kxhEbc15WywRcAMBwnbjigYlnleSY5vhKWJyNdDE6lWdrvulQwHp4uP28tHmsKGnXwN5UOGtiEtahh2gSGjVsrVmCR6U3ylBOwEJRx0sXCJwu8PuKHLQty_KGp0SeY68e4b3kw-6ijPE-0U4q8KCfqHcgecXsDwVtpGYS3If1sFiFscEUr3tmVwBPc5DsnNYvy4CLAsZUU_0QCa3j_9VKOkLqjgrA%2C&sponsored=1
+                      - generic [ref=e1216]:
+                        - generic [ref=e1217]: Цена 1 930 ₽
+                        - generic [ref=e1220]:
+                          - generic [ref=e1221]: 1 930
+                          - generic [ref=e1222]: ₽
+                    - generic [ref=e1223]:
+                      - generic [ref=e1224]:
+                        - generic [ref=e1225]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1226]: на основе 11 оценок
+                        - generic [ref=e1227]:
+                          - generic [ref=e1228]: "5.0"
+                          - generic [ref=e1230]: 11 оценок
+                      - generic [ref=e1233]:
+                        - generic [ref=e1235]: Сегодня
+                        - text: ","
+                        - generic [ref=e1236]: эл. почта
+                    - link [ref=e1238] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-usa-20-usd--tsifrovoy-kod-aktivatsii-steam-usa--popolneniye-scheta-steam-wallet-usa/4904613665?do-waremd5=y6SHPOHW91qOgIgV_hmidg&showUid=17743457646293300911706007&cpa=1&cpc=lsApLni74B4L0KsBp7Sp3uMTSWxX_lZdJ-KA3Q-G9PvSJuBKDh2TofI-RBAzsDjEG_xomUEOtq8wJdo382O2-gvABrSw2GkJaWS2i73AeGyDebf4EHrRbMq40G-daoB0I2ih9I3l8J7Jp9lDjnKrcfkP6bnDnZh8PNyKqiF0XDYDe9kxhEbc15WywRcAMBwnbjigYlnleSY5vhKWJyNdDE6lWdrvulQwHp4uP28tHmsKGnXwN5UOGtiEtahh2gSGjVsrVmCR6U3ylBOwEJRx0sXCJwu8PuKHLQty_KGp0SeY68e4b3kw-6ijPE-0U4q8KCfqHcgecXsDwVtpGYS3If1sFiFscEUr3tmVwBPc5DsnNYvy4CLAsZUU_0QCa3j_9VKOkLqjgrA%2C&sponsored=1
+                - listitem [ref=e1239]:
+                  - generic [ref=e1243]:
+                    - generic [ref=e1245]:
+                      - link "Подарочная карта Nintendo eShop 5$ США (USA), Nintendo Gift Card 5$ USD, Цифровой код" [ref=e1247] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-nintendo-eshop-5-ssha-usa-nintendo-gift-card-5-tsifrovoy-kod/4452556995?do-waremd5=ukA-yTyn2RjgfGRaPGI2uw&showUid=17743457646181699102706008&cpa=1&cpc=lsApLni74B5v7ohExxDimDIwkJsWX1GkNTOY364vNi9SAXfPflmqmdMptaM7aO4p_YG1v3KjqyXyk_iTVv5t7fLA7h7bVAzT0q2cRMypgZvtrF83YtV52OGjvpiz0-fa0GGTG35S4P0xf3aUNMTOY6cqs4HK6NPxcaLLLlKISwpP3PVqCF_1y_dlcMx1Vq5nBCcz_ZYis9Mk3Pm7VPKt-Cn_V6e9g5D3lsiO2rX7XsHcnlGBE7boRpsraJcMdx0B6eFqwxLyCQ4s-e_NSMUj0qV6QFOmC34FoiXuVJP4YNyOdBqWJIQG4u9ZdoBPFNB_Be3O4qyC_j5HYgQTpuSynQVVfnnHmRsg8Y4zdLYhzSElVHg6H3K--oHtFdbx0vkrDcWXl2SZUZjC9DRA2PmoLWR-vigoAVHw
+                        - img "Подарочная карта Nintendo eShop 5$ США (USA), Nintendo Gift Card 5$ USD, Цифровой код" [ref=e1255]
+                      - button "Добавить в избранное" [ref=e1261] [cursor=pointer]
+                      - button "В корзину" [ref=e1266] [cursor=pointer]
+                    - link "Подарочная карта Nintendo eShop 5$ США (USA), Nintendo Gift Card 5$ USD, Цифровой код" [ref=e1271] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-5-ssha-usa-nintendo-gift-card-5-tsifrovoy-kod/4452556995?do-waremd5=ukA-yTyn2RjgfGRaPGI2uw&showUid=17743457646181699102706008&cpa=1&cpc=lsApLni74B5v7ohExxDimDIwkJsWX1GkNTOY364vNi9SAXfPflmqmdMptaM7aO4p_YG1v3KjqyXyk_iTVv5t7fLA7h7bVAzT0q2cRMypgZvtrF83YtV52OGjvpiz0-fa0GGTG35S4P0xf3aUNMTOY6cqs4HK6NPxcaLLLlKISwpP3PVqCF_1y_dlcMx1Vq5nBCcz_ZYis9Mk3Pm7VPKt-Cn_V6e9g5D3lsiO2rX7XsHcnlGBE7boRpsraJcMdx0B6eFqwxLyCQ4s-e_NSMUj0qV6QFOmC34FoiXuVJP4YNyOdBqWJIQG4u9ZdoBPFNB_Be3O4qyC_j5HYgQTpuSynQVVfnnHmRsg8Y4zdLYhzSElVHg6H3K--oHtFdbx0vkrDcWXl2SZUZjC9DRA2PmoLWR-vigoAVHw
+                      - link "Подарочная карта Nintendo eShop 5$ США (USA), Nintendo Gift Card 5$ USD, Цифровой код" [ref=e1272]
+                    - link "Цена 483 ₽" [ref=e1277] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-5-ssha-usa-nintendo-gift-card-5-tsifrovoy-kod/4452556995?do-waremd5=ukA-yTyn2RjgfGRaPGI2uw&showUid=17743457646181699102706008&cpa=1&cpc=lsApLni74B5v7ohExxDimDIwkJsWX1GkNTOY364vNi9SAXfPflmqmdMptaM7aO4p_YG1v3KjqyXyk_iTVv5t7fLA7h7bVAzT0q2cRMypgZvtrF83YtV52OGjvpiz0-fa0GGTG35S4P0xf3aUNMTOY6cqs4HK6NPxcaLLLlKISwpP3PVqCF_1y_dlcMx1Vq5nBCcz_ZYis9Mk3Pm7VPKt-Cn_V6e9g5D3lsiO2rX7XsHcnlGBE7boRpsraJcMdx0B6eFqwxLyCQ4s-e_NSMUj0qV6QFOmC34FoiXuVJP4YNyOdBqWJIQG4u9ZdoBPFNB_Be3O4qyC_j5HYgQTpuSynQVVfnnHmRsg8Y4zdLYhzSElVHg6H3K--oHtFdbx0vkrDcWXl2SZUZjC9DRA2PmoLWR-vigoAVHw
+                      - generic [ref=e1279]:
+                        - generic [ref=e1280]: Цена 483 ₽
+                        - generic [ref=e1283]:
+                          - generic [ref=e1284]: "483"
+                          - generic [ref=e1285]: ₽
+                    - generic [ref=e1286]:
+                      - generic [ref=e1287]:
+                        - generic [ref=e1288]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1289]: на основе 217 оценок
+                        - generic [ref=e1290]:
+                          - generic [ref=e1291]: "5.0"
+                          - generic [ref=e1293]: 217 оценок
+                      - generic [ref=e1296]:
+                        - generic [ref=e1298]: Сегодня
+                        - text: ","
+                        - generic [ref=e1299]: эл. почта
+                    - link [ref=e1301] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-5-ssha-usa-nintendo-gift-card-5-tsifrovoy-kod/4452556995?do-waremd5=ukA-yTyn2RjgfGRaPGI2uw&showUid=17743457646181699102706008&cpa=1&cpc=lsApLni74B5v7ohExxDimDIwkJsWX1GkNTOY364vNi9SAXfPflmqmdMptaM7aO4p_YG1v3KjqyXyk_iTVv5t7fLA7h7bVAzT0q2cRMypgZvtrF83YtV52OGjvpiz0-fa0GGTG35S4P0xf3aUNMTOY6cqs4HK6NPxcaLLLlKISwpP3PVqCF_1y_dlcMx1Vq5nBCcz_ZYis9Mk3Pm7VPKt-Cn_V6e9g5D3lsiO2rX7XsHcnlGBE7boRpsraJcMdx0B6eFqwxLyCQ4s-e_NSMUj0qV6QFOmC34FoiXuVJP4YNyOdBqWJIQG4u9ZdoBPFNB_Be3O4qyC_j5HYgQTpuSynQVVfnnHmRsg8Y4zdLYhzSElVHg6H3K--oHtFdbx0vkrDcWXl2SZUZjC9DRA2PmoLWR-vigoAVHw
+                - listitem [ref=e1302]:
+                  - generic [ref=e1306]:
+                    - generic [ref=e1308]:
+                      - link "Подарочная карта Steam США 10 USD / Цифровой код, пополнение счета/ Steam Gift Card USA" [ref=e1310] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-steam-ssha-10-usd-global--tsifrovoy-kod-popolneniye-scheta-steam-gift-card-usa/4864739321?do-waremd5=wS-ERqnFWsRB1Ppn9rEpdQ&showUid=17743457646273021258606009&cpa=1&cpc=lsApLni74B4UHA63kIYlz557jdK0kRzotvKhLU2rLOhXzsfJi8_NJSzxFR-LoD2ZNWiZR4XVbbExDLgh5A2fQ2Dz0NL1SZ1px8VQPLODxPQepw54IqVDTbU3-uYRdE8dkiLxnN1DkmaN6fABPrYiJXQ6Fzq7mAi0TRIBVUGJW5XEeMpHSPvVOIlBUS3Dlw1okMKnFSrsluP93sXXds3pV9JkwrPNRN3QywrkEaPIMxbfH9iO6kCmgtnqHyHc1hLjC4g5I6mmxfpa9cQZtu5KR1ZeVhiJyC0WX0YwGtXizT7lstOmMlfzVB4u18ATIimZFZ92Vn321X09yNdL9GU0bidebM4gmZaDNiLSIMx2AddmZ6_W7ALhuQhLiJaiQJ14Giz6PDkanby2S19bfhHnK-SlAAMCqXK0&sponsored=1
+                        - img "Подарочная карта Steam США 10 USD / Цифровой код, пополнение счета/ Steam Gift Card USA" [ref=e1318]
+                      - button "Добавить в избранное" [ref=e1324] [cursor=pointer]
+                      - button "В корзину" [ref=e1329] [cursor=pointer]
+                    - link "Подарочная карта Steam США 10 USD / Цифровой код, пополнение счета/ Steam Gift Card USA" [ref=e1334] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-ssha-10-usd-global--tsifrovoy-kod-popolneniye-scheta-steam-gift-card-usa/4864739321?do-waremd5=wS-ERqnFWsRB1Ppn9rEpdQ&showUid=17743457646273021258606009&cpa=1&cpc=lsApLni74B4UHA63kIYlz557jdK0kRzotvKhLU2rLOhXzsfJi8_NJSzxFR-LoD2ZNWiZR4XVbbExDLgh5A2fQ2Dz0NL1SZ1px8VQPLODxPQepw54IqVDTbU3-uYRdE8dkiLxnN1DkmaN6fABPrYiJXQ6Fzq7mAi0TRIBVUGJW5XEeMpHSPvVOIlBUS3Dlw1okMKnFSrsluP93sXXds3pV9JkwrPNRN3QywrkEaPIMxbfH9iO6kCmgtnqHyHc1hLjC4g5I6mmxfpa9cQZtu5KR1ZeVhiJyC0WX0YwGtXizT7lstOmMlfzVB4u18ATIimZFZ92Vn321X09yNdL9GU0bidebM4gmZaDNiLSIMx2AddmZ6_W7ALhuQhLiJaiQJ14Giz6PDkanby2S19bfhHnK-SlAAMCqXK0&sponsored=1
+                      - link "Подарочная карта Steam США 10 USD / Цифровой код, пополнение счета/ Steam Gift Card USA" [ref=e1335]
+                    - link "Цена 1 202 ₽" [ref=e1340] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-ssha-10-usd-global--tsifrovoy-kod-popolneniye-scheta-steam-gift-card-usa/4864739321?do-waremd5=wS-ERqnFWsRB1Ppn9rEpdQ&showUid=17743457646273021258606009&cpa=1&cpc=lsApLni74B4UHA63kIYlz557jdK0kRzotvKhLU2rLOhXzsfJi8_NJSzxFR-LoD2ZNWiZR4XVbbExDLgh5A2fQ2Dz0NL1SZ1px8VQPLODxPQepw54IqVDTbU3-uYRdE8dkiLxnN1DkmaN6fABPrYiJXQ6Fzq7mAi0TRIBVUGJW5XEeMpHSPvVOIlBUS3Dlw1okMKnFSrsluP93sXXds3pV9JkwrPNRN3QywrkEaPIMxbfH9iO6kCmgtnqHyHc1hLjC4g5I6mmxfpa9cQZtu5KR1ZeVhiJyC0WX0YwGtXizT7lstOmMlfzVB4u18ATIimZFZ92Vn321X09yNdL9GU0bidebM4gmZaDNiLSIMx2AddmZ6_W7ALhuQhLiJaiQJ14Giz6PDkanby2S19bfhHnK-SlAAMCqXK0&sponsored=1
+                      - generic [ref=e1342]:
+                        - generic [ref=e1343]: Цена 1 202 ₽
+                        - generic [ref=e1346]:
+                          - generic [ref=e1347]: 1 202
+                          - generic [ref=e1348]: ₽
+                    - generic [ref=e1349]:
+                      - generic [ref=e1350]:
+                        - generic [ref=e1351]: "Рейтинг товара: 4.8 из 5"
+                        - generic [ref=e1352]: на основе 12 оценок
+                        - generic [ref=e1353]:
+                          - generic [ref=e1354]: "4.8"
+                          - generic [ref=e1356]: 12 оценок
+                      - generic [ref=e1359]:
+                        - generic [ref=e1361]: Сегодня
+                        - text: ","
+                        - generic [ref=e1362]: эл. почта
+                    - link [ref=e1364] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-steam-ssha-10-usd-global--tsifrovoy-kod-popolneniye-scheta-steam-gift-card-usa/4864739321?do-waremd5=wS-ERqnFWsRB1Ppn9rEpdQ&showUid=17743457646273021258606009&cpa=1&cpc=lsApLni74B4UHA63kIYlz557jdK0kRzotvKhLU2rLOhXzsfJi8_NJSzxFR-LoD2ZNWiZR4XVbbExDLgh5A2fQ2Dz0NL1SZ1px8VQPLODxPQepw54IqVDTbU3-uYRdE8dkiLxnN1DkmaN6fABPrYiJXQ6Fzq7mAi0TRIBVUGJW5XEeMpHSPvVOIlBUS3Dlw1okMKnFSrsluP93sXXds3pV9JkwrPNRN3QywrkEaPIMxbfH9iO6kCmgtnqHyHc1hLjC4g5I6mmxfpa9cQZtu5KR1ZeVhiJyC0WX0YwGtXizT7lstOmMlfzVB4u18ATIimZFZ92Vn321X09yNdL9GU0bidebM4gmZaDNiLSIMx2AddmZ6_W7ALhuQhLiJaiQJ14Giz6PDkanby2S19bfhHnK-SlAAMCqXK0&sponsored=1
+                - listitem [ref=e1365]:
+                  - generic [ref=e1369]:
+                    - generic [ref=e1371]:
+                      - link "Подарочная карта \"Apple 100\", Турция, код активации, 100TL, для пополнения счёта" [ref=e1373] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-apple-100-turtsiya-kod-aktivatsii-100tl-dlya-popolneniya-scheta/5077641711?do-waremd5=iB_WsJWPjn9YlcSq_dVckA&showUid=17743457646212285980406010&cpa=1&cpc=lsApLni74B5lQrcWxuEbebfd2z4TS2ev8S173Np07pK5CG7KqdjP_2l0DQg_-cuKnP8KUTvU7lfe19nYnGIugfvaShaGQNvhm_wbcwr074QfOM1ExD5nWv2SRzoWMbPGub2Czjtca3qdOWX_pgY_rtgcMbbeZw5kSz0fhGyulwyNEn8-qrCIEHrK9wXlCY5bW_SZj1cRDmV2kKxUKA5q995TItnbiuw7QrfUXU1pgPSZjbmlha3b3gS-pdJNOPJqGJCJVHiQ_Dpysqw3ArYmjIJT9hq5VAouKG8GDH4RVCNhc8MdbiILuZ__6gxsq2e-fqG0XDSovzUh6R9tkdxm8Q%2C%2C
+                        - img "Подарочная карта \"Apple 100\", Турция, код активации, 100TL, для пополнения счёта" [ref=e1381]
+                      - button "Добавить в избранное" [ref=e1387] [cursor=pointer]
+                      - button "В корзину" [ref=e1392] [cursor=pointer]
+                    - link "Подарочная карта \"Apple 100\", Турция, код активации, 100TL, для пополнения счёта" [ref=e1397] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-100-turtsiya-kod-aktivatsii-100tl-dlya-popolneniya-scheta/5077641711?do-waremd5=iB_WsJWPjn9YlcSq_dVckA&showUid=17743457646212285980406010&cpa=1&cpc=lsApLni74B5lQrcWxuEbebfd2z4TS2ev8S173Np07pK5CG7KqdjP_2l0DQg_-cuKnP8KUTvU7lfe19nYnGIugfvaShaGQNvhm_wbcwr074QfOM1ExD5nWv2SRzoWMbPGub2Czjtca3qdOWX_pgY_rtgcMbbeZw5kSz0fhGyulwyNEn8-qrCIEHrK9wXlCY5bW_SZj1cRDmV2kKxUKA5q995TItnbiuw7QrfUXU1pgPSZjbmlha3b3gS-pdJNOPJqGJCJVHiQ_Dpysqw3ArYmjIJT9hq5VAouKG8GDH4RVCNhc8MdbiILuZ__6gxsq2e-fqG0XDSovzUh6R9tkdxm8Q%2C%2C
+                      - link "Подарочная карта \"Apple 100\", Турция, код активации, 100TL, для пополнения счёта" [ref=e1398]
+                    - link "Цена 234 ₽" [ref=e1403] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-100-turtsiya-kod-aktivatsii-100tl-dlya-popolneniya-scheta/5077641711?do-waremd5=iB_WsJWPjn9YlcSq_dVckA&showUid=17743457646212285980406010&cpa=1&cpc=lsApLni74B5lQrcWxuEbebfd2z4TS2ev8S173Np07pK5CG7KqdjP_2l0DQg_-cuKnP8KUTvU7lfe19nYnGIugfvaShaGQNvhm_wbcwr074QfOM1ExD5nWv2SRzoWMbPGub2Czjtca3qdOWX_pgY_rtgcMbbeZw5kSz0fhGyulwyNEn8-qrCIEHrK9wXlCY5bW_SZj1cRDmV2kKxUKA5q995TItnbiuw7QrfUXU1pgPSZjbmlha3b3gS-pdJNOPJqGJCJVHiQ_Dpysqw3ArYmjIJT9hq5VAouKG8GDH4RVCNhc8MdbiILuZ__6gxsq2e-fqG0XDSovzUh6R9tkdxm8Q%2C%2C
+                      - generic [ref=e1405]:
+                        - generic [ref=e1406]: Цена 234 ₽
+                        - generic [ref=e1409]:
+                          - generic [ref=e1410]: "234"
+                          - generic [ref=e1411]: ₽
+                    - generic [ref=e1412]:
+                      - generic [ref=e1413]:
+                        - generic [ref=e1414]: "Рейтинг товара: 4.7 из 5"
+                        - generic [ref=e1415]: на основе 60 оценок
+                        - generic [ref=e1416]:
+                          - generic [ref=e1417]: "4.7"
+                          - generic [ref=e1419]: 60 оценок
+                      - generic [ref=e1422]:
+                        - generic [ref=e1424]: Сегодня
+                        - text: ","
+                        - generic [ref=e1425]: эл. почта
+                    - link [ref=e1427] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-apple-100-turtsiya-kod-aktivatsii-100tl-dlya-popolneniya-scheta/5077641711?do-waremd5=iB_WsJWPjn9YlcSq_dVckA&showUid=17743457646212285980406010&cpa=1&cpc=lsApLni74B5lQrcWxuEbebfd2z4TS2ev8S173Np07pK5CG7KqdjP_2l0DQg_-cuKnP8KUTvU7lfe19nYnGIugfvaShaGQNvhm_wbcwr074QfOM1ExD5nWv2SRzoWMbPGub2Czjtca3qdOWX_pgY_rtgcMbbeZw5kSz0fhGyulwyNEn8-qrCIEHrK9wXlCY5bW_SZj1cRDmV2kKxUKA5q995TItnbiuw7QrfUXU1pgPSZjbmlha3b3gS-pdJNOPJqGJCJVHiQ_Dpysqw3ArYmjIJT9hq5VAouKG8GDH4RVCNhc8MdbiILuZ__6gxsq2e-fqG0XDSovzUh6R9tkdxm8Q%2C%2C
+                - listitem [ref=e1428]:
+                  - generic [ref=e1432]:
+                    - generic [ref=e1434]:
+                      - link "Карта пополнения PlayStation Store на 250 TL лир Турция (Сони) Цифровой код / gift code PSN Turkey" [ref=e1436] [cursor=pointer]:
+                        - /url: /card/popolneniye-scheta-playstation-store-na-250-tl-turtsiya-soni-ps4-ps5-l-tsifrovoy-kod/103778051718?do-waremd5=Tp_KIvU9N_DnWDUxgon39w&showUid=17743457646202041539306011&cpa=1&cpc=lsApLni74B4Ry65OLeoYbPOKtyapOKs8LzCgznifoJ2sL6OexXPSnWCfDz2E2EC95ZadiTFBTn7xeD_QnZTjHTSX0C4ZFcBy5xfAPVKsrPDKYoLONjMuqFfkJOObpbKQkY8DalPvsdFQqNbPBdalOFBTkrb88psZ11YPZNelUV9w87Crbxi-NkAu9YvbZ6iBzfGvoKTzECGb7exXgJa5v248uECAqnBVw9stEm7CVaI1qs8GDG7GueYd3fwJM9Fo3H2RK2cysc4_Ql5CiQlZ_z351Tpg_Fgjw-XoLcWU_Tlf7K1NCTOImkuun3aaT6v_fgC39VW1e1vxiVe2d2M7J8DkajH5ibt2
+                        - img "Карта пополнения PlayStation Store на 250 TL лир Турция (Сони) Цифровой код / gift code PSN Turkey" [ref=e1444]
+                      - button "Добавить в избранное" [ref=e1450] [cursor=pointer]
+                      - button "В корзину" [ref=e1455] [cursor=pointer]
+                    - link "Карта пополнения PlayStation Store на 250 TL лир Турция (Сони) Цифровой код / gift code PSN Turkey" [ref=e1460] [cursor=pointer]:
+                      - /url: /card/popolneniye-scheta-playstation-store-na-250-tl-turtsiya-soni-ps4-ps5-l-tsifrovoy-kod/103778051718?do-waremd5=Tp_KIvU9N_DnWDUxgon39w&showUid=17743457646202041539306011&cpa=1&cpc=lsApLni74B4Ry65OLeoYbPOKtyapOKs8LzCgznifoJ2sL6OexXPSnWCfDz2E2EC95ZadiTFBTn7xeD_QnZTjHTSX0C4ZFcBy5xfAPVKsrPDKYoLONjMuqFfkJOObpbKQkY8DalPvsdFQqNbPBdalOFBTkrb88psZ11YPZNelUV9w87Crbxi-NkAu9YvbZ6iBzfGvoKTzECGb7exXgJa5v248uECAqnBVw9stEm7CVaI1qs8GDG7GueYd3fwJM9Fo3H2RK2cysc4_Ql5CiQlZ_z351Tpg_Fgjw-XoLcWU_Tlf7K1NCTOImkuun3aaT6v_fgC39VW1e1vxiVe2d2M7J8DkajH5ibt2
+                      - link "Карта пополнения PlayStation Store на 250 TL лир Турция (Сони) Цифровой код / gift code PSN Turkey" [ref=e1461]
+                    - link "Цена 598 ₽" [ref=e1466] [cursor=pointer]:
+                      - /url: /card/popolneniye-scheta-playstation-store-na-250-tl-turtsiya-soni-ps4-ps5-l-tsifrovoy-kod/103778051718?do-waremd5=Tp_KIvU9N_DnWDUxgon39w&showUid=17743457646202041539306011&cpa=1&cpc=lsApLni74B4Ry65OLeoYbPOKtyapOKs8LzCgznifoJ2sL6OexXPSnWCfDz2E2EC95ZadiTFBTn7xeD_QnZTjHTSX0C4ZFcBy5xfAPVKsrPDKYoLONjMuqFfkJOObpbKQkY8DalPvsdFQqNbPBdalOFBTkrb88psZ11YPZNelUV9w87Crbxi-NkAu9YvbZ6iBzfGvoKTzECGb7exXgJa5v248uECAqnBVw9stEm7CVaI1qs8GDG7GueYd3fwJM9Fo3H2RK2cysc4_Ql5CiQlZ_z351Tpg_Fgjw-XoLcWU_Tlf7K1NCTOImkuun3aaT6v_fgC39VW1e1vxiVe2d2M7J8DkajH5ibt2
+                      - generic [ref=e1468]:
+                        - generic [ref=e1469]: Цена 598 ₽
+                        - generic [ref=e1472]:
+                          - generic [ref=e1473]: "598"
+                          - generic [ref=e1474]: ₽
+                    - generic [ref=e1475]:
+                      - generic [ref=e1476]:
+                        - generic [ref=e1477]: "Рейтинг товара: 4.7 из 5"
+                        - generic [ref=e1478]: на основе 274 оценки
+                        - generic [ref=e1479]:
+                          - generic [ref=e1480]: "4.7"
+                          - generic [ref=e1482]: 274 оценки
+                      - generic [ref=e1485]:
+                        - generic [ref=e1487]: Сегодня
+                        - text: ","
+                        - generic [ref=e1488]: эл. почта
+                    - link [ref=e1490] [cursor=pointer]:
+                      - /url: /card/popolneniye-scheta-playstation-store-na-250-tl-turtsiya-soni-ps4-ps5-l-tsifrovoy-kod/103778051718?do-waremd5=Tp_KIvU9N_DnWDUxgon39w&showUid=17743457646202041539306011&cpa=1&cpc=lsApLni74B4Ry65OLeoYbPOKtyapOKs8LzCgznifoJ2sL6OexXPSnWCfDz2E2EC95ZadiTFBTn7xeD_QnZTjHTSX0C4ZFcBy5xfAPVKsrPDKYoLONjMuqFfkJOObpbKQkY8DalPvsdFQqNbPBdalOFBTkrb88psZ11YPZNelUV9w87Crbxi-NkAu9YvbZ6iBzfGvoKTzECGb7exXgJa5v248uECAqnBVw9stEm7CVaI1qs8GDG7GueYd3fwJM9Fo3H2RK2cysc4_Ql5CiQlZ_z351Tpg_Fgjw-XoLcWU_Tlf7K1NCTOImkuun3aaT6v_fgC39VW1e1vxiVe2d2M7J8DkajH5ibt2
+                - listitem [ref=e1491]:
+                  - generic [ref=e1495]:
+                    - generic [ref=e1497]:
+                      - link "Подарочная карта Nintendo eShop card 10 USD / Пополнение счета для аккаунта региона США, цифровой код Ниже рынка" [ref=e1499] [cursor=pointer]:
+                        - /url: /card/podarochnaya-karta-nintendo-eshop-card-10-usd--popolneniye-scheta-dlya-akkaunta-regiona-ssha-tsifrovoy-kod/102172506808?do-waremd5=OnWIEt-MwyPLShyDjGPI5g&showUid=17743457646171449705806012&cpa=1&cpc=lsApLni74B5G9tM1NZsKPE_PPlhmA7gNU6V4SpaAQcYivzhsj9UjHzs4pZRQwkPHC8e06H7OEKCLHAFUuc5Dn4gb43KcdYdcmeamzndfTk0pM5SRjK8m_L7o6jOMFaok07n7vCzgVglyFHOsEcCrpRTSI-mSxzr2ahXUw9Oy1Wlyi2V7ProCP83BYrqm-qer9UmYDbvahxCq8aJAvQYLjljlUOMN9g7u5DKP_Kuga6VLxZ7uYpijvp-RJc11tRMnBKg4L2lRVqLLV_9P3s5eM_Rw1TB91Nh7Q6CEr862QvGhTZIGar8jbEVIpGmsudhKNAHhCNfqEJ9TMok9rOac33_bvMEalbWfbeyGjaaSz7j5vp8Ky6yaXKMJw8mgRbCXdvknUK-g-aM%2C
+                        - img "Подарочная карта Nintendo eShop card 10 USD / Пополнение счета для аккаунта региона США, цифровой код" [ref=e1507]
+                        - img "Ниже рынка" [ref=e1512]
+                      - button "Добавить в избранное" [ref=e1517] [cursor=pointer]
+                      - button "В корзину" [ref=e1522] [cursor=pointer]
+                    - link "Подарочная карта Nintendo eShop card 10 USD / Пополнение счета для аккаунта региона США, цифровой код" [ref=e1527] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-card-10-usd--popolneniye-scheta-dlya-akkaunta-regiona-ssha-tsifrovoy-kod/102172506808?do-waremd5=OnWIEt-MwyPLShyDjGPI5g&showUid=17743457646171449705806012&cpa=1&cpc=lsApLni74B5G9tM1NZsKPE_PPlhmA7gNU6V4SpaAQcYivzhsj9UjHzs4pZRQwkPHC8e06H7OEKCLHAFUuc5Dn4gb43KcdYdcmeamzndfTk0pM5SRjK8m_L7o6jOMFaok07n7vCzgVglyFHOsEcCrpRTSI-mSxzr2ahXUw9Oy1Wlyi2V7ProCP83BYrqm-qer9UmYDbvahxCq8aJAvQYLjljlUOMN9g7u5DKP_Kuga6VLxZ7uYpijvp-RJc11tRMnBKg4L2lRVqLLV_9P3s5eM_Rw1TB91Nh7Q6CEr862QvGhTZIGar8jbEVIpGmsudhKNAHhCNfqEJ9TMok9rOac33_bvMEalbWfbeyGjaaSz7j5vp8Ky6yaXKMJw8mgRbCXdvknUK-g-aM%2C
+                      - link "Подарочная карта Nintendo eShop card 10 USD / Пополнение счета для аккаунта региона США, цифровой код" [ref=e1528]
+                    - link "Цена 929 ₽" [ref=e1533] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-card-10-usd--popolneniye-scheta-dlya-akkaunta-regiona-ssha-tsifrovoy-kod/102172506808?do-waremd5=OnWIEt-MwyPLShyDjGPI5g&showUid=17743457646171449705806012&cpa=1&cpc=lsApLni74B5G9tM1NZsKPE_PPlhmA7gNU6V4SpaAQcYivzhsj9UjHzs4pZRQwkPHC8e06H7OEKCLHAFUuc5Dn4gb43KcdYdcmeamzndfTk0pM5SRjK8m_L7o6jOMFaok07n7vCzgVglyFHOsEcCrpRTSI-mSxzr2ahXUw9Oy1Wlyi2V7ProCP83BYrqm-qer9UmYDbvahxCq8aJAvQYLjljlUOMN9g7u5DKP_Kuga6VLxZ7uYpijvp-RJc11tRMnBKg4L2lRVqLLV_9P3s5eM_Rw1TB91Nh7Q6CEr862QvGhTZIGar8jbEVIpGmsudhKNAHhCNfqEJ9TMok9rOac33_bvMEalbWfbeyGjaaSz7j5vp8Ky6yaXKMJw8mgRbCXdvknUK-g-aM%2C
+                      - generic [ref=e1535]:
+                        - generic [ref=e1536]: Цена 929 ₽
+                        - generic [ref=e1539]:
+                          - generic [ref=e1540]: "929"
+                          - generic [ref=e1541]: ₽
+                    - generic [ref=e1542]:
+                      - generic [ref=e1543]:
+                        - generic [ref=e1544]: "Рейтинг товара: 4.9 из 5"
+                        - generic [ref=e1545]: на основе 50 оценок
+                        - generic [ref=e1546]:
+                          - generic [ref=e1547]: "4.9"
+                          - generic [ref=e1549]: 50 оценок
+                      - generic [ref=e1552]:
+                        - generic [ref=e1554]: Сегодня
+                        - text: ","
+                        - generic [ref=e1555]: эл. почта
+                      - generic [ref=e1557]:
+                        - img [ref=e1558]
+                        - text: Долгий срок активации
+                    - link [ref=e1561] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-nintendo-eshop-card-10-usd--popolneniye-scheta-dlya-akkaunta-regiona-ssha-tsifrovoy-kod/102172506808?do-waremd5=OnWIEt-MwyPLShyDjGPI5g&showUid=17743457646171449705806012&cpa=1&cpc=lsApLni74B5G9tM1NZsKPE_PPlhmA7gNU6V4SpaAQcYivzhsj9UjHzs4pZRQwkPHC8e06H7OEKCLHAFUuc5Dn4gb43KcdYdcmeamzndfTk0pM5SRjK8m_L7o6jOMFaok07n7vCzgVglyFHOsEcCrpRTSI-mSxzr2ahXUw9Oy1Wlyi2V7ProCP83BYrqm-qer9UmYDbvahxCq8aJAvQYLjljlUOMN9g7u5DKP_Kuga6VLxZ7uYpijvp-RJc11tRMnBKg4L2lRVqLLV_9P3s5eM_Rw1TB91Nh7Q6CEr862QvGhTZIGar8jbEVIpGmsudhKNAHhCNfqEJ9TMok9rOac33_bvMEalbWfbeyGjaaSz7j5vp8Ky6yaXKMJw8mgRbCXdvknUK-g-aM%2C
+            - button [ref=e1562] [cursor=pointer]:
+              - img [ref=e1563]
+          - generic [ref=e1565]:
+            - generic [ref=e1570]:
+              - heading "О товаре" [level=2] [ref=e1572]
+              - generic [ref=e1574]:
+                - generic [ref=e1575]:
+                  - generic [ref=e1578]:
+                    - heading "Razer Gold" [level=3] [ref=e1579]
+                    - generic [ref=e1580]: Razer Gold — это единая виртуальная валюта для геймеров по всему миру. Вы можете получить больше за свои деньги, покупая игры и внутриигровые предметы с помощью Razer Gold. Сюда входят Razer Silver и специальные предложения на игры.
+                    - heading "Что дает Razer Gold" [level=3] [ref=e1581]
+                    - list [ref=e1582]:
+                      - listitem [ref=e1583]:
+                        - generic [ref=e1584]: Покупка игр — возможность приобретать игры в различных онлайн-магазинах и платформах;
+                      - listitem [ref=e1585]:
+                        - generic [ref=e1586]: Покупка внутриигровых предметов — приобретение скинов, дополнений, валют и других виртуальных товаров;
+                      - listitem [ref=e1587]:
+                        - generic [ref=e1588]: Доступ к эксклюзивным предложениям — участие в событиях и специальных предложениях с дополнительными бонусами;
+                      - listitem [ref=e1589]:
+                        - generic [ref=e1590]: Заработок бонусов Razer Silver — за каждую покупку Razer Gold вы получаете Razer Silver, которое можно обменять на эксклюзивные награды;
+                      - listitem [ref=e1591]:
+                        - generic [ref=e1592]: Безопасные платежи — защита транзакций и гарантированная поддержка всех основных игровых платформ;
+                      - listitem [ref=e1593]:
+                        - generic [ref=e1594]: Использование на глобальных платформах — Razer Gold поддерживается в более чем 42 000 игр и онлайн-сервисов по всему миру.
+                  - generic [ref=e1596]:
+                    - button "Показать полностью":
+                      - generic:
+                        - generic: Показать полностью
+                        - img
+                - generic [ref=e1597]:
+                  - generic "Характеристики" [ref=e1604]:
+                    - generic [ref=e1605]:
+                      - generic [ref=e1608]: Общие характеристики
+                      - generic [ref=e1611]:
+                        - generic [ref=e1612]:
+                          - generic [ref=e1614]: Артикул Маркета
+                          - generic [ref=e1618]: "5096034102"
+                        - generic [ref=e1619]:
+                          - generic [ref=e1621]: Бренд
+                          - generic [ref=e1625]: Razer
+                        - generic [ref=e1626]:
+                          - generic [ref=e1628]: Территория активации
+                          - generic [ref=e1632]: Турция
+                        - generic [ref=e1633]:
+                          - generic [ref=e1635]: Территория использования
+                          - generic [ref=e1639]: все страны
+                        - generic [ref=e1640]:
+                          - generic [ref=e1642]: Номинал карты
+                          - generic [ref=e1646]: "500"
+                        - generic [ref=e1647]:
+                          - generic [ref=e1649]: Бренд
+                          - generic [ref=e1653]: Razer
+                        - generic [ref=e1654]:
+                          - generic [ref=e1656]: Применение
+                          - generic [ref=e1660]: пополнение счета
+                        - generic [ref=e1661]:
+                          - generic [ref=e1663]: Назначение
+                          - generic [ref=e1667]: игры
+                        - generic [ref=e1668]:
+                          - generic [ref=e1670]: Название сервиса
+                          - generic [ref=e1674]: Razer Gold
+                        - generic [ref=e1675]:
+                          - generic [ref=e1677]: Активация после покупки
+                          - generic [ref=e1681]: в течение 1 месяца
+                        - generic [ref=e1682]:
+                          - generic [ref=e1684]: Платформа
+                          - generic [ref=e1688]: ПК, мобильное устройство
+                        - generic [ref=e1689]:
+                          - generic [ref=e1691]: Совместимость с ОС
+                          - generic [ref=e1695]: Linux, Windows, macOS
+                        - generic [ref=e1696]:
+                          - generic [ref=e1698]: Возрастное ограничение
+                          - generic [ref=e1702]: 0+
+                        - generic [ref=e1703]:
+                          - generic [ref=e1705]: Сервис активации
+                          - generic [ref=e1709]: Razer Gold
+                        - generic [ref=e1710]:
+                          - generic [ref=e1712]: Инструкция по активации
+                          - generic [ref=e1716]: Полную инструкция по активации Вы получаете на почту.
+                        - generic [ref=e1717]:
+                          - generic [ref=e1719]: Дополнительная информация
+                          - generic [ref=e1723]: Регион Вашего аккаунта должен быть Турция.
+                    - generic [ref=e1726]: Перед покупкой уточняйте характеристики и комплектацию у продавца.
+                  - generic [ref=e1728]:
+                    - button "Все характеристики":
+                      - generic:
+                        - heading "Все характеристики" [level=2]
+                        - img
+            - generic [ref=e1733]:
+              - link "Отзывы" [ref=e1735] [cursor=pointer]:
+                - /url: /p/podarochnaia-karta-razer-gold-na-5-try-turtsiia-razer-gold-gift-card-turkey-tl-tsifrovoi-kod/5096034094/5096034102/reviews
+                - heading "Отзывы" [level=2] [ref=e1736]
+              - generic [ref=e1738]:
+                - generic [ref=e1739]:
+                  - generic [ref=e1740]:
+                    - generic [ref=e1750]: "3.8"
+                    - link "13 оценок 12 отзывов" [ref=e1756] [cursor=pointer]:
+                      - /url: /card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102/reviews?businessReviews=true&offerId=7pUahk3U0ystKP9Qa-ZbRA
+                      - generic [ref=e1757]:
+                        - generic [ref=e1758]: 13 оценок
+                        - generic [ref=e1759]: •
+                        - generic [ref=e1760]: 12 отзывов
+                  - button "review-photo" [ref=e1766] [cursor=pointer]:
+                    - img "review-photo" [ref=e1767]
+                - generic [ref=e1772]:
+                  - generic [ref=e1773]:
+                    - generic [ref=e1775]:
+                      - generic [ref=e1777]:
+                        - button [ref=e1779] [cursor=pointer]:
+                          - img [ref=e1781]
+                        - generic [ref=e1782]:
+                          - button "Emin Emin" [ref=e1784] [cursor=pointer]:
+                            - generic [ref=e1786]: Emin Emin
+                          - generic [ref=e1795]: 18 марта
+                      - generic [ref=e1797]:
+                        - text: "Достоинства: Кот пришёл очень быстро"
+                        - text: "Комментарий: Только вот я перепутал приложение а так все ок😂"
+                    - generic [ref=e1799]:
+                      - generic [ref=e1801]:
+                        - button [ref=e1803] [cursor=pointer]:
+                          - img [ref=e1805]
+                        - generic [ref=e1806]:
+                          - button "Haylee D." [ref=e1808] [cursor=pointer]:
+                            - generic [ref=e1810]: Haylee D.
+                          - generic [ref=e1819]: 10 марта
+                      - generic [ref=e1821]:
+                        - text: "Достоинства: Получил быстро, все работает"
+                        - text: "Недостатки: Отсутсвуют, нек чему придраться"
+                    - generic [ref=e1823]:
+                      - generic [ref=e1825]:
+                        - button [ref=e1827] [cursor=pointer]:
+                          - img [ref=e1829]
+                        - generic [ref=e1830]:
+                          - button "Мой Повелитель" [ref=e1832] [cursor=pointer]:
+                            - generic [ref=e1834]: Мой Повелитель
+                          - generic [ref=e1843]: 26 февраля
+                      - generic [ref=e1845]:
+                        - text: "Достоинства: отличный товар, быстрая доставка"
+                        - text: "Недостатки: недостатков нету, все идеально"
+                        - text: "Комментарий: советую, выгодное предложение"
+                  - button "Показать еще" [ref=e1847] [cursor=pointer]:
+                    - generic [ref=e1848]: Показать еще
+                    - img [ref=e1850]
+    - contentinfo [ref=e1856]:
+      - generic [ref=e1857]:
+        - generic [ref=e1860]:
+          - generic [ref=e1861]:
+            - generic [ref=e1862]:
+              - text: Покупайте в приложении,
+              - text: так ещё удобнее
+            - generic [ref=e1863]:
+              - link "Загрузите в App Store" [ref=e1865] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=market%3Aproduct-osku&adj_fallback=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect_macos=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Google Play" [ref=e1867] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fhl%3Dru%26id%3Dru.beru.android&adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&adj_redirect_macos=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Откройте в AppGallery" [ref=e1869] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=AG&adj_fallback=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect_macos=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Ru Store" [ref=e1871] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/podarochnaya-karta-razer-gold-na-500-try--turtsiya--razer-gold-gift-card-turkey-tl--tsifrovoy-kod/5096034102?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect_macos=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+          - generic [ref=e1872]:
+            - img "QR-код" [ref=e1874]
+            - generic [ref=e1875]: Наведите камеру на QR-код, чтобы скачать приложение
+        - generic [ref=e1878]:
+          - generic [ref=e1879]: Категории
+          - generic [ref=e1880]:
+            - link "Досуг и развлечения" [ref=e1881] [cursor=pointer]:
+              - /url: /category/dosug-i-razvlecheniya
+            - link "Мебель" [ref=e1882] [cursor=pointer]:
+              - /url: /category/mebel
+            - link "Бытовая техника" [ref=e1883] [cursor=pointer]:
+              - /url: /category/bytovaya-tekhnika
+            - link "Гигиена" [ref=e1884] [cursor=pointer]:
+              - /url: /category/gigiyena
+            - link "Электроника" [ref=e1885] [cursor=pointer]:
+              - /url: /category/elektronika
+            - link "Одежда и обувь" [ref=e1886] [cursor=pointer]:
+              - /url: /category/odezhda-i-obuv
+            - link "Товары для дома" [ref=e1887] [cursor=pointer]:
+              - /url: /category/tovary-dlya-doma
+            - link "Аптека" [ref=e1888] [cursor=pointer]:
+              - /url: /category/apteka
+            - link "Красота и уход" [ref=e1889] [cursor=pointer]:
+              - /url: /category/krasota-i-ukhod
+            - link "Хобби и творчество" [ref=e1890] [cursor=pointer]:
+              - /url: /category/khobbi-i-tvorchestvo
+            - link "Дача и сад" [ref=e1891] [cursor=pointer]:
+              - /url: /category/dacha-i-sad
+            - link "Книги" [ref=e1892] [cursor=pointer]:
+              - /url: /category/knigi
+            - link "Товары для школы и офиса" [ref=e1893] [cursor=pointer]:
+              - /url: /category/tovary-dlya-shkoly-i-ofisa
+            - link "Спортивные товары" [ref=e1894] [cursor=pointer]:
+              - /url: /category/sportivnyye-tovary
+            - link "Товары для животных" [ref=e1895] [cursor=pointer]:
+              - /url: /category/tovary-dlya-zhivotnykh
+            - link "Строительство и ремонт" [ref=e1896] [cursor=pointer]:
+              - /url: /category/stroitelstvo-i-remont
+            - link "Детские товары" [ref=e1897] [cursor=pointer]:
+              - /url: /category/detskiye-tovary
+            - link "Ювелирные украшения" [ref=e1898] [cursor=pointer]:
+              - /url: /category/yuvelirnyye-ukrasheniya
+        - generic [ref=e1900]:
+          - generic [ref=e1901]:
+            - generic [ref=e1902]: Покупателям
+            - generic [ref=e1903]:
+              - link "Как выбрать товар" [ref=e1904] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/find-product/search
+              - link "Оплата и доставка" [ref=e1905] [cursor=pointer]:
+                - /url: https://market.yandex.ru/my/order/conditions
+              - link "Покупайте как юрлицо" [ref=e1906] [cursor=pointer]:
+                - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=footer
+              - link "О сервисе" [ref=e1907] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/
+              - link "Возвраты" [ref=e1908] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/order/refund
+              - link "Журнал Маркета" [ref=e1909] [cursor=pointer]:
+                - /url: https://market.yandex.ru/journal
+          - generic [ref=e1910]:
+            - generic [ref=e1911]: Сотрудничество
+            - generic [ref=e1912]:
+              - link "Новости компании" [ref=e1913] [cursor=pointer]:
+                - /url: https://yandex.ru/company/services_news?tag=маркет
+              - link "Реферальная программа" [ref=e1914] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/referral_products
+              - link "Производителям" [ref=e1915] [cursor=pointer]:
+                - /url: https://vendor.market.yandex.ru/welcome/vendors?from=market&utm_source=market&utm_medium=footer
+              - link "Пункт выдачи заказов" [ref=e1916] [cursor=pointer]:
+                - /url: https://market.yandex.ru/lp/market-pvz?utm_source=market&utm_medium=footer&from=market
+              - link "Маркет нанимает" [ref=e1917] [cursor=pointer]:
+                - /url: https://yandex.ru/jobs/services/market/about?from=footer&utm_source=yandex_market_web_d&utm_medium=buttom&utm_campaign=market_nanimaet
+          - generic [ref=e1918]:
+            - generic [ref=e1919]: Продавцам
+            - generic [ref=e1920]:
+              - link "Личный кабинет продавца" [ref=e1921] [cursor=pointer]:
+                - /url: https://passport.yandex.ru/auth?mode=auth&from=market&retpath=https://partner.market.yandex.ru
+              - link "Продавайте на Маркете" [ref=e1922] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/partners?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=backb2c&utm_content=text&utm_term=web
+              - link "Документация для партнёров" [ref=e1923] [cursor=pointer]:
+                - /url: https://yandex.ru/promo/marketpartner/documentation?utm_source=market&utm_medium=footer&from=market
+              - link "Сайт для партнёров" [ref=e1924] [cursor=pointer]:
+                - /url: https://market.yandex.ru/partners?utm_source=market&utm_medium=footer&from=market
+          - generic [ref=e1925]:
+            - generic [ref=e1926]: Мы в соцсетях
+            - link "Вконтакте" [ref=e1928] [cursor=pointer]:
+              - /url: https://vk.com/yandex.market
+              - text: Вконтакте
+      - generic [ref=e1931]:
+        - generic [ref=e1932]:
+          - link "Статистика" [ref=e1933] [cursor=pointer]:
+            - /url: //radar.yandex.ru/top_list?thematic=retail&isSearch=true&row_id=market-yandex-ru&offset=1
+          - link "Пользовательское соглашение" [ref=e1934] [cursor=pointer]:
+            - /url: https://legal.yandex.ru/market_termsofuse/
+        - generic [ref=e1935]:
+          - generic [ref=e1936]:
+            - text: © 2026 ООО «
+            - link "ЯНДЕКС МАРКЕТ" [ref=e1937] [cursor=pointer]:
+              - /url: https://market.yandex.ru/
+            - text: »
+          - generic [ref=e1938]:
+            - generic [ref=e1939]: Проект компании
+            - link "Яндекс" [ref=e1940] [cursor=pointer]:
+              - /url: https://yandex.ru/all
+              - img [ref=e1941]
+  - img [ref=e1944]

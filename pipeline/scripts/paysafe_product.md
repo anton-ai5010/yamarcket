@@ -1,0 +1,909 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - img [ref=e12]
+            - generic [ref=e20]:
+              - link "Яндекс" [ref=e21] [cursor=pointer]:
+                - /url: //ya.ru/
+                - generic [ref=e22]: Яндекс
+              - link "Яндекс" [ref=e23] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e24]: Яндекс
+          - generic [ref=e25]:
+            - generic [ref=e28]:
+              - button [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+              - link:
+                - /url: /catalog
+            - search [ref=e38]:
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - textbox "Найти товары" [ref=e46]
+            - navigation "Главное меню" [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - link [ref=e52] [cursor=pointer]:
+                    - /url: /kolesoprizov?track=menu
+                    - generic [ref=e55]:
+                      - generic [ref=e56]: "140"
+                      - img [ref=e57]
+                    - alert [ref=e69]:
+                      - text: Колесо призов
+                      - generic [ref=e70]: "140"
+                - listitem [ref=e71]:
+                  - link [ref=e73] [cursor=pointer]:
+                    - /url: /my/orders?track=menu
+                    - generic [ref=e74]:
+                      - img [ref=e77]
+                      - alert [ref=e82]: Заказы
+                - listitem [ref=e84]:
+                  - link [ref=e86] [cursor=pointer]:
+                    - /url: /my/wishlist?track=head
+                    - generic [ref=e87]:
+                      - img [ref=e90]
+                      - alert [ref=e92]: Избранное
+                - listitem [ref=e94]:
+                  - link [ref=e98] [cursor=pointer]:
+                    - /url: /my/cart
+                    - generic [ref=e99]:
+                      - img [ref=e102]
+                      - alert [ref=e105]: Корзина
+                - listitem [ref=e107]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - img [ref=e113]
+                    - alert [ref=e115]: Маркет AI
+                - listitem [ref=e117]:
+                  - button "Антон Рышков" [ref=e123] [cursor=pointer]:
+                    - img "Антон Рышков" [ref=e124]
+      - navigation [ref=e131]:
+        - generic [ref=e132]:
+          - tablist "Категории" [ref=e133]:
+            - tab "Все хиты" [ref=e135]:
+              - link "Все хиты" [ref=e138] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/weekly
+            - tab "Ultima" [ref=e140]:
+              - link "Ultima" [ref=e143] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/ultima
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - generic [ref=e149]: Ultima
+            - tab "Любимая категория" [ref=e151]:
+              - button "Любимая категория" [ref=e153] [cursor=pointer]
+            - tab "Из-за рубежа" [ref=e155]:
+              - link "Из-за рубежа" [ref=e158] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/crossborder_dep
+            - tab "Одежда" [ref=e160]:
+              - link "Одежда" [ref=e163] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/fashion_dep
+            - tab "Дом" [ref=e165]:
+              - link "Дом" [ref=e168] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-doma/54422
+            - tab "Ремонт" [ref=e170]:
+              - link "Ремонт" [ref=e173] [cursor=pointer]:
+                - /url: /catalog/54503/list
+            - tab "Детям" [ref=e175]:
+              - link "Детям" [ref=e178] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/kids_dep
+            - tab "Красота" [ref=e180]:
+              - link "Красота" [ref=e183] [cursor=pointer]:
+                - /url: /catalog--tovary-dlia-krasoty/54438
+            - tab "Электроника" [ref=e185]:
+              - link "Электроника" [ref=e188] [cursor=pointer]:
+                - /url: https://market.yandex.ru/special/electronics_dep
+            - tab "Продукты" [ref=e190]:
+              - link "Продукты" [ref=e193] [cursor=pointer]:
+                - /url: /catalog--produkty-napitki/54434
+          - tablist [ref=e194]:
+            - tab "Покупайте как юрлицо" [ref=e195]:
+              - button "Покупайте как юрлицо" [ref=e200] [cursor=pointer]:
+                - link "Покупайте как юрлицо" [ref=e201]:
+                  - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=header
+            - tab "Продавайте на Маркете" [ref=e202]:
+              - link "Продавайте на Маркете" [ref=e205] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=frontb2c&utm_content=text&utm_term=portalb2b
+          - button "Дом" [ref=e211] [cursor=pointer]:
+            - generic [ref=e212]:
+              - img [ref=e213]
+              - generic [ref=e219]: Дом
+      - article [ref=e223]:
+        - button "Подробнее" [ref=e224] [cursor=pointer]:
+          - button "Подробнее" [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: Реклама
+              - img [ref=e228]
+        - img "Изображение" [ref=e231]
+        - link "Изображение" [ref=e232] [cursor=pointer]:
+          - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rastjazhka&utm_term=react&fromSins=1&erid=CQH36pWzJqCyZe1dVkv3sVeZ88bP7BdB14LrTUuex6ocsP
+    - generic [ref=e239]:
+      - img [ref=e240]
+      - generic [ref=e241]:
+        - navigation "Вы здесь" [ref=e244]:
+          - list [ref=e245]:
+            - listitem "Досуг и развлечения" [ref=e246]:
+              - link "Досуг и развлечения" [ref=e247] [cursor=pointer]:
+                - /url: /category/dosug-i-razvlecheniya
+                - generic [ref=e248]: Досуг и развлечения
+              - link:
+                - /url: /category/dosug-i-razvlecheniya
+            - listitem [ref=e249]: •
+            - listitem "Онлайн-подписки и карты оплаты" [ref=e250]:
+              - link "Онлайн-подписки и карты оплаты" [ref=e251] [cursor=pointer]:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630
+                - generic [ref=e252]: Онлайн-подписки и карты оплаты
+              - link:
+                - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list
+        - generic [ref=e253]:
+          - button "Сравнить" [ref=e257] [cursor=pointer]:
+            - generic [ref=e259]: Сравнить
+          - button "В избранное" [ref=e263] [cursor=pointer]:
+            - generic [ref=e264]: В избранное
+          - button "Поделиться" [ref=e267] [cursor=pointer]:
+            - generic [ref=e269]: Поделиться
+      - generic [ref=e270]:
+        - generic [ref=e272]:
+          - generic [ref=e274]:
+            - article [ref=e280]:
+              - img "Paysafe - 20 EUR"
+            - tablist [ref=e284]:
+              - tab "Paysafe - 20 EUR — фото 1" [selected] [ref=e285]:
+                - button "Paysafe - 20 EUR — фото 1" [ref=e286] [cursor=pointer]:
+                  - img "Paysafe - 20 EUR — фото 1" [ref=e287]
+          - button "Похожие" [ref=e291] [cursor=pointer]:
+            - img [ref=e293]
+            - generic [ref=e297]: Похожие
+        - generic [ref=e298]:
+          - generic [ref=e299]: Описание
+          - generic [ref=e300]:
+            - heading "Paysafe - 20 EUR" [level=1] [ref=e302]
+            - generic [ref=e303]:
+              - 'link "Рейтинг товара: 1.0 из 5" [ref=e307] [cursor=pointer]':
+                - /url: /card/paysafe---20-eur/5083580285/reviews?offerId=yFyjAvYOI58VbokfHtXiGw&shopName=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%B5%D1%80&businessReviews=1
+                - generic [ref=e314]: "1.0"
+                - generic [ref=e315]: (2) ·
+              - link "99 купили" [ref=e316] [cursor=pointer]:
+                - /url: /card/paysafe---20-eur/5083580285/reviews?offerId=yFyjAvYOI58VbokfHtXiGw&shopName=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%B5%D1%80&businessReviews=1
+                - generic [ref=e317]: 99 купили
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - button [ref=e323] [cursor=pointer]:
+                  - img [ref=e324]
+                - generic [ref=e326]:
+                  - 'button "Номинал карты: 10" [ref=e329] [cursor=pointer]':
+                    - generic [ref=e333]: "Номинал карты: 10"
+                  - 'button "Номинал карты: 20" [ref=e336] [cursor=pointer]':
+                    - generic [ref=e340]: "Номинал карты: 20"
+                  - 'button "Номинал карты: 30" [ref=e343] [cursor=pointer]':
+                    - generic [ref=e347]: "Номинал карты: 30"
+                  - 'button "Номинал карты: 50" [ref=e350] [cursor=pointer]':
+                    - generic [ref=e354]: "Номинал карты: 50"
+                  - 'button "Номинал карты: 100" [ref=e357] [cursor=pointer]':
+                    - generic [ref=e361]: "Номинал карты: 100"
+                  - 'button "Номинал карты: 200" [ref=e364] [cursor=pointer]':
+                    - generic [ref=e368]: "Номинал карты: 200"
+                  - 'button "Номинал карты: 500" [ref=e371] [cursor=pointer]':
+                    - generic [ref=e375]: "Номинал карты: 500"
+                  - 'button "Номинал карты: 1000" [ref=e378] [cursor=pointer]':
+                    - generic [ref=e382]: "Номинал карты: 1000"
+                - button [ref=e384] [cursor=pointer]:
+                  - img [ref=e385]
+              - generic [ref=e388]:
+                - button [ref=e389] [cursor=pointer]
+                - button "Все варианты" [ref=e397] [cursor=pointer]:
+                  - generic [ref=e398]: Все варианты
+            - generic "Характеристики" [ref=e404]:
+              - generic [ref=e406]:
+                - generic [ref=e408]: Артикул Маркета
+                - generic [ref=e411]:
+                  - generic [ref=e412]: "5083580285"
+                  - button [ref=e413] [cursor=pointer]:
+                    - img [ref=e414]
+              - generic [ref=e417]:
+                - generic [ref=e419]: Территория использования
+                - generic [ref=e423]: все страны
+              - generic [ref=e424]:
+                - generic [ref=e426]: Назначение
+                - link "аудиокниги, игры, книги, музыка, обучение, онлайн-кинотеатр, спутниковое телевидение" [ref=e431] [cursor=pointer]:
+                  - /url: /catalog--onlain-podpiski-i-karty-oplaty/17940631/list?hid=17940630&glfilter=37948770%3A39024053%2C39024051%2C39024048%2C39024045%2C39024040%2C39024039%2C39024036
+                  - generic [ref=e432]: аудиокниги, игры, книги, музыка, обучение, онлайн-кинотеатр, спутниковое телевидение
+              - button "Все характеристики" [ref=e433] [cursor=pointer]:
+                - generic [ref=e435]: Все характеристики
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - generic [ref=e445]:
+              - button "2 150 ₽ 2 999 ₽ –28% Возврату не подлежит" [ref=e449] [cursor=pointer]:
+                - generic [ref=e450]:
+                  - generic [ref=e452]:
+                    - generic [ref=e453]: 2 150
+                    - generic [ref=e454]: ₽
+                  - generic [ref=e457]:
+                    - generic [ref=e458]:
+                      - generic [ref=e459]: 2 999
+                      - generic [ref=e460]: ₽
+                    - generic [ref=e464]: –28%
+                  - button "Возврату не подлежит" [ref=e466]:
+                    - generic [ref=e468]: Возврату не подлежит
+                    - img [ref=e469]
+                - img [ref=e472]
+              - generic [ref=e477]:
+                - button "Купить сейчас" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e481]: Купить сейчас
+                - button "В корзину" [ref=e485] [cursor=pointer]:
+                  - generic [ref=e486]: В корзину
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - link "Paysafe - 10 EUR" [ref=e494] [cursor=pointer]:
+                  - /url: /card/paysafe---20-eur/5083580285
+                  - img "Paysafe - 10 EUR" [ref=e496]
+                - generic [ref=e497]:
+                  - generic [ref=e498]: Paysafe - 20 EUR
+                  - generic [ref=e499]:
+                    - 'link "Рейтинг товара: 1.0 из 5" [ref=e503] [cursor=pointer]':
+                      - /url: /card/paysafe---20-eur/5083580285/reviews?offerId=yFyjAvYOI58VbokfHtXiGw&shopName=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%B5%D1%80&businessReviews=1
+                      - generic [ref=e510]: "1.0"
+                      - generic [ref=e511]: (2) ·
+                    - link "99 купили" [ref=e513] [cursor=pointer]:
+                      - /url: /card/paysafe---20-eur/5083580285/reviews?offerId=yFyjAvYOI58VbokfHtXiGw&shopName=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BF%D0%BB%D0%B5%D0%B5%D1%80&businessReviews=1
+                      - generic [ref=e514]: 99 купили
+                    - link "Задать вопрос" [ref=e516] [cursor=pointer]:
+                      - /url: /card/paysafe---20-eur/5083580285/questions?offerId=yFyjAvYOI58VbokfHtXiGw
+              - generic [ref=e517]:
+                - generic [ref=e524]:
+                  - generic [ref=e526]:
+                    - generic [ref=e527]: 2 150
+                    - generic [ref=e528]: ₽
+                  - generic [ref=e531]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]: 2 999
+                      - generic [ref=e534]: ₽
+                    - generic [ref=e538]: –28%
+                - generic [ref=e539]:
+                  - button "Добавить в избранное" [ref=e543] [cursor=pointer]
+                  - generic [ref=e546]:
+                    - button "Купить сейчас" [ref=e548] [cursor=pointer]:
+                      - generic [ref=e550]: Купить сейчас
+                    - button "В корзину" [ref=e554] [cursor=pointer]:
+                      - generic [ref=e555]: В корзину
+            - generic [ref=e557]:
+              - generic [ref=e559]: Доставка магазина
+              - generic [ref=e565]: Сегодня, по электронной почте
+            - generic [ref=e568]:
+              - link "Мультиплеер Магазин 4.7 (11.9K оценок)" [ref=e569] [cursor=pointer]:
+                - /url: /search?merchant-filter=138999734&generalContext=t%3Dmerchant%3Bmrch%3D138999734
+                - generic [ref=e570]:
+                  - generic [ref=e572]:
+                    - img [ref=e574]
+                    - generic [ref=e576]:
+                      - generic [ref=e578]: Мультиплеер
+                      - generic [ref=e579]:
+                        - generic [ref=e580]: Магазин
+                        - generic [ref=e581]:
+                          - generic [ref=e582]:
+                            - img [ref=e583]
+                            - text: "4.7"
+                          - generic [ref=e585]: (11.9K оценок)
+                  - button [ref=e588]
+              - button "–5% Промокод TEDSUD4F на скидку Для подписчиков·до 31.03" [ref=e598] [cursor=pointer]:
+                - generic [ref=e601]: –5%
+                - generic [ref=e602]:
+                  - generic [ref=e603]: Промокод TEDSUD4F на скидку
+                  - generic [ref=e604]:
+                    - text: Для подписчиков
+                    - generic [ref=e605]: ·
+                    - generic [ref=e606]: до 31.03
+                - img [ref=e608]
+          - generic [ref=e1610]:
+            - generic [ref=e1611]:
+              - generic [ref=e1614] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1616]:
+                  - generic [ref=e1617]: Соцреклама
+                  - img [ref=e1618]
+                - img [ref=e1623]
+                - link [ref=e1624]:
+                  - /url: https://yandex.ru/an/count/WhSejI_zOoVX2LcI0aqL06Cdbb2jLWBc1Ahu1BZUC06zsRTZJX81Rmq2kWd4HWXUr95Y1tI1Ff_BdJtRxznvmvslt_5wmntkKtfFStngIw4_FqD3r7feYFf3BVgv8lqudNQTspz3GrIeCmgrxzkEIkqVk-XdQ8ZwauHaBIgY0Ztl-ubBdTAVwDFvh96eH3-sivxQjUsiSNlwCqGL2Z9AgeMGXAmqaAX4jLAG5KceIaIzCMHL4geQ8P5OGXfXLCC8oQYAWmPLQOGD6pQqx83v7RsfP0iJEXspiZd1dGQU4H8ebJHVgk4DyZ3eE9f0vEFZu-DJehEZ0wzkpfSMJncROkAlgOT-LXvXWAzSAWAB6aOzBenuR1OkPiJ8x4Moz7o-ORBnqdwCDhldKFQ1WHl0p0tV03PmHtGLETkmzNM4KM4DugQImYDU3NjJII4FhOOj1bq0Rup-LQDpw3kVhMp1qiT6mur2lk2dtqbS1rxT0BOEwBe-nOXu5SRNPVfXXa7RxFDQMO8XIyF7s1F487LuTXQs5dOSLPcQsLAukGAkqlCHGsuoQS5CUXOiHioCqPzQc2yDOzM60nXeli1qQIImrNS22vY9ffxdQtvfFyOcb_PZREx-DpB3NmpZzCCT03yOnkb_OPo-jmFWrtO0_5dcqWiZ9auBenkPGQpAw9qPnAeiAkpD5FYo1siiEtdo1sEo5kV7j0Sdq6VaojT_O_JqzCQyrpS1IJEN-IsjwqnDGDBCPLvBmcrop6Sp564ozhetp5BbYv6kxO-q8mvJ8D0Gq0vOo8EAovLAfLBexeCSzj9A-Pb06-q3tAoO0HRypUncbpWgn9AsfyKO6NUulCeH24CS9y6bJs8hYYyuwVld8Qv9QHflqZiJHwqT2ElG1EkxvxYkJjkisiLur5hCTetCBlidZU5t6oHc3W00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1627] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1629]:
+                  - generic [ref=e1630]: Соцреклама
+                  - img [ref=e1631]
+                - img [ref=e1636]
+                - link [ref=e1637]:
+                  - /url: https://yandex.ru/an/count/WgWejI_zOoVX2Lc30jKK01CcaIEWF2PWJg2AJu3h3HFGctqxvYGHyDOWe9j0R8JWHHqfTa0NwFEvtDcp_SwTDzpv-XslDzpXuj3eypcTsbBepy_G4BKU6gB-K8j-haW_JgTTv_RFqDC9XKBjgDJ-iOj-XeQeFqb8rg8YAf0jbK9ngLFw4tqwdpKIbUZ7TjPJkxQTzTEU_WnHXOACaceX924QI5IYMYd8YYHKlL54HL9Aejum8aBS0VCxUbF95YPYEcPbSu8x3Giai4AffFd2OGyyY477qGGY7nyV7vyIdHqTU7LplhIOIXMLYJzwl5M5ok80NxbK11OrZ5gWOC5Zit0n8xNahAgwS3xVCDbuQJz6czrpAFl0m0rWvePl01kujHR9UCFMrn4gST8WRYefFEBLi3UL5FBGQjXYq0NmnkXVDJg7llFPoXOiVMmqt2Za2txwdSHruDKDOEk0hkjJZ8XNONnTfXzc6BJDFg-L9HYoD7oCFK4CKeTdPs5hOSSIMvAPBOMRAs3cU0OBr5mCkSca1JFfMR0OCJD6VsfXlZICLH96vD1yWUdII62hxmGMC1DDFS_N_D9-Z4qkxSVOtFrlP8Q_6CRfXpi0VZ2Cq__2E7rl1y2lxG3uiyob5qPCd1P6DtOWd3BJUmV2AJEzfO5ysGCPZ7Jqv0_cP0_HZsaFJg3FN3Zdlp5wJ_wotkkRWjWDJlajhUjCJK7i1gUybWGSaTrdCnYXilMwDynIvOkHhksFj2CEKo3G4D0EMCY3YikLIgLIwEw37FQoIVbfC6cf08pWGOGO_DthffCuAjoH-g5HSnhK3bP41hIj8VXKWXR1-GwyARueVhRC-pD3NBFdDDwKxuoQMfCjrg7Vxhi_MLsTWhUgU13L5DXjjiCVTzdrQAk3x-Ji9W00~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1640] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1642]:
+                  - generic [ref=e1643]: Соцреклама
+                  - img [ref=e1644]
+                - img [ref=e1649]
+                - link [ref=e1650]:
+                  - /url: https://yandex.ru/an/count/WiqejI_zOoVX2Lcd0lqL02Dfd2MSm0cO4wZY4-1wmmJqPj-EEKa4l3K8w2OG6o5uKKUA7T05-dmkT_PiltFd3NU-ViVh3NUuq7jgJ_EfBON-_0mDKUkX8UeFjUZdYlJZTDfrRlyC3L6XpXjgHwNsZrtqCpH4_Kb2iXOLKO6UKoSKYakTqf_eq_ciaQX4FxQpdjgrxQplvvJeAEXdY2eKP9HK2o49qK2Y4jLAGLOaeIgILSbQerOgiXBTC1ew8hAIIBBAe1xLHKP2IbGY9ADhaH299QGHHDQa6jKb92LQnmxOSaTlAjd2PAjZLZOdkDCmpMjJAcc-b30hJy2WusW2aO-FZuzFYSwE3howELzQdFZ5nD-692K09UeDy9LBHM1Hm-ZE0EUnMRYOyPBeSFLqSJxVCDbuQJz6czrpAFl0m0rWvePl01ku8xnlO1kslevma4-3kAcay8XNmzvKKiX3gs6BGHV06wD_rUWS-ivdArkmzB7HSAEGB_ZfTnBNWLStWAq3kgvFCI9UXV5rcNwOOT0s-xnMbc38ql0nzWGnI1sUdOMjXHqYYC4pMme_Rgw0wOXeOyXD9YsOIS-2nOYPCVfJ2_EbOQmk1PcZ-GBJfP70Ljy9B60ccdgUh_cb_HYRNDgFiRdxtyWCVp6Cqmzt0FnW6AV_XN7wtWw0Nzi1y6UPIo-Cc3WjZ6vaHZBkzCwCPDpfxPBE-Zh2GJvlNkg-xCC2nsMU_C6SV9NzcFRW1FeUptN-6wCtTfBrNjyKvAjAbj_IkixK5EIhIfRNalXkmVfi1YDaQbxtXbcgV37IjVsHTiHX2WGQ0je12tbGSRbIgLGAtNsGmrwIANzJZgIdjYaTH04L_0tkffmuAXIKkXSHqLf-1llyxMC0SP4eRfTWPdfk_g73zpJ6DHjIuxs4PtbIQ-Xm7PebVZVNvDNf-LMX0a-xTvpjD7wdc5rGoVy0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1653] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1655]:
+                  - generic [ref=e1656]: Соцреклама
+                  - img [ref=e1657]
+                - img [ref=e1662]
+                - link [ref=e1663]:
+                  - /url: https://yandex.ru/an/count/WfqejI_zOoVX2Lc30dqK04FbZICG0HCm9r359y3rXWdepRuTSv88U6iGq4qWDaBmeeuKEw0BzFbSxkpPVkVE6-vy_OxN6-vmSMZq-PnERIdqvsTeY5eF3L5_g4K_LwGVfzEkS_jdQ8XgFvrGADIEIkqVk-XdQ8ZwauHaBIgY0jbIAHINEgK_qQVpMIDHYNviPpsrQzjPF-tfpn1LACWegHP24gA1H2MgbOAiI4BL6qLK9AKawWqZ8iGTCB-ZDvLiOIAcOrOs9xZJC4NYHAca-QBJsDC1WuwZ2KG-FZu-FYKwEphmwkPyQJ6LAYeJVbQwcYGsi6E0hrmg0eiQHlSLvx5Pk9XPMs95gYNiVBvXil7IVemsk-TGze610MpWrbeauwQImYDU3NjJII4FhOOj1bq0Rup-LQDpw3kVhMp1qiT6mur2lk2dtqbS1rxT0BOEwBe-nOXu5SRNPVfXXa7RxFDQMO8XIyF7s1F487LuTXQs5dOewGWoiwLmSmKyWmLgBeRSPDA2cVGiM8oO6QC_jJ1V6iRg4baEcYymNHe9RFMTm09cegdd-PfVse-noQNz69kx_utCy1V3EFrm1y0FXd7wNnYdx-q0-BKT07-MkVJ2Y8dJmkZ63eHJPdhlG3XbfhTC85_sG0OZ7JtvWpdPG_HZseCJw3CNplblZDwJloZlzKr1x0Qf_9RMTQQc87Q3L5vB0ex8xhCPZ53PUjqRPgdonKZNzaVQ4OSf46W8Q0Siv475vKgbKYbqzq4EUzca_3g-61tbY80r0XZytUkcapWgr96w5uogZH6H0RdQ4E13e4KuS0TU8IgAtuBZ-mCWhi4nZJVeEmEhjPTWYft01cCTVC3wdlpMrNbKAsYLgUU4ckrWaxliiz_guETvbWe0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1666] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1668]:
+                  - generic [ref=e1669]: Соцреклама
+                  - img [ref=e1670]
+                - img [ref=e1675]
+                - link [ref=e1676]:
+                  - /url: https://yandex.ru/an/count/Wg4ejI_zOoVX2Lc30fqK06DbZYCG0HCm9r359y3rXWdepRuTSv88U6iGq4qWDaBmeeuKEw0BzFbSxkpPVkVE6-vy_OxN6-vmSMZq-PnERIdqvsTeY5eF3L5_g4K_LwGVfzEkS_jdwEc4Gg5sL6h_s4K_GqFKdoGaQr4H5SYMIg6ur2dzYJwTpng9IlHZE-kfNTlE-cbFVuQeGa56IRKGaX0D92fHhHHaHHAgKekeI4f9r1j6H8WxO7v7RohPmaHCnwniJd2dOQgdGQca-R8S00Gk67GSJI3oyV7nyIdHsT61LpVdIukfL56P-3kgYjsISWpmbKj5O573w9R1WiTcuM960o8YPeJHE9zlc6oyj1-ZpUuvb7rWO00RkBKMoRYffF28LyFUL5B8GwjXYq4Nm1kZVzNe7FhEPojRiFInqN2Za2_uwNSIru5NDu2j0xgkJp4YNeNnTPb-c67GDlkyLfPWoDBmCVO4CKWTdfs5hOKT8d29cjbIe22JlRa2Pevdi43DnP2RJ5emavu5Yn4pO_Id5kPBmrXTudvfli1qQIImrNS22vY9ffxdQtvfFyOcb_PZREx-DpB3NmpZzCCT03yOnkb_OPo-jmFWrtO0_5dcqWiZ9auBenix44wPwRq3uPIPtduWN_P01YCTFVc3ETb3z6FQWnFeCnVE-M-CtfE_hFVwfY1sWrD-I-iwKrCGky4fhoK1HsJtsGn6g6ozxWspLFbYf6lx8-s8mnG8D0Iq0nRoeE9ofLAf5Bhx88UzR59-2ch0UBJACIGf6lpTwwQJE2hSaVgXKNCQr0vMH0QqhI7uL42Be4EKVxsY-6o1xya6SUqDf_5Itn_FbkKA3Eo4P1xhiDxhUvkkhZuEMt5iAmfOFMosomDtsNjwguCty_OX~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1679] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1681]:
+                  - generic [ref=e1682]: Соцреклама
+                  - img [ref=e1683]
+                - img [ref=e1688]
+                - link [ref=e1689]:
+                  - /url: https://yandex.ru/an/count/WgCejI_zOoVX2Lbx0gqK03DcaBKSEG5p0bLy0bnlc83UxDin9uc0jmO1tGHY8mGlwaYn0xf0dy_bpfxjT-wyuSxNxtYzuGxtUKVjA6u_fT0V9IiD92hHpz0GjHuQelvGYtwkI3zEfrtdzi_G41MVFgNJV6f7fVQFNVGpD4JzIKAo5XLHWQJI9rJgbFv4dyvdZKGb-h6TzTIkRMUDv_dF45Keo2Yf5a8Iee549QgLWgn8GbNo3fYoES6TXccUbb99ywK85OyG1Xr74uXyV7nyV4fqTdJWrStvqcB5n2Sc_a8OeJhWW143VELI4LZKCBfXuE2nMRYOYO9J0lJav7o-ORBnqdwCDhldKFQ1WHl0p0tV03PmdunIRHkslevma4-3kAcay8XNmzvKKiX3gs6BGHV0ozHrNS_gNpKwXxxpsSeMB7riDDmev0j--ft4TU3L3M3hWAxhKuo8Ls5yNQOVPXYqpJwlbIKOiZHyZ3r135A7PsTXQs47Kflap9R2pHKmKoqoAuRSPDA2cVGiM8oO6QC_jJ1V6iRgafUNvWjCbqO2Mtqdi82PQEfvlkQNzcDiSca_nkRkVoCp_CKmJZ_S0V23OPp-5yRfUpi0Vcq7m9zbBhqmOkAqCBenfl3nZDvZ2X_Fw6sJplewma4-RwObVTc32RUGdlp1oDf3FwOzE05nMv_klp5xEdVilRufx4-joszfNMTg2ljJw_9Q4dLpM7msGrwKdjUzOPOgNunqRN-a7N6O0e66W7R0GXvKNAvKAfL2Tn_ai9SaA3yGD2LEuWrpE08N_4thFjE1xwmYji1_rRsAmgcBIM8h26ugc4LpcBc6j3Rg0F7RwA__6D0r6MRZJQvdSf9ivuWxD37zxfdEgzFoLtLlQ-qiyMod19jYzcWb_mC0~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1692] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1694]:
+                  - generic [ref=e1695]: Соцреклама
+                  - img [ref=e1696]
+                - img [ref=e1701]
+                - link [ref=e1702]:
+                  - /url: https://yandex.ru/an/count/WhyejI_zOoVX2LcI0eqL03CecL2jLWBc1Ahu1BZUC06zsRTZJX81Rmq2kWd4HWXUr95Y1tI1Ff_BdJtRxznvmvslt_5wmntkKtfFStngIw4_FqD3r7feYFf3BVgv8lqudNQTspz3GrJS6ONQzsr7fVQFNVGpD4JzIKAo5XLHWQ3F-txYKgVq9_fqFciaAj6FxQodTcqxQzoU4Xq5_GnHXOACaceX924QI5IYMYd8YYHK9QBU6B8g2LMDa4Wi8Oqmgc64P5J5GOEgDCA63HjQTi3yZjvKieK9dOvPsPpWJiCKIHEbakOBNG2cr33eE9f0vEFZu-DJehEZ0wzkpfSMJncROkAlLdxm58B005-vL0GMDOpk6HJms2nSp9Gnm1D208dp-OR9nalxCThidaFP1mPk03CtV0FOm1tHLUHimzRN4KQ5DOYRIWgFU3NiJIM5FBGQjXXq0Rmn-bUDpg7lVBQo1KiV6mqt2lc2dtudSHruTGFOEg3h-XGZubKONvVfXna6RRFFQsK9XYmD7sDF48FKuTbPs5hOeSIaoSoMmiqLC7DSfUSZXjnaqeAPz2nOZ9WPep-rC5yQnkfITuxc2qoNHW9RVIUmW9bewdc-vfVsOsnoQJ_6vkv_8pFynJ1EFzm1y8DXdFuNnkbxEm1-RGV0dsKklJ1YuhGmkf4PnAgCtfb1hCheBGoTzNM4KM5lfi2NFLXZsScJFnYJjJW_fZquWJuZLxx-6wEdfoVclRu9I9gPwxUqhZCr0KapSxsMXDlacCzcAC9ax7LlcANA5oDTsnzfHnocGA0Xe1sma0SLbokLIgNGtGSvxAMLylDyB2MiW18B1HRypUncbpWgn9AsfyKOpEBKGzsCrwAcWpuvEL5yqVNtvu6uPhrflAdU6G-r9ZUiGx-ax_wkkZg5QbMnvfQ9CC9i1xENNlRMWly3~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1705] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1707]:
+                  - generic [ref=e1708]: Соцреклама
+                  - img [ref=e1709]
+                - img [ref=e1714]
+                - link [ref=e1715]:
+                  - /url: https://yandex.ru/an/count/WkyejI_zOoVX2Ld10WqN09Fhf2MSm0cO4wZY4-1wmmJqPj-EEKa4l3K8w2OG6o5uKKUA7T05-dmkT_PiltFd3NU-ViVh3NUupjifnQVsKmhz-HaQejP3GzGVQj7F5Ud7wRJhtFuP6gBQqJiQjP_FgDJ-iOj-XeQeFqb8rg8YAf1J6eLAeLAdz2VwT3vh92hHZ-siftPjE-lRdluCKOM2Z99g8IGX6aXKebefo8eaL7rERMgU0mNX-HMe3g82KUlxcUEr5EY6rhaKwBRj-qgYHh8UBIMHM48QORrH0ybwD299ASWQWX7IKTSE6BsZDvLiOVBLCIkR4znfcF9fe5JIVA4Mu4IAGSVH128V7nyVdnAT7HruTNE-jFZAxcRY3mCIqAe86WxmbKj5O573w5PAmMEpS34M0Dm9JUrylc6oyT9-Z3Qxvr3sWO4RmCmDtm0sSEs_hRWDMrz7ECYdGTnKKdZ4gs5lAYdaeTMmnQ0Bu6NgkgvdzQyQdKFV-Mnb2vO-DXfk5F85F_rEuZhmwWQmTK3NzIb6nAimlYxJ3pCCscQVryeI35aQFiQU80QfmxEpiBMm8ycBrCoM0WQPxCqLC0Lp30MTEPvWPeudDC9CA5lm8l8KGsuoQS5CUXOiHioCqPzQc2yDOtN9pKdp1QPB8u6jlXDOm4mqzJnVyqlxCJQvj1zZS_U_aHd-OXYd7-u0-C4mJlyBu_Iz7G2_jWFWppANNXWnSLeOtOWpnnX5xmCuMM6ajp5qrjSH3l9vyrBhovvjJP7hoHziofT5FwOzE04n5iOp_utPuv4apNjzan0gQ6n-I-iwKvCGAcXiNakY268GdyqGTdBYTM-OfSeN8rtR7sb77AP0e26W7R2G1nMNAvLAfT3T1pdiPH7bvylWOv1FnrCQ5VojxoQZE2gqbRPdqLWmstf7NGhA8E-YaL1MLoF6NAD-P0J7-WGONHjJ3eXqwfaXaeqWuWwDORyRldbrgkfLSoKi0fkOOdOAE_y3~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1718] [cursor=pointer]:
+                - button "Соцреклама" [ref=e1720]:
+                  - generic [ref=e1721]: Соцреклама
+                  - img [ref=e1722]
+                - img [ref=e1727]
+                - link [ref=e1728]:
+                  - /url: https://yandex.ru/an/count/WiWejI_zOoVX2LcS0jKL0ACecoMSm0cO4wZY4-1wmmJqPj-EEKa4l3K8w2OG6o5uKKUA7T05-dmkT_PiltFd3NU-ViVh3NUuE3wTHgLJMmhz-HaQejP3GzGVQj7F5Ud7wRJhtFuP6g92SwWqYjjHgVrZ5_qC3L5_af2iHKLKeESJYkDIf_Gd-dG-QoGgqO_jhATsRJjhfptz6Q8A1HabrK98GZIGg4IrKf0LIQWwuuOIzKOH5OSH4JNfnofKHArXD8EAf9H4OWbfH0qZ6IEgIqXAHK94apjWonszgMGBao4wPcLpWZiDqoIHIYND5x80tmGmw3YQGEJZu-FZKwApemElRiwN5YV21J7n1qApQbuoCS1NBXM1HGsZMma27fk5YvaAs9eaeHboFjymsNXfFqQRtNCe-y303M3cXcy06xWZl6zW6xQ-Zd2GJuEugQJmY5V3tbHIo4EhOOj15y0Ret_Lw1pwpcShMx3qiT5mev0l-Ebt4jU1LpU0hGEwhayn8bw5yNMPVfXXq3Rxl5QMOCZIy37s13587PwTXQs57KfkR3DR2XbaiZTNm1zjBORSPDA2cVGiM8oO6QC_jJ1V6iRgafi3D5zWkZGIsEexWGNCH5FFypM_j1zZaqlxCJPt_nkPuI-6SVhX3e0V3EFqlp1Etzi1y6ix0FuiS-c54HEdXT6D50GFwTrcLn97RoVGMLz7ECZdpSi-N_PXWUCoJ_vWWJe2_PZsu0Jw4dbu_JT63_3Bxhs-oGjmCijlQLrdQl82dCpoMX948jzyDiCT52PUzuPPgdmnqhNzaNR4OGe46WBQ0GjvK76vKgbK2jrzaCDUTYd_30-4G033RacC5VnjxUQPE2faaxfN7wADSTJ0N3K9uA7SeZRX_fbHJNmhktkSGRXcFMdyszmh3xKODQg3cOJlRwwuUhzQPL5LT20gsyNifPUz-Dh_~2?tag=madv_desktop_7_socialads_clickout
+              - generic [ref=e1731] [cursor=pointer]:
+                - button "Реклама" [ref=e1733]:
+                  - generic [ref=e1734]: Реклама
+                  - img [ref=e1735]
+                - img [ref=e1738]
+                - link [ref=e1739]:
+                  - /url: https://market.yandex.ru/sp/vtb?utm_source=yandex&utm_medium=banner&utm_campaign=promo&utm_content=rotacia&utm_term=react&fromSins=1&erid=CQH36pWzJqCyZe1dcmBrumwZS1z4ozv55egvZC4kVZPojD
+            - button "Предыдущий слайд":
+              - img
+            - button "Следующий слайд":
+              - img
+        - generic [ref=e618]:
+          - generic [ref=e625]:
+            - generic [ref=e626]:
+              - banner [ref=e630]:
+                - generic [ref=e633]: Ещё может подойти
+              - list [ref=e635]:
+                - listitem [ref=e636]:
+                  - generic [ref=e640]:
+                    - generic [ref=e642]:
+                      - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e644] [cursor=pointer]:
+                        - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743458510145033465106001&cpa=1&cpc=vifDZ_QvhbhoqGP86CEmiBrZrGNl7G9ITWOzE43vJMnpDna1ztbiiqocxyE2URHG8B9ueZow26f5JcNhfXuSRu8LBFnu2PYpdW3k_CkjTjFwNrYYaKYOphsch3lN4mWlHcd53OO0Qlg4aUbEkppwGB2t4HWgCNhH99wzvhdEkI5Udb1mJf4rOqU0opzMJZ4eYhvGWscNxcSsd2XoZqt_6q4nKtXpj5sH6xW2VMCK8IwryNkkEz6P_gggXTb2oG-LQbtswrkOcm4QQq6NgpZjC1EMK5VyoJpPx3xI1wXGrY5jFfmC3So5KgIYGa-66FsZ
+                        - img "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e652]
+                      - button "Добавить в избранное" [ref=e658] [cursor=pointer]
+                      - button "В корзину" [ref=e663] [cursor=pointer]
+                    - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e668] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743458510145033465106001&cpa=1&cpc=vifDZ_QvhbhoqGP86CEmiBrZrGNl7G9ITWOzE43vJMnpDna1ztbiiqocxyE2URHG8B9ueZow26f5JcNhfXuSRu8LBFnu2PYpdW3k_CkjTjFwNrYYaKYOphsch3lN4mWlHcd53OO0Qlg4aUbEkppwGB2t4HWgCNhH99wzvhdEkI5Udb1mJf4rOqU0opzMJZ4eYhvGWscNxcSsd2XoZqt_6q4nKtXpj5sH6xW2VMCK8IwryNkkEz6P_gggXTb2oG-LQbtswrkOcm4QQq6NgpZjC1EMK5VyoJpPx3xI1wXGrY5jFfmC3So5KgIYGa-66FsZ
+                      - link "Ключ активации для API Google Gemini, тариф Free Tier" [ref=e669]
+                    - link "Цена 15 ₽" [ref=e674] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743458510145033465106001&cpa=1&cpc=vifDZ_QvhbhoqGP86CEmiBrZrGNl7G9ITWOzE43vJMnpDna1ztbiiqocxyE2URHG8B9ueZow26f5JcNhfXuSRu8LBFnu2PYpdW3k_CkjTjFwNrYYaKYOphsch3lN4mWlHcd53OO0Qlg4aUbEkppwGB2t4HWgCNhH99wzvhdEkI5Udb1mJf4rOqU0opzMJZ4eYhvGWscNxcSsd2XoZqt_6q4nKtXpj5sH6xW2VMCK8IwryNkkEz6P_gggXTb2oG-LQbtswrkOcm4QQq6NgpZjC1EMK5VyoJpPx3xI1wXGrY5jFfmC3So5KgIYGa-66FsZ
+                      - generic [ref=e676]:
+                        - generic [ref=e677]: Цена 15 ₽
+                        - generic [ref=e680]:
+                          - generic [ref=e681]: "15"
+                          - generic [ref=e682]: ₽
+                    - generic [ref=e683]:
+                      - generic [ref=e684]:
+                        - generic [ref=e685]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e686]: на основе 2 оценки
+                        - generic [ref=e687]:
+                          - generic [ref=e688]: "5.0"
+                          - generic [ref=e690]: 2 оценки
+                      - generic [ref=e693]:
+                        - generic [ref=e695]: Сегодня
+                        - text: ","
+                        - generic [ref=e696]: эл. почта
+                    - link [ref=e698] [cursor=pointer]:
+                      - /url: /card/api-klyuch-google-gemini-s-avtovydachey-dlya-modeley-gemini-3-flash-25-flash/5068952573?do-waremd5=rDuTnoraX8FII3G4Q7oCng&showUid=17743458510145033465106001&cpa=1&cpc=vifDZ_QvhbhoqGP86CEmiBrZrGNl7G9ITWOzE43vJMnpDna1ztbiiqocxyE2URHG8B9ueZow26f5JcNhfXuSRu8LBFnu2PYpdW3k_CkjTjFwNrYYaKYOphsch3lN4mWlHcd53OO0Qlg4aUbEkppwGB2t4HWgCNhH99wzvhdEkI5Udb1mJf4rOqU0opzMJZ4eYhvGWscNxcSsd2XoZqt_6q4nKtXpj5sH6xW2VMCK8IwryNkkEz6P_gggXTb2oG-LQbtswrkOcm4QQq6NgpZjC1EMK5VyoJpPx3xI1wXGrY5jFfmC3So5KgIYGa-66FsZ
+                - listitem [ref=e699]:
+                  - generic [ref=e703]:
+                    - generic [ref=e705]:
+                      - link "CapCut подписка Pro на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e707] [cursor=pointer]:
+                        - /url: /card/capcut-podpiska-pro-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5228396976?do-waremd5=0TlNRJY768kv37L0lH8FsA&showUid=17743458510186108846606002&cpa=1&cpc=vifDZ_QvhbjJw4AQxeEOkZDO5YDIgsUStOF3zINx5PXmz1t85SL5gV0cK6tQQEgY1t5vyU-dBOppYUtNg8WGn5xZDUjh32BUgu1GXoi3nApCW8s5QKqtym6q-i3iNwiCG37NK3aER86Cg9rPlKRfXMuKQXDBwOS2SC7wKG1_hwvXzUHXnO8ZQcShgUZqhtecvk_gJcPfr74kj0aCTPMj_xKX1yOs3aoU1ZRybofwHsdAPbZI_4S3fJEfsWgQvsyzPGypfokQHhpMCL-EE42nH4pnAa7jqWVBuf5K_pL-z-fWEcsVPkvXPtObN_ym7dgMbfzeavntK5p3x0JiSe3f0QoSOMXCNMVRmCLg0J7grPXzAgU-ZY-FuDA9o1q_V5KlYwe5zgThQzw%2C
+                        - img "CapCut подписка Pro на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e715]
+                      - button "Добавить в избранное" [ref=e721] [cursor=pointer]
+                      - button "В корзину" [ref=e726] [cursor=pointer]
+                    - link "CapCut подписка Pro на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e731] [cursor=pointer]:
+                      - /url: /card/capcut-podpiska-pro-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5228396976?do-waremd5=0TlNRJY768kv37L0lH8FsA&showUid=17743458510186108846606002&cpa=1&cpc=vifDZ_QvhbjJw4AQxeEOkZDO5YDIgsUStOF3zINx5PXmz1t85SL5gV0cK6tQQEgY1t5vyU-dBOppYUtNg8WGn5xZDUjh32BUgu1GXoi3nApCW8s5QKqtym6q-i3iNwiCG37NK3aER86Cg9rPlKRfXMuKQXDBwOS2SC7wKG1_hwvXzUHXnO8ZQcShgUZqhtecvk_gJcPfr74kj0aCTPMj_xKX1yOs3aoU1ZRybofwHsdAPbZI_4S3fJEfsWgQvsyzPGypfokQHhpMCL-EE42nH4pnAa7jqWVBuf5K_pL-z-fWEcsVPkvXPtObN_ym7dgMbfzeavntK5p3x0JiSe3f0QoSOMXCNMVRmCLg0J7grPXzAgU-ZY-FuDA9o1q_V5KlYwe5zgThQzw%2C
+                      - link "CapCut подписка Pro на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e732]
+                    - link "Цена 1 094 ₽" [ref=e737] [cursor=pointer]:
+                      - /url: /card/capcut-podpiska-pro-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5228396976?do-waremd5=0TlNRJY768kv37L0lH8FsA&showUid=17743458510186108846606002&cpa=1&cpc=vifDZ_QvhbjJw4AQxeEOkZDO5YDIgsUStOF3zINx5PXmz1t85SL5gV0cK6tQQEgY1t5vyU-dBOppYUtNg8WGn5xZDUjh32BUgu1GXoi3nApCW8s5QKqtym6q-i3iNwiCG37NK3aER86Cg9rPlKRfXMuKQXDBwOS2SC7wKG1_hwvXzUHXnO8ZQcShgUZqhtecvk_gJcPfr74kj0aCTPMj_xKX1yOs3aoU1ZRybofwHsdAPbZI_4S3fJEfsWgQvsyzPGypfokQHhpMCL-EE42nH4pnAa7jqWVBuf5K_pL-z-fWEcsVPkvXPtObN_ym7dgMbfzeavntK5p3x0JiSe3f0QoSOMXCNMVRmCLg0J7grPXzAgU-ZY-FuDA9o1q_V5KlYwe5zgThQzw%2C
+                      - generic [ref=e739]:
+                        - generic [ref=e740]: Цена 1 094 ₽
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: 1 094
+                          - generic [ref=e745]: ₽
+                    - generic [ref=e746]:
+                      - generic [ref=e747]:
+                        - generic [ref=e748]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e749]: на основе 3 оценки
+                        - generic [ref=e750]:
+                          - generic [ref=e751]: "5.0"
+                          - generic [ref=e753]: 3 оценки
+                      - generic [ref=e756]:
+                        - generic [ref=e758]: Сегодня
+                        - text: ","
+                        - generic [ref=e759]: эл. почта
+                    - link [ref=e761] [cursor=pointer]:
+                      - /url: /card/capcut-podpiska-pro-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5228396976?do-waremd5=0TlNRJY768kv37L0lH8FsA&showUid=17743458510186108846606002&cpa=1&cpc=vifDZ_QvhbjJw4AQxeEOkZDO5YDIgsUStOF3zINx5PXmz1t85SL5gV0cK6tQQEgY1t5vyU-dBOppYUtNg8WGn5xZDUjh32BUgu1GXoi3nApCW8s5QKqtym6q-i3iNwiCG37NK3aER86Cg9rPlKRfXMuKQXDBwOS2SC7wKG1_hwvXzUHXnO8ZQcShgUZqhtecvk_gJcPfr74kj0aCTPMj_xKX1yOs3aoU1ZRybofwHsdAPbZI_4S3fJEfsWgQvsyzPGypfokQHhpMCL-EE42nH4pnAa7jqWVBuf5K_pL-z-fWEcsVPkvXPtObN_ym7dgMbfzeavntK5p3x0JiSe3f0QoSOMXCNMVRmCLg0J7grPXzAgU-ZY-FuDA9o1q_V5KlYwe5zgThQzw%2C
+                - listitem [ref=e762]:
+                  - generic [ref=e766]:
+                    - generic [ref=e768]:
+                      - link "Gamma AI подписка Plus на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e770] [cursor=pointer]:
+                        - /url: /card/gamma-podpiska-plus-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5227108206?do-waremd5=gmI3xLvyqZRLBZuuRDCuPA&showUid=17743458510186011088206003&cpa=1&cpc=vifDZ_QvhbiMOR8aR8vOhBg2yEj9yL_ZMjq-UP0qUeKhYag1Ljpjq7AwxP1g_fk4s6-sz6HE5QafPrcCqNKPb7-hFc2ITaEZlbSdDqi4VovSi4aPitJ1tveK0hqZhfTn0k9PM60FK54SaXrbXhd86f9NGL42wMTzSYTpp7INnJAxqbF5x0bQ9Me7Pa-ZyX008RZxMYZKM7RaH5e7N3vB40Du14wwYh9KPh6lyHoANZaKTBL2o2Ioa2cMn09DEgPmiGzFJ73ujHPvNv6-3DCKqUzuYTVDp7IrTvFeRa17Dn40pUSH2qBp9j2LNIurxwOTSY_fYdrk6ca7C7XBHq5ei0JAS7eMuAHF6q0FfZBE3vq_AbpPJrBTIBfr5m3TT5wpjglUDbJg8rY%2C
+                        - img "Gamma AI подписка Plus на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e778]
+                      - button "Добавить в избранное" [ref=e784] [cursor=pointer]
+                      - button "В корзину" [ref=e789] [cursor=pointer]
+                    - link "Gamma AI подписка Plus на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e794] [cursor=pointer]:
+                      - /url: /card/gamma-podpiska-plus-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5227108206?do-waremd5=gmI3xLvyqZRLBZuuRDCuPA&showUid=17743458510186011088206003&cpa=1&cpc=vifDZ_QvhbiMOR8aR8vOhBg2yEj9yL_ZMjq-UP0qUeKhYag1Ljpjq7AwxP1g_fk4s6-sz6HE5QafPrcCqNKPb7-hFc2ITaEZlbSdDqi4VovSi4aPitJ1tveK0hqZhfTn0k9PM60FK54SaXrbXhd86f9NGL42wMTzSYTpp7INnJAxqbF5x0bQ9Me7Pa-ZyX008RZxMYZKM7RaH5e7N3vB40Du14wwYh9KPh6lyHoANZaKTBL2o2Ioa2cMn09DEgPmiGzFJ73ujHPvNv6-3DCKqUzuYTVDp7IrTvFeRa17Dn40pUSH2qBp9j2LNIurxwOTSY_fYdrk6ca7C7XBHq5ei0JAS7eMuAHF6q0FfZBE3vq_AbpPJrBTIBfr5m3TT5wpjglUDbJg8rY%2C
+                      - link "Gamma AI подписка Plus на 1 месяц | Новый аккаунт c активированной подпиской" [ref=e795]
+                    - link "Цена 1 596 ₽" [ref=e800] [cursor=pointer]:
+                      - /url: /card/gamma-podpiska-plus-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5227108206?do-waremd5=gmI3xLvyqZRLBZuuRDCuPA&showUid=17743458510186011088206003&cpa=1&cpc=vifDZ_QvhbiMOR8aR8vOhBg2yEj9yL_ZMjq-UP0qUeKhYag1Ljpjq7AwxP1g_fk4s6-sz6HE5QafPrcCqNKPb7-hFc2ITaEZlbSdDqi4VovSi4aPitJ1tveK0hqZhfTn0k9PM60FK54SaXrbXhd86f9NGL42wMTzSYTpp7INnJAxqbF5x0bQ9Me7Pa-ZyX008RZxMYZKM7RaH5e7N3vB40Du14wwYh9KPh6lyHoANZaKTBL2o2Ioa2cMn09DEgPmiGzFJ73ujHPvNv6-3DCKqUzuYTVDp7IrTvFeRa17Dn40pUSH2qBp9j2LNIurxwOTSY_fYdrk6ca7C7XBHq5ei0JAS7eMuAHF6q0FfZBE3vq_AbpPJrBTIBfr5m3TT5wpjglUDbJg8rY%2C
+                      - generic [ref=e802]:
+                        - generic [ref=e803]: Цена 1 596 ₽
+                        - generic [ref=e806]:
+                          - generic [ref=e807]: 1 596
+                          - generic [ref=e808]: ₽
+                    - generic [ref=e809]:
+                      - generic [ref=e810]:
+                        - generic [ref=e811]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e812]: на основе 4 оценки
+                        - generic [ref=e813]:
+                          - generic [ref=e814]: "5.0"
+                          - generic [ref=e816]: 4 оценки
+                      - generic [ref=e819]:
+                        - generic [ref=e821]: Сегодня
+                        - text: ","
+                        - generic [ref=e822]: эл. почта
+                    - link [ref=e824] [cursor=pointer]:
+                      - /url: /card/gamma-podpiska-plus-na-1-mesyats--novyy-akkaunt-c-aktivirovannoy-podpiskoy/5227108206?do-waremd5=gmI3xLvyqZRLBZuuRDCuPA&showUid=17743458510186011088206003&cpa=1&cpc=vifDZ_QvhbiMOR8aR8vOhBg2yEj9yL_ZMjq-UP0qUeKhYag1Ljpjq7AwxP1g_fk4s6-sz6HE5QafPrcCqNKPb7-hFc2ITaEZlbSdDqi4VovSi4aPitJ1tveK0hqZhfTn0k9PM60FK54SaXrbXhd86f9NGL42wMTzSYTpp7INnJAxqbF5x0bQ9Me7Pa-ZyX008RZxMYZKM7RaH5e7N3vB40Du14wwYh9KPh6lyHoANZaKTBL2o2Ioa2cMn09DEgPmiGzFJ73ujHPvNv6-3DCKqUzuYTVDp7IrTvFeRa17Dn40pUSH2qBp9j2LNIurxwOTSY_fYdrk6ca7C7XBHq5ei0JAS7eMuAHF6q0FfZBE3vq_AbpPJrBTIBfr5m3TT5wpjglUDbJg8rY%2C
+                - listitem [ref=e825]:
+                  - generic [ref=e829]:
+                    - generic [ref=e831]:
+                      - link "Творческий набор Adobe Creative Cloud, 14-дневная подписка, все приложения, 1ТБ хранилища" [ref=e833] [cursor=pointer]:
+                        - /url: /card/tvorcheskiy-nabor-adobe-creative-cloud-14-dnevnaya-podpiska-vse-prilozheniya-1tb-khranilishcha/5218787846?do-waremd5=dNo7dK5AjY-XChXCXPAhQw&showUid=17743458510175932561106004&cpa=1&cpc=vifDZ_QvhbjyQ5kwUQEBSiHal7W0AKTUOYzOW579of8Hcyrio9v62t28Hf-hiD66y3Cb3mrcdFjmzLiub7uINcAZ6LAKdF33UXW0brWdntI9AfJ4vIwlaT_kWLUFEoLK8zbfJ2zWcxMO51pSENQ7PBkOCnLVgljuOY886YZ7tlhHYxcUGkm89-FdCXDtx027HF8R7vP5IN1VdBoicpB32zBILNJzFDm9PQYeeYFRpfbXnopt68trwjfKL94HxmftvcMve1HDyOlsSBrkg6bEJtywp85eCQvEO2RFnHAfYd4kG58u8Mp0VyrLEbjThVMw
+                        - img "Творческий набор Adobe Creative Cloud, 14-дневная подписка, все приложения, 1ТБ хранилища" [ref=e841]
+                      - button "Добавить в избранное" [ref=e847] [cursor=pointer]
+                      - button "В корзину" [ref=e852] [cursor=pointer]
+                    - link "Творческий набор Adobe Creative Cloud, 14-дневная подписка, все приложения, 1ТБ хранилища" [ref=e857] [cursor=pointer]:
+                      - /url: /card/tvorcheskiy-nabor-adobe-creative-cloud-14-dnevnaya-podpiska-vse-prilozheniya-1tb-khranilishcha/5218787846?do-waremd5=dNo7dK5AjY-XChXCXPAhQw&showUid=17743458510175932561106004&cpa=1&cpc=vifDZ_QvhbjyQ5kwUQEBSiHal7W0AKTUOYzOW579of8Hcyrio9v62t28Hf-hiD66y3Cb3mrcdFjmzLiub7uINcAZ6LAKdF33UXW0brWdntI9AfJ4vIwlaT_kWLUFEoLK8zbfJ2zWcxMO51pSENQ7PBkOCnLVgljuOY886YZ7tlhHYxcUGkm89-FdCXDtx027HF8R7vP5IN1VdBoicpB32zBILNJzFDm9PQYeeYFRpfbXnopt68trwjfKL94HxmftvcMve1HDyOlsSBrkg6bEJtywp85eCQvEO2RFnHAfYd4kG58u8Mp0VyrLEbjThVMw
+                      - link "Творческий набор Adobe Creative Cloud, 14-дневная подписка, все приложения, 1ТБ хранилища" [ref=e858]
+                    - link "Цена 265 ₽" [ref=e863] [cursor=pointer]:
+                      - /url: /card/tvorcheskiy-nabor-adobe-creative-cloud-14-dnevnaya-podpiska-vse-prilozheniya-1tb-khranilishcha/5218787846?do-waremd5=dNo7dK5AjY-XChXCXPAhQw&showUid=17743458510175932561106004&cpa=1&cpc=vifDZ_QvhbjyQ5kwUQEBSiHal7W0AKTUOYzOW579of8Hcyrio9v62t28Hf-hiD66y3Cb3mrcdFjmzLiub7uINcAZ6LAKdF33UXW0brWdntI9AfJ4vIwlaT_kWLUFEoLK8zbfJ2zWcxMO51pSENQ7PBkOCnLVgljuOY886YZ7tlhHYxcUGkm89-FdCXDtx027HF8R7vP5IN1VdBoicpB32zBILNJzFDm9PQYeeYFRpfbXnopt68trwjfKL94HxmftvcMve1HDyOlsSBrkg6bEJtywp85eCQvEO2RFnHAfYd4kG58u8Mp0VyrLEbjThVMw
+                      - generic [ref=e865]:
+                        - generic [ref=e866]: Цена 265 ₽
+                        - generic [ref=e869]:
+                          - generic [ref=e870]: "265"
+                          - generic [ref=e871]: ₽
+                    - generic [ref=e872]:
+                      - generic [ref=e873]:
+                        - generic [ref=e874]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e875]: на основе 1 оценка
+                        - generic [ref=e876]:
+                          - generic [ref=e877]: "5.0"
+                          - generic [ref=e879]: 1 оценка
+                      - generic [ref=e882]:
+                        - generic [ref=e884]: Сегодня
+                        - text: ","
+                        - generic [ref=e885]: эл. почта
+                    - link [ref=e887] [cursor=pointer]:
+                      - /url: /card/tvorcheskiy-nabor-adobe-creative-cloud-14-dnevnaya-podpiska-vse-prilozheniya-1tb-khranilishcha/5218787846?do-waremd5=dNo7dK5AjY-XChXCXPAhQw&showUid=17743458510175932561106004&cpa=1&cpc=vifDZ_QvhbjyQ5kwUQEBSiHal7W0AKTUOYzOW579of8Hcyrio9v62t28Hf-hiD66y3Cb3mrcdFjmzLiub7uINcAZ6LAKdF33UXW0brWdntI9AfJ4vIwlaT_kWLUFEoLK8zbfJ2zWcxMO51pSENQ7PBkOCnLVgljuOY886YZ7tlhHYxcUGkm89-FdCXDtx027HF8R7vP5IN1VdBoicpB32zBILNJzFDm9PQYeeYFRpfbXnopt68trwjfKL94HxmftvcMve1HDyOlsSBrkg6bEJtywp85eCQvEO2RFnHAfYd4kG58u8Mp0VyrLEbjThVMw
+                - listitem [ref=e888]:
+                  - generic [ref=e892]:
+                    - generic [ref=e894]:
+                      - 'link "Подписка ElevenLabs AI | Starter | Срок: 1 Месяц | Новый личный аккаунт!" [ref=e896] [cursor=pointer]':
+                        - /url: /card/podpiska-elevenlabs-ai--starter--srok-1-mesyats--novyy-lichnyy-akkaunt/4708374962?do-waremd5=g-EQjvRHZOJvyFOmhVT_8A&showUid=17743458510104447036206005&cpa=1&cpc=vifDZ_QvhbgHDe799k-uv5n2vme-XhXX1o--AAyUHo0Ctx8PAb1h8EgCQn5C2DhwVw0SOTdaI-wI4NIX_D3cJBfeAkgDvNmeVLCH9ibk3Zv-kjKIglIGUnPuAqetJEJmSs4wDOZAan-btYvHrPXnxQmRyg8V3pz5Uvp0OPWlgqqZhtKfFw3wcRaz3f311ORfzx_7FCIydsWnVSPH9ZTBwHMJ9PqJKWkaG0W90S5rCzxPRzBDy8SRSttTg7pKb2sm_n7P5MwMTb6_GByPRRic0iSQ_139_EuSEvIhuIJZbWPBbJyl-J9r6BUh4a9bv59RmiQU3OGj12U2jaCfclwFKGSimzPqwyWwjLtNpGNwi9eEXQHzSuhCOdFqoKCjhazuSxtdaeW7H1k%2C
+                        - 'img "Подписка ElevenLabs AI | Starter | Срок: 1 Месяц | Новый личный аккаунт!" [ref=e904]'
+                      - button "Добавить в избранное" [ref=e910] [cursor=pointer]
+                      - button "В корзину" [ref=e915] [cursor=pointer]
+                    - 'link "Подписка ElevenLabs AI | Starter | Срок: 1 Месяц | Новый личный аккаунт!" [ref=e920] [cursor=pointer]':
+                      - /url: /card/podpiska-elevenlabs-ai--starter--srok-1-mesyats--novyy-lichnyy-akkaunt/4708374962?do-waremd5=g-EQjvRHZOJvyFOmhVT_8A&showUid=17743458510104447036206005&cpa=1&cpc=vifDZ_QvhbgHDe799k-uv5n2vme-XhXX1o--AAyUHo0Ctx8PAb1h8EgCQn5C2DhwVw0SOTdaI-wI4NIX_D3cJBfeAkgDvNmeVLCH9ibk3Zv-kjKIglIGUnPuAqetJEJmSs4wDOZAan-btYvHrPXnxQmRyg8V3pz5Uvp0OPWlgqqZhtKfFw3wcRaz3f311ORfzx_7FCIydsWnVSPH9ZTBwHMJ9PqJKWkaG0W90S5rCzxPRzBDy8SRSttTg7pKb2sm_n7P5MwMTb6_GByPRRic0iSQ_139_EuSEvIhuIJZbWPBbJyl-J9r6BUh4a9bv59RmiQU3OGj12U2jaCfclwFKGSimzPqwyWwjLtNpGNwi9eEXQHzSuhCOdFqoKCjhazuSxtdaeW7H1k%2C
+                      - 'link "Подписка ElevenLabs AI | Starter | Срок: 1 Месяц | Новый личный аккаунт!" [ref=e921]'
+                    - link "Цена 1 017 ₽" [ref=e926] [cursor=pointer]:
+                      - /url: /card/podpiska-elevenlabs-ai--starter--srok-1-mesyats--novyy-lichnyy-akkaunt/4708374962?do-waremd5=g-EQjvRHZOJvyFOmhVT_8A&showUid=17743458510104447036206005&cpa=1&cpc=vifDZ_QvhbgHDe799k-uv5n2vme-XhXX1o--AAyUHo0Ctx8PAb1h8EgCQn5C2DhwVw0SOTdaI-wI4NIX_D3cJBfeAkgDvNmeVLCH9ibk3Zv-kjKIglIGUnPuAqetJEJmSs4wDOZAan-btYvHrPXnxQmRyg8V3pz5Uvp0OPWlgqqZhtKfFw3wcRaz3f311ORfzx_7FCIydsWnVSPH9ZTBwHMJ9PqJKWkaG0W90S5rCzxPRzBDy8SRSttTg7pKb2sm_n7P5MwMTb6_GByPRRic0iSQ_139_EuSEvIhuIJZbWPBbJyl-J9r6BUh4a9bv59RmiQU3OGj12U2jaCfclwFKGSimzPqwyWwjLtNpGNwi9eEXQHzSuhCOdFqoKCjhazuSxtdaeW7H1k%2C
+                      - generic [ref=e928]:
+                        - generic [ref=e929]: Цена 1 017 ₽
+                        - generic [ref=e932]:
+                          - generic [ref=e933]: 1 017
+                          - generic [ref=e934]: ₽
+                    - generic [ref=e938]:
+                      - generic [ref=e940]: Сегодня
+                      - text: ","
+                      - generic [ref=e941]: эл. почта
+                    - link [ref=e943] [cursor=pointer]:
+                      - /url: /card/podpiska-elevenlabs-ai--starter--srok-1-mesyats--novyy-lichnyy-akkaunt/4708374962?do-waremd5=g-EQjvRHZOJvyFOmhVT_8A&showUid=17743458510104447036206005&cpa=1&cpc=vifDZ_QvhbgHDe799k-uv5n2vme-XhXX1o--AAyUHo0Ctx8PAb1h8EgCQn5C2DhwVw0SOTdaI-wI4NIX_D3cJBfeAkgDvNmeVLCH9ibk3Zv-kjKIglIGUnPuAqetJEJmSs4wDOZAan-btYvHrPXnxQmRyg8V3pz5Uvp0OPWlgqqZhtKfFw3wcRaz3f311ORfzx_7FCIydsWnVSPH9ZTBwHMJ9PqJKWkaG0W90S5rCzxPRzBDy8SRSttTg7pKb2sm_n7P5MwMTb6_GByPRRic0iSQ_139_EuSEvIhuIJZbWPBbJyl-J9r6BUh4a9bv59RmiQU3OGj12U2jaCfclwFKGSimzPqwyWwjLtNpGNwi9eEXQHzSuhCOdFqoKCjhazuSxtdaeW7H1k%2C
+                - listitem [ref=e944]:
+                  - generic [ref=e948]:
+                    - generic [ref=e950]:
+                      - link "SoundCloud Artist Pro 1 месяц, Индивидуальная подписка на ваш аккаунт" [ref=e952] [cursor=pointer]:
+                        - /url: /card/soundcloud-artist-pro-1-mesyats-individualnaya-podpiska/5048081492?do-waremd5=l5bu1vBc2HmrjOlCBJm3yQ&showUid=17743458510134997583306006&cpa=1&cpc=vifDZ_QvhbhsNMkAE4ACtroWI_GUUz-EmSwiHJvDj96wAru5HT4kkowaydIa3dFrCzsPKGPVHJSiX1l-Q1SA8FomhEK7IlDdjIDLNp0PVwPxanvxu3oAYJr0bPTk1SdeGweLbONWsTzvmdznoBFyXQjI9XGH0vf8neHjqIPAEbqS9LYDW6ClKDJC9b8N1YiwRD4E-l5v5JDGtohipDWQ7dtZykgAj7bcy5kC_tLFXTESV3yTEQMFw1oLR0m60BuAjK4X9O8Nx6nvna907RPIu4_InhDVjCwlFvigiv4EqjXyZKxnMlDzlJXjH0Iys6X34pKUZ-GSpFvBkleMPyiBywFqOtDpCN5HLjGxNPITUc5HFTLKkjswv852M-9NRNt7QcX_m62wtvM%2C
+                        - img "SoundCloud Artist Pro 1 месяц, Индивидуальная подписка на ваш аккаунт" [ref=e960]
+                      - button "Добавить в избранное" [ref=e966] [cursor=pointer]
+                      - button "В корзину" [ref=e971] [cursor=pointer]
+                    - link "SoundCloud Artist Pro 1 месяц, Индивидуальная подписка на ваш аккаунт" [ref=e976] [cursor=pointer]:
+                      - /url: /card/soundcloud-artist-pro-1-mesyats-individualnaya-podpiska/5048081492?do-waremd5=l5bu1vBc2HmrjOlCBJm3yQ&showUid=17743458510134997583306006&cpa=1&cpc=vifDZ_QvhbhsNMkAE4ACtroWI_GUUz-EmSwiHJvDj96wAru5HT4kkowaydIa3dFrCzsPKGPVHJSiX1l-Q1SA8FomhEK7IlDdjIDLNp0PVwPxanvxu3oAYJr0bPTk1SdeGweLbONWsTzvmdznoBFyXQjI9XGH0vf8neHjqIPAEbqS9LYDW6ClKDJC9b8N1YiwRD4E-l5v5JDGtohipDWQ7dtZykgAj7bcy5kC_tLFXTESV3yTEQMFw1oLR0m60BuAjK4X9O8Nx6nvna907RPIu4_InhDVjCwlFvigiv4EqjXyZKxnMlDzlJXjH0Iys6X34pKUZ-GSpFvBkleMPyiBywFqOtDpCN5HLjGxNPITUc5HFTLKkjswv852M-9NRNt7QcX_m62wtvM%2C
+                      - link "SoundCloud Artist Pro 1 месяц, Индивидуальная подписка на ваш аккаунт" [ref=e977]
+                    - link "Цена 963 ₽" [ref=e982] [cursor=pointer]:
+                      - /url: /card/soundcloud-artist-pro-1-mesyats-individualnaya-podpiska/5048081492?do-waremd5=l5bu1vBc2HmrjOlCBJm3yQ&showUid=17743458510134997583306006&cpa=1&cpc=vifDZ_QvhbhsNMkAE4ACtroWI_GUUz-EmSwiHJvDj96wAru5HT4kkowaydIa3dFrCzsPKGPVHJSiX1l-Q1SA8FomhEK7IlDdjIDLNp0PVwPxanvxu3oAYJr0bPTk1SdeGweLbONWsTzvmdznoBFyXQjI9XGH0vf8neHjqIPAEbqS9LYDW6ClKDJC9b8N1YiwRD4E-l5v5JDGtohipDWQ7dtZykgAj7bcy5kC_tLFXTESV3yTEQMFw1oLR0m60BuAjK4X9O8Nx6nvna907RPIu4_InhDVjCwlFvigiv4EqjXyZKxnMlDzlJXjH0Iys6X34pKUZ-GSpFvBkleMPyiBywFqOtDpCN5HLjGxNPITUc5HFTLKkjswv852M-9NRNt7QcX_m62wtvM%2C
+                      - generic [ref=e984]:
+                        - generic [ref=e985]: Цена 963 ₽
+                        - generic [ref=e988]:
+                          - generic [ref=e989]: "963"
+                          - generic [ref=e990]: ₽
+                    - generic [ref=e994]:
+                      - generic [ref=e996]: Сегодня
+                      - text: ","
+                      - generic [ref=e997]: эл. почта
+                    - link [ref=e999] [cursor=pointer]:
+                      - /url: /card/soundcloud-artist-pro-1-mesyats-individualnaya-podpiska/5048081492?do-waremd5=l5bu1vBc2HmrjOlCBJm3yQ&showUid=17743458510134997583306006&cpa=1&cpc=vifDZ_QvhbhsNMkAE4ACtroWI_GUUz-EmSwiHJvDj96wAru5HT4kkowaydIa3dFrCzsPKGPVHJSiX1l-Q1SA8FomhEK7IlDdjIDLNp0PVwPxanvxu3oAYJr0bPTk1SdeGweLbONWsTzvmdznoBFyXQjI9XGH0vf8neHjqIPAEbqS9LYDW6ClKDJC9b8N1YiwRD4E-l5v5JDGtohipDWQ7dtZykgAj7bcy5kC_tLFXTESV3yTEQMFw1oLR0m60BuAjK4X9O8Nx6nvna907RPIu4_InhDVjCwlFvigiv4EqjXyZKxnMlDzlJXjH0Iys6X34pKUZ-GSpFvBkleMPyiBywFqOtDpCN5HLjGxNPITUc5HFTLKkjswv852M-9NRNt7QcX_m62wtvM%2C
+                - listitem [ref=e1000]:
+                  - generic [ref=e1004]:
+                    - generic [ref=e1006]:
+                      - link "Подписка n8n AI Starter, 1 месяц (Активация на ваш аккаунт или создание нового личного аккаунта)" [ref=e1008] [cursor=pointer]:
+                        - /url: /card/podpiska-n8n-ai-starter-1-mesyats/5185327807?do-waremd5=2W5sHQI4Av3P4dAhYuks0g&showUid=17743458510155315157506007&cpa=1&cpc=vifDZ_Qvhbh9oZkLgj5b8_hU8d__IcSMQpcaIubXjENTGMaLWJNzCe90Vxx6hhDzKYjGmn8jH6bj4U7bVzNR6zQUR3D8x2t2QP76X05Fp1rwew-VwG2gUFCCL3ZNnvvNL6pYIsdVoMBBc09jetJh8kkVe4iB3nvSlVlKTz6deusS8yX6Qs4OecU2OBBWtAQyrdGiyAhitBRPf5Y0H8pxPzRcC26phCflxSM7MesbPk9ZLQbJSv-h210mcyirIT734ow4Om2mLdj4xUORQnBvv6V4pTqVS3fW0SBGpf2PVBMgmn4RA3U0W3E_rOPQSQav
+                        - img "Подписка n8n AI Starter, 1 месяц (Активация на ваш аккаунт или создание нового личного аккаунта)" [ref=e1016]
+                      - button "Добавить в избранное" [ref=e1022] [cursor=pointer]
+                      - button "В корзину" [ref=e1027] [cursor=pointer]
+                    - link "Подписка n8n AI Starter, 1 месяц (Активация на ваш аккаунт или создание нового личного аккаунта)" [ref=e1032] [cursor=pointer]:
+                      - /url: /card/podpiska-n8n-ai-starter-1-mesyats/5185327807?do-waremd5=2W5sHQI4Av3P4dAhYuks0g&showUid=17743458510155315157506007&cpa=1&cpc=vifDZ_Qvhbh9oZkLgj5b8_hU8d__IcSMQpcaIubXjENTGMaLWJNzCe90Vxx6hhDzKYjGmn8jH6bj4U7bVzNR6zQUR3D8x2t2QP76X05Fp1rwew-VwG2gUFCCL3ZNnvvNL6pYIsdVoMBBc09jetJh8kkVe4iB3nvSlVlKTz6deusS8yX6Qs4OecU2OBBWtAQyrdGiyAhitBRPf5Y0H8pxPzRcC26phCflxSM7MesbPk9ZLQbJSv-h210mcyirIT734ow4Om2mLdj4xUORQnBvv6V4pTqVS3fW0SBGpf2PVBMgmn4RA3U0W3E_rOPQSQav
+                      - link "Подписка n8n AI Starter, 1 месяц (Активация на ваш аккаунт или создание нового личного аккаунта)" [ref=e1033]
+                    - link "Цена 3 329 ₽" [ref=e1038] [cursor=pointer]:
+                      - /url: /card/podpiska-n8n-ai-starter-1-mesyats/5185327807?do-waremd5=2W5sHQI4Av3P4dAhYuks0g&showUid=17743458510155315157506007&cpa=1&cpc=vifDZ_Qvhbh9oZkLgj5b8_hU8d__IcSMQpcaIubXjENTGMaLWJNzCe90Vxx6hhDzKYjGmn8jH6bj4U7bVzNR6zQUR3D8x2t2QP76X05Fp1rwew-VwG2gUFCCL3ZNnvvNL6pYIsdVoMBBc09jetJh8kkVe4iB3nvSlVlKTz6deusS8yX6Qs4OecU2OBBWtAQyrdGiyAhitBRPf5Y0H8pxPzRcC26phCflxSM7MesbPk9ZLQbJSv-h210mcyirIT734ow4Om2mLdj4xUORQnBvv6V4pTqVS3fW0SBGpf2PVBMgmn4RA3U0W3E_rOPQSQav
+                      - generic [ref=e1040]:
+                        - generic [ref=e1041]: Цена 3 329 ₽
+                        - generic [ref=e1044]:
+                          - generic [ref=e1045]: 3 329
+                          - generic [ref=e1046]: ₽
+                    - generic [ref=e1050]:
+                      - generic [ref=e1052]: Сегодня
+                      - text: ","
+                      - generic [ref=e1053]: эл. почта
+                    - link [ref=e1055] [cursor=pointer]:
+                      - /url: /card/podpiska-n8n-ai-starter-1-mesyats/5185327807?do-waremd5=2W5sHQI4Av3P4dAhYuks0g&showUid=17743458510155315157506007&cpa=1&cpc=vifDZ_Qvhbh9oZkLgj5b8_hU8d__IcSMQpcaIubXjENTGMaLWJNzCe90Vxx6hhDzKYjGmn8jH6bj4U7bVzNR6zQUR3D8x2t2QP76X05Fp1rwew-VwG2gUFCCL3ZNnvvNL6pYIsdVoMBBc09jetJh8kkVe4iB3nvSlVlKTz6deusS8yX6Qs4OecU2OBBWtAQyrdGiyAhitBRPf5Y0H8pxPzRcC26phCflxSM7MesbPk9ZLQbJSv-h210mcyirIT734ow4Om2mLdj4xUORQnBvv6V4pTqVS3fW0SBGpf2PVBMgmn4RA3U0W3E_rOPQSQav
+                - listitem [ref=e1056]:
+                  - generic [ref=e1060]:
+                    - generic [ref=e1062]:
+                      - link "Подписка Kling Ai Standard 1 месяц - 660 + 330 кредитов (первая активация) - официальная активация подписки клинг аэй" [ref=e1064] [cursor=pointer]:
+                        - /url: /card/podpiska-kling-ai-standard-1-mesyats---660--330-kreditov-pervaya-aktivatsiya---ofitsialnaya-aktivatsiya-podpiski-kling-aey/5197789720?do-waremd5=uhxcXalRi3NbmnrtdHj1DA&showUid=17743458510165572213306008&cpa=1&cpc=vifDZ_QvhbjE2kLOCC9uUMCz0ziwJCa1pqLWwWnoQiIJIZ21vLgYZnXzlZfPNiQjNwgobi0UIPRpGjLFrPVJDkd7vduLoYnv1WKvxou-juMbDnLN3OLroboRaXPewf_szNJUmwQsjqLJQNAbX2i6rxypPfoY3mjnC6dSdTxVgQucktf8dVQazKFpYEGM4uugjGRtVYb6eGVEV7pDV1YM8pT4UozlGRajOD4dppZu2TqyOZSMSpe0uoAJQ-OrxBBgdtroxijzfa8AjuAzH07vA89XaYWvHbx8Peuu6N-JlKIH6KYlNf8I8sqqYnn89uJR15ERf9MApfCEK3mcGzi3xZ9adxqpgNMbx2LobvMgX-A5XX1dIdH2N6ElmNNjlovIoB9frYbljdE%2C
+                        - img "Подписка Kling Ai Standard 1 месяц - 660 + 330 кредитов (первая активация) - официальная активация подписки клинг аэй" [ref=e1072]
+                      - button "Добавить в избранное" [ref=e1078] [cursor=pointer]
+                      - button "В корзину" [ref=e1083] [cursor=pointer]
+                    - link "Подписка Kling Ai Standard 1 месяц - 660 + 330 кредитов (первая активация) - официальная активация подписки клинг аэй" [ref=e1088] [cursor=pointer]:
+                      - /url: /card/podpiska-kling-ai-standard-1-mesyats---660--330-kreditov-pervaya-aktivatsiya---ofitsialnaya-aktivatsiya-podpiski-kling-aey/5197789720?do-waremd5=uhxcXalRi3NbmnrtdHj1DA&showUid=17743458510165572213306008&cpa=1&cpc=vifDZ_QvhbjE2kLOCC9uUMCz0ziwJCa1pqLWwWnoQiIJIZ21vLgYZnXzlZfPNiQjNwgobi0UIPRpGjLFrPVJDkd7vduLoYnv1WKvxou-juMbDnLN3OLroboRaXPewf_szNJUmwQsjqLJQNAbX2i6rxypPfoY3mjnC6dSdTxVgQucktf8dVQazKFpYEGM4uugjGRtVYb6eGVEV7pDV1YM8pT4UozlGRajOD4dppZu2TqyOZSMSpe0uoAJQ-OrxBBgdtroxijzfa8AjuAzH07vA89XaYWvHbx8Peuu6N-JlKIH6KYlNf8I8sqqYnn89uJR15ERf9MApfCEK3mcGzi3xZ9adxqpgNMbx2LobvMgX-A5XX1dIdH2N6ElmNNjlovIoB9frYbljdE%2C
+                      - link "Подписка Kling Ai Standard 1 месяц - 660 + 330 кредитов (первая активация) - официальная активация подписки клинг аэй" [ref=e1089]
+                    - link "Цена 1 460 ₽" [ref=e1094] [cursor=pointer]:
+                      - /url: /card/podpiska-kling-ai-standard-1-mesyats---660--330-kreditov-pervaya-aktivatsiya---ofitsialnaya-aktivatsiya-podpiski-kling-aey/5197789720?do-waremd5=uhxcXalRi3NbmnrtdHj1DA&showUid=17743458510165572213306008&cpa=1&cpc=vifDZ_QvhbjE2kLOCC9uUMCz0ziwJCa1pqLWwWnoQiIJIZ21vLgYZnXzlZfPNiQjNwgobi0UIPRpGjLFrPVJDkd7vduLoYnv1WKvxou-juMbDnLN3OLroboRaXPewf_szNJUmwQsjqLJQNAbX2i6rxypPfoY3mjnC6dSdTxVgQucktf8dVQazKFpYEGM4uugjGRtVYb6eGVEV7pDV1YM8pT4UozlGRajOD4dppZu2TqyOZSMSpe0uoAJQ-OrxBBgdtroxijzfa8AjuAzH07vA89XaYWvHbx8Peuu6N-JlKIH6KYlNf8I8sqqYnn89uJR15ERf9MApfCEK3mcGzi3xZ9adxqpgNMbx2LobvMgX-A5XX1dIdH2N6ElmNNjlovIoB9frYbljdE%2C
+                      - generic [ref=e1096]:
+                        - generic [ref=e1097]: Цена 1 460 ₽
+                        - generic [ref=e1100]:
+                          - generic [ref=e1101]: 1 460
+                          - generic [ref=e1102]: ₽
+                    - generic [ref=e1106]:
+                      - generic [ref=e1108]: Сегодня
+                      - text: ","
+                      - generic [ref=e1109]: эл. почта
+                    - link [ref=e1111] [cursor=pointer]:
+                      - /url: /card/podpiska-kling-ai-standard-1-mesyats---660--330-kreditov-pervaya-aktivatsiya---ofitsialnaya-aktivatsiya-podpiski-kling-aey/5197789720?do-waremd5=uhxcXalRi3NbmnrtdHj1DA&showUid=17743458510165572213306008&cpa=1&cpc=vifDZ_QvhbjE2kLOCC9uUMCz0ziwJCa1pqLWwWnoQiIJIZ21vLgYZnXzlZfPNiQjNwgobi0UIPRpGjLFrPVJDkd7vduLoYnv1WKvxou-juMbDnLN3OLroboRaXPewf_szNJUmwQsjqLJQNAbX2i6rxypPfoY3mjnC6dSdTxVgQucktf8dVQazKFpYEGM4uugjGRtVYb6eGVEV7pDV1YM8pT4UozlGRajOD4dppZu2TqyOZSMSpe0uoAJQ-OrxBBgdtroxijzfa8AjuAzH07vA89XaYWvHbx8Peuu6N-JlKIH6KYlNf8I8sqqYnn89uJR15ERf9MApfCEK3mcGzi3xZ9adxqpgNMbx2LobvMgX-A5XX1dIdH2N6ElmNNjlovIoB9frYbljdE%2C
+                - listitem [ref=e1112]:
+                  - generic [ref=e1116]:
+                    - generic [ref=e1118]:
+                      - 'link "Подписка GAMMA APP AI Pro| Срок: 1 Месяц | Новый личный аккаунт!" [ref=e1120] [cursor=pointer]':
+                        - /url: /card/podpiska-gamma-app-ai-pro-srok-1-mesyats--novyy-lichnyy-akkaunt/4677532979?do-waremd5=gNqn3Qi1S2obeudIvlMqUg&showUid=17743458510155194995206009&cpa=1&cpc=vifDZ_QvhbjYutPOCXL8LLVwZ4Y2mayo_s0dR0YsBtXza_lN3jTGPTgWXX18VWA4dWC24MzzZeAsnp0GSdkSsitTugr2bYBOASCad8ir6sFeZkPmW6UeD5gXCQIInSaGO-uxfTOKekV4Ep12uTuKL3vMgI78Hse6AgY3m5gY9Wyupc8VIrp0ywYL3kPVkypu4Y6p1e3HJ5KUnSuJ2cVQ0Y3HyjxlPTGsnCCUyatPLssjEfn16RQ8cM7MfC-gpLf_Wa5bBVXfgDDzbJXXClScHSmkZhEqgg4VM0TvmFpV81v3TLNtzKuuJRmzjWM9gZ-r-o_G8lbLcU1Knd9fhJHzmFz8mbgYkXE6Mz5kwWpuj60Thsjw5Len9nYC03N1dERKHN-0xpuQyVg%2C
+                        - 'img "Подписка GAMMA APP AI Pro| Срок: 1 Месяц | Новый личный аккаунт!" [ref=e1128]'
+                      - button "Добавить в избранное" [ref=e1134] [cursor=pointer]
+                      - button "В корзину" [ref=e1139] [cursor=pointer]
+                    - 'link "Подписка GAMMA APP AI Pro| Срок: 1 Месяц | Новый личный аккаунт!" [ref=e1144] [cursor=pointer]':
+                      - /url: /card/podpiska-gamma-app-ai-pro-srok-1-mesyats--novyy-lichnyy-akkaunt/4677532979?do-waremd5=gNqn3Qi1S2obeudIvlMqUg&showUid=17743458510155194995206009&cpa=1&cpc=vifDZ_QvhbjYutPOCXL8LLVwZ4Y2mayo_s0dR0YsBtXza_lN3jTGPTgWXX18VWA4dWC24MzzZeAsnp0GSdkSsitTugr2bYBOASCad8ir6sFeZkPmW6UeD5gXCQIInSaGO-uxfTOKekV4Ep12uTuKL3vMgI78Hse6AgY3m5gY9Wyupc8VIrp0ywYL3kPVkypu4Y6p1e3HJ5KUnSuJ2cVQ0Y3HyjxlPTGsnCCUyatPLssjEfn16RQ8cM7MfC-gpLf_Wa5bBVXfgDDzbJXXClScHSmkZhEqgg4VM0TvmFpV81v3TLNtzKuuJRmzjWM9gZ-r-o_G8lbLcU1Knd9fhJHzmFz8mbgYkXE6Mz5kwWpuj60Thsjw5Len9nYC03N1dERKHN-0xpuQyVg%2C
+                      - 'link "Подписка GAMMA APP AI Pro| Срок: 1 Месяц | Новый личный аккаунт!" [ref=e1145]'
+                    - link "Цена 2 656 ₽" [ref=e1150] [cursor=pointer]:
+                      - /url: /card/podpiska-gamma-app-ai-pro-srok-1-mesyats--novyy-lichnyy-akkaunt/4677532979?do-waremd5=gNqn3Qi1S2obeudIvlMqUg&showUid=17743458510155194995206009&cpa=1&cpc=vifDZ_QvhbjYutPOCXL8LLVwZ4Y2mayo_s0dR0YsBtXza_lN3jTGPTgWXX18VWA4dWC24MzzZeAsnp0GSdkSsitTugr2bYBOASCad8ir6sFeZkPmW6UeD5gXCQIInSaGO-uxfTOKekV4Ep12uTuKL3vMgI78Hse6AgY3m5gY9Wyupc8VIrp0ywYL3kPVkypu4Y6p1e3HJ5KUnSuJ2cVQ0Y3HyjxlPTGsnCCUyatPLssjEfn16RQ8cM7MfC-gpLf_Wa5bBVXfgDDzbJXXClScHSmkZhEqgg4VM0TvmFpV81v3TLNtzKuuJRmzjWM9gZ-r-o_G8lbLcU1Knd9fhJHzmFz8mbgYkXE6Mz5kwWpuj60Thsjw5Len9nYC03N1dERKHN-0xpuQyVg%2C
+                      - generic [ref=e1152]:
+                        - generic [ref=e1153]: Цена 2 656 ₽
+                        - generic [ref=e1156]:
+                          - generic [ref=e1157]: 2 656
+                          - generic [ref=e1158]: ₽
+                    - generic [ref=e1159]:
+                      - generic [ref=e1160]:
+                        - generic [ref=e1161]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1162]: на основе 11 оценок
+                        - generic [ref=e1163]:
+                          - generic [ref=e1164]: "5.0"
+                          - generic [ref=e1166]: 11 оценок
+                      - generic [ref=e1169]:
+                        - generic [ref=e1171]: Сегодня
+                        - text: ","
+                        - generic [ref=e1172]: эл. почта
+                    - link [ref=e1174] [cursor=pointer]:
+                      - /url: /card/podpiska-gamma-app-ai-pro-srok-1-mesyats--novyy-lichnyy-akkaunt/4677532979?do-waremd5=gNqn3Qi1S2obeudIvlMqUg&showUid=17743458510155194995206009&cpa=1&cpc=vifDZ_QvhbjYutPOCXL8LLVwZ4Y2mayo_s0dR0YsBtXza_lN3jTGPTgWXX18VWA4dWC24MzzZeAsnp0GSdkSsitTugr2bYBOASCad8ir6sFeZkPmW6UeD5gXCQIInSaGO-uxfTOKekV4Ep12uTuKL3vMgI78Hse6AgY3m5gY9Wyupc8VIrp0ywYL3kPVkypu4Y6p1e3HJ5KUnSuJ2cVQ0Y3HyjxlPTGsnCCUyatPLssjEfn16RQ8cM7MfC-gpLf_Wa5bBVXfgDDzbJXXClScHSmkZhEqgg4VM0TvmFpV81v3TLNtzKuuJRmzjWM9gZ-r-o_G8lbLcU1Knd9fhJHzmFz8mbgYkXE6Mz5kwWpuj60Thsjw5Len9nYC03N1dERKHN-0xpuQyVg%2C
+                - listitem [ref=e1175]:
+                  - generic [ref=e1179]:
+                    - generic [ref=e1181]:
+                      - link "GitHub Copilot Pro | личный профиль + почта | 1 месяц | Доступ в РФ | AI-помощник для ускорения написания кода |" [ref=e1183] [cursor=pointer]:
+                        - /url: /card/github-copilot-pro--lichnyy-profil--pochta--1-mesyats--dostup-v-rf--ai-pomoshchnik-dlya-uskoreniya-napisaniya-koda-/5152627427?do-waremd5=7vLQy760Ov1eCOYIPa5_VA&showUid=17743458510175702156006010&cpa=1&cpc=vifDZ_Qvhbg3HbGOJh3SQpDeUMJ1WAIUiIqB7_K2lUW7Xu5KbqYcR7TReRqKwPccZ24qvH6Xlpg5MqAktGrwEhfXhU0hgPEdbYiyouRFQpnrWdQtAJNZQdCMIpzpCZ0MuBc07q1_6iMoUEPiIPbkb7SeP7xX_zcNwXXzqkU0Y0r3nlOdmlBFvt0iz5D5Mf2eFgrpQ3_Elajaq_n2IPf2VdKUVx6FRvy3R0D793tIGLP6e2WxqpRygnR2JYHfeXla_pQ_pfLl4Zow62DxTVpwpusEcn0DrTO4RMc_Tsx-G2CA1AEHTAJ31xfjhsiW0-ONjVsC5SUuRGR34ggJXrZ5C2k_v07TyEXenlVrcCGNiP3jobQXkTCynrjNBpeg6WIQxcY4wXYp8bw%2C
+                        - img "GitHub Copilot Pro | личный профиль + почта | 1 месяц | Доступ в РФ | AI-помощник для ускорения написания кода |" [ref=e1191]
+                      - button "Добавить в избранное" [ref=e1197] [cursor=pointer]
+                      - button "В корзину" [ref=e1202] [cursor=pointer]
+                    - link "GitHub Copilot Pro | личный профиль + почта | 1 месяц | Доступ в РФ | AI-помощник для ускорения написания кода |" [ref=e1207] [cursor=pointer]:
+                      - /url: /card/github-copilot-pro--lichnyy-profil--pochta--1-mesyats--dostup-v-rf--ai-pomoshchnik-dlya-uskoreniya-napisaniya-koda-/5152627427?do-waremd5=7vLQy760Ov1eCOYIPa5_VA&showUid=17743458510175702156006010&cpa=1&cpc=vifDZ_Qvhbg3HbGOJh3SQpDeUMJ1WAIUiIqB7_K2lUW7Xu5KbqYcR7TReRqKwPccZ24qvH6Xlpg5MqAktGrwEhfXhU0hgPEdbYiyouRFQpnrWdQtAJNZQdCMIpzpCZ0MuBc07q1_6iMoUEPiIPbkb7SeP7xX_zcNwXXzqkU0Y0r3nlOdmlBFvt0iz5D5Mf2eFgrpQ3_Elajaq_n2IPf2VdKUVx6FRvy3R0D793tIGLP6e2WxqpRygnR2JYHfeXla_pQ_pfLl4Zow62DxTVpwpusEcn0DrTO4RMc_Tsx-G2CA1AEHTAJ31xfjhsiW0-ONjVsC5SUuRGR34ggJXrZ5C2k_v07TyEXenlVrcCGNiP3jobQXkTCynrjNBpeg6WIQxcY4wXYp8bw%2C
+                      - link "GitHub Copilot Pro | личный профиль + почта | 1 месяц | Доступ в РФ | AI-помощник для ускорения написания кода |" [ref=e1208]
+                    - link "Цена 1 554 ₽" [ref=e1213] [cursor=pointer]:
+                      - /url: /card/github-copilot-pro--lichnyy-profil--pochta--1-mesyats--dostup-v-rf--ai-pomoshchnik-dlya-uskoreniya-napisaniya-koda-/5152627427?do-waremd5=7vLQy760Ov1eCOYIPa5_VA&showUid=17743458510175702156006010&cpa=1&cpc=vifDZ_Qvhbg3HbGOJh3SQpDeUMJ1WAIUiIqB7_K2lUW7Xu5KbqYcR7TReRqKwPccZ24qvH6Xlpg5MqAktGrwEhfXhU0hgPEdbYiyouRFQpnrWdQtAJNZQdCMIpzpCZ0MuBc07q1_6iMoUEPiIPbkb7SeP7xX_zcNwXXzqkU0Y0r3nlOdmlBFvt0iz5D5Mf2eFgrpQ3_Elajaq_n2IPf2VdKUVx6FRvy3R0D793tIGLP6e2WxqpRygnR2JYHfeXla_pQ_pfLl4Zow62DxTVpwpusEcn0DrTO4RMc_Tsx-G2CA1AEHTAJ31xfjhsiW0-ONjVsC5SUuRGR34ggJXrZ5C2k_v07TyEXenlVrcCGNiP3jobQXkTCynrjNBpeg6WIQxcY4wXYp8bw%2C
+                      - generic [ref=e1215]:
+                        - generic [ref=e1216]: Цена 1 554 ₽
+                        - generic [ref=e1219]:
+                          - generic [ref=e1220]: 1 554
+                          - generic [ref=e1221]: ₽
+                    - generic [ref=e1222]:
+                      - generic [ref=e1223]:
+                        - generic [ref=e1224]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1225]: на основе 2 оценки
+                        - generic [ref=e1226]:
+                          - generic [ref=e1227]: "5.0"
+                          - generic [ref=e1229]: 2 оценки
+                      - generic [ref=e1232]:
+                        - generic [ref=e1234]: Сегодня
+                        - text: ","
+                        - generic [ref=e1235]: эл. почта
+                    - link [ref=e1237] [cursor=pointer]:
+                      - /url: /card/github-copilot-pro--lichnyy-profil--pochta--1-mesyats--dostup-v-rf--ai-pomoshchnik-dlya-uskoreniya-napisaniya-koda-/5152627427?do-waremd5=7vLQy760Ov1eCOYIPa5_VA&showUid=17743458510175702156006010&cpa=1&cpc=vifDZ_Qvhbg3HbGOJh3SQpDeUMJ1WAIUiIqB7_K2lUW7Xu5KbqYcR7TReRqKwPccZ24qvH6Xlpg5MqAktGrwEhfXhU0hgPEdbYiyouRFQpnrWdQtAJNZQdCMIpzpCZ0MuBc07q1_6iMoUEPiIPbkb7SeP7xX_zcNwXXzqkU0Y0r3nlOdmlBFvt0iz5D5Mf2eFgrpQ3_Elajaq_n2IPf2VdKUVx6FRvy3R0D793tIGLP6e2WxqpRygnR2JYHfeXla_pQ_pfLl4Zow62DxTVpwpusEcn0DrTO4RMc_Tsx-G2CA1AEHTAJ31xfjhsiW0-ONjVsC5SUuRGR34ggJXrZ5C2k_v07TyEXenlVrcCGNiP3jobQXkTCynrjNBpeg6WIQxcY4wXYp8bw%2C
+                - listitem [ref=e1238]:
+                  - generic [ref=e1242]:
+                    - generic [ref=e1244]:
+                      - link "Cursor подписка PRO plus на 1 мес. Новый аккаунт / Курсор подписка про+ / Повышенные лимиты 5 % ПРОМОКОД" [ref=e1246] [cursor=pointer]:
+                        - /url: /card/cursor-podpiska-pro-plus-na-1-mes--kursor-podpiska-pro--povyshennyye-limity/4960409951?do-waremd5=hgRqOz29m9MbDsZneIU8JQ&showUid=17743458510104397960806011&cpa=1&cpc=vifDZ_QvhbjWdt9QYrFfTVmYZPBsdd7IT7_ajx4w1l5JPPjHBZTdimadNKjRXHfQBvP2UUs_9XzqvGPEw_nt5aMM4V7gOMXomDCEenKFzI4ytfHH_GS3iDWzbnbsKgLSb_i-C60XI8MlvnxkcTd5TuyCc3Jthxu4kzpiixwyJuy7ujzmg1HPIjTMyLIIs3G3hss_w-WFRqrMcG7c0GaDpNAFcgjGjVOEDXZYMVJTI4A5gfsGCeEdypyqhmlQMM_EdHF6WsqfuQ-c0x90NIGiNnBTmIFZ9eV9p71BlbLWz-7FDH-MKMqjiMzZUUo7EfoHrjPIYp_7mZDh3Up7JZ_UussqIX3NPuYU0t9778Hl-vLaqeNT8N12-dqgmRARpGvf96rV9-dyo6c%2C
+                        - img "Cursor подписка PRO plus на 1 мес. Новый аккаунт / Курсор подписка про+ / Повышенные лимиты" [ref=e1254]
+                        - generic [ref=e1260]: 5 % ПРОМОКОД
+                      - button "Добавить в избранное" [ref=e1265] [cursor=pointer]
+                      - button "В корзину" [ref=e1270] [cursor=pointer]
+                    - link "Cursor подписка PRO plus на 1 мес. Новый аккаунт / Курсор подписка про+ / Повышенные лимиты" [ref=e1275] [cursor=pointer]:
+                      - /url: /card/cursor-podpiska-pro-plus-na-1-mes--kursor-podpiska-pro--povyshennyye-limity/4960409951?do-waremd5=hgRqOz29m9MbDsZneIU8JQ&showUid=17743458510104397960806011&cpa=1&cpc=vifDZ_QvhbjWdt9QYrFfTVmYZPBsdd7IT7_ajx4w1l5JPPjHBZTdimadNKjRXHfQBvP2UUs_9XzqvGPEw_nt5aMM4V7gOMXomDCEenKFzI4ytfHH_GS3iDWzbnbsKgLSb_i-C60XI8MlvnxkcTd5TuyCc3Jthxu4kzpiixwyJuy7ujzmg1HPIjTMyLIIs3G3hss_w-WFRqrMcG7c0GaDpNAFcgjGjVOEDXZYMVJTI4A5gfsGCeEdypyqhmlQMM_EdHF6WsqfuQ-c0x90NIGiNnBTmIFZ9eV9p71BlbLWz-7FDH-MKMqjiMzZUUo7EfoHrjPIYp_7mZDh3Up7JZ_UussqIX3NPuYU0t9778Hl-vLaqeNT8N12-dqgmRARpGvf96rV9-dyo6c%2C
+                      - link "Cursor подписка PRO plus на 1 мес. Новый аккаунт / Курсор подписка про+ / Повышенные лимиты" [ref=e1276]
+                    - link "Цена 8 338 ₽" [ref=e1281] [cursor=pointer]:
+                      - /url: /card/cursor-podpiska-pro-plus-na-1-mes--kursor-podpiska-pro--povyshennyye-limity/4960409951?do-waremd5=hgRqOz29m9MbDsZneIU8JQ&showUid=17743458510104397960806011&cpa=1&cpc=vifDZ_QvhbjWdt9QYrFfTVmYZPBsdd7IT7_ajx4w1l5JPPjHBZTdimadNKjRXHfQBvP2UUs_9XzqvGPEw_nt5aMM4V7gOMXomDCEenKFzI4ytfHH_GS3iDWzbnbsKgLSb_i-C60XI8MlvnxkcTd5TuyCc3Jthxu4kzpiixwyJuy7ujzmg1HPIjTMyLIIs3G3hss_w-WFRqrMcG7c0GaDpNAFcgjGjVOEDXZYMVJTI4A5gfsGCeEdypyqhmlQMM_EdHF6WsqfuQ-c0x90NIGiNnBTmIFZ9eV9p71BlbLWz-7FDH-MKMqjiMzZUUo7EfoHrjPIYp_7mZDh3Up7JZ_UussqIX3NPuYU0t9778Hl-vLaqeNT8N12-dqgmRARpGvf96rV9-dyo6c%2C
+                      - generic [ref=e1283]:
+                        - generic [ref=e1284]: Цена 8 338 ₽
+                        - generic [ref=e1287]:
+                          - generic [ref=e1288]: 8 338
+                          - generic [ref=e1289]: ₽
+                    - generic [ref=e1290]:
+                      - generic [ref=e1291]:
+                        - generic [ref=e1292]: "Рейтинг товара: 5.0 из 5"
+                        - generic [ref=e1293]: на основе 41 оценка
+                        - generic [ref=e1294]:
+                          - generic [ref=e1295]: "5.0"
+                          - generic [ref=e1297]: 41 оценка
+                      - generic [ref=e1300]:
+                        - generic [ref=e1302]: Сегодня
+                        - text: ","
+                        - generic [ref=e1303]: эл. почта
+                    - link [ref=e1305] [cursor=pointer]:
+                      - /url: /card/cursor-podpiska-pro-plus-na-1-mes--kursor-podpiska-pro--povyshennyye-limity/4960409951?do-waremd5=hgRqOz29m9MbDsZneIU8JQ&showUid=17743458510104397960806011&cpa=1&cpc=vifDZ_QvhbjWdt9QYrFfTVmYZPBsdd7IT7_ajx4w1l5JPPjHBZTdimadNKjRXHfQBvP2UUs_9XzqvGPEw_nt5aMM4V7gOMXomDCEenKFzI4ytfHH_GS3iDWzbnbsKgLSb_i-C60XI8MlvnxkcTd5TuyCc3Jthxu4kzpiixwyJuy7ujzmg1HPIjTMyLIIs3G3hss_w-WFRqrMcG7c0GaDpNAFcgjGjVOEDXZYMVJTI4A5gfsGCeEdypyqhmlQMM_EdHF6WsqfuQ-c0x90NIGiNnBTmIFZ9eV9p71BlbLWz-7FDH-MKMqjiMzZUUo7EfoHrjPIYp_7mZDh3Up7JZ_UussqIX3NPuYU0t9778Hl-vLaqeNT8N12-dqgmRARpGvf96rV9-dyo6c%2C
+                - listitem [ref=e1306]:
+                  - generic [ref=e1310]:
+                    - generic [ref=e1312]:
+                      - link "Tidal Hifi Plus на 1 месяц, Активация новый персональный аккаунт" [ref=e1314] [cursor=pointer]:
+                        - /url: /card/tidal-hifi-plus-na-1-mesyats-novyy-akkaunt/5047873751?do-waremd5=ztdbchkTkZxkQKh1-2oJnQ&showUid=17743458510134885034306012&cpa=1&cpc=vifDZ_QvhbijUci53B_Z9BSZKmFaSWKDYOZy-Dv12jc_pY9-kVrVMQ3t2dkHnCTH7QauZ9Yl0pYDvXTA3qA1tbMIAd1rCVo-H_g0f_z01LHe7YZxXdryLMB3PEZB8WDmxihyscF1rM6j_2oY4e3j0tw_kSySoTsW5hY4m5w3VcYk6jvc3o7spjQdwk0Btw7N5VMrhpEchCOSxfZ8hjUCgSeXGQkNSrznjdOXsISeD-wG41AVPIKARX0hkUSwbq2xmwQ02JWWbezNqQajaaQUGFAEGRNlNTvlKk8nMfCWgiqJDh41PMbpPwrcLviWnqV8Pn8UUV0DradAhohdmwii4fT_QEd6PDzatVRY3jdlzU3w5fED0DB2j-gEPLxH7Ynur_wVC135y70%2C
+                        - img "Tidal Hifi Plus на 1 месяц, Активация новый персональный аккаунт" [ref=e1322]
+                      - button "Добавить в избранное" [ref=e1328] [cursor=pointer]
+                      - button "В корзину" [ref=e1333] [cursor=pointer]
+                    - link "Tidal Hifi Plus на 1 месяц, Активация новый персональный аккаунт" [ref=e1338] [cursor=pointer]:
+                      - /url: /card/tidal-hifi-plus-na-1-mesyats-novyy-akkaunt/5047873751?do-waremd5=ztdbchkTkZxkQKh1-2oJnQ&showUid=17743458510134885034306012&cpa=1&cpc=vifDZ_QvhbijUci53B_Z9BSZKmFaSWKDYOZy-Dv12jc_pY9-kVrVMQ3t2dkHnCTH7QauZ9Yl0pYDvXTA3qA1tbMIAd1rCVo-H_g0f_z01LHe7YZxXdryLMB3PEZB8WDmxihyscF1rM6j_2oY4e3j0tw_kSySoTsW5hY4m5w3VcYk6jvc3o7spjQdwk0Btw7N5VMrhpEchCOSxfZ8hjUCgSeXGQkNSrznjdOXsISeD-wG41AVPIKARX0hkUSwbq2xmwQ02JWWbezNqQajaaQUGFAEGRNlNTvlKk8nMfCWgiqJDh41PMbpPwrcLviWnqV8Pn8UUV0DradAhohdmwii4fT_QEd6PDzatVRY3jdlzU3w5fED0DB2j-gEPLxH7Ynur_wVC135y70%2C
+                      - link "Tidal Hifi Plus на 1 месяц, Активация новый персональный аккаунт" [ref=e1339]
+                    - link "Цена 477 ₽" [ref=e1344] [cursor=pointer]:
+                      - /url: /card/tidal-hifi-plus-na-1-mesyats-novyy-akkaunt/5047873751?do-waremd5=ztdbchkTkZxkQKh1-2oJnQ&showUid=17743458510134885034306012&cpa=1&cpc=vifDZ_QvhbijUci53B_Z9BSZKmFaSWKDYOZy-Dv12jc_pY9-kVrVMQ3t2dkHnCTH7QauZ9Yl0pYDvXTA3qA1tbMIAd1rCVo-H_g0f_z01LHe7YZxXdryLMB3PEZB8WDmxihyscF1rM6j_2oY4e3j0tw_kSySoTsW5hY4m5w3VcYk6jvc3o7spjQdwk0Btw7N5VMrhpEchCOSxfZ8hjUCgSeXGQkNSrznjdOXsISeD-wG41AVPIKARX0hkUSwbq2xmwQ02JWWbezNqQajaaQUGFAEGRNlNTvlKk8nMfCWgiqJDh41PMbpPwrcLviWnqV8Pn8UUV0DradAhohdmwii4fT_QEd6PDzatVRY3jdlzU3w5fED0DB2j-gEPLxH7Ynur_wVC135y70%2C
+                      - generic [ref=e1346]:
+                        - generic [ref=e1347]: Цена 477 ₽
+                        - generic [ref=e1350]:
+                          - generic [ref=e1351]: "477"
+                          - generic [ref=e1352]: ₽
+                    - generic [ref=e1356]:
+                      - generic [ref=e1358]: Сегодня
+                      - text: ","
+                      - generic [ref=e1359]: эл. почта
+                    - link [ref=e1361] [cursor=pointer]:
+                      - /url: /card/tidal-hifi-plus-na-1-mesyats-novyy-akkaunt/5047873751?do-waremd5=ztdbchkTkZxkQKh1-2oJnQ&showUid=17743458510134885034306012&cpa=1&cpc=vifDZ_QvhbijUci53B_Z9BSZKmFaSWKDYOZy-Dv12jc_pY9-kVrVMQ3t2dkHnCTH7QauZ9Yl0pYDvXTA3qA1tbMIAd1rCVo-H_g0f_z01LHe7YZxXdryLMB3PEZB8WDmxihyscF1rM6j_2oY4e3j0tw_kSySoTsW5hY4m5w3VcYk6jvc3o7spjQdwk0Btw7N5VMrhpEchCOSxfZ8hjUCgSeXGQkNSrznjdOXsISeD-wG41AVPIKARX0hkUSwbq2xmwQ02JWWbezNqQajaaQUGFAEGRNlNTvlKk8nMfCWgiqJDh41PMbpPwrcLviWnqV8Pn8UUV0DradAhohdmwii4fT_QEd6PDzatVRY3jdlzU3w5fED0DB2j-gEPLxH7Ynur_wVC135y70%2C
+            - button [ref=e1362] [cursor=pointer]:
+              - img [ref=e1363]
+          - generic [ref=e1365]:
+            - generic [ref=e1370]:
+              - heading "О товаре" [level=2] [ref=e1372]
+              - generic [ref=e1374]:
+                - generic [ref=e1375]:
+                  - generic [ref=e1379]:
+                    - text: Paysafecard — популярный предоплаченный способ оплаты, который позволяет пользователям совершать безопасные онлайн-транзакции без необходимости иметь банковский счет или кредитную карту. Благодаря простоте использования и надежным функциям безопасности Paysafecard выделяется на рынке цифровых платежей. Он предлагает потребителям простой способ оплаты онлайн, приобретая предоплаченный ваучер с 16-значным PIN-кодом в авторизованных розничных точках.
+                    - text: "По сравнению с аналогичными предложениями, такими как PayPal, Venmo или традиционные кредитные карты, Paysafecard обеспечивает уникальное преимущество: анонимность и конфиденциальность. Пользователям не требуется предоставлять личную или финансовую информацию при совершении транзакций, что значительно снижает риск кражи личных данных и мошенничества. Эта функция особенно привлекательна для потребителей, заботящихся о безопасности, и тех, кто опасается делиться конфиденциальными данными в Интернете."
+                  - generic [ref=e1381]:
+                    - button "Показать полностью":
+                      - generic:
+                        - generic: Показать полностью
+                        - img
+                - generic [ref=e1382]:
+                  - generic "Характеристики" [ref=e1389]:
+                    - generic [ref=e1390]:
+                      - generic [ref=e1393]: Общие характеристики
+                      - generic [ref=e1396]:
+                        - generic [ref=e1397]:
+                          - generic [ref=e1399]: Артикул Маркета
+                          - generic [ref=e1403]: "5083580285"
+                        - generic [ref=e1404]:
+                          - generic [ref=e1406]: Бренд
+                          - generic [ref=e1410]: Paysafe Limited
+                        - generic [ref=e1411]:
+                          - generic [ref=e1413]: Территория использования
+                          - generic [ref=e1417]: все страны
+                        - generic [ref=e1418]:
+                          - generic [ref=e1420]: Номинал карты
+                          - generic [ref=e1424]: "20"
+                        - generic [ref=e1425]:
+                          - generic [ref=e1427]: Бренд
+                          - generic [ref=e1431]: Не определен
+                        - generic [ref=e1432]:
+                          - generic [ref=e1434]: Применение
+                          - generic [ref=e1438]: пополнение счета
+                        - generic [ref=e1439]:
+                          - generic [ref=e1441]: Назначение
+                          - generic [ref=e1445]: аудиокниги, игры, книги, музыка, обучение, онлайн-кинотеатр, спутниковое телевидение
+                    - generic [ref=e1448]: Перед покупкой уточняйте характеристики и комплектацию у продавца.
+                  - generic [ref=e1450]:
+                    - button "Все характеристики":
+                      - generic:
+                        - heading "Все характеристики" [level=2]
+                        - img
+            - generic [ref=e1455]:
+              - link "Отзывы" [ref=e1457] [cursor=pointer]:
+                - /url: /p/paysafe-10-eur/5083576786/5083580285/reviews
+                - heading "Отзывы" [level=2] [ref=e1458]
+              - generic [ref=e1460]:
+                - generic [ref=e1462]:
+                  - generic [ref=e1472]: "1.0"
+                  - link "2 оценки 1 отзыв" [ref=e1478] [cursor=pointer]:
+                    - /url: /card/paysafe---20-eur/5083580285/reviews?businessReviews=true&offerId=yFyjAvYOI58VbokfHtXiGw
+                    - generic [ref=e1479]:
+                      - generic [ref=e1480]: 2 оценки
+                      - generic [ref=e1481]: •
+                      - generic [ref=e1482]: 1 отзыв
+                - generic [ref=e1490]:
+                  - generic [ref=e1492]:
+                    - button [ref=e1494] [cursor=pointer]:
+                      - img [ref=e1496]
+                    - generic [ref=e1497]:
+                      - button "Рудин Георгий" [ref=e1499] [cursor=pointer]:
+                        - generic [ref=e1501]: Рудин Георгий
+                      - generic [ref=e1510]: 2 марта
+                  - generic [ref=e1512]:
+                    - text: "Достоинства: Обман"
+                    - text: "Недостатки: Обман"
+                    - text: "Комментарий: Обман, код должен состоять из 16 цифр, а у них он из букв"
+    - contentinfo [ref=e1517]:
+      - generic [ref=e1518]:
+        - generic [ref=e1521]:
+          - generic [ref=e1522]:
+            - generic [ref=e1523]:
+              - text: Покупайте в приложении,
+              - text: так ещё удобнее
+            - generic [ref=e1524]:
+              - link "Загрузите в App Store" [ref=e1526] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/paysafe---20-eur/5083580285?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=market%3Aproduct-osku&adj_fallback=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&adj_redirect_macos=https%3A%2F%2Fapps.apple.com%2Fru%2Fapp%2Fid1369890634&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Google Play" [ref=e1528] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/paysafe---20-eur/5083580285?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fhl%3Dru%26id%3Dru.beru.android&adj_redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&adj_redirect_macos=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Откройте в AppGallery" [ref=e1530] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/paysafe---20-eur/5083580285?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=AG&adj_fallback=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&adj_redirect_macos=https%3A%2F%2Fappgallery.huawei.com%2Fapp%2FC101134157&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+              - link "Доступно в Ru Store" [ref=e1532] [cursor=pointer]:
+                - /url: https://nquw.adj.st/card/paysafe---20-eur/5083580285?adj_t=1dhrs2q8&adj_campaign=InMarketDist_Footer_Desktop&adj_adgroup=GP&adj_fallback=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&adj_redirect_macos=https%3A%2F%2Fwww.rustore.ru%2Fcatalog%2Fapp%2Fru.beru.android&utm_source_service=market&icookie=0yScOIjWKoRh1RLvg1bvpa%2Bq0nvG8jKUcieJunoRudd3nZCENjPUy1b3cdGYBr4ZXzFt1aQpgdMwJw6%2Fp%2BEkToMhn6g%3D&ignorepath=1
+          - generic [ref=e1533]:
+            - img "QR-код" [ref=e1535]
+            - generic [ref=e1536]: Наведите камеру на QR-код, чтобы скачать приложение
+        - generic [ref=e1539]:
+          - generic [ref=e1540]: Категории
+          - generic [ref=e1541]:
+            - link "Досуг и развлечения" [ref=e1542] [cursor=pointer]:
+              - /url: /category/dosug-i-razvlecheniya
+            - link "Мебель" [ref=e1543] [cursor=pointer]:
+              - /url: /category/mebel
+            - link "Бытовая техника" [ref=e1544] [cursor=pointer]:
+              - /url: /category/bytovaya-tekhnika
+            - link "Гигиена" [ref=e1545] [cursor=pointer]:
+              - /url: /category/gigiyena
+            - link "Электроника" [ref=e1546] [cursor=pointer]:
+              - /url: /category/elektronika
+            - link "Одежда и обувь" [ref=e1547] [cursor=pointer]:
+              - /url: /category/odezhda-i-obuv
+            - link "Товары для дома" [ref=e1548] [cursor=pointer]:
+              - /url: /category/tovary-dlya-doma
+            - link "Аптека" [ref=e1549] [cursor=pointer]:
+              - /url: /category/apteka
+            - link "Красота и уход" [ref=e1550] [cursor=pointer]:
+              - /url: /category/krasota-i-ukhod
+            - link "Хобби и творчество" [ref=e1551] [cursor=pointer]:
+              - /url: /category/khobbi-i-tvorchestvo
+            - link "Дача и сад" [ref=e1552] [cursor=pointer]:
+              - /url: /category/dacha-i-sad
+            - link "Книги" [ref=e1553] [cursor=pointer]:
+              - /url: /category/knigi
+            - link "Товары для школы и офиса" [ref=e1554] [cursor=pointer]:
+              - /url: /category/tovary-dlya-shkoly-i-ofisa
+            - link "Спортивные товары" [ref=e1555] [cursor=pointer]:
+              - /url: /category/sportivnyye-tovary
+            - link "Товары для животных" [ref=e1556] [cursor=pointer]:
+              - /url: /category/tovary-dlya-zhivotnykh
+            - link "Строительство и ремонт" [ref=e1557] [cursor=pointer]:
+              - /url: /category/stroitelstvo-i-remont
+            - link "Детские товары" [ref=e1558] [cursor=pointer]:
+              - /url: /category/detskiye-tovary
+            - link "Ювелирные украшения" [ref=e1559] [cursor=pointer]:
+              - /url: /category/yuvelirnyye-ukrasheniya
+        - generic [ref=e1561]:
+          - generic [ref=e1562]:
+            - generic [ref=e1563]: Покупателям
+            - generic [ref=e1564]:
+              - link "Как выбрать товар" [ref=e1565] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/find-product/search
+              - link "Оплата и доставка" [ref=e1566] [cursor=pointer]:
+                - /url: https://market.yandex.ru/my/order/conditions
+              - link "Покупайте как юрлицо" [ref=e1567] [cursor=pointer]:
+                - /url: https://business.market.yandex.ru/pokupayte-dlya-biznesa?m2b_referrer_config=footer
+              - link "О сервисе" [ref=e1568] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/
+              - link "Возвраты" [ref=e1569] [cursor=pointer]:
+                - /url: https://yandex.ru/support/market/ru/order/refund
+              - link "Журнал Маркета" [ref=e1570] [cursor=pointer]:
+                - /url: https://market.yandex.ru/journal
+          - generic [ref=e1571]:
+            - generic [ref=e1572]: Сотрудничество
+            - generic [ref=e1573]:
+              - link "Новости компании" [ref=e1574] [cursor=pointer]:
+                - /url: https://yandex.ru/company/services_news?tag=маркет
+              - link "Реферальная программа" [ref=e1575] [cursor=pointer]:
+                - /url: https://market.yandex.ru/page/referral_products
+              - link "Производителям" [ref=e1576] [cursor=pointer]:
+                - /url: https://vendor.market.yandex.ru/welcome/vendors?from=market&utm_source=market&utm_medium=footer
+              - link "Пункт выдачи заказов" [ref=e1577] [cursor=pointer]:
+                - /url: https://market.yandex.ru/lp/market-pvz?utm_source=market&utm_medium=footer&from=market
+              - link "Маркет нанимает" [ref=e1578] [cursor=pointer]:
+                - /url: https://yandex.ru/jobs/services/market/about?from=footer&utm_source=yandex_market_web_d&utm_medium=buttom&utm_campaign=market_nanimaet
+          - generic [ref=e1579]:
+            - generic [ref=e1580]: Продавцам
+            - generic [ref=e1581]:
+              - link "Личный кабинет продавца" [ref=e1582] [cursor=pointer]:
+                - /url: https://passport.yandex.ru/auth?mode=auth&from=market&retpath=https://partner.market.yandex.ru
+              - link "Продавайте на Маркете" [ref=e1583] [cursor=pointer]:
+                - /url: https://partner.market.yandex.ru/welcome/partners?utm_source=yandex_services&utm_medium=b2c_market&utm_campaign=backb2c&utm_content=text&utm_term=web
+              - link "Документация для партнёров" [ref=e1584] [cursor=pointer]:
+                - /url: https://yandex.ru/promo/marketpartner/documentation?utm_source=market&utm_medium=footer&from=market
+              - link "Сайт для партнёров" [ref=e1585] [cursor=pointer]:
+                - /url: https://market.yandex.ru/partners?utm_source=market&utm_medium=footer&from=market
+          - generic [ref=e1586]:
+            - generic [ref=e1587]: Мы в соцсетях
+            - link "Вконтакте" [ref=e1589] [cursor=pointer]:
+              - /url: https://vk.com/yandex.market
+              - text: Вконтакте
+      - generic [ref=e1592]:
+        - generic [ref=e1593]:
+          - link "Статистика" [ref=e1594] [cursor=pointer]:
+            - /url: //radar.yandex.ru/top_list?thematic=retail&isSearch=true&row_id=market-yandex-ru&offset=1
+          - link "Пользовательское соглашение" [ref=e1595] [cursor=pointer]:
+            - /url: https://legal.yandex.ru/market_termsofuse/
+        - generic [ref=e1596]:
+          - generic [ref=e1597]:
+            - text: © 2026 ООО «
+            - link "ЯНДЕКС МАРКЕТ" [ref=e1598] [cursor=pointer]:
+              - /url: https://market.yandex.ru/
+            - text: »
+          - generic [ref=e1599]:
+            - generic [ref=e1600]: Проект компании
+            - link "Яндекс" [ref=e1601] [cursor=pointer]:
+              - /url: https://yandex.ru/all
+              - img [ref=e1602]
+  - img [ref=e1605]

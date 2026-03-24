@@ -1,0 +1,13 @@
+{
+  "purpose": "Competitor research: naming conventions and top seller strategies on Yandex Market",
+  "files": {
+    "RESEARCH_NAMES_YANDEX_MARKET.md": {
+      "intent": "Research on naming conventions used by top sellers — 28 Steam examples + patterns",
+      "red_zone": false
+    },
+    "RESEARCH_TOP_SELLERS_YANDEX_MARKET.md": {
+      "intent": "TOP-30 best sellers analysis — card formatting strategies",
+      "red_zone": false
+    }
+  }
+}

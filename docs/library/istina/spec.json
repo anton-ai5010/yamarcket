@@ -1,0 +1,47 @@
+{
+  "purpose": "Source of truth files: Excel/CSV with product data and characteristics. RED ZONE — do not modify directly",
+  "files": {
+    "истина_оригинал_названия_и_описания.xlsx": {
+      "intent": "Original export from Yandex Market with 3715 products. Read-only reference for original names and descriptions",
+      "inputs": [],
+      "outputs": "Product data (SKU, names, descriptions, brands)",
+      "depends_on": [],
+      "red_zone": true
+    },
+    "Онлайн-подписки и карты оплаты_истина_названия_описания.xlsx": {
+      "intent": "Working truth file with 3334 products in target category. Source for work.jsonl generation",
+      "inputs": [],
+      "outputs": "Product data with characteristics columns",
+      "depends_on": [],
+      "red_zone": true
+    },
+    "Онлайн-подписки и карты оплаты_истина_с_характеристиками.xlsx": {
+      "intent": "Truth file enriched with filled characteristics",
+      "inputs": [],
+      "outputs": "Product data with complete characteristics",
+      "depends_on": [],
+      "red_zone": true
+    },
+    "characteristics_gft.csv": {
+      "intent": "Extracted characteristics for GFT products in CSV format",
+      "inputs": [],
+      "outputs": "Characteristics data",
+      "depends_on": [],
+      "red_zone": true
+    },
+    "Характеристики GFT.xlsx": {
+      "intent": "Characteristics reference in Excel format",
+      "inputs": [],
+      "outputs": "Characteristics data",
+      "depends_on": [],
+      "red_zone": true
+    },
+    "бренды_не_игры.txt": {
+      "intent": "List of brands for non-game products (cards, subscriptions, vouchers)",
+      "inputs": [],
+      "outputs": "Brand list",
+      "depends_on": [],
+      "red_zone": true
+    }
+  }
+}

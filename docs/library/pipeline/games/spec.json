@@ -1,0 +1,12 @@
+{
+  "purpose": "Pipeline prompts and plans for processing games and DLC (~730 products, processed individually)",
+  "files": {
+    "ПЛАН_ИГРЫ.md": {
+      "intent": "Master plan for games pipeline: same sources as cards but products processed one-by-one (no groups). DLC and games always ungrouped",
+      "inputs": [],
+      "outputs": "Pipeline execution plan",
+      "depends_on": ["pipeline/scripts/work.jsonl"],
+      "red_zone": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "Name templates and column-filling decisions for product cards",
+  "files": {
+    "ШАБЛОНЫ_НАЗВАНИЙ.md": {
+      "intent": "Name formula templates per product type for generating correct product titles",
+      "red_zone": false
+    },
+    "РЕШЕНИЯ_ПО_СТОЛБЦАМ.md": {
+      "intent": "Field-by-field strategy for filling each Excel column (characteristics mapping)",
+      "red_zone": false
+    }
+  }
+}

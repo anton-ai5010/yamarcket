@@ -1,0 +1,17 @@
+{
+  "purpose": "Core instructions for Yandex Market card formatting, category rules, and benchmark examples",
+  "files": {
+    "ИНСТРУКЦИЯ_КАРТОЧКИ_ЯНДЕКС_МАРКЕТ.md": {
+      "intent": "Complete instruction manual: naming formulas, description templates, brand rules, tag rules, image requirements",
+      "red_zone": false
+    },
+    "КАТЕГОРИЯ_Онлайн-подписки_и_карты_оплаты.md": {
+      "intent": "Category-specific rules for 'Online subscriptions and payment cards'",
+      "red_zone": false
+    },
+    "ПРИМЕРЫ_ПИПЛБОТ.md": {
+      "intent": "18 benchmark cards from PiplBot competitor with best practices",
+      "red_zone": false
+    }
+  }
+}

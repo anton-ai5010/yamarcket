@@ -1,0 +1,29 @@
+{
+  "purpose": "Image generation for product cards: code, templates, assets, references, and output",
+  "files": {
+    "generate_cards.py": {
+      "intent": "Generate product card images using PIL — 1080x1440 PNG with brand colors and digital product badges",
+      "depends_on": ["PIL/Pillow", "fonts/", "backgrounds/"],
+      "red_zone": false
+    },
+    "card_appstore.html": {
+      "intent": "HTML template for App Store style card design",
+      "red_zone": false
+    },
+    "card_template.html": {
+      "intent": "Base HTML template for card image generation",
+      "red_zone": false
+    },
+    "ПРОМПТ_ДИЗАЙН_КАРТОЧЕК.md": {
+      "intent": "Design specification: colors, typography, layout rules for 8-image card sets",
+      "red_zone": false
+    }
+  },
+  "subdirectories": {
+    "fonts/": "Nunito + FiraSans typefaces",
+    "backgrounds/": "Card background PNGs",
+    "icons/": "Brand icons",
+    "references/": "Reference images from competitors (moved from referense_img/)",
+    "output/": "Generated card images"
+  }
+}

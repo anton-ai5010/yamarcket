@@ -1,0 +1,12 @@
+{
+  "purpose": "Pipeline prompts and plans for processing cards/subscriptions/vouchers (~2600 products, processed by groups)",
+  "files": {
+    "ПЛАН_КАРТЫ.md": {
+      "intent": "Master plan for cards pipeline: data sources, column mapping, loop sequence (groups → characteristics → names/tags → descriptions → instructions)",
+      "inputs": [],
+      "outputs": "Pipeline execution plan",
+      "depends_on": ["pipeline/scripts/work.jsonl"],
+      "red_zone": false
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "purpose": "Legacy/deprecated files from initial project phase — not used in current pipeline",
+  "note": "Archive — do not use for new development. Only parse_description.py is potentially reusable.",
+  "scripts": {
+    "brand_mapping.py": {
+      "size": "110KB",
+      "intent": "Статичная таблица маппинга 1500+ брендов → категории (game_key, gift_card, subscription и т.д.)",
+      "status": "obsolete",
+      "reason": "Данные устарели, в pipeline не используется. Маппинг встроен в work.jsonl"
+    },
+    "fill_characteristics.py": {
+      "size": "35KB",
+      "intent": "Заполняет колонки AN-BH (характеристики) используя brand_mapping.py и territory_mapping.py",
+      "status": "obsolete",
+      "reason": "Заменён на prepare.py + validate.py в JSONL-пайплайне"
+    },
+    "fix_names_sheet3.py": {
+      "size": "13KB",
+      "intent": "Чистка ошибок в названиях: убирает '$XX на', дубли номиналов, суффиксы Code/Recharge/Voucher",
+      "status": "obsolete",
+      "reason": "Названия в istina уже исправлены"
+    },
+    "group_variants.py": {
+      "size": "14KB",
+      "intent": "Группировка товаров в варианты (колонка F) по сервису+бренду+валюте+территории",
+      "status": "obsolete",
+      "reason": "Группировка уже выполнена и хранится в work.jsonl"
+    },
+    "parse_description.py": {
+      "size": "13KB",
+      "intent": "Парсинг описаний: извлекает регион, номинал, валюту, игровую валюту, длительность подписки. Чистая утилита без I/O",
+      "status": "reusable",
+      "reason": "Может использоваться в validate.py. Кандидат на перенос в utils/"
+    },
+    "parse_piplbot.py": {
+      "size": "1.6KB",
+      "intent": "Незаконченный скелет парсинга результатов поиска PiplBot",
+      "status": "obsolete",
+      "reason": "Пустая заготовка, не доделан"
+    },
+    "rewrite_names.py": {
+      "size": "35KB",
+      "intent": "Переписывание названий по формуле: Тип + Бренд + Номинал + Валюта | Страна. Использует brand_mapping, territory_mapping, parse_description",
+      "status": "obsolete",
+      "reason": "Названия в istina уже переписаны по формуле"
+    },
+    "rewrite_xbox_descriptions.py": {
+      "size": "77KB",
+      "intent": "Хардкод описаний для Xbox Game Pass — специализированный контент для Xbox товаров",
+      "status": "obsolete",
+      "reason": "Одноразовый скрипт под Xbox, не переиспользуем"
+    },
+    "territory_mapping.py": {
+      "size": "42KB",
+      "intent": "Таблица маппинга 1000+ комбинаций бренд+название → территория (AE→ОАЭ, US→США и т.д.)",
+      "status": "obsolete",
+      "reason": "Территории встроены в work.jsonl"
+    },
+    "verify_category_change.py": {
+      "size": "8KB",
+      "intent": "Проверка корректности смены категории между двумя xlsx файлами (spot-check колонки H)",
+      "status": "obsolete",
+      "reason": "Одноразовая проверка при миграции категорий"
+    }
+  },
+  "data": {
+    "description": "9 xlsx файлов (13 MB) — промежуточные версии шаблонов, заменены файлами в istina/",
+    "files": [
+      "файл с товарами_все категории.xlsx — старый экспорт всех категорий",
+      "шаблон...до_изменений.xlsx — шаблон ДО заполнения характеристик",
+      "шаблон...до_изменений2_истина.xlsx — вторая версия исходного шаблона",
+      "шаблон...с_названиями.xlsx — после переписывания названий",
+      "шаблон...с_названиями.xlsx.bak_dups — бэкап с дубликатами",
+      "шаблон...с_характеристиками.xlsx — после заполнения характеристик",
+      "шаблон...с_характеристиками_grouped.xlsx — после группировки",
+      "шаблон...с_характеристиками_с_группами.xlsx — с группами вариантов",
+      "шаблон...с_характеристиками_с_фото.xlsx — с placeholder-фото",
+      "шаблон_с_группами.xlsx — общий шаблон с группами"
+    ]
+  },
+  "snapshots": {
+    "description": "Исследовательские артефакты (1.1 MB)",
+    "files": [
+      "group_report.txt — отчёт о группировке товаров (329KB)",
+      "paysafe_snapshot.md — заметки по характеристикам PaysafeCard (88KB)",
+      "roblox_snapshot.md — заметки по характеристикам Roblox (46KB)",
+      "search_results.html — результаты поиска PiplBot (14KB)",
+      "placeholder.png — тестовое placeholder-изображение (576KB)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project": "yamarcket",
+  "directories": {
+    "pipeline/scripts/": { "files": 7, "red_zone_files": 0 },
+    "pipeline/cards/": { "files": 1, "red_zone_files": 0 },
+    "pipeline/games/": { "files": 1, "red_zone_files": 0 },
+    "pipeline/images/": { "files": 4, "red_zone_files": 0 },
+    "pipeline/images/references/": { "files": 13, "red_zone_files": 0 },
+    "istina/": { "files": 8, "red_zone_files": 8 },
+    "rules/instructions/": { "files": 3, "red_zone_files": 0 },
+    "rules/research/": { "files": 2, "red_zone_files": 0 },
+    "rules/templates/": { "files": 2, "red_zone_files": 0 },
+    "archive/scripts/": { "files": 10, "red_zone_files": 0 },
+    "archive/snapshots/": { "files": 5, "red_zone_files": 0 },
+    "archive/data/": { "files": 9, "red_zone_files": 0 },
+    "docs/": { "files": 6, "red_zone_files": 0 },
+    "docs/plans/": { "files": 1, "red_zone_files": 0 }
+  },
+  "red_zones": [
+    "istina/characteristics_gft.csv",
+    "istina/бренды_не_игры.txt",
+    "istina/истина_оригинал_названия_и_описания.csv",
+    "istina/истина_оригинал_названия_и_описания.xlsx",
+    "istina/Онлайн-подписки и карты оплаты_истина_названия_описания.csv",
+    "istina/Онлайн-подписки и карты оплаты_истина_названия_описания.xlsx",
+    "istina/Онлайн-подписки и карты оплаты_истина_с_характеристиками.xlsx",
+    "istina/Характеристики GFT.xlsx"
+  ]
+}
