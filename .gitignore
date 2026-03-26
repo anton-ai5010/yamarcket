@@ -17,3 +17,4 @@ __pycache__/
 
 # Playwright logs
 .playwright-mcp/
+.mcp.json
