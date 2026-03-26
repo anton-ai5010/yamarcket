@@ -1,16 +1,19 @@
-# Python
-.venv/
-__pycache__/
-*.pyc
-
-# IDE / Tools
-.playwright-mcp/
-.claude/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Large files (Excel)
+# Excel files (слишком большие)
 *.xlsx
-*.xls
+
+# Архив
+archive/
+
+# Виртуальное окружение
+.venv/
+
+# Временные файлы
+*.pyc
+__pycache__/
+.DS_Store
+
+# ZIP шрифтов
+*.zip
+
+# Playwright logs
+.playwright-mcp/

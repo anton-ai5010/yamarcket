@@ -1,16 +1,25 @@
 {
-  "current_task": "Project restructuring complete",
-  "progress": "Ready for development",
-  "last_session": "2026-03-24",
-  "last_session_summary": "Reorganized project structure: vse/ → archive/, referense_img/ + card_images/ → pipeline/images/, rules/ split into instructions/research/templates/",
-  "pending": [],
+  "current_task": "Генерация изображений карточек товаров",
+  "progress": "Шаблон Xbox готов, нужны фоны и флаги для остальных брендов",
+  "last_session": "2026-03-26",
+  "last_session_summary": "1) Заполнены пустые характеристики 379 товаров. 2) Сгенерированы названия 3334 товаров (60-120 символов, ротация ключевых слов). 3) Сгенерированы описания 3334 товаров (HTML, 500-1700 символов, с инструкциями по активации). 4) Перенесено в Excel 1.xlsx для загрузки на Яндекс Маркет. 5) Начата генерация изображений карточек через Pillow — шаблон Xbox готов.",
+  "pending": [
+    "Подготовить фоны для всех брендов (Apple, Steam, PlayStation, Google Play и др.)",
+    "Скачать круглые флаги для всех стран",
+    "Реализовать массовую генерацию карточек для всех 3334 товаров",
+    "Определить типы карточек (подарочная карта / подписка / игровая валюта)",
+    "Заполнить теги товаров",
+    "Загрузить изображения на хостинг и добавить ссылки в таблицу"
+  ],
   "recent_changes": [
-    "vse/ → archive/ (scripts + snapshots + data)",
-    "referense_img/ → pipeline/images/references/",
-    "pipeline/card_images/ → pipeline/images/",
-    "rules/ split into instructions/, research/, templates/",
-    "pipeline/BRAINSTORM_ИТОГИ.md → docs/plans/",
-    "pipeline/ПЛАН_КОНВЕЙЕР_СТАРЫЙ.md → archive/",
-    "Updated CLAUDE.md, map.json, conventions.json, library specs"
+    "new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json — основной файл с данными",
+    "new table/1.xlsx — Excel для загрузки на Яндекс Маркет",
+    "new table/generated_names.json — сгенерированные названия",
+    "pipeline/images/card_spec_final.md — спецификация карточки",
+    "pipeline/images/output/ — тестовые карточки",
+    "pipeline/images/fonts/ — шрифты FiraSans, Moderustic",
+    "pipeline/images/references/ — фон Xbox, логотип, флаг США",
+    "rules/research/activation_instructions_all_services.md — инструкции активации 20 сервисов",
+    "rules/research/competitor_descriptions_examples.md — примеры описаний конкурентов"
   ]
 }
