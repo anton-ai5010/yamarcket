@@ -1,5 +1,9 @@
-# Excel files (слишком большие)
+# Excel файлы (слишком большие для git)
 *.xlsx
+
+# Большие JSON данные
+new table/*.json
+!new table/4.json
 
 # Архив
 archive/
@@ -7,7 +11,7 @@ archive/
 # Виртуальное окружение
 .venv/
 
-# Временные файлы
+# Временные файлы Python
 *.pyc
 __pycache__/
 .DS_Store
@@ -15,6 +19,23 @@ __pycache__/
 # ZIP шрифтов
 *.zip
 
-# Playwright logs
+# Playwright
 .playwright-mcp/
 .mcp.json
+
+# Скриншоты (временные)
+*.jpeg
+*.jpg
+current_page.png
+search_results.png
+piplbot_shop.png
+
+# Изображения — хранятся в Yandex Cloud (yamarcket-images bucket)
+# Скачать: https://storage.yandexcloud.net/yamarcket-images/
+pipeline/images/output/
+pipeline/images/references/
+pipeline/images/fonts/
+pipeline/games/covers/
+
+# Env
+.env

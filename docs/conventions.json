@@ -4,26 +4,37 @@
     "files": "snake_case (Python), кириллица (документы и данные)",
     "classes": "PascalCase",
     "functions": "snake_case",
-    "constants": "UPPER_SNAKE_CASE"
+    "constants": "UPPER_SNAKE_CASE",
+    "image_files": "{SKU}_{country_translit}.png — главные карточки",
+    "variant_files": "{card_name}_v{01..50}.png — варианты универсальных карточек"
   },
   "structure": {
-    "pipeline/scripts": "ETL-пайплайн: prepare → loops → validate → finalize",
+    "pipeline/scripts": "ETL и утилиты: sync_json_to_xlsx (основной), upload/push/convert для изображений, fix-скрипты для данных",
     "pipeline/cards": "Промпты и планы для карт/подписок/ваучеров (~2600 товаров, по группам)",
     "pipeline/games": "Промпты и планы для игр и DLC (~730 товаров, по одному)",
     "pipeline/images": "Генерация изображений: код, шаблоны, шрифты, фоны, референсы, выход",
-    "istina": "Файлы-источники истины: Excel/CSV с товарами (RED ZONE)",
+    "pipeline/images/output/main_cards/": "Сгенерированные PNG карточек по брендам (playstation/, steam/, xbox/)",
+    "new table/": "ГЛАВНАЯ РАБОЧАЯ ПАПКА: JSON источник истины + xlsx для Маркета",
+    "istina": "Файлы-источники истины: Excel/CSV с товарами (RED ZONE — не редактировать)",
     "rules/instructions": "Инструкции оформления карточек, категории, примеры",
-    "rules/research": "Исследования конкурентов и топ-продавцов",
+    "rules/research": "Исследования конкурентов и инструкции активации всех сервисов",
     "rules/templates": "Шаблоны названий и решения по столбцам",
     "archive": "Устаревшие скрипты, снапшоты, старые Excel файлы",
     "docs": "FORGE документация проекта"
   },
   "patterns": {
-    "data_format": "JSONL для промежуточных данных (source.jsonl, work.jsonl)",
-    "pipeline_flow": "xlsx → prepare.py → source.jsonl + work.jsonl → loops → validate.py → finalize.py → xlsx"
+    "data_format": "JSON (один большой объект) как источник истины — new table/*.json",
+    "pipeline_flow": "Редактировать JSON → sync_json_to_xlsx.py → загружать xlsx в Маркет",
+    "image_flow": "generate_cards.py (PNG) → push_main_cards.py (JPG+JSON) → convert_to_png_and_upload.py (PNG в S3)",
+    "variant_flow": "generate_card_variants.py → 50 вариантов × 4 карточки → YC Storage universal/"
   },
   "decisions": {
-    "jsonl_over_xlsx": "Пайплайн работает с JSONL а не напрямую с Excel",
-    "openpyxl": "Используется openpyxl для чтения/записи xlsx"
+    "json_over_jsonl": "Источник истины — один JSON-файл (не JSONL). Упрощает синхронизацию с xlsx через sync_json_to_xlsx.py",
+    "separate_xlsx_for_subscriptions": "Подписки (AV) и карты оплаты (AU) в разных xlsx-файлах из-за несовместимости признаков-вариантов Маркета",
+    "png_over_jpg": "Изображения в S3 хранятся как PNG для лучшего качества. GitHub может хранить JPG для экономии места",
+    "50_variants": "50 вариантов универсальных карточек для обхода детектора дублей Яндекс Маркета",
+    "openpyxl": "Используется openpyxl для чтения/записи xlsx",
+    "battlenet_naming": "Бренд Battle.net → Battlenet (Маркет не принимает точку в названии бренда)",
+    "render_2x": "Рендер карточек при 2160×2880, сохранение 1080×1440 — антиалиасинг при downscale"
   }
 }

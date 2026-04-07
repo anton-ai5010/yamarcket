@@ -5,7 +5,9 @@ This project uses FORGE documentation system. Before any work:
 1. Read `docs/map.json` — project structure and red zones
 2. Read `docs/conventions.json` — project rules
 3. Read `docs/state.json` — current state and pending tasks
-4. Read ALL `docs/library/*/spec.json` — complete project knowledge
+4. Read `docs/product.md` — **HOW TO**: titles formula, descriptions template, activation instructions, characteristics, variant groups
+5. Read `docs/tech.md` — tech stack, image pipeline, S3 storage, JSON source of truth
+6. Read ALL `docs/library/*/spec.json` — complete project knowledge
 
 DO NOT scan the filesystem, read source code, or explore .kiro/ before reading docs/library/. Everything you need to know about the project is in docs/library/.
 

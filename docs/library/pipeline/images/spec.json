@@ -1,29 +1,152 @@
 {
-  "purpose": "Image generation for product cards: code, templates, assets, references, and output",
+  "purpose": "Image generation pipeline for Yandex Market product cards. Produces 1080×1440 PNG images uploaded to Yandex Cloud Storage.",
+  "render_size": "2160×2880 (2x for quality, anti-aliasing on downscale), saved as 1080×1440",
+  "aspect_ratio": "3:4",
+  "format": "PNG (lossless, preferred by Yandex Market)",
+  "fonts": {
+    "bold": "FiraSans-Bold.ttf",
+    "medium": "FiraSans-Medium.ttf",
+    "regular": "FiraSans-Regular.ttf",
+    "location": "pipeline/images/fonts/"
+  },
   "files": {
     "generate_cards.py": {
-      "intent": "Generate product card images using PIL — 1080x1440 PNG with brand colors and digital product badges",
-      "depends_on": ["PIL/Pillow", "fonts/", "backgrounds/"],
+      "intent": "Main card generator: Pillow-based, renders brand cards at 2160×2880 → saves 1080×1440 PNG",
+      "depends_on": ["PIL/Pillow", "FiraSans fonts", "pipeline/images/references/"],
       "red_zone": false
     },
     "card_appstore.html": {
-      "intent": "HTML template for App Store style card design",
+      "intent": "HTML template for App Store style card design (legacy, not primary method)",
       "red_zone": false
     },
     "card_template.html": {
-      "intent": "Base HTML template for card image generation",
+      "intent": "Base HTML template for card image generation (legacy)",
       "red_zone": false
     },
     "ПРОМПТ_ДИЗАЙН_КАРТОЧЕК.md": {
-      "intent": "Design specification: colors, typography, layout rules for 8-image card sets",
+      "intent": "Design specification: colors, typography, layout rules for product card sets",
       "red_zone": false
     }
   },
   "subdirectories": {
-    "fonts/": "Nunito + FiraSans typefaces",
-    "backgrounds/": "Card background PNGs",
-    "icons/": "Brand icons",
-    "references/": "Reference images from competitors (moved from referense_img/)",
-    "output/": "Generated card images"
+    "fonts/": "FiraSans-Bold/Medium/Regular.ttf, Moderustic, Nunito (10 files total)",
+    "references/": "bg_clean.png, bg_xbox.png, logo KodHub, flag USA, Yandex Market logo reference",
+    "output/main_cards/playstation/": "329 PNG, naming: {SKU}_{country_translit}.png",
+    "output/main_cards/steam/": "146+ PNG, naming: {SKU}_{country_translit}.png",
+    "output/main_cards/xbox/": "146+ PNG, naming: {SKU}_{country_translit}.png",
+    "output/videos/": "MP4 promo videos (GFT164_pro.mp4 prototype, 30s 1080×1440)"
+  },
+  "s3_storage": {
+    "bucket": "yamarcket",
+    "endpoint": "https://storage.yandexcloud.net",
+    "public_base": "https://storage.yandexcloud.net/yamarcket/",
+    "paths": {
+      "main_cards": "main_cards/{brand}/{SKU}_{country}.png",
+      "universal": "universal/{card_name}_v{01..50}.png",
+      "instructions": "instructions_v2/instr_{service}.png"
+    }
+  },
+  "country_transliteration": {
+    "США": "ssha",
+    "Германия": "germaniya",
+    "Великобритания": "velikobritaniya",
+    "Турция": "turtsiya",
+    "ОАЭ": "oae",
+    "Саудовская Аравия": "saudovskaya_araviya",
+    "Австралия": "avstraliya",
+    "Австрия": "avstriya",
+    "Нидерланды": "niderlandy",
+    "Финляндия": "finlyandiya",
+    "Польша": "polsha",
+    "Аргентина": "argentina",
+    "Бразилия": "braziliya",
+    "Гонконг": "gonkong",
+    "Франция": "frantsiya",
+    "Италия": "italiya",
+    "Испания": "ispaniya",
+    "Бельгия": "belgiya",
+    "Люксембург": "lyuksemburg",
+    "Ирландия": "irlandiya",
+    "Португалия": "portugaliya",
+    "Румыния": "rumyniya",
+    "Греция": "gretsiya",
+    "Словакия": "slovakiya",
+    "Чехия": "chekhiya",
+    "Венгрия": "vengriya",
+    "Хорватия": "khorvatiya",
+    "Канада": "kanada",
+    "Новая Зеландия": "novaya_zelandiya",
+    "ЮАР": "yuar",
+    "Бахрейн": "bakhreyn",
+    "Катар": "katar",
+    "Кувейт": "kuveyt",
+    "Оман": "oman",
+    "Ливан": "livan",
+    "Сингапур": "singapur",
+    "Тайланд": "tailand",
+    "Малайзия": "malayziya",
+    "Индия": "indiya",
+    "Индонезия": "indoneziya",
+    "Вьетнам": "vetnam",
+    "Тайвань": "tayvan",
+    "Филиппины": "filippiny",
+    "Южная Корея": "yuzhnaya_koreya",
+    "Мексика": "meksika",
+    "Колумбия": "kolumbiya",
+    "Швеция": "shvetsiya",
+    "Швейцария": "shveytsariya",
+    "Россия": "rossiyskaya_federatsiya"
+  },
+  "universal_cards": {
+    "cards": ["email_example_card", "delivery_card", "feedback_card", "support_card"],
+    "variants_per_card": 50,
+    "total_variants": 200,
+    "shift_method": "Bottom 220px (logo+text area) shifted by dx,dy pixels",
+    "shift_grid": "10 steps x (-4..+5) × 5 steps y (-2..+2) = 50 combos",
+    "purpose": "Avoid Yandex Market duplicate image detection across product cards"
+  },
+  "instruction_images": {
+    "count": 34,
+    "location_s3": "instructions_v2/",
+    "local_status": "Deleted locally (2026-03-28), available only in S3",
+    "services": [
+      "instr_steam_browser", "instr_steam_client", "instr_steam_wallet",
+      "instr_ps_console", "instr_ps_app",
+      "instr_xbox_console", "instr_xbox_app", "instr_xbox_site",
+      "instr_apple_iphone", "instr_apple_itunes", "instr_apple_mac",
+      "instr_google_android", "instr_google_browser",
+      "instr_nintendo_site", "instr_nintendo_switch",
+      "instr_amazon_app", "instr_amazon_site",
+      "instr_spotify", "instr_roblox", "instr_epic",
+      "instr_battlenet", "instr_ea", "instr_razer", "instr_riot",
+      "instr_mobile_voucher", "instr_mobile_legends", "instr_midasbuy",
+      "instr_paysafe_pin", "instr_paysafe_wallet",
+      "instr_netflix", "instr_shop2game", "instr_valorant", "instr_universal",
+      "email_example_card"
+    ]
+  },
+  "image_order_per_product": [
+    "1: main card for SKU brand (main_cards/{brand}/{SKU}_{country}.png)",
+    "2-5: 4 universal card variants (assigned by product_index % 50)",
+    "6: instruction image for the service (instructions_v2/instr_{service}.png)"
+  ],
+  "video_spec": {
+    "resolution": "1080×1440",
+    "fps": 30,
+    "duration_sec": 30,
+    "frames": 900,
+    "codec": "libx264",
+    "bitrate": "8000k",
+    "audio": false,
+    "script": "pipeline/scripts/make_card_video_pro.py",
+    "scenes": [
+      "0-3s: card appears from center with scale+alpha ease-out-back",
+      "3-12s: floating + slow 3D Y-axis rock ±18°, mirror reflection, title fades in at 4.5s",
+      "12-22s: card floats, 3 feature bullets appear one by one",
+      "22-27s: full 360° Y-axis rotation with glow burst",
+      "27-30s: CTA button with gradient, tagline, fade to black"
+    ],
+    "effects": ["3D perspective rotation (numpy linalg)", "radial glow", "floor reflection", "70-particle system", "gradient background", "center radial glow layer"],
+    "status": "Prototype for GFT164 PlayStation $10 USA. Mass generation requires parametrization."
   }
 }

@@ -1,2 +1,4 @@
 2026-03-24 | FORGE initialization | Created project documentation structure
 2026-03-24 | Project restructuring | vse/ → archive/, referense_img/ + card_images/ → pipeline/images/, rules/ split by type
+2026-03-26 | Data pipeline complete | Характеристики/названия/описания 3334 товаров готовы, перенесено в 1.xlsx, шаблон Xbox изображений готов
+2026-03-28 | Image pipeline complete | Карточки PlayStation (329), Steam (146+), Xbox (146+) сгенерированы и загружены в YC Storage. 50 вариантов × 4 универсальных карточки. Видео-шаблон make_card_video_pro.py создан (30s, 5 сцен). Исправлены: Battle.net→Battlenet, Bigo Live бренд, ошибки дублей подписок. Созданы 2_subscriptions.xlsx (56 подписок, AV) и 3.xlsx (карты, AU). Документация FORGE полностью обновлена. | 15+ файлов изменено

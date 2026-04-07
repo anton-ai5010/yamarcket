@@ -1,23 +1,72 @@
 {
   "project": "yamarcket",
   "directories": {
-    "pipeline/scripts/": { "files": 7, "red_zone_files": 0 },
+    "new table/": {
+      "files": 4,
+      "red_zone_files": 0,
+      "note": "РАБОЧИЕ ФАЙЛЫ: JSON источник истины (3334 товара) + 3 xlsx для загрузки на Маркет",
+      "files_list": [
+        "Онлайн-подписки и карты оплаты_истина_с_характеристиками.json — ИСТОЧНИК ИСТИНЫ",
+        "3.xlsx — основной аплоад (подарочные карты, игровая валюта)",
+        "2_subscriptions.xlsx — аплоад подписок (56 товаров, только AV-признак)",
+        "2.xlsx — базовый шаблон (НЕ РЕДАКТИРОВАТЬ)"
+      ]
+    },
+    "istina/": {
+      "files": 8,
+      "red_zone_files": 8,
+      "note": "RED ZONE — исходные данные от Яндекс Маркета. Только чтение."
+    },
+    "pipeline/scripts/": {
+      "files": 14,
+      "red_zone_files": 0,
+      "note": "Все скрипты: sync_json_to_xlsx, push_main_cards, upload_images_to_yc, generate_card_variants, make_card_video_pro, convert_to_png_and_upload, generate_backgrounds, generate_main_cards, update_instructions, regenerate_email_card, fix_10_exceptions, fix_short_descriptions, make_card_video, update_image_urls_to_yc"
+    },
+    "pipeline/images/": {
+      "files": 4,
+      "red_zone_files": 0,
+      "note": "Спецификации дизайна: card_spec_final.md, card_spec_full.md, card_spec.json, instruction_spec.md"
+    },
+    "pipeline/images/fonts/": {
+      "files": 11,
+      "red_zone_files": 0,
+      "note": "FiraSans (Bold/Medium/Regular/ExtraBold), Moderustic, Nunito, SourceSans"
+    },
+    "pipeline/images/references/": {
+      "files": 190,
+      "red_zone_files": 0,
+      "note": "190 фонов брендов (bg_*.png), флаги стран, логотип КодХаб"
+    },
+    "pipeline/images/output/main_cards/playstation/": {
+      "files": 329,
+      "red_zone_files": 0,
+      "note": "PNG 1080×1440 карточки PlayStation Store. В S3: main_cards/playstation/"
+    },
+    "pipeline/images/output/main_cards/steam/": {
+      "files": 147,
+      "red_zone_files": 0,
+      "note": "PNG 1080×1440 карточки Steam. В S3: main_cards/steam/"
+    },
+    "pipeline/images/output/main_cards/xbox/": {
+      "files": 146,
+      "red_zone_files": 0,
+      "note": "PNG 1080×1440 карточки Xbox. В S3: main_cards/xbox/"
+    },
+    "pipeline/images/output/videos/": {
+      "files": 2,
+      "red_zone_files": 0,
+      "note": "MP4 промо-видео (30 сек, 1080×1440). GFT164_pro.mp4 — эталонный."
+    },
     "pipeline/cards/": { "files": 1, "red_zone_files": 0 },
     "pipeline/games/": { "files": 1, "red_zone_files": 0 },
-    "pipeline/images/": { "files": 6, "red_zone_files": 0, "note": "Генерация карточек: card_spec_final.md, шаблоны HTML" },
-    "pipeline/images/references/": { "files": 5, "red_zone_files": 0, "note": "Фоны брендов, логотип Кодхаб, флаги стран" },
-    "pipeline/images/fonts/": { "files": 10, "red_zone_files": 0, "note": "FiraSans, Moderustic, Nunito" },
-    "pipeline/images/output/": { "files": 1, "red_zone_files": 0, "note": "Сгенерированные карточки PNG" },
-    "new table/": { "files": 3, "red_zone_files": 0, "note": "JSON данные, Excel для Маркета, сгенерированные названия" },
-    "istina/": { "files": 8, "red_zone_files": 8 },
-    "rules/instructions/": { "files": 3, "red_zone_files": 0 },
-    "rules/research/": { "files": 4, "red_zone_files": 0, "note": "Инструкции активации, примеры конкурентов" },
-    "rules/templates/": { "files": 2, "red_zone_files": 0 },
-    "archive/scripts/": { "files": 10, "red_zone_files": 0 },
-    "archive/snapshots/": { "files": 5, "red_zone_files": 0 },
-    "archive/data/": { "files": 9, "red_zone_files": 0 },
-    "docs/": { "files": 6, "red_zone_files": 0 },
-    "docs/plans/": { "files": 1, "red_zone_files": 0 }
+    "rules/research/": {
+      "files": 7,
+      "red_zone_files": 0,
+      "note": "Инструкции активации всех сервисов (20+), примеры описаний конкурентов, мобильные операторы"
+    },
+    "docs/": { "files": 6, "red_zone_files": 0, "note": "FORGE: map.json, state.json, conventions.json, product.md, tech.md, history.log" },
+    "docs/plans/": { "files": 3, "red_zone_files": 0, "note": "Архитектурные решения, брейнстормы, промпты дизайна" },
+    "archive/": { "files": 0, "red_zone_files": 0, "note": "Устаревшие файлы. Не нужны для работы." }
   },
   "red_zones": [
     "istina/characteristics_gft.csv",
@@ -28,5 +77,19 @@
     "istina/Онлайн-подписки и карты оплаты_истина_названия_описания.xlsx",
     "istina/Онлайн-подписки и карты оплаты_истина_с_характеристиками.xlsx",
     "istina/Характеристики GFT.xlsx"
-  ]
+  ],
+  "key_files": {
+    "source_of_truth": "new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json",
+    "upload_subscriptions": "new table/2_subscriptions.xlsx",
+    "upload_gift_cards": "new table/3.xlsx",
+    "upload_main": "new table/3.xlsx",
+    "sync_script": "pipeline/scripts/sync_json_to_xlsx.py",
+    "image_upload_script": "pipeline/scripts/upload_images_to_yc.py",
+    "video_template": "pipeline/scripts/make_card_video_pro.py"
+  },
+  "external": {
+    "yamarcket_images_repo": "/media/anton/Новый том/yamarcket-images/ (отдельный git-репозиторий рядом)",
+    "yc_bucket": "yamarcket",
+    "yc_public_base": "https://storage.yandexcloud.net/yamarcket/"
+  }
 }

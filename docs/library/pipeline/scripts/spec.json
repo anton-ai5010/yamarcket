@@ -1,54 +1,104 @@
 {
-  "purpose": "ETL pipeline scripts: convert xlsx to jsonl, process with Claude loops, validate, write back to xlsx",
+  "purpose": "Pipeline scripts: sync data to xlsx, generate/upload images, generate videos, fix data issues",
+  "data_flow": "JSON source of truth → sync_json_to_xlsx.py → xlsx upload files → Yandex Market",
+  "image_flow": "generate_cards.py → push_main_cards.py → convert_to_png_and_upload.py → YC Storage S3",
   "files": {
-    "prepare.py": {
-      "intent": "Convert xlsx source files to jsonl format for pipeline processing. Creates source.jsonl (read-only truth) and work.jsonl (mutable working copy)",
-      "inputs": ["istina/истина_оригинал_названия_и_описания.xlsx", "istina/Онлайн-подписки и карты оплаты_истина_названия_описания.xlsx"],
-      "outputs": "source.jsonl, work.jsonl",
-      "depends_on": ["openpyxl"],
-      "red_zone": false
+    "sync_json_to_xlsx.py": {
+      "intent": "Copy all edits from JSON source of truth into the base xlsx upload file (2.xlsx → 2_updated.xlsx). Updates: title, images, description, brand, tags, all characteristics. Does NOT touch: prices, Market errors, quality score, archive status.",
+      "inputs": ["new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json", "new table/2.xlsx"],
+      "outputs": "new table/2_updated.xlsx",
+      "depends_on": ["openpyxl", "json"],
+      "run": "python pipeline/scripts/sync_json_to_xlsx.py",
+      "notes": "JSON headers are in row index 3 (row 4), data starts at index 7 (row 8). Matches columns by header name (strips * and whitespace). Skips SKIP_HEADERS set."
     },
-    "finalize.py": {
-      "intent": "Convert work.jsonl back to xlsx for upload to Yandex Market. Only modifies changed cells",
-      "inputs": ["work.jsonl"],
-      "outputs": "Modified xlsx file for Market upload",
-      "depends_on": ["openpyxl"],
-      "red_zone": false
+    "upload_images_to_yc.py": {
+      "intent": "Upload all images from yamarcket-images/ sibling repo to Yandex Cloud Object Storage. Skips already-uploaded files. Uploads main_cards/, instructions_v2/, games/ directories.",
+      "inputs": ["/media/anton/Новый том/yamarcket-images/ (sibling repo)"],
+      "outputs": "Files in S3 bucket yamarcket with ACL public-read",
+      "depends_on": ["boto3", "python-dotenv", ".env with YC_ACCESS_KEY_ID/YC_SECRET_ACCESS_KEY/YC_BUCKET/YC_ENDPOINT"],
+      "run": "python pipeline/scripts/upload_images_to_yc.py",
+      "notes": "Uses head_object to skip already-uploaded files. Content-type set automatically (image/jpeg or image/png)."
     },
-    "validate.py": {
-      "intent": "Validate work.jsonl after Ralph Loop runs. Checks for common errors per loop type (characteristics, names, descriptions, instructions)",
-      "inputs": ["work.jsonl", "--loop N or --all"],
-      "outputs": "Validation report, errors.jsonl",
-      "depends_on": [],
-      "red_zone": false
+    "push_main_cards.py": {
+      "intent": "1) Convert PNG from output/main_cards/{brand}/ to JPEG in yamarcket-images/main_cards/{brand}/. 2) Delete old flat (non-brand-subdir) JPEG files. 3) Update JSON: replace first image URL per SKU with new raw GitHub URL.",
+      "inputs": ["pipeline/images/output/main_cards/*/*.png", "new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json"],
+      "outputs": ["yamarcket-images/main_cards/{brand}/*.jpg", "Updated JSON image URLs"],
+      "depends_on": ["Pillow", "json"],
+      "run": "python pipeline/scripts/push_main_cards.py",
+      "notes": "JPEG quality=87. Raw GitHub URL format: https://raw.githubusercontent.com/anton-ai5010/yamarcket-images/main/main_cards/{brand}/{SKU}_{country}.jpg. SKU extracted from filename by regex GFT\\d+."
     },
-    "generate_progress.py": {
-      "intent": "Create progress.json grouping products by group_name for Ralph Loop queue management",
-      "inputs": ["work.jsonl"],
-      "outputs": "progress.json",
-      "depends_on": [],
-      "red_zone": false
+    "convert_to_png_and_upload.py": {
+      "intent": "1) Copy original PNGs from pipeline/output/main_cards/ (or convert from JPG if no original). 2) Upload PNG to YC Storage. 3) Delete old JPG from S3 and local. 4) Update JSON: .jpg → .png in all image URLs.",
+      "inputs": ["pipeline/images/output/main_cards/ (originals)", "yamarcket-images/main_cards/*.jpg"],
+      "outputs": ["PNG files in S3: main_cards/{brand}/*.png", "Updated JSON URLs"],
+      "depends_on": ["boto3", "Pillow", "python-dotenv"],
+      "run": "python pipeline/scripts/convert_to_png_and_upload.py",
+      "notes": "Also processes instructions_v2/ and games/ directories. Run AFTER push_main_cards.py."
     },
-    "write_result.py": {
-      "intent": "Safe write interface for Claude to update work.jsonl. Validates input before writing to prevent formatting errors",
-      "inputs": ["--sku + --field/--json or --batch"],
-      "outputs": "Updated work.jsonl",
-      "depends_on": [],
-      "red_zone": false
+    "generate_card_variants.py": {
+      "intent": "Generate 50 pixel-shifted variants of 4 universal cards (email/delivery/feedback/support). Upload to YC Storage universal/. Update JSON: assign variant N to product N (cycling through 0-49). Run sync_json_to_xlsx.py at end.",
+      "inputs": ["yamarcket-images/email_example_card.png", "yamarcket-images/delivery_card.png", "yamarcket-images/feedback_card.png", "yamarcket-images/support_card.png"],
+      "outputs": ["200 PNG files in S3: universal/{card}_v01..v50.png", "Updated JSON image lists", "new table/2_updated.xlsx"],
+      "depends_on": ["boto3", "Pillow", "python-dotenv"],
+      "run": "python pipeline/scripts/generate_card_variants.py",
+      "notes": "Shift grid: 10 steps x (-4..+5) × 5 steps y (-2..+2) = 50 variants. Bottom 220px (logo area) is shifted. Avoids Yandex duplicate image detection."
     },
-    "source.jsonl": {
-      "intent": "Read-only truth data extracted from original xlsx (old names + descriptions)",
+    "make_card_video_pro.py": {
+      "intent": "Professional 30-second promo video for a product card. 5 scenes: appear → float+3D rock → features → 360° rotation → CTA. Renders 900 frames at 1080×1440, assembles MP4.",
+      "inputs": ["pipeline/images/output/main_cards/playstation/GFT164_ssha.png (hardcoded prototype)"],
+      "outputs": "pipeline/images/output/videos/GFT164_pro.mp4",
+      "depends_on": ["Pillow", "numpy", "moviepy 2.x (ImageSequenceClip)", "FiraSans fonts"],
+      "run": "python pipeline/scripts/make_card_video_pro.py",
+      "notes": "Prototype for GFT164 PlayStation $10 USA. To mass-generate: parametrize CARD_PATH, OUT, and text constants (service name, denomination). Codec: libx264, bitrate 8000k, no audio."
+    },
+    "make_card_video.py": {
+      "intent": "Earlier/simpler video generation script (superseded by make_card_video_pro.py).",
       "inputs": [],
-      "outputs": "JSON lines with product data",
-      "depends_on": ["prepare.py"],
-      "red_zone": false
+      "outputs": "MP4 video",
+      "depends_on": ["Pillow", "moviepy"],
+      "notes": "Legacy. Use make_card_video_pro.py instead."
     },
-    "work.jsonl": {
-      "intent": "Mutable working copy with all columns, modified by pipeline loops",
-      "inputs": [],
-      "outputs": "JSON lines with all product fields",
-      "depends_on": ["prepare.py"],
-      "red_zone": false
+    "update_instructions.py": {
+      "intent": "Mass update of activation instructions in product descriptions. Replaces generic instructions with brand-specific multi-method HTML instructions for: steam_game, steam_wallet, xbox, playstation, apple, google_play, nintendo, roblox, spotify, amazon, razer, battlenet, epic, ea, mobile_voucher, paysafe, riot, netflix, etc.",
+      "inputs": ["new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json"],
+      "outputs": "Updated JSON (descriptions replaced in-place)",
+      "depends_on": ["json", "re"],
+      "run": "python pipeline/scripts/update_instructions.py",
+      "notes": "Contains INSTRUCTIONS dict with HTML strings per service. Matches by brand/service name logic. Preserves existing intro paragraphs, only replaces activation section."
+    },
+    "regenerate_email_card.py": {
+      "intent": "Regenerate email_example_card.png without Yandex Market logo. Shows styled envelope with activation code placeholder. Uses FiraSans fonts, gradient background (blue tones).",
+      "inputs": ["FiraSans fonts"],
+      "outputs": "yamarcket-images/email_example_card.png (1080×1440 PNG)",
+      "depends_on": ["Pillow", "FiraSans fonts"],
+      "run": "python pipeline/scripts/regenerate_email_card.py"
+    },
+    "fix_10_exceptions.py": {
+      "intent": "Generate instruction images and update descriptions/URLs for 10 SKUs with generic instructions: Disney (6), Weyyak (1), Division 2 DLC/Ubisoft (1), Fallout 76 (1), ESO Xbox (1).",
+      "inputs": ["pipeline/images/references/bg_clean.png", "pipeline/images/references/unnamed5_nobg_navy_hires.png", "JSON source of truth"],
+      "outputs": ["Custom PNG instruction images in instructions_v2/", "Updated JSON descriptions"],
+      "depends_on": ["Pillow", "FiraSans fonts"],
+      "notes": "Renders at 2160×2880 (scale factor S=1.25), saves to both local output and yamarcket-images/instructions_v2/"
+    },
+    "fix_short_descriptions.py": {
+      "intent": "Generate full descriptions for 163 SKUs that had only activation instructions (<500 chars). Adds: intro paragraph, benefits list, activation steps (from existing), important notes. Service-specific content for: roblox, steam, xbox, playstation, apple, google_play, nintendo, spotify, amazon, and mobile vouchers.",
+      "inputs": ["new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json"],
+      "outputs": "Updated JSON descriptions",
+      "depends_on": ["json", "re"],
+      "run": "python pipeline/scripts/fix_short_descriptions.py"
+    },
+    "update_image_urls_to_yc.py": {
+      "intent": "Update image URLs in JSON from GitHub raw URLs to Yandex Cloud Storage URLs.",
+      "inputs": ["new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json"],
+      "outputs": "Updated JSON with YC Storage URLs",
+      "depends_on": ["json"]
     }
+  },
+  "legacy_scripts": {
+    "prepare.py": "Convert xlsx to jsonl (old pipeline, now replaced by direct JSON editing)",
+    "finalize.py": "Convert jsonl to xlsx (replaced by sync_json_to_xlsx.py)",
+    "validate.py": "Validate jsonl (old pipeline)",
+    "generate_progress.py": "Create progress.json for Ralph Loop queue (old pipeline)",
+    "write_result.py": "Safe write interface for Claude to update jsonl (old pipeline)"
   }
 }

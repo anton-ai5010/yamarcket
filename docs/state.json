@@ -1,25 +1,54 @@
 {
-  "current_task": "Генерация изображений карточек товаров",
-  "progress": "Шаблон Xbox готов, нужны фоны и флаги для остальных брендов",
-  "last_session": "2026-03-26",
-  "last_session_summary": "1) Заполнены пустые характеристики 379 товаров. 2) Сгенерированы названия 3334 товаров (60-120 символов, ротация ключевых слов). 3) Сгенерированы описания 3334 товаров (HTML, 500-1700 символов, с инструкциями по активации). 4) Перенесено в Excel 1.xlsx для загрузки на Яндекс Маркет. 5) Начата генерация изображений карточек через Pillow — шаблон Xbox готов.",
+  "current_task": "Загрузка xlsx-файлов на Яндекс Маркет",
+  "progress": "Карточки PlayStation/Steam/Xbox сгенерированы и загружены в YC Storage. Данные синхронизированы в xlsx. Видео-шаблон создан.",
+  "last_session": "2026-03-28",
+  "last_session_summary": "1) Сгенерированы главные карточки PlayStation (329 шт), Steam (146+ шт), Xbox (146+ шт). 2) Загружены в Yandex Cloud Storage bucket yamarcket. 3) Конвертированы из JPG в PNG, старые JPG удалены. 4) Созданы 50 вариантов каждой из 4 универсальных карточек (email/delivery/feedback/support), загружены в S3 в universal/. 5) Обновлены URL в JSON. 6) Создан видео-шаблон make_card_video_pro.py (30s, 5 сцен, prototype GFT164). 7) Исправлены Battle.net→Battlenet, Bigo Live бренд. 8) Создан 2_subscriptions.xlsx (56 подписок, только AV). 9) Создан 3.xlsx (карты с подарочными картами).",
+  "data_source": "new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json",
+  "total_products": 3334,
   "pending": [
-    "Подготовить фоны для всех брендов (Apple, Steam, PlayStation, Google Play и др.)",
-    "Скачать круглые флаги для всех стран",
-    "Реализовать массовую генерацию карточек для всех 3334 товаров",
-    "Определить типы карточек (подарочная карта / подписка / игровая валюта)",
-    "Заполнить теги товаров",
-    "Загрузить изображения на хостинг и добавить ссылки в таблицу"
+    "Загрузить 3.xlsx в кабинет Яндекс Маркета",
+    "Загрузить 2_subscriptions.xlsx в кабинет Яндекс Маркета",
+    "Проверить разрешение ошибок дублей подписок",
+    "Массовая генерация видео для всех SKU (шаблон make_card_video_pro.py готов)",
+    "Заполнить теги товаров (до 10 тегов по 20 символов)"
   ],
+  "completed": [
+    "Характеристики всех 3334 товаров заполнены",
+    "Названия всех 3334 товаров сгенерированы (60-120 символов, ротация ключевых слов)",
+    "Описания всех 3334 товаров сгенерированы (HTML, 500-1700 символов, инструкции по активации)",
+    "Бренды исправлены (убраны суффиксы | AE, | US и т.д.)",
+    "Инструкционные изображения загружены в S3 (34 вида)",
+    "Главные карточки PlayStation (329), Steam (146+), Xbox (146+) сгенерированы и загружены",
+    "50 вариантов × 4 универсальные карточки = 200 вариантов загружено в S3",
+    "URL изображений обновлены в JSON и xlsx",
+    "Видео-шаблон создан (make_card_video_pro.py, 30s, 900 кадров)",
+    "Battle.net переименован в Battlenet",
+    "Bigo Live бренд стандартизирован",
+    "2_subscriptions.xlsx (только AV) создан для 56 подписок",
+    "3.xlsx создан для карт оплаты (AU+AR+AP)"
+  ],
+  "upload_files": {
+    "2_subscriptions.xlsx": "56 реальных подписок, признак — только AV (Продолжительность подписки)",
+    "3.xlsx": "Карты оплаты/пополнения, признаки — AU (Номинал) + AR (Территория) + AP (Платформа)",
+    "2_updated.xlsx": "Все товары, обновлено sync_json_to_xlsx.py"
+  },
+  "image_storage": {
+    "bucket": "yamarcket",
+    "endpoint": "https://storage.yandexcloud.net",
+    "public_url_template": "https://storage.yandexcloud.net/yamarcket/main_cards/{brand}/{SKU}_{country}.png",
+    "universal_url_template": "https://storage.yandexcloud.net/yamarcket/universal/{card_name}_v{N:02d}.png",
+    "instruction_url_template": "https://storage.yandexcloud.net/yamarcket/instructions_v2/instr_{service}.png"
+  },
   "recent_changes": [
-    "new table/Онлайн-подписки и карты оплаты_истина_с_характеристиками.json — основной файл с данными",
-    "new table/1.xlsx — Excel для загрузки на Яндекс Маркет",
-    "new table/generated_names.json — сгенерированные названия",
-    "pipeline/images/card_spec_final.md — спецификация карточки",
-    "pipeline/images/output/ — тестовые карточки",
-    "pipeline/images/fonts/ — шрифты FiraSans, Moderustic",
-    "pipeline/images/references/ — фон Xbox, логотип, флаг США",
-    "rules/research/activation_instructions_all_services.md — инструкции активации 20 сервисов",
-    "rules/research/competitor_descriptions_examples.md — примеры описаний конкурентов"
+    "pipeline/images/output/main_cards/playstation/ — 329 PNG карточек PlayStation",
+    "pipeline/images/output/main_cards/steam/ — 146+ PNG карточек Steam",
+    "pipeline/images/output/main_cards/xbox/ — 146+ PNG карточек Xbox",
+    "pipeline/images/output/videos/GFT164_pro.mp4 — прототип видео",
+    "pipeline/scripts/push_main_cards.py — конвертация PNG→JPG и обновление JSON",
+    "pipeline/scripts/generate_card_variants.py — генерация 50 вариантов универсальных карточек",
+    "pipeline/scripts/make_card_video_pro.py — профессиональный 30s видео-шаблон",
+    "pipeline/scripts/convert_to_png_and_upload.py — конвертация JPG→PNG и перезагрузка в S3",
+    "new table/2_subscriptions.xlsx — отдельный файл для подписок",
+    "new table/3.xlsx — файл для карт оплаты"
   ]
 }
