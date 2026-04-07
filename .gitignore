@@ -35,7 +35,9 @@ piplbot_shop.png
 pipeline/images/output/
 pipeline/images/references/
 pipeline/images/fonts/
-pipeline/games/covers/
+pipeline/games/covers/*.png
+pipeline/games/covers/*.jpg
+pipeline/games/covers/*.jpeg
 
 # Env
 .env
